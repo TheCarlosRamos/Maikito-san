@@ -1,0 +1,71 @@
+
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dashboard Moderno</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" rel="stylesheet">
+</head>
+<body>
+    <header class="header">
+        <div class="header-content">
+            <h1><i class="fas fa-chart-line"></i> Dashboard Educacional</h1>
+            <div class="search-container">
+                <i class="fas fa-search"></i>
+                <input id="searchBox" placeholder="Buscar alunos, professores..." type="text">
+            </div>
+        </div>
+    </header>
+
+    <nav class="sidebar" id="sidebar">
+        <div class="sidebar-header">
+            <i class="fas fa-menu"></i>
+            <span>Navegação</span>
+        </div>
+        <div class="nav-items" id="navItems"></div>
+    </nav>
+
+    <div id="secondaryNav" style="display: flex; flex-wrap: wrap; gap: 0.5rem; padding: 1rem; background: rgba(102, 126, 234, 0.05); border-bottom: 1px solid var(--border-color); display: none;"></div>
+
+    <main class="main-content">
+        <section class="stats-overview" id="statsOverview"></section>
+        <section class="content-area">
+            <div class="section-header">
+                <h2 id="sectionTitle">Carregando...</h2>
+                <div class="view-controls">
+                    <button class="view-btn active" data-view="cards">
+                        <i class="fas fa-th-large"></i>
+                    </button>
+                    <button class="view-btn" data-view="table">
+                        <i class="fas fa-table"></i>
+                    </button>
+                </div>
+            </div>
+            <div class="content-container" id="contentContainer"></div>
+        </section>
+    </main>
+
+    <div class="loading-overlay" id="loadingOverlay">
+        <div class="spinner"></div>
+    </div>
+
+    <!-- Modal -->
+    <div class="modal" id="detailModal">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h3 id="modalTitle">Detalhes</h3>
+                <button class="modal-close" id="modalClose">
+                    <i class="fas fa-times"></i>
+                </button>
+            </div>
+            <div class="modal-body" id="modalBody">
+                <!-- Conteúdo do modal será inserido aqui -->
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

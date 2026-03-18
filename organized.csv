@@ -1,0 +1,558 @@
+professor,horario,aluno,nivel
+,,,TERÇA
+,,,INT. 3
+,,,INT. 3
+,,,INT. 1
+,,,INT. 2
+,,,INT. 1
+,,,INT. 2
+,,,KIDS 2
+,,,KIDS 1
+,,,KIDS 1
+,,,ITA
+,,,ITA
+,,,TERÇA
+,,,INT. 1
+,,,INT. 1
+,,,INT. 3
+,,,INT. 3
+,,,INT. 2
+,,,INT. 2
+,,,INT. 2
+,,,INT. 1
+,,,INT. 1
+,,,INT. 1
+,,,INT. 2
+,,,TERÇA
+,,,KIDS 2
+,,,LK 2 A
+,,,KIDS 1
+,,,KIDS 1
+,,,KIDS 1
+,,,KIDS 1
+,,,KIDS 1
+,,,KIDS 2
+,,INT. 3 - 08:00,
+,,,QUARTA 
+,,Gabriel Duarte Leite - JUL 27,T8 A
+,,Anna Caroline Shirney de Campos - FEV 26,T6 A
+,,Anthony Silva Melo de Menezes Duarte - FEV 28,T6 A
+,,Ana Julia Duarte dos Santos - JAN 28,T6 A
+,,Arianne Ferreira dos Santos - DEZ 26,W10 A
+,,Eloah Vargas Rezende - JAN 27,W4 A
+,,Gabriela Gonçalves Resende - DEZ 26,W10 A
+,,Brunna Kethely Dias de Sousa - JUL 27,W6 B
+,,Isabela Maria Dutra RIbeiro - JUN 26 (SEG 08h/09h),T4 B
+,,KIDS 1 - 09:00,
+,,,QUARTA 
+,,Bianca Neri Carvalho - JUL 26,NG A
+,,Ana Beatriz Nogueira Rodrigues - ABR 27,NG B
+,,Thalita dos Santos Anicelo Martins - SET 27,K4 A
+,,Manuela Sousa Mendonca - DEZ 26,NG A
+,,Julia Faria Cruz - DEZ 26,NG A
+,,Olivia Soares de Oliveira - DEZ 26,NG A
+,,Hellen Costa Gomes de Moura - DEZ 26,K4 A
+,,Estela Rodrigues Teixeira da Silva - JUN 26 (SEG 09h/10h),NG B
+,,Samuel Ricardo da Silveira Matos - JAN 27,
+,,LK 2 A - 09:00,
+,,,QUARTA
+,,Jose Filipe Godinho Ferreira Rabelo - JAN 27,LK 2 A
+,,Miguel Leal Brito - DEZ 26,LK 2 A
+,,Maria Isabel Rodrigues Coelho - MAR 27,LK 2 A
+,,Aurora Moraes da Gama - DEZ 26,LK 2 A
+,,Kalel Benicio Soares Ribeiro - DEZ 26 ,LK 2 A
+,,INT. 3 - 09:00,
+,,,QUARTA 
+,,Guilherme Rodrigues de Oliveira Dias - ABR 27,T4 B
+,,Camila Luisa Carvalho de Sousa - DEZ 27,T6 A
+,,Ester Pires Borges Rangel - JUN 27,T4 B
+,,Davi Gomes Cardoso - DEZ 27,T2 A
+,,Melissa Moraes da Gama - DEZ 26,T4 A
+,,Karen Fernanda Lima Bandeira - DEZ 27 ,T4 A
+,,Isabela Maria Dutra RIbeiro - JUN 26 (SEG 08h/09h),T4 B
+,,Victoria Mariane Cafe e Silva - ABR 26 (SEG 09h/10h),W12 B
+,,KIDS 1 - 10:00,
+,,,QUARTA 
+,,Clarice Aoyama Cunha - ABR 27,K2 B
+,,Miguel Medeiros Prado - JUL 27,K2 A
+,,Matheus Calandrine Mendes Pinheiro - DEZ 27,K4 A
+,,Antonella Miguel Porfirio Felix de Lima - DEZ 27,NG A
+,,Marina Felix de Araujo Souza - DEZ 26,K2 A
+,,RESERVADO P/ AULA EXPERIMENTAL - HELAYANI 04/03,
+,,RESERVADO P/ AULA EXPERIMENTAL - HELAYANI 04/03,
+,,Manuela Maria Dutra RIbeiro - JUN 26 (SEG 9H/10H),K4 B
+,,Estela Rodrigues Teixeira da Silva - JUN 26 (SEG 09h/10h),NG B
+,,INT. 3 - 10:00,
+,,,QUARTA 
+,,Luisa Anahi Sanchez Rodrigues - JUL 26,T6 B
+,,Lucas Miguel Ramos de Santana Dias - JUN 26,W12 B
+,,Bonfim Donizete do Carmo - ABR 26,W2 B
+,,Alice Pires Azevedo - JUL 26,T4 B
+,,Davi Juan Maia Coelho - FEV 27,W2 B
+,,Alice da Silva Guimaraes - AGO 27 (TER ou QUA 09h/ 10h),T2 B
+,,Victoria Mariane Cafe e Silva - ABR 26 (SEG 09h/10h),W12 B
+,,Carolina Gomes Matias - MAR 26 (ESCALA) (Seg/Qua e Ter/Qui),W6 B
+,,KIDS 1 - 14:00,
+,,,QUARTA 
+,,Ana Klara Sousa Carvalho - FEV 28,K2 A
+,,Alice Wilker Soares da Silva - JUL 26,K2 A
+,,Lara Lopes Saraiva - DEZ 27,K2 A
+,,Sofia Mol Camera Leite e Costa - DEZ 26,NG A 
+,,,NG A 
+,,Juliana Rodrigues de Franca - JUL 27 ,NG B
+,,Ana Elisa Portela Meneses - DEZ 26 (SEG 14h/15h),NG A
+,,TOTS 6 B - 14:00,
+,,,QUARTA
+,,Esther Bispo Rocha - JUN 25/26,TOTS 6 B
+,,INT. 1 - 14:00,
+,,,QUARTA 
+,,Sofia Rodrigues Marques Santana - DEZ 27,T4 A
+,,Raira Santos Silva - DEZ 26,T4 A
+,,Vitor Wilker Soares da Silva - JUN 26,T4 A
+,,Matheus Alec Gomes Marinos - DEZ 26,T2 A
+,,Isadora Goulart Cavalcante - MAI 26,T4 B
+,,Ana Julia de Lima Melo - JAN 27,T6 A
+,,Maria Eduarda Sousa Ribeiro - ABR 27,T2 B
+,,Valentina Basso de Souza Vieira Braga - DEZ 27 ,T2 A
+,,Isadora Pereira Athayde - JUL 27,T2 A
+,,Davi Carvalho - FEV 27,T2 B
+,,INT 3 - 14:00,
+,,,QUARTA 
+,,Davy Calixto da Silva Andrade - FEV 27  (SEG 14h/15h),T4 B
+,,Yasmim Rodrigues de Aguiar - ABR 26 (SEG 14h/QUA 16h),T6 A
+,,Heloisa Lobo Dias - DEZ 26 (SEG 14h/15h),W2 A
+,,Isabella Soares Vieira - DEZ 26 (SEG 14h/15h),W2 A
+,,Julia Ferreira Guilherme de Souza Amorim - DEZ 26 (SEG 14h/15h),T4 A
+,,Leticia Botelho de Aquino - JUN 26 (QUA 14h/15h),T6 A
+,,Kalebe Alves de Sousa - MAI 27 (QUA 14h/15h),W2 B
+,,Carlos Eduardo Queiroz Abdon - JUL 26 (QUA 14h/15h),W10 B
+,,Maria Alice Vargas da Silva - JAN 26 (SEG/QUA 14h e 15h),W10 A
+,,KIDS 1 - 15:00,
+,,,QUARTA 
+,,Alice Xavier Pourre - JUL 27,K4 B
+,,Manuela Maria dos Santos Gois Pereira - DEZ 27,NG A
+,,Ana Sofia Camargo Freitas - DEZ 27,TOTS 4 A
+,,Alexia Oliveira Rodrigues - DEZ 27,TOTS 4 A
+,,Theo Luiz Ribeiro Costa Moreira - FEV 27,TOTS 4 A
+,,Ana Elisa Portela Meneses - DEZ 26 (SEG 14h/15h),NG A
+,,INT. 1 - 15:00,
+,,,QUARTA 
+,,Sara Dias Pinheiro - DEZ 26,T2 A
+,,Benjamim Camargos de Farias - DEZ 26,T6 A
+,,Cecilia Guedes Cioletti - JAN 27,T2 A
+,,Jonas Hayakawa Vogt - DEZ 27,T6 A
+,,Vitor Hugo Nogueira Ferreira - DEZ 26,T6 A
+,,Davi Ezequiel dos Santos Santana - DEZ 27,T2 A
+,,Ayra Almeida Camelo - DEZ 26 (QUA 14h/15h),T4 A
+,,Hiyoji de Castro Kawashima - JUL 27 (QUA 14h-15h),T6 B
+,,Maria Eduarda dos Santos Pereira - JAN 27 (QUA 14h/15h),T8 A
+,,Davy Calixto da Silva Andrade - FEV 27  (SEG 14h/15h),T4 B
+,,INT. 3 - 15:00,
+,,,QUARTA 
+,,Maria Luiza Moreira Felix - JUN 26,W10 B
+,,Maria Alice Vargas da Silva - JAN 26 (SEG/QUA 14h e 15h),W10 A
+,,Marcus Vinicius Braga M - JAN 27 (Qua 14h/15h),W6 A
+,,Kalebe Alves de Sousa - MAI 27 (QUA 14h/15h),W2 B
+,,Harumy de Castro Kawashima - JUL 26 (QUA 14H/15H),W12 B
+,,Mayumi de Castro Kawashima - JAN 27 (QUA 14H/15H),W12 A
+,,Israel Jose Madureira G. Ferreira - JAN 27 (QUA 15h/16h),W10 A
+,,Carlos Eduardo Queiroz Abdon - JUL 26 (QUA 14h/15h),W10 B
+,,Arthur Ferreira dos Santos - DEZ 26 (SEG 15h/16h),W12 A
+,,KIDS 1 - 16:00,
+,,,QUARTA 
+,,Eduardo Carvalho da Silva Santos - SET 27,K2 B
+,,Davi Santos Rodrigues - JUN 27,K2 B
+,,Sara Soares Ewert - AGO 27,K2 B
+,,Maria Luisa Ferreira Soares - DEZ 26,K2 A
+,,Alice Pereira Gomes - DEZ 27,K4 A
+,,Davi Pereira Gomes - DEZ 27,K2 A
+,,INT. 1 - 16:00,
+,,,QUARTA 
+,,Graziely Monique Soares Ewert - AGO 27,W2 A
+,,Felipe Pinheiro Mendes - JAN 27 ,W4 A
+,,Laura Pessoa Coelho - FEV 27,T8 B
+,,Anne Beatriz Duarte Alves - ABR 27,T2 B
+,,Calebe Vieira Gomes - JAN 27 (QUA 16h/17h),W6 A
+,,Israel Jose Madureira G. Ferreira - JAN 27 (QUA 15h/16h),W10 A
+,,Isaac Dantas Tavares de Sousa - DEZ 26 (Seg 16h/17h),W12 A
+,,Arthur Ferreira dos Santos - DEZ 26 (SEG 15h/16h),W12 A
+,,KIDS 1 - 17:00,
+,,,QUARTA 
+,,Helena de Sousa Cruz Verissimo - ABR 25/26,K4 B
+,,Luis Fernando Savio de Paula Bezerra - JAN 27,K4 A
+,,Benjamin Silva Machado Correa - MAR 27,NG B
+,,Ney Cesar de Melo Neto - DEZ 26,K2 A
+,,Nicolas Barros Fernandes - MAR 26 (SEG 17H/18H),K4 B
+,,LK 2 A - 17:00,
+,,,QUARTA
+,,Thomas Bastos Madureira - DEZ 26,LK 2 A
+,,Levi Ubiratan Cavalcanti de Souza - FEV 27,LK 2 A
+,,Teodoro Porfirio Furtado Melo - DEZ 26,LK 2 A
+,,Laura Brunelli de Sa - FEV 27 ,LK 2 A
+,,Sophia Carvalho Silva Dias - Dez 27,LK2 A 
+,,Clarice da Silva Dias - DEZ 26,LK2 A 
+,,INT. 1 - 17:00,
+,,,QUARTA 
+,,Anna Luisa Almeida Cavalcante - DEZ 26,W12 A
+,,Vitor Tavares Oliveira - AGO 27 (PROM),W8 A
+,,Julio Cesar de Souza Cruz Verissimo - ABR 25/26,T4 B
+,,Alice Cavalcanti de Souza - FEV 27,T2 A
+,,Lucas Fernandes de Almeida - FEV 27,
+,,Anne Kamille de Mendonça Souza - DEZ 26 (QUA 17h/18h),W10 A
+,,Isaac Dantas Tavares de Sousa - DEZ 26 (Seg 16h/17h),W12 A
+,,Rafaella Tayna Rodrigues Gonçalves - JUN 26 (SEG 17h/18h),T6 B
+,,,NIGHT
+,,KIDS 1 - 18:00,
+,,,QUARTA 
+,,Joao Lucas Andrade Meneses - JAN 26,NG A
+,,Maryane Pereira Nunes - DEZ 27,NG A
+,,Ester Farias Andrade - AGO 27,K4 B
+,,Vinicius Ribeiro Lopes Estrela Marra - FEV 27,NG A
+,,Nicolas Barros Fernandes - MAR 26 (SEG 17H/18H),K4 B
+,,INT. 1 - 18:00,
+,,,QUARTA 
+,,Davi Braga de Deus - JUN 26,T8 B
+,,Arthur Pereira Pires - DEZ 26,T6 A
+,,Leonardo da Costa Marinho - DEZ 27,W2 A
+,,Camila Caroba de Souza - DEZ 26 (SEG/QUA 18h/19h),W2 A
+,,Joao Paulo Andrade Oliveira - MAR 27,T4 A
+,,,T6 A
+,,Luiza Maciel Pinheiro - DEZ 26 (Seg 18h/19h),W4 A
+,,Rafaella Tayna Rodrigues Gonçalves - JUN 26 (SEG 17h/18h),T6 B
+,,Heitor Malschik Oliveira - JUN 27 (SEG 18h/19h),W4 B
+,,INT. 1 - 19:00,
+,,,QUARTA 
+,,Vinicius da Costa Marinho - JUL 26,W6 B
+,,Rafaela de Araujo Caldas - DEZ 26,W12 A
+,,Maria Laura Azevedo Silva - JUL 27,W8 A
+,,Fabricio Calazans Nunes - DEZ 26,T4 B
+,,Isadora Duarte dos Santos - DEZ 27,W10 A
+,,Luiz Paulo Pereira Ribeiro - MAR 27,T2 B
+,,Guilherme de Oliveira Duraes - MAR 27,W10 A
+,,Gabriel de Oliveira Duraes - FEV 27,T4 A
+,,Gustavo Ataulfo da Silva Sales - JAN 26 (QUA 19h/20h),W12 A
+,,Luiza Maciel Pinheiro - DEZ 26 (Seg 18h/19h),W4 A
+,,ESP.  on - 19:00,
+,,,QUARTA
+,,Adna de Oliveira Queiroz - JUN 26 (Seg 19h/20h),
+,,Millena Queiroz de Assis - JUN 26 (Seg 19h/20h),
+,,Luisa Neves Domingues - JUL 27 (Seg 19h/20h),
+,,Karen Oliveira Sindarin - DEZ 26 (Qua 19H/20),
+,,INT. 2 - 20:00,
+,,,QUARTA 
+,,Milena Ferreira Loures - DEZ 26,W10 A
+,,Lucas Gomes de Sousa - MAR 26,W4 A
+,,Helio Felipe Souza Nascimento - JUN 27,W2 B
+,,Ricardo Domingues Reis - JUL 27,W2 A
+,,Manuelle Soares Silva de Abreu - JAN 27,T8 A
+,,Rychard Aragao Leal - FEV 26 (SEG/TER 20h TER/QUI 14h),W6 B
+,,Juliana de Oliveira Gomes - SET 26 (SEG 19h/20h),W12 A
+,,, MORNING 
+,,INT. 1 - 08:00,
+,,,TERÇA
+,,Marcia Sousa Dias - FEV 26,W4 B
+,,Vagne Celio Vasconcelos de Souza - DEZ 26 ,W2 A
+,,Gabriela Benjamine Almeida Colim - JUN 27,T2 B
+,,Kelly Cristina Santiago Abreu Pereira - ,W6 B
+,,Joao Filipe de Abreu Santos - FEV 27 ,W12 A
+,,Adelaine Matos Riker Muniz - MAR 28,W4 A
+,,Ana Eloisa Carlota Borges - AGO 27 (TER 08h/QUI 09h),T2 B
+,,LK 4 A - 09:00,
+,,,TERÇA
+,,Flavia de Oliveira Nunes Carvalho - DEZ 27,LK 4 A
+,,Maria Luisa de Jesus Barbosa - DEZ 26,LK 4 A
+,,Joao Miguel Santana de Araujo - DEZ 26,LK4 A
+,,Valentina Montterle Bernardi - DEZ 27,LK4 A
+,,Miguel Gomes Texeira Dias - JUL 27,LK 4 A
+,,Adrian Gadelha Alquimim - FEZ 27,LK 4 A
+,,KIDS 1 - 09:00,
+,,,TERÇA
+,,Helena Gomes Texeira Dias - JUL 27,NG B
+,,Sophie Lamounier Aguiar - DEZ 26,NG B
+,,Lucas Peixoto Lopes - DEZ 26,K4 A
+,,Davi Oliveira Lira - ABR 26,K2 B
+,,Luisa Amaro de Almeida Maciel - DEZ 26 ,K2 A
+,,Helena Leao de Souza - DEZ 26,K2 A
+,,INT. 1 - 09:00,
+,,,TERÇA
+,,Lucas Hernandes Moreira Soares - DEZ 26,T6 A
+,,Davi dos Santos Silva - MAR 25/26,W4 B
+,,Kaio Vinicius Caetano de Almeida - JUL 26,W12 B
+,,Davi Lucas Avila Fernandes - DEZ 26,T6 A
+,,Jose Deyvid da Conceicao Pacifico - DEZ 26,W10 A
+,,Alice Natividade Freire - DEZ 27,T2 A 
+,,,T2 A 
+,,,T2 B
+,,Ana Eloisa Carlota Borges - AGO 27 (TER 08h/QUI 09h),T2 B
+,,TOTS 6 B - 10:00,
+,,,TERÇA
+,,Esther Bispo Rocha - JUN 25/26,TOTS 6 B
+,,INT. 1 - 10:00,
+,,,TERÇA
+,,Eric Sousa Gouveia - JUN 26,W6 B
+,,Davi Santos Milhome - JUL 26,T8 B
+,,Davi Saraiva Lopes Aragao - MAR 26,W4 B
+,,Bruna Gabrielly Rodrigues RIbeiro - FEV 28,T4 B
+,,Carolina Gomes Matias - MAR 26 (ESCALA) (Seg/Qua e Ter/Qui),W6 B
+,,,AFTERNOON
+,,KIDS 1 - 14:00,
+,,,TERÇA
+,,Yasmin Bezerra Pontes - DEZ 26 ATRASADA P/ T2,NG B
+,,Heitor Dantas Tavares de Sousa - DEZ 27,NG A
+,,Vicente Silva Dias - JUL 27,K4 A
+,,Elisa Cerqueira Ferreira - SET 27,K4 A
+,,Emanuelle Costa de Oliveira - SET 27,K4 A
+,,Maria Fernanda Silva Varela - DEZ 26,NG A
+,,Joaquim Tiago Silva Dias - JUL 27,K2 A
+,,Clarice Helena Pereira Oliveira - AGO 26 (Qui 14h/15h),K4 B
+,,INT. 1 - 14:00,
+,,,TERÇA
+,,Raphael Henrique Martins Eler - JUN 26,W10 B
+,,Anita Nobre Quirino - JAN 27,T8 A
+,,Giovana Nobre Quirino - JAN 27,T8 A
+,,Daniela Bastos Moreira Guimaraes - JUN 26,T8 B
+,,Mariana Oliveira Miranda - JUL 26,W12 B
+,,Giovanna Oliveira Veras - JUL 26,T8 B
+,,Nicolle Alves Jaroski - JAN 26,W12 A
+,,Carlos Henrique Casado da Silva - ABR 26,W10 B
+,,Sofia Calvoso M. Oricchio Rodrigues - DEZ 26 (QUI 14h/15h),W12 A
+,,Maina da Silva - JUL 26 (TER 14h/15h),T8 B
+,,INT 3 - 14:00,
+,,,TERÇA
+,,Benicio Luiz Azevedo de Oliveira - MAI 27,T2 B
+,,Caua Rodrigues de Araujo Boitrago - SET 26,T2 B
+,,Maria Fernanda Miclos de Oliveira - DEZ 26,T2 B
+,,Luis Felipe Oliveira Miranda - JUN 27,T2 B
+,,Bianca Santiago Pereira - DEZ 26,T2 A
+,,Lucas Guimaraes Carvalho - DEZ 26,T2 A
+,,Natalia Vilarins Borges Guimaraes - DEZ 26,T2 A
+,,Miguel Reis Lopes - DEZ 27,T2 A
+,,Yasmin Bezerra Pontes - DEZ 26 ATRASADA P/ T2,T2 B
+,,Arthur Kaua de Andrade Mendonca - JUL 26 (Ter 14h/15h),T4 B
+,,KIDS 1 - 15:00,
+,,,TERÇA
+,,Leticia Emanuelle Santos Eugenio - DEZ 27,K4 A
+,,Maria Alice Messias de Sousa - JUL 27 ,K2 B
+,,Melanie dos Reis Carneiro - DEZ 26,K4 A
+,,Augusto de Alencar de Pinto - AGO 26,K4 B
+,,Clarice Helena Pereira Oliveira - AGO 26 (Qui 14h/15h),K4 B
+,,Sofia de Barros Oliveira - FEV 27 (Qui 15h/16h),K2 B
+,,LK 2 B - 15:00,
+,,,TERÇA
+,,Luiz Felipe Cavalcante Machado - JUL 26,LK 2 B
+,,Isaac de Jesus Sousa Alves - JUN 26,LK 2 B
+,,INT. 1 - 15:00,
+,,,TERÇA
+,,Giovana Garcia Moreira - DEZ 26,T4 A
+,,Samuel Cerqueira Rosário - JUN 27,T2 B
+,,Angelina Almeida Gorski - DEZ 26,T2 A
+,,William Vinicius Corado Siqueira - JAN 28,T2 A
+,,Maria Helena Messias de Sousa - DEZ 27,T4 A
+,,Gabriel Alves Rodrigues - DEZ 27,W8 A
+,,Luna Isabela Torres de Jesus - JUN 26,T4 B
+,,Otavio Magno e Silva e Souza - JAN 28,T2 A
+,,Mariana Morais Ribeiro Santana - JAN 28,T2 A
+TEACHER:  Y E S S I K A,,INT 3 - 15:00,
+,,,TERÇA
+,,Arthur Kaua de Andrade Mendonca - JUL 26 (Ter 14h/15h),T4 B
+,,Maina da Silva - JUL 26 (TER 14h/15h),T8 B
+,,Debora Leticia Cordeiro Silva - DEZ 26 (Ter 15h/16h),W4 A
+,,Anna Beatriz Cunha Santos - DEZ 26 (Ter 15h/16h),W4 A
+,,Yasmin Cintra Freire - FEV 27 (Ter 15h/16h),T6 A
+,,Fernando Henrique Silva Varela - AGO 26 (Ter 15h/16h),T8 B
+,,Augusto Amorim de Queiroz - DEZ 27 (QUI 15h/16h),T8 A
+,,Otavio Rocha Silva - DEZ 26 (TER 14h/QUI 15h),T4 A
+,,Pedro Mota Dias - JAN 27 (ESCALA SEG A QUI),T4 A
+,,KIDS 1 - 16:00,
+,,,TERÇA
+,,Heloisa Antonelli Goncalves Ferreira - FEV 27,NG A
+,,Maria Julia de Sousa Melo - DEZ 26,NG A
+,,Isabela Santana Rodrigues - JUN 26,NG B
+,,Rayan Moreira Stival - DEZ 26,NG A
+,,Maria Cecilia Araujo Santos - ABR 26,K4 B
+,,Alice Lorrany Duarte da Silva - DEZ 26,NG A
+,,Helena Alves Jacinto - FEV 27,NG A
+,,Sara Santana de Meneses Santos - DEZ 26,K2 A
+,,INT. 1 - 16:00,
+,,,TERÇA
+,,Maria Luisa Alves de Lima - MAR 27,T4 B
+,,Eloa Moreira Fernandes - DEZ 26,T6 A
+,,Livia Macedo Motta - ABR 27,T2 B
+,,Kathlyn Aparecida Alves Martins - JUL 26,W6 B
+,,Miguel Oliveira Magalhaes Santos - JUL 26,T4 A
+,,Alice da Costa Pacheco - AGO 26,T6 A
+,,Rosa Satie Nakayoshi Saraiva - DEZ 27,T4 A
+,,Nicolle de Lima Duarte - ABR 27,W2 B
+,,INT 3 - 16:00,
+,,,TERÇA
+,,Anna Beatriz Cunha Santos - DEZ 26 (Ter 15h/16h),W4 A
+,,Debora Leticia Cordeiro Silva - DEZ 26 (Ter 15h/16h),W4 A
+,,Mirya Gomes dos Santos - SET 26  (Ter 16h/17h),W12 A
+,,Yasmin Cintra Freire - FEV 27 (Ter 15h/16h),T6 A
+,,Fernando Henrique Silva Varela - AGO 26 (Ter 15h/16h),T8 B
+,,INT. 1 - 17:00,
+,,,TERÇA
+,,Hiterson de Oliveira Silva - JUL 26,W12 B
+,,Pedro Gabriel Garcia Magalhaes - FEV 26,W4 B
+,,Davi Santome Santana - DEZ 26,W8 A
+,,Milena Rodrigues Lima - FEV 27,T4 B
+,,Pedro Chagas Mendonca - FEZ 27,T2 A
+,,Bruno Mendes Viana - JUL 27 (TER 17h/18h),W6 B
+,,Mirya Gomes dos Santos - SET 26  (Ter 16h/17h),W12 A
+,,,NIGHT
+,,KIDS 1. - 18:00,
+,,,TERÇA
+,,Sofia Santana das Chagas - JAN 28,NG A
+,,Ester da Costa Salgado - MAI 26,K4 B
+,,Avash Tahmasebi - JUL 27,NG A
+,,Valentina Rodrigues de Jesus - DEZ 26,NG A
+,,Maria Julia LIra Santos - DEZ 26,NG A
+,,Kaua Hallier Barreiro Xavier - DEZ 26,K4 A
+,,Miguel Araujo da Silva - MAR 26,NG B
+,,Sara Silva de Aquino - FEV 27,K2 A
+,,INT. 1 - 18:00,
+,,,T
+,,Davi Jesus Carvalho Ventura - DEZ 26,T8 A
+,,Gustavo Rocha da Silva - JAN 27,W10 A
+,,Gracia Madalena Baldez Lima - Dez 27,W2 A
+,,Laura Santos Milhome - JUL 27,T2 B
+,,Caio Rocha da Silva - DEZ 26 (Ter 17h/18h),W12 A
+,,Sabrina de Jesus Santos Lima - JUL 27 (TER/QUA 18H),W2 B
+,,INT. 1 - 19:00,
+,,,TERÇA
+,,Sara Cristina Santos Santana - MAR 26 ,T8 A
+,,Maria Gabriela Cabral Brasil - FEV 26,W4 B
+,,Glaucia Regina Silva Vieira - JAN 28,W2 A
+,,Irwing Okubo Aguiar - DEZ 27,W2 A
+,,Leticia de Souza Okubo Aguiar - DEZ 27,W2 A
+,,Kalil de Souza Rezek - JUL 26 ,T8 B
+,,Cristina Alves Aguiar - JUN 27 (Ter 19h/20h),W2 B
+,,Ana Sophia Montenari F. dos Santos - DEZ 26 (TER 18h/19h),W10 A
+,,Robson Gomes da Silva - DEZ 26 (ESCALA) (Seg a Qui 19h),W6 A
+,,INT. 1 - 20:00,
+,,,TERÇA
+,,Sarah Muniz Barbosa - SET 26,W4 A
+,,Sophia Muniz Barbosa - SET 26,T2 A
+,,Marianna Rodrigues Carvalho - SET 26,W2 A
+,,Suellen Pereira de Souza Queiroz - ABR 27,W4 A
+,,Raquel Pereira de Souza Queiroz - ABR 27,W4 A
+,,Mirella Vieira Ramos - JAN 27 ,W12 A
+,,Davi Marinho Venancio - JAN 27,W8 A
+,,Rafaelle Monaco Costa - ABR 27,T8 A
+,,Sheila Souza Lima Silva - JUN 26 ,W2 A
+,,Cristina Alves Aguiar - JUN 27 (Ter 19h/20h),W2 B
+,,Rubens Leonardo Maia de Jesus Rocha - FEV 27,W4 A
+,,ONLINE - 20:00,W2 B
+,,,TERÇA
+,,,W2 A
+,,,W2 A
+,,, MORNING 
+TEACHER: N A T A L I A,,INT. 3 - 09:00,
+,,,SEXTA
+,,Carolina Macedo Batista Silva - MAR 26,T6 A
+,,Gabriela Alves dos Santos Correia - JAN 27,T4 A
+,,Joao Victor Diniz Gadelha - ABR 25/26,W10 B
+,,Jennifer Lopes Patricio dos Santos - MAI 26 ,W12 B
+,,,W2 A
+,,Rafael Queiroz Abdon - DEZ 26,T4 A
+,,Arthur Duarte Leite - ABR 26,W12 B
+,,Beatriz Milhome Amorim - DEZ 26,T6 A
+,,,AFTERNOON
+,,,NIGHT
+TEACHER:  F L A V I A,,INT. 3 - 18:00,
+,,,SEXTA
+,,Ana Vitoria Lustosa Mota - DEZ 27,W10 A
+,,Julliana Patriota Leitao - JUL 27,W12 B
+,,Carlos Henrique Oliveira Ramos Ribeiro - JUL 27,W6 B
+,,Barbara Borges Soares de Paula - JAN 27,W10 A
+,,Jessica Rocha Carlos - JUN 26,W4 B
+,,Eloa Sofia Oliveira de Paiva - DEZ 26,W12 A
+,,Gustavo Araújo Oliveira - DEZ 27,W10 A
+,,Ana Julia Nunes Marques - FEV 27,W10 A
+,,Jhulia Beatriz Cabral de Castro - DEZ 27,T4 A
+,,,MORNING
+TEACHER:   C A R L O S,,ITALIANO 6 - 08:00,
+,,Joao Eduardo Marques Tochetto - MAR 26,
+,,Leticia Cardoso Morales - MAR 26,
+,,KIDS 1 - 08:00,
+,,Maria Luiza Tenorio de Araujo - DEZ 27,K2 A
+,,Samara de Oliveira Rodrigues - DEZ 26,K2 A
+,,Milena Fornaziero  Novaes - DEZ 27,K2 A
+,,Enzo Cardoso Ruwer - DEZ 27,K4 A
+,,Dandara Calazans Pereira - JAN 28,K4 A
+,,Ana Carolina Alves de Camargos Sena - DEZ 26,T2 A
+,,LK 2 B - 08:00,
+,,Theo Mendes Fonseca - JUN 27 ,LK 2 B
+,,Manuela Neves Queiroz - JUL 26,LK 2 B
+,,Catarina Leite Costa Marsaro dos Santos - JUN 26,TOTS 2 A
+,,Jade Militao Marino - DEZ 26 TER 15H,TOTS 2 A
+,,Joao Miguel Gomes Vieira - JUN 26 TER 15H,TOTS 2 A
+,,INT. 1 - 08:00,
+,,Joao Gabriel Souza de Paula - SET 26,W10 A
+,,Bianca Silvino Silva - JUN 26,W10 B
+,,Pyetra da Silva Lima - JUL 26,T8 A
+,,Julia Maria de Moura Veras - JUN 26 ,W12 A
+,,Vitoria Beatriz Silvino Silva - JUN 26,W10 B
+,,Leticia Mayumi Yamaguti Mourao - DEZ 26,W6 A
+,,Helloa Samille Rodrigues dos Santos - DEZ 27,W6 A
+,,Miguel de Oliveira Basile Salomao - FEV 28,T8 A
+,,Heloisa Pereira Nascimento - DEZ 26,W10 A
+,,INT. 3 - 08:00,
+,,Felipe Gabriel de Moura Veras - JUN 27,T2 B
+,,Soraia de Oliveira Ribeiro Rodrigues - JUL 27,T2 B
+,,Leonardo Akio Yamaguti Mourao - DEZ 26,T2 B
+,,Isabella Kauany Sabino Braz - DEZ 26,T2 B
+,,Rafael Pereira de Medeiros - DEZ 26,T2 B
+,,Ana Carolina Alves de Camargos Sena - DEZ 26,T2 A
+,,Sophia Soares Silva de Abreu - JUL 27,T2 B
+,,Arthur Nogueira de Albuquerque - AGO 27,W2 B
+,,Carlos Eduardo Franca Resende - FEV 27,W4 A
+TEACHER: Y E S S I K A,,ESP. - 08:00 STUDY HALL,
+,,Carla Neves do Nascimento - ABR 26,
+,,Livia Silva Maciel - JAN 27,
+,,Miguel Nunes de Oliveira Lima - JUL 26,
+,,KIDS 1 - 10:00,
+,,Julia Martins Pires - AGO 26,NG A
+,,Lorenzo de Sousa Aranha - JUN 26,K4 B
+,,Joao Pedro de Souza Teles - DEZ 26,NG A
+,,Laura de Souza Furtado - JUL 27,K2 B
+,,Isabela Azevedo do Nascimento - DEZ 26,NG A
+,,Miguel Silva Bedran - ABR 26,K4 B
+,,Miguel Freire Santos - JUN 27 ,NG A
+,,TOTS 6 B - 10:00,
+,,Maria Luiza Silva Mota - AGO 27,TOTS 6 B
+,,Augusto Medeiros Moura Nunes - JUL 25/26,TOTS 6 B
+,,Heitor Torres Batista -JUN 27,TOTS 6 B
+,,INT. 1 - 10:00,
+,,Fausto Luiz Fornazier Neto - MAI 27,W2 A
+,,Rafaela da Silva Rodrigues - AGO 26,W10 B
+,,Luiz Felipe Domingues Farias - ABR 25/26,W4 B
+,,Victor Hugo Furtado Moreira - JUL 27,W4 A
+,,Yasmin Grazielly Braga Miguéis Gama - FEV 27,W6 A
+,,Davi Lima da Silva Dourado - JUL 27,T6 B
+,,Davi Luiz Silva Beserra - DEZ 27,W2 A
+,,Lorenzo Melo Oliveira - DEZ 26,T8 A
+,,Hyanca Marques de Castro - JUL 26 ,W12 B
+,,Luiz Henrick Marques de Castro - JUL 26 ,W12 B
+TEACHER: C A R L O S ,,INT 3 - 10:00,
+,,Maria Luisa Oliveira Rocha Mendes - FEV 26,W12 B
+,,Joao Guilherme Alves Kuster Maia - JAN 27,T6 A
+,,Bruno Gonçalves da Silva - JUN 26,W10 B
+,,Sophia Faria de Sousa Pereira - FEV 25/26,W10 B
+,,Julia Agapito Silva - DEZ 26,W12 A
+,,Eduardo Alberto da Silva Santos - JUN 27,W8 B
+,,Renato Cardoso Ruwer - DEZ 26,W8 A
+,,Henrique Juliao dos Santos  - DEZ 27,T6 A
+,,Arthur Marques Passos - FEV 27 ,W12 A
+,,,AFTERNOON
+,,INT. 1 - 14:00,
+,,Matheus Augusto de Freitas - JUN 26,W4 B
+,,Ana Luisa Gomes da Rocha - OUT 26,W12 A
+,,Eduardo Araujo Soares - JUL 27,W4 B
+,,Leonardo Lira Lopes - MAR 27,T8 B
+,,Renato Ferreira Batista - AGO 26,T8 A
+,,Giovani Fernandes Pavezzi - DEZ 26,W6 A
+,,Alana Cruz Pereira - MAR 26,T2 B
+,,Alice Conceicao de Goes - FEV 26,T2 B
+,,Ana Clara Rodrigues da Silva - MAR 26 ,T2 B
+,,Ester Ramos Teodoro - DEZ 26 ONLINE,W4 A

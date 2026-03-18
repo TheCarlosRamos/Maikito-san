@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Diagnóstico - Dashboard</title>
+    <style>
+        body { font-family: Arial, sans-serif; padding: 20px; background: #f5f5f5; }
+        .status { padding: 15px; margin: 10px 0; border-radius: 5px; border-left: 4px solid; }
+        .ok { background: #d4edda; border-color: #28a745; }
+        .error { background: #f8d7da; border-color: #dc3545; }
+        .loading { background: #d1ecf1; border-color: #0c5460; }
+        code { background: #f8f9fa; padding: 10px; border-radius: 3px; display: block; margin: 10px 0; overflow-x: auto; }
+    </style>
+</head>
+<body>
+    <h1>🔍 Diagnóstico do Dashboard</h1>
+    
+    <div id="statusContainer"></div>
+
+    <script>
+        const container = document.getElementById('statusContainer');
+        let statusHtml = '';
+
+        function addStatus(message, type = 'loading') {
+            statusHtml += `<div class="status ${type}">${message}</div>`;
+            container.innerHTML = statusHtml;
+        }
+
+        async function runDiagnostics() {
+            try {
+                // 1. Verificar arquivo JSON
+                addStatus('🔍 Verificando arquivo dados_organizados.json...', 'loading');
+                
+                const response = await fetch('dados_organizados.json');
+                addStatus(`✅ Status HTTP: ${response.status} ${response.statusText}`, 'ok');
+
+                if (!response.ok) {
+                    throw new Error(`HTTP ${response.status}: ${response.statusText}`);
+                }
+
+                // 2. Carregar e validar JSON
+                addStatus('🔍 Carregando e validando JSON...', 'loading');
+                
+                const contentType = response.headers.get('content-type');
+                addStatus(`✅ Content-Type: ${contentType}`, 'ok');
+
+                const text = await response.text();
+                addStatus(`✅ Tamanho do arquivo: ${(text.length / 1024).toFixed(2)} KB`, 'ok');
+
+                // 3. Parse JSON
+                addStatus('🔍 Fazendo parse do JSON...', 'loading');
+                
+                const data = JSON.parse(text);
+                addStatus('✅ JSON válido e parseado com sucesso', 'ok');
+
+                // 4. Verificar estrutura
+                addStatus('🔍 Verificando estrutura do JSON...', 'loading');
+                
+                const keys = Object.keys(data);
+                addStatus(`✅ Keys encontradas: ${keys.join(', ')}`, 'ok');
+
+                const horarios = data.horarios || [];
+                const estatisticas = data.estatisticas || [];
+                const metadata = data.metadata || {};
+
+                addStatus(`✅ Horários: ${horarios.length}`, 'ok');
+                addStatus(`✅ Estatísticas: ${estatisticas.length}`, 'ok');
+                addStatus(`✅ Metadata: ${JSON.stringify(metadata)}`, 'ok');
+
+                // 5. Verificar primeiro horário
+                if (horarios.length > 0) {
+                    addStatus('🔍 Primeiro horário:', 'loading');
+                    addStatus(`<code>${JSON.stringify(horarios[0], null, 2)}</code>`, 'ok');
+                }
+
+                // 6. Verificar primeira estatística
+                if (estatisticas.length > 0) {
+                    addStatus('🔍 Primeira estatística:', 'loading');
+                    addStatus(`<code>${JSON.stringify(estatisticas[0], null, 2)}</code>`, 'ok');
+                }
+
+                // 7. Verificar se o dashboard está disponível
+                addStatus('🔍 Verificando arquivo script.js...', 'loading');
+                const scriptResponse = await fetch('script.js');
+                addStatus(`✅ script.js Status: ${scriptResponse.status}`, 'ok');
+
+                // 8. Verificar se o CSS está disponível
+                addStatus('🔍 Verificando arquivo styles.css...', 'loading');
+                const cssResponse = await fetch('styles.css');
+                addStatus(`✅ styles.css Status: ${cssResponse.status}`, 'ok');
+
+                addStatus('✅ TODOS OS DIAGNÓSTICOS PASSARAM! Tente recarregar o dashboard.', 'ok');
+                
+            } catch (error) {
+                addStatus(`❌ ERRO: ${error.message}`, 'error');
+                addStatus(`<code>${error.stack}</code>`, 'error');
+            }
+        }
+
+        // Executar diagnósticos
+        runDiagnostics();
+    </script>
+</body>
+</html>

@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Teste Simples de Inicialização</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            padding: 20px;
+            background: #f5f5f5;
+        }
+        .box {
+            background: white;
+            padding: 20px;
+            border-radius: 8px;
+            margin: 10px 0;
+            border-left: 4px solid #667eea;
+        }
+        .error {
+            border-left-color: #dc3545;
+            background: #f8d7da;
+            color: #721c24;
+        }
+        .success {
+            border-left-color: #28a745;
+            background: #d4edda;
+            color: #155724;
+        }
+        .loading {
+            border-left-color: #667eea;
+            background: #e7f0ff;
+            color: #004085;
+        }
+        code {
+            background: #f8f9fa;
+            padding: 5px 10px;
+            border-radius: 3px;
+            display: block;
+            overflow-x: auto;
+            margin-top: 10px;
+        }
+    </style>
+</head>
+<body>
+    <h1>🧪 Teste de Inicialização do Dashboard</h1>
+    <div id="logs"></div>
+
+    <script>
+        const logsDiv = document.getElementById('logs');
+        const logs = [];
+
+        function log(message, type = 'loading') {
+            const timestamp = new Date().toLocaleTimeString();
+            const entry = { message, type, timestamp };
+            logs.push(entry);
+
+            const box = document.createElement('div');
+            box.className = `box ${type}`;
+            box.innerHTML = `<strong>[${timestamp}]</strong> ${message}`;
+            logsDiv.appendChild(box);
+        }
+
+        log('📌 Iniciando teste...', 'loading');
+
+        // Teste 1: Verificar se fetch funciona
+        log('🔍 Teste 1: Tentando fazer fetch de dados_organizados.json...', 'loading');
+
+        fetch('dados_organizados.json')
+            .then(response => {
+                log(`✅ Resposta HTTP: ${response.status} ${response.statusText}`, 'success');
+                if (!response.ok) throw new Error(`HTTP ${response.status}`);
+                return response.json();
+            })
+            .then(data => {
+                log(`✅ JSON parseado com sucesso`, 'success');
+                log(`📊 Horários: ${data.horarios?.length || 0}`, 'success');
+                log(`📈 Estatísticas: ${data.estatisticas?.length || 0}`, 'success');
+
+                // Teste 2: Tentar simular a classe Dashboard
+                log('🔍 Teste 2: Simulando classe Dashboard...', 'loading');
+
+                try {
+                    const TestDashboard = class {
+                        constructor() {
+                            log('🔨 Construtor Dashboard chamado', 'success');
+                            this.currentSheet = null;
+                            this.currentView = 'cards';
+                            this.searchTerm = '';
+                            this.dadosOrganizados = null;
+                        }
+
+                        async loadData() {
+                            log('📡 loadData() chamado', 'success');
+                            this.dadosOrganizados = data;
+                            return data;
+                        }
+
+                        setupNavigation() {
+                            log('🗺️ setupNavigation() chamado', 'success');
+                        }
+
+                        setupSearch() {
+                            log('🔎 setupSearch() chamado', 'success');
+                        }
+
+                        setupViewControls() {
+                            log('👀 setupViewControls() chamado', 'success');
+                        }
+
+                        setupModal() {
+                            log('🪟 setupModal() chamado', 'success');
+                        }
+
+                        loadInitialData() {
+                            log('📂 loadInitialData() chamado', 'success');
+                        }
+
+                        loadStats() {
+                            log('📊 loadStats() chamado', 'success');
+                        }
+
+                        async init() {
+                            log('🚀 init() chamado', 'success');
+                            await this.loadData();
+                            this.setupNavigation();
+                            this.setupSearch();
+                            this.setupViewControls();
+                            this.setupModal();
+                            this.loadInitialData();
+                            this.loadStats();
+                            log('🎉 Inicialização completa!', 'success');
+                        }
+                    };
+
+                    const dashboard = new TestDashboard();
+                    dashboard.init();
+                } catch (error) {
+                    log(`❌ Erro na simulação: ${error.message}`, 'error');
+                }
+            })
+            .catch(error => {
+                log(`❌ Erro no fetch: ${error.message}`, 'error');
+            });
+    </script>
+</body>
+</html>

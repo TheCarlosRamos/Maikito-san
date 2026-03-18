@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dashboard Simples</title>
+    <style>
+        body { font-family: Arial, sans-serif; padding: 20px; }
+        .card { border: 1px solid #ccc; padding: 10px; margin: 10px; border-radius: 5px; }
+        .grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(300px, 1fr)); gap: 10px; }
+    </style>
+</head>
+<body>
+    <h1>Dashboard Simples - Teste</h1>
+    <div id="status">Carregando...</div>
+    <div id="nav"></div>
+    <div id="content" class="grid"></div>
+
+    <script>
+        class SimpleDashboard {
+            constructor() {
+                this.dadosOrganizados = null;
+                this.currentSheet = 'Horários';
+                this.init();
+            }
+
+            async init() {
+                console.log('🚀 Inicializando dashboard simples...');
+                try {
+                    const response = await fetch('dados_organizados.json');
+                    this.dadosOrganizados = await response.json();
+                    console.log('✅ Dados carregados:', this.dadosOrganizados);
+
+                    document.getElementById('status').textContent = '✅ Dados carregados!';
+                    this.setupNavigation();
+                    this.renderContent();
+                } catch (error) {
+                    console.error('❌ Erro:', error);
+                    document.getElementById('status').textContent = `❌ Erro: ${error.message}`;
+                }
+            }
+
+            setupNavigation() {
+                const nav = document.getElementById('nav');
+                nav.innerHTML = `
+                    <button onclick="dashboard.loadSheet('Horários')">Horários</button>
+                    <button onclick="dashboard.loadSheet('Pef')">Estatísticas</button>
+                `;
+            }
+
+            loadSheet(sheetName) {
+                this.currentSheet = sheetName;
+                this.renderContent();
+            }
+
+            renderContent() {
+                const content = document.getElementById('content');
+                content.innerHTML = '';
+
+                if (this.currentSheet === 'Horários') {
+                    this.renderHorarios(content);
+                } else {
+                    this.renderEstatisticas(content);
+                }
+            }
+
+            renderHorarios(container) {
+                const horarios = this.dadosOrganizados?.horarios || [];
+                console.log('Renderizando', horarios.length, 'horários');
+
+                horarios.slice(0, 5).forEach(h => {
+                    const card = document.createElement('div');
+                    card.className = 'card';
+                    card.innerHTML = `
+                        <h3>${h.turma}</h3>
+                        <p><strong>Professor:</strong> ${h.professor}</p>
+                        <p><strong>Dia:</strong> ${h.dia}</p>
+                        <p><strong>Horário:</strong> ${h.horario}</p>
+                        <p><strong>Alunos:</strong> ${h.quantidade_alunos}</p>
+                    `;
+                    container.appendChild(card);
+                });
+            }
+
+            renderEstatisticas(container) {
+                const stats = this.dadosOrganizados?.estatisticas || [];
+                console.log('Renderizando', stats.length, 'estatísticas');
+
+                stats.forEach(s => {
+                    const card = document.createElement('div');
+                    card.className = 'card';
+                    card.innerHTML = `
+                        <h3>${s.metrica}</h3>
+                        <p><strong>Valor:</strong> ${s.valor}</p>
+                        <p><strong>Tipo:</strong> ${s.tipo}</p>
+                    `;
+                    container.appendChild(card);
+                });
+            }
+        }
+
+        window.dashboard = new SimpleDashboard();
+    </script>
+</body>
+</html>
