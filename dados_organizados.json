@@ -1,279 +1,51 @@
 {
   "horarios": [
     {
-      "professor": "GIOVANA",
+      "professor": "GIOVANNA",
       "horario": "08:00",
       "dia": "SEGUNDA",
       "turma": "INT. 3",
       "alunos": [
         "Gabriel Duarte Leite - JUL 27",
+        "Danilo Rodrigues Correia - JUL 26",
         "Anna Caroline Shirney de Campos - FEV 26",
-        "Anthony Silva Melo de Menezes Duarte - FEV 28",
-        "Ana Julia Duarte dos Santos - JAN 28",
-        "Arianne Ferreira dos Santos - DEZ 26",
-        "Eloah Vargas Rezende - JAN 27",
-        "Gabriela Gonçalves Resende - DEZ 26",
-        "Brunna Kethely Dias de Sousa - JUL 27",
-        "Isabela Maria Dutra RIbeiro - JUN 26 (SEG 08h/09h)"
+        "Lucas Nunes Fernandes - DEZ 26",
+        "Anthony Silva Melo de Menezes Duarte - FEV 28"
       ],
-      "quantidade_alunos": 9
+      "quantidade_alunos": 5
     },
     {
-      "professor": "GIOVANA",
+      "professor": "GIOVANNA",
       "horario": "08:00",
       "dia": "QUARTA",
       "turma": "INT. 3",
       "alunos": [
         "Gabriel Duarte Leite - JUL 27",
+        "Danilo Rodrigues Correia - JUL 26",
         "Anna Caroline Shirney de Campos - FEV 26",
-        "Anthony Silva Melo de Menezes Duarte - FEV 28",
-        "Ana Julia Duarte dos Santos - JAN 28",
-        "Arianne Ferreira dos Santos - DEZ 26",
-        "Eloah Vargas Rezende - JAN 27",
-        "Gabriela Gonçalves Resende - DEZ 26",
-        "Brunna Kethely Dias de Sousa - JUL 27"
-      ],
-      "quantidade_alunos": 8
-    },
-    {
-      "professor": "BEATRIZ",
-      "horario": "08:00",
-      "dia": "SEGUNDA",
-      "turma": "ONLINE",
-      "alunos": [
-        "Danilo Rodrigues Correia - JUL 26",
-        "Lucas Nunes Fernandes - DEZ 26"
-      ],
-      "quantidade_alunos": 2
-    },
-    {
-      "professor": "BEATRIZ",
-      "horario": "08:00",
-      "dia": "QUARTA",
-      "turma": "ONLINE",
-      "alunos": [
-        "Danilo Rodrigues Correia - JUL 26",
-        "Lucas Nunes Fernandes - DEZ 26"
-      ],
-      "quantidade_alunos": 2
-    },
-    {
-      "professor": "GIOVANA",
-      "horario": "09:00",
-      "dia": "SEGUNDA",
-      "turma": "KIDS 1",
-      "alunos": [
-        "Bianca Neri Carvalho - JUL 26",
-        "Ana Beatriz Nogueira Rodrigues - ABR 27",
-        "Manuela Sousa Mendonca - DEZ 26",
-        "Julia Faria Cruz - DEZ 26",
-        "Olivia Soares de Oliveira - DEZ 26",
-        "Hellen Costa Gomes de Moura - DEZ 26",
-        "Estela Rodrigues Teixeira da Silva - JUN 26 (SEG 09h/10h)"
-      ],
-      "quantidade_alunos": 7
-    },
-    {
-      "professor": "GIOVANA",
-      "horario": "09:00",
-      "dia": "QUARTA",
-      "turma": "KIDS 1",
-      "alunos": [
-        "Bianca Neri Carvalho - JUL 26",
-        "Ana Beatriz Nogueira Rodrigues - ABR 27",
-        "Manuela Sousa Mendonca - DEZ 26",
-        "Julia Faria Cruz - DEZ 26",
-        "Olivia Soares de Oliveira - DEZ 26",
-        "Hellen Costa Gomes de Moura - DEZ 26"
-      ],
-      "quantidade_alunos": 6
-    },
-    {
-      "professor": "GIOVANA",
-      "horario": "09:00",
-      "dia": "SEGUNDA",
-      "turma": "KIDS 2",
-      "alunos": [
-        "Yasmin Lorenna da Silva Bandeira - DEZ 26",
-        "Luan Dos Santos Arantes - FEV 28",
-        "Mateus Lourenco Nogueira - DEZ 26",
-        "Agatha Eloa Dultra dos Santos - DEZ 27",
-        "Theo Soares de Oliveira - DEZ 27",
-        "Theo Avila Fernandes - DEZ 26",
-        "Manuela Maria Dutra RIbeiro - JUN 26 (SEG 9H/10H)",
-        "Samuel Ricardo da Silveira Matos - JAN 27"
-      ],
-      "quantidade_alunos": 8
-    },
-    {
-      "professor": "GIOVANA",
-      "horario": "09:00",
-      "dia": "QUARTA",
-      "turma": "KIDS 2",
-      "alunos": [
-        "Yasmin Lorenna da Silva Bandeira - DEZ 26",
-        "Luan Dos Santos Arantes - FEV 28",
-        "Mateus Lourenco Nogueira - DEZ 26",
-        "Agatha Eloa Dultra dos Santos - DEZ 27",
-        "Theo Soares de Oliveira - DEZ 27",
-        "Theo Avila Fernandes - DEZ 26",
-        "Lara Emanuely Pereira Melo - JUL 27 (QUA 09h/10h)",
-        "Samuel Ricardo da Silveira Matos - JAN 27"
-      ],
-      "quantidade_alunos": 8
-    },
-    {
-      "professor": "GIOVANA",
-      "horario": "09:00",
-      "dia": "SEGUNDA",
-      "turma": "LK 2 A",
-      "alunos": [
-        "Jose Filipe Godinho Ferreira Rabelo - JAN 27",
-        "Miguel Leal Brito - DEZ 26",
-        "Maria Isabel Rodrigues Coelho - MAR 27",
-        "Aurora Moraes da Gama - DEZ 26"
-      ],
-      "quantidade_alunos": 4
-    },
-    {
-      "professor": "GIOVANA",
-      "horario": "09:00",
-      "dia": "QUARTA",
-      "turma": "LK 2 A",
-      "alunos": [
-        "Jose Filipe Godinho Ferreira Rabelo - JAN 27",
-        "Miguel Leal Brito - DEZ 26",
-        "Maria Isabel Rodrigues Coelho - MAR 27",
-        "Aurora Moraes da Gama - DEZ 26"
-      ],
-      "quantidade_alunos": 4
-    },
-    {
-      "professor": "GIOVANA",
-      "horario": "09:00",
-      "dia": "SEGUNDA",
-      "turma": "LK 2 A",
-      "alunos": [
-        "Beatriz Dias da Costa - JAN 26",
-        "Ayme Duarte de Brito - DEZ 26",
-        "Murilo dos Santos Arantes - FEV 28",
-        "Lis Piris Borges Rangel - DEZ 26",
-        "Kalel Benicio Soares Ribeiro - DEZ 26"
+        "Lucas Nunes Fernandes - DEZ 26",
+        "Anthony Silva Melo de Menezes Duarte - FEV 28"
       ],
       "quantidade_alunos": 5
     },
     {
-      "professor": "GIOVANA",
-      "horario": "09:00",
-      "dia": "QUARTA",
-      "turma": "LK 2 A",
+      "professor": "TEACHER",
+      "horario": "horario",
+      "dia": "DIA",
+      "turma": "turma",
       "alunos": [
-        "Beatriz Dias da Costa - JAN 26",
-        "Ayme Duarte de Brito - DEZ 26",
-        "Murilo dos Santos Arantes - FEV 28",
-        "Lis Piris Borges Rangel - DEZ 26",
-        "Kalel Benicio Soares Ribeiro - DEZ 26"
-      ],
-      "quantidade_alunos": 5
-    },
-    {
-      "professor": "GIOVANA",
-      "horario": "09:00",
-      "dia": "SEGUNDA",
-      "turma": "INT. 3",
-      "alunos": [
-        "Guilherme Rodrigues de Oliveira Dias - ABR 27",
-        "Camila Luisa Carvalho de Sousa - DEZ 27",
-        "Ester Pires Borges Rangel - JUN 27",
-        "Davi Gomes Cardoso - DEZ 27",
-        "Melissa Moraes da Gama - DEZ 26",
-        "Karen Fernanda Lima Bandeira - DEZ 27",
-        "Isabela Maria Dutra RIbeiro - JUN 26 (SEG 08h/09h)",
-        "Victoria Mariane Cafe e Silva - ABR 26 (SEG 09h/10h)"
-      ],
-      "quantidade_alunos": 8
-    },
-    {
-      "professor": "GIOVANA",
-      "horario": "09:00",
-      "dia": "QUARTA",
-      "turma": "INT. 3",
-      "alunos": [
-        "Guilherme Rodrigues de Oliveira Dias - ABR 27",
-        "Camila Luisa Carvalho de Sousa - DEZ 27",
-        "Ester Pires Borges Rangel - JUN 27",
-        "Davi Gomes Cardoso - DEZ 27",
-        "Melissa Moraes da Gama - DEZ 26",
-        "Karen Fernanda Lima Bandeira - DEZ 27",
-        "Alice da Silva Guimaraes - AGO 27 (TER ou QUA 09h/ 10h)",
-        "Rayane Sena de Oliveira - JUN 26 (QUA 09h/10h)"
-      ],
-      "quantidade_alunos": 8
-    },
-    {
-      "professor": "GIOVANA",
-      "horario": "10:00",
-      "dia": "SEGUNDA",
-      "turma": "KIDS 1",
-      "alunos": [
-        "Clarice Aoyama Cunha - ABR 27",
-        "Miguel Medeiros Prado - JUL 27",
-        "Matheus Calandrine Mendes Pinheiro - DEZ 27",
-        "Antonella Miguel Porfirio Felix de Lima - DEZ 27",
-        "Marina Felix de Araujo Souza - DEZ 26",
-        "Manuela Maria Dutra RIbeiro - JUN 26 (SEG 9H/10H)",
-        "Estela Rodrigues Teixeira da Silva - JUN 26 (SEG 09h/10h)"
+        "aluno - observacoes",
+        "aluno - observacoes",
+        "aluno - observacoes",
+        "aluno - observacoes",
+        "aluno - observacoes",
+        "aluno - observacoes",
+        "aluno - observacoes"
       ],
       "quantidade_alunos": 7
     },
     {
-      "professor": "GIOVANA",
-      "horario": "10:00",
-      "dia": "QUARTA",
-      "turma": "KIDS 1",
-      "alunos": [
-        "Clarice Aoyama Cunha - ABR 27",
-        "Miguel Medeiros Prado - JUL 27",
-        "Matheus Calandrine Mendes Pinheiro - DEZ 27",
-        "Antonella Miguel Porfirio Felix de Lima - DEZ 27",
-        "Marina Felix de Araujo Souza - DEZ 26",
-        "Lara Emanuely Pereira Melo - JUL 27 (QUA 09h/10h)"
-      ],
-      "quantidade_alunos": 6
-    },
-    {
-      "professor": "GIOVANA",
-      "horario": "10:00",
-      "dia": "SEGUNDA",
-      "turma": "INT. 3",
-      "alunos": [
-        "Luisa Anahi Sanchez Rodrigues - JUL 26",
-        "Lucas Miguel Ramos de Santana Dias - JUN 26",
-        "Bonfim Donizete do Carmo - ABR 26",
-        "Alice Pires Azevedo - JUL 26",
-        "Davi Juan Maia Coelho - FEV 27",
-        "Victoria Mariane Cafe e Silva - ABR 26 (SEG 09h/10h)"
-      ],
-      "quantidade_alunos": 6
-    },
-    {
-      "professor": "GIOVANA",
-      "horario": "10:00",
-      "dia": "QUARTA",
-      "turma": "INT. 3",
-      "alunos": [
-        "Luisa Anahi Sanchez Rodrigues - JUL 26",
-        "Lucas Miguel Ramos de Santana Dias - JUN 26",
-        "Bonfim Donizete do Carmo - ABR 26",
-        "Alice Pires Azevedo - JUL 26",
-        "Davi Juan Maia Coelho - FEV 27",
-        "Alice da Silva Guimaraes - AGO 27 (TER ou QUA 09h/ 10h)",
-        "Rayane Sena de Oliveira - JUN 26 (QUA 09h/10h)"
-      ],
-      "quantidade_alunos": 7
-    },
-    {
-      "professor": "GIOVANA",
+      "professor": "NATALIA",
       "horario": "14:00",
       "dia": "SEGUNDA",
       "turma": "KIDS 1",
@@ -282,13 +54,12 @@
         "Alice Wilker Soares da Silva - JUL 26",
         "Lara Lopes Saraiva - DEZ 27",
         "Sofia Mol Camera Leite e Costa - DEZ 26",
-        "João Gabriel Candido Diniz",
-        "Ana Elisa Portela Meneses - DEZ 26 (SEG 14h/15h)"
+        "João Gabriel Candido Diniz"
       ],
-      "quantidade_alunos": 6
+      "quantidade_alunos": 5
     },
     {
-      "professor": "GIOVANA",
+      "professor": "NATALIA",
       "horario": "14:00",
       "dia": "QUARTA",
       "turma": "KIDS 1",
@@ -302,7 +73,7 @@
       "quantidade_alunos": 5
     },
     {
-      "professor": "GIOVANA",
+      "professor": "GIOVANNA",
       "horario": "14:00",
       "dia": "SEGUNDA",
       "turma": "KIDS 2",
@@ -315,7 +86,7 @@
       "quantidade_alunos": 4
     },
     {
-      "professor": "GIOVANA",
+      "professor": "GIOVANNA",
       "horario": "14:00",
       "dia": "QUARTA",
       "turma": "KIDS 2",
@@ -323,458 +94,60 @@
         "Julia Silva Rocha - FEV 26",
         "Camila Andrade Carneiro de Aguiar - FEV 27",
         "Arthur Landim do Carmo - AGO 27",
-        "Pedro Henrique Sousa Lustosa - JUL 27",
-        "Maria Valentina de Queiroz Vieira - JAN 27 (QUA 14h/15h)"
+        "Pedro Henrique Sousa Lustosa - JUL 27"
       ],
-      "quantidade_alunos": 5
+      "quantidade_alunos": 4
     },
     {
-      "professor": "GIOVANA",
-      "horario": "14:00",
-      "dia": "SEGUNDA",
-      "turma": "TOTS 6 B",
-      "alunos": [
-        "Esther Bispo Rocha - JUN 25/26"
-      ],
-      "quantidade_alunos": 1
-    },
-    {
-      "professor": "GIOVANA",
-      "horario": "14:00",
-      "dia": "QUARTA",
-      "turma": "TOTS 6 B",
-      "alunos": [
-        "Esther Bispo Rocha - JUN 25/26"
-      ],
-      "quantidade_alunos": 1
-    },
-    {
-      "professor": "GIOVANA",
+      "professor": "BEATRIZ",
       "horario": "14:00",
       "dia": "SEGUNDA",
       "turma": "INT. 1",
       "alunos": [
         "Sofia Rodrigues Marques Santana - DEZ 27",
         "Raira Santos Silva - DEZ 26",
-        "Vitor Wilker Soares da Silva - JUN 26",
-        "Matheus Alec Gomes Marinos - DEZ 26",
-        "Isadora Goulart Cavalcante - MAI 26",
-        "Ana Julia de Lima Melo - JAN 27",
-        "Maria Eduarda Sousa Ribeiro - ABR 27",
-        "Valentina Basso de Souza Vieira Braga - DEZ 27",
-        "Isadora Pereira Athayde - JUL 27",
-        "Davi Carvalho - FEV 27"
+        "Vitor Wilker Soares da Silva - JUN 26"
       ],
-      "quantidade_alunos": 10
+      "quantidade_alunos": 3
     },
     {
-      "professor": "GIOVANA",
+      "professor": "BEATRIZ",
       "horario": "14:00",
       "dia": "QUARTA",
       "turma": "INT. 1",
       "alunos": [
         "Sofia Rodrigues Marques Santana - DEZ 27",
         "Raira Santos Silva - DEZ 26",
-        "Vitor Wilker Soares da Silva - JUN 26",
-        "Matheus Alec Gomes Marinos - DEZ 26",
-        "Isadora Goulart Cavalcante - MAI 26",
-        "Ana Julia de Lima Melo - JAN 27",
-        "Maria Eduarda Sousa Ribeiro - ABR 27",
-        "Valentina Basso de Souza Vieira Braga - DEZ 27",
-        "Isadora Pereira Athayde - JUL 27",
-        "Davi Carvalho - FEV 27"
+        "Vitor Wilker Soares da Silva - JUN 26"
       ],
-      "quantidade_alunos": 10
+      "quantidade_alunos": 3
     },
     {
-      "professor": "GIOVANA",
+      "professor": "FLAVIA",
       "horario": "14:00",
       "dia": "SEGUNDA",
       "turma": "INT. 2",
       "alunos": [
+        "Milena Freitas Soares - JUL 26",
         "Danilo Goncalves da Silva - DEZ 27",
-        "Pietro de Souza Costa Vaz - AGO 26",
-        "Pedro Wilker Soares da Silva - JUN 26",
-        "Gustavo Alves de Azevedo - DEZ 26",
-        "Arthur Bersan Moreira - JUN 26",
-        "Fernanda Brandao Silva - JUL 26 (SEG 14h/15h)"
+        "Pietro de Souza Costa Vaz - AGO 26"
       ],
-      "quantidade_alunos": 6
+      "quantidade_alunos": 3
     },
     {
-      "professor": "GIOVANA",
+      "professor": "FLAVIA",
       "horario": "14:00",
       "dia": "QUARTA",
       "turma": "INT. 2",
       "alunos": [
+        "Milena Freitas Soares - JUL 26",
         "Danilo Goncalves da Silva - DEZ 27",
-        "Pietro de Souza Costa Vaz - AGO 26",
-        "Pedro Wilker Soares da Silva - JUN 26",
-        "Gustavo Alves de Azevedo - DEZ 26",
-        "Arthur Bersan Moreira - JUN 26",
-        "Marcus Vinicius Braga M - JAN 27 (Qua 14h/15h)",
-        "Ayra Almeida Camelo - DEZ 26 (QUA 14h/15h)",
-        "Harumy de Castro Kawashima - JUL 26 (QUA 14H/15H)",
-        "Mayumi de Castro Kawashima - JAN 27 (QUA 14H/15H)"
-      ],
-      "quantidade_alunos": 9
-    },
-    {
-      "professor": "GIOVANA",
-      "horario": "14:00",
-      "dia": "SEGUNDA",
-      "turma": "INT 3",
-      "alunos": [
-        "Davy Calixto da Silva Andrade - FEV 27  (SEG 14h/15h)",
-        "Yasmim Rodrigues de Aguiar - ABR 26 (SEG 14h/QUA 16h)",
-        "Heloisa Lobo Dias - DEZ 26 (SEG 14h/15h)",
-        "Isabella Soares Vieira - DEZ 26 (SEG 14h/15h)",
-        "Julia Ferreira Guilherme de Souza Amorim - DEZ 26 (SEG 14h/15h)",
-        "Maria Alice Vargas da Silva - JAN 26 (SEG/QUA 14h e 15h)"
-      ],
-      "quantidade_alunos": 6
-    },
-    {
-      "professor": "GIOVANA",
-      "horario": "14:00",
-      "dia": "QUARTA",
-      "turma": "INT 3",
-      "alunos": [
-        "Hiyoji de Castro Kawashima - JUL 27 (QUA 14h-15h)",
-        "Maria Eduarda dos Santos Pereira - JAN 27 (QUA 14h/15h)",
-        "Adrian Enzzo Batista Cunha - JUN 26 (QUA e QUI 14h)",
-        "Lucas Viana Marques  - DEZ 27 (Qua 14h/15h)",
-        "Marina Botelho de Aquino - JUN 27 (QUA 14h/15h)",
-        "Leticia Botelho de Aquino - JUN 26 (QUA 14h/15h)",
-        "Kalebe Alves de Sousa - MAI 27 (QUA 14h/15h)",
-        "Carlos Eduardo Queiroz Abdon - JUL 26 (QUA 14h/15h)",
-        "Maria Alice Vargas da Silva - JAN 26 (SEG/QUA 14h e 15h)"
-      ],
-      "quantidade_alunos": 9
-    },
-    {
-      "professor": "GIOVANA",
-      "horario": "15:00",
-      "dia": "SEGUNDA",
-      "turma": "KIDS 1",
-      "alunos": [
-        "Alice Xavier Pourre - JUL 27",
-        "Manuela Maria dos Santos Gois Pereira - DEZ 27",
-        "Ana Elisa Portela Meneses - DEZ 26 (SEG 14h/15h)"
+        "Pietro de Souza Costa Vaz - AGO 26"
       ],
       "quantidade_alunos": 3
     },
     {
-      "professor": "GIOVANA",
-      "horario": "15:00",
-      "dia": "QUARTA",
-      "turma": "KIDS 1",
-      "alunos": [
-        "Alice Xavier Pourre - JUL 27",
-        "Manuela Maria dos Santos Gois Pereira - DEZ 27",
-        "Maria Valentina de Queiroz Vieira - JAN 27 (QUA 14h/15h)"
-      ],
-      "quantidade_alunos": 3
-    },
-    {
-      "professor": "GIOVANA",
-      "horario": "15:00",
-      "dia": "SEGUNDA",
-      "turma": "INT. 1",
-      "alunos": [
-        "Sara Dias Pinheiro - DEZ 26",
-        "Benjamim Camargos de Farias - DEZ 26",
-        "Cecilia Guedes Cioletti - JAN 27",
-        "Jonas Hayakawa Vogt - DEZ 27",
-        "Vitor Hugo Nogueira Ferreira - DEZ 26",
-        "Davi Ezequiel dos Santos Santana - DEZ 27",
-        "Davy Calixto da Silva Andrade - FEV 27  (SEG 14h/15h)"
-      ],
-      "quantidade_alunos": 7
-    },
-    {
-      "professor": "GIOVANA",
-      "horario": "15:00",
-      "dia": "QUARTA",
-      "turma": "INT. 1",
-      "alunos": [
-        "Sara Dias Pinheiro - DEZ 26",
-        "Benjamim Camargos de Farias - DEZ 26",
-        "Cecilia Guedes Cioletti - JAN 27",
-        "Jonas Hayakawa Vogt - DEZ 27",
-        "Vitor Hugo Nogueira Ferreira - DEZ 26",
-        "Davi Ezequiel dos Santos Santana - DEZ 27",
-        "Ayra Almeida Camelo - DEZ 26 (QUA 14h/15h)",
-        "Hiyoji de Castro Kawashima - JUL 27 (QUA 14h-15h)",
-        "Maria Eduarda dos Santos Pereira - JAN 27 (QUA 14h/15h)",
-        "Leticia Botelho de Aquino - JUN 26 (QUA 14h/15h)"
-      ],
-      "quantidade_alunos": 10
-    },
-    {
-      "professor": "GIOVANA",
-      "horario": "15:00",
-      "dia": "SEGUNDA",
-      "turma": "INT. 2",
-      "alunos": [
-        "Yasmin Martins Cota - DEZ 27",
-        "Isabelly Vieira Brasil - DEZ 26",
-        "Emanuela dos Santos Santana - DEZ 27",
-        "Otavio Leandro Lira - DEZ 26",
-        "Fernanda Brandao Silva - JUL 26 (SEG 14h/15h)",
-        "Heloisa Lobo Dias - DEZ 26 (SEG 14h/15h)",
-        "Isabella Soares Vieira - DEZ 26 (SEG 14h/15h)",
-        "Julia Ferreira Guilherme de Souza Amorim - DEZ 26 (SEG 14h/15h)"
-      ],
-      "quantidade_alunos": 8
-    },
-    {
-      "professor": "GIOVANA",
-      "horario": "15:00",
-      "dia": "QUARTA",
-      "turma": "INT. 2",
-      "alunos": [
-        "Yasmin Martins Cota - DEZ 27",
-        "Isabelly Vieira Brasil - DEZ 26",
-        "Emanuela dos Santos Santana - DEZ 27",
-        "Otavio Leandro Lira - DEZ 26",
-        "Sara Ferreira Ramalho - JUL 26 (SEG 15H/16H)",
-        "Lucas Viana Marques  - DEZ 27 (Qua 14h/15h)",
-        "Isabela Ferreira Ramalho - JUL 26 (QUA 15h/16h)"
-      ],
-      "quantidade_alunos": 7
-    },
-    {
-      "professor": "GIOVANA",
-      "horario": "15:00",
-      "dia": "SEGUNDA",
-      "turma": "INT. 3",
-      "alunos": [
-        "Maria Luiza Moreira Felix - JUN 26",
-        "Maria Alice Vargas da Silva - JAN 26 (SEG/QUA 14h e 15h)",
-        "Arthur Ferreira dos Santos - DEZ 26 (SEG 15h/16h)"
-      ],
-      "quantidade_alunos": 3
-    },
-    {
-      "professor": "GIOVANA",
-      "horario": "15:00",
-      "dia": "QUARTA",
-      "turma": "INT. 3",
-      "alunos": [
-        "Maria Luiza Moreira Felix - JUN 26",
-        "Maria Alice Vargas da Silva - JAN 26 (SEG/QUA 14h e 15h)",
-        "Marcus Vinicius Braga M - JAN 27 (Qua 14h/15h)",
-        "Kalebe Alves de Sousa - MAI 27 (QUA 14h/15h)",
-        "Harumy de Castro Kawashima - JUL 26 (QUA 14H/15H)",
-        "Mayumi de Castro Kawashima - JAN 27 (QUA 14H/15H)",
-        "Israel Jose Madureira G. Ferreira - JAN 27 (QUA 15h/16h)",
-        "Carlos Eduardo Queiroz Abdon - JUL 26 (QUA 14h/15h)",
-        "Marina Botelho de Aquino - JUN 27 (QUA 14h/15h)"
-      ],
-      "quantidade_alunos": 9
-    },
-    {
-      "professor": "GIOVANA",
-      "horario": "16:00",
-      "dia": "SEGUNDA",
-      "turma": "KIDS 1",
-      "alunos": [
-        "Eduardo Carvalho da Silva Santos - SET 27",
-        "Davi Santos Rodrigues - JUN 27",
-        "Sara Soares Ewert - AGO 27",
-        "Maria Luisa Ferreira Soares - DEZ 26",
-        "Alice Pereira Gomes - DEZ 27",
-        "Davi Pereira Gomes - DEZ 27"
-      ],
-      "quantidade_alunos": 6
-    },
-    {
-      "professor": "GIOVANA",
-      "horario": "16:00",
-      "dia": "QUARTA",
-      "turma": "KIDS 1",
-      "alunos": [
-        "Eduardo Carvalho da Silva Santos - SET 27",
-        "Davi Santos Rodrigues - JUN 27",
-        "Sara Soares Ewert - AGO 27",
-        "Maria Luisa Ferreira Soares - DEZ 26",
-        "Alice Pereira Gomes - DEZ 27",
-        "Davi Pereira Gomes - DEZ 27"
-      ],
-      "quantidade_alunos": 6
-    },
-    {
-      "professor": "GIOVANA",
-      "horario": "16:00",
-      "dia": "SEGUNDA",
-      "turma": "INT. 1",
-      "alunos": [
-        "Graziely Monique Soares Ewert - AGO 27",
-        "Felipe Pinheiro Mendes - JAN 27",
-        "Laura Pessoa Coelho - FEV 27",
-        "Anne Beatriz Duarte Alves - ABR 27",
-        "Isaac Dantas Tavares de Sousa - DEZ 26 (Seg 16h/17h)",
-        "Arthur Ferreira dos Santos - DEZ 26 (SEG 15h/16h)"
-      ],
-      "quantidade_alunos": 6
-    },
-    {
-      "professor": "GIOVANA",
-      "horario": "16:00",
-      "dia": "QUARTA",
-      "turma": "INT. 1",
-      "alunos": [
-        "Graziely Monique Soares Ewert - AGO 27",
-        "Felipe Pinheiro Mendes - JAN 27",
-        "Laura Pessoa Coelho - FEV 27",
-        "Anne Beatriz Duarte Alves - ABR 27",
-        "Calebe Vieira Gomes - JAN 27 (QUA 16h/17h)",
-        "Israel Jose Madureira G. Ferreira - JAN 27 (QUA 15h/16h)",
-        "Giovanna Tertuliano Beserra da Costa - OUT 26 (Qua 16h/17h)",
-        "Sara Ferreira Ramalho - JUL 26 (SEG 15H/16H)"
-      ],
-      "quantidade_alunos": 8
-    },
-    {
-      "professor": "GIOVANA",
-      "horario": "16:00",
-      "dia": "SEGUNDA",
-      "turma": "INT. 3",
-      "alunos": [
-        "Fillype Santos Tavares Lima - OUT 27",
-        "Miguel Rodrigues Cabral - FEV  27"
-      ],
-      "quantidade_alunos": 2
-    },
-    {
-      "professor": "GIOVANA",
-      "horario": "16:00",
-      "dia": "QUARTA",
-      "turma": "INT. 3",
-      "alunos": [
-        "Fillype Santos Tavares Lima - OUT 27",
-        "Miguel Rodrigues Cabral - FEV  27",
-        "Anne Kamille de Mendonça Souza - DEZ 26 (QUA 17h/18h)",
-        "Yasmim Rodrigues de Aguiar - ABR 26 (SEG 14h/QUA 16h)",
-        "Isabela Ferreira Ramalho - JUL 26 (QUA 15h/16h)"
-      ],
-      "quantidade_alunos": 5
-    },
-    {
-      "professor": "GIOVANA",
-      "horario": "17:00",
-      "dia": "SEGUNDA",
-      "turma": "KIDS 1",
-      "alunos": [
-        "Helena de Sousa Cruz Verissimo - ABR 25/26",
-        "Luis Fernando Savio de Paula Bezerra - JAN 27",
-        "Benjamin Silva Machado Correa - MAR 27",
-        "Nicolas Barros Fernandes - MAR 26 (SEG 17H/18H)"
-      ],
-      "quantidade_alunos": 4
-    },
-    {
-      "professor": "GIOVANA",
-      "horario": "17:00",
-      "dia": "QUARTA",
-      "turma": "KIDS 1",
-      "alunos": [
-        "Helena de Sousa Cruz Verissimo - ABR 25/26",
-        "Luis Fernando Savio de Paula Bezerra - JAN 27",
-        "Benjamin Silva Machado Correa - MAR 27"
-      ],
-      "quantidade_alunos": 3
-    },
-    {
-      "professor": "GIOVANA",
-      "horario": "17:00",
-      "dia": "SEGUNDA",
-      "turma": "KIDS 2",
-      "alunos": [
-        "Tiare Jemima Calazans Santana - MAR 27",
-        "Humberto Cavalcante de Jesus - JUL 27",
-        "Arthur Ubiratan Cavalcanti de Souza - FEV 27",
-        "Ney Cesar de Melo Neto - DEZ 26"
-      ],
-      "quantidade_alunos": 4
-    },
-    {
-      "professor": "GIOVANA",
-      "horario": "17:00",
-      "dia": "QUARTA",
-      "turma": "KIDS 2",
-      "alunos": [
-        "Tiare Jemima Calazans Santana - MAR 27",
-        "Humberto Cavalcante de Jesus - JUL 27",
-        "Arthur Ubiratan Cavalcanti de Souza - FEV 27",
-        "Ney Cesar de Melo Neto - DEZ 26"
-      ],
-      "quantidade_alunos": 4
-    },
-    {
-      "professor": "GIOVANA",
-      "horario": "17:00",
-      "dia": "SEGUNDA",
-      "turma": "LK 2 A",
-      "alunos": [
-        "Thomas Bastos Madureira - DEZ 26",
-        "Levi Ubiratan Cavalcanti de Souza - FEV 27",
-        "Teodoro Porfirio Furtado Melo - DEZ 26",
-        "Laura Brunelli de Sa - FEV 27",
-        "Sophia Carvalho Silva Dias - Dez 27",
-        "Clarice da Silva Dias - DEZ 26"
-      ],
-      "quantidade_alunos": 6
-    },
-    {
-      "professor": "GIOVANA",
-      "horario": "17:00",
-      "dia": "QUARTA",
-      "turma": "LK 2 A",
-      "alunos": [
-        "Thomas Bastos Madureira - DEZ 26",
-        "Levi Ubiratan Cavalcanti de Souza - FEV 27",
-        "Teodoro Porfirio Furtado Melo - DEZ 26",
-        "Laura Brunelli de Sa - FEV 27",
-        "Sophia Carvalho Silva Dias - Dez 27",
-        "Clarice da Silva Dias - DEZ 26"
-      ],
-      "quantidade_alunos": 6
-    },
-    {
-      "professor": "GIOVANA",
-      "horario": "17:00",
-      "dia": "SEGUNDA",
-      "turma": "INT. 1",
-      "alunos": [
-        "Anna Luisa Almeida Cavalcante - DEZ 26",
-        "Julio Cesar de Souza Cruz Verissimo - ABR 25/26",
-        "Alice Cavalcanti de Souza - FEV 27",
-        "Lucas Fernandes de Almeida - FEV 27",
-        "Isaac Dantas Tavares de Sousa - DEZ 26 (Seg 16h/17h)",
-        "Rafaella Tayna Rodrigues Gonçalves - JUN 26 (SEG 17h/18h)"
-      ],
-      "quantidade_alunos": 6
-    },
-    {
-      "professor": "GIOVANA",
-      "horario": "17:00",
-      "dia": "QUARTA",
-      "turma": "INT. 1",
-      "alunos": [
-        "Anna Luisa Almeida Cavalcante - DEZ 26",
-        "Julio Cesar de Souza Cruz Verissimo - ABR 25/26",
-        "Alice Cavalcanti de Souza - FEV 27",
-        "Lucas Fernandes de Almeida - FEV 27",
-        "Anne Kamille de Mendonça Souza - DEZ 26 (QUA 17h/18h)",
-        "Calebe Vieira Gomes - JAN 27 (QUA 16h/17h)",
-        "Giovanna Tertuliano Beserra da Costa - OUT 26 (Qua 16h/17h)"
-      ],
-      "quantidade_alunos": 7
-    },
-    {
-      "professor": "GIOVANA",
+      "professor": "ANA PAULA",
       "horario": "18:00",
       "dia": "SEGUNDA",
       "turma": "KIDS 1",
@@ -782,13 +155,12 @@
         "Joao Lucas Andrade Meneses - JAN 26",
         "Maryane Pereira Nunes - DEZ 27",
         "Ester Farias Andrade - AGO 27",
-        "Vinicius Ribeiro Lopes Estrela Marra - FEV 27",
-        "Nicolas Barros Fernandes - MAR 26 (SEG 17H/18H)"
+        "Vinicius Ribeiro Lopes Estrela Marra - FEV 27"
       ],
-      "quantidade_alunos": 5
+      "quantidade_alunos": 4
     },
     {
-      "professor": "GIOVANA",
+      "professor": "ANA PAULA",
       "horario": "18:00",
       "dia": "QUARTA",
       "turma": "KIDS 1",
@@ -801,195 +173,502 @@
       "quantidade_alunos": 4
     },
     {
-      "professor": "GIOVANA",
+      "professor": "FLAVIA",
       "horario": "18:00",
       "dia": "SEGUNDA",
       "turma": "INT. 1",
       "alunos": [
         "Davi Braga de Deus - JUN 26",
         "Arthur Pereira Pires - DEZ 26",
-        "Leonardo da Costa Marinho - DEZ 27",
-        "Camila Caroba de Souza - DEZ 26 (SEG/QUA 18h/19h)",
-        "Joao Paulo Andrade Oliveira - MAR 27",
-        "Luiza Maciel Pinheiro - DEZ 26 (Seg 18h/19h)",
-        "Rafaella Tayna Rodrigues Gonçalves - JUN 26 (SEG 17h/18h)",
-        "Heitor Malschik Oliveira - JUN 27 (SEG 18h/19h)"
+        "Leonardo da Costa Marinho - DEZ 27"
       ],
-      "quantidade_alunos": 8
+      "quantidade_alunos": 3
     },
     {
-      "professor": "GIOVANA",
+      "professor": "FLAVIA",
       "horario": "18:00",
       "dia": "QUARTA",
       "turma": "INT. 1",
       "alunos": [
         "Davi Braga de Deus - JUN 26",
         "Arthur Pereira Pires - DEZ 26",
-        "Leonardo da Costa Marinho - DEZ 27",
-        "Camila Caroba de Souza - DEZ 26 (SEG/QUA 18h/19h)",
-        "Joao Paulo Andrade Oliveira - MAR 27",
-        "Gracy Keller Lima Nascimento - JUL 27 (QUA 18h/19h)",
-        "William Alves Carvalho Ribeiro - SET 26 (QUA 18h/19h)"
+        "Leonardo da Costa Marinho - DEZ 27"
       ],
-      "quantidade_alunos": 7
+      "quantidade_alunos": 3
     },
     {
-      "professor": "BEATRIZ",
+      "professor": "MAYCON",
       "horario": "18:00",
       "dia": "SEGUNDA",
       "turma": "ONLINE",
       "alunos": [
         "Isabelly Goulart Mourao - JAN 27",
-        "Brayan Lopes Feitosa - MAR 26",
-        "Arthur Duarte Leite - ABR 26",
-        "Maria Luiza Fernandes Alcantara - DEZ 26",
-        "Stephany Almeida Oliveira e Silva - JAN 27",
-        "Andre Dias de Vanconcelos"
-      ],
-      "quantidade_alunos": 6
-    },
-    {
-      "professor": "BEATRIZ",
-      "horario": "18:00",
-      "dia": "QUARTA",
-      "turma": "ONLINE",
-      "alunos": [
-        "Isabelly Goulart Mourao - JAN 27",
-        "Brayan Lopes Feitosa - MAR 26",
-        "Arthur Duarte Leite - ABR 26",
-        "Maria Luiza Fernandes Alcantara - DEZ 26",
-        "Stephany Almeida Oliveira e Silva - JAN 27",
-        "Andre Dias de Vanconcelos"
-      ],
-      "quantidade_alunos": 6
-    },
-    {
-      "professor": "GIOVANA",
-      "horario": "19:00",
-      "dia": "SEGUNDA",
-      "turma": "INT. 1",
-      "alunos": [
-        "Vinicius da Costa Marinho - JUL 26",
-        "Rafaela de Araujo Caldas - DEZ 26",
-        "Maria Laura Azevedo Silva - JUL 27",
-        "Fabricio Calazans Nunes - DEZ 26",
-        "Isadora Duarte dos Santos - DEZ 27",
-        "Luiz Paulo Pereira Ribeiro - MAR 27",
-        "Guilherme de Oliveira Duraes - MAR 27",
-        "Gabriel de Oliveira Duraes - FEV 27",
-        "Luiza Maciel Pinheiro - DEZ 26 (Seg 18h/19h)"
-      ],
-      "quantidade_alunos": 9
-    },
-    {
-      "professor": "GIOVANA",
-      "horario": "19:00",
-      "dia": "QUARTA",
-      "turma": "INT. 1",
-      "alunos": [
-        "Vinicius da Costa Marinho - JUL 26",
-        "Rafaela de Araujo Caldas - DEZ 26",
-        "Maria Laura Azevedo Silva - JUL 27",
-        "Fabricio Calazans Nunes - DEZ 26",
-        "Isadora Duarte dos Santos - DEZ 27",
-        "Luiz Paulo Pereira Ribeiro - MAR 27",
-        "Guilherme de Oliveira Duraes - MAR 27",
-        "Gabriel de Oliveira Duraes - FEV 27",
-        "Gustavo Ataulfo da Silva Sales - JAN 26 (QUA 19h/20h)",
-        "William Alves Carvalho Ribeiro - SET 26 (QUA 18h/19h)"
-      ],
-      "quantidade_alunos": 10
-    },
-    {
-      "professor": "GIOVANA",
-      "horario": "19:00",
-      "dia": "SEGUNDA",
-      "turma": "INT 2",
-      "alunos": [
-        "Marisa Alencar Silva de Sousa - JUN 27",
-        "Maria Cecilia Dias de Barros - DEZ 27",
-        "Julia de Lima Santos - JAN 28",
-        "Maria Clara Dias de Barros - DEZ 27",
-        "Camila Caroba de Souza - DEZ 26 (SEG/QUA 18h/19h)",
-        "Juliana de Oliveira Gomes - SET 26 (SEG 19h/20h)",
-        "Heitor Malschik Oliveira - JUN 27 (SEG 18h/19h)"
-      ],
-      "quantidade_alunos": 7
-    },
-    {
-      "professor": "GIOVANA",
-      "horario": "19:00",
-      "dia": "QUARTA",
-      "turma": "INT 2",
-      "alunos": [
-        "Marisa Alencar Silva de Sousa - JUN 27",
-        "Maria Cecilia Dias de Barros - DEZ 27",
-        "Julia de Lima Santos - JAN 28",
-        "Maria Clara Dias de Barros - DEZ 27",
-        "Camila Caroba de Souza - DEZ 26 (SEG/QUA 18h/19h)",
-        "Adriana da Costa Arruda - MAI 26 (QUA 19h TER/QUI 20h ON)",
-        "Gracy Keller Lima Nascimento - JUL 27 (QUA 18h/19h)"
-      ],
-      "quantidade_alunos": 7
-    },
-    {
-      "professor": "",
-      "horario": "19:00",
-      "dia": "SEGUNDA",
-      "turma": "S 4",
-      "alunos": [
-        "Adna de Oliveira Queiroz - JUN 26 (Seg 19h/20h)",
-        "Millena Queiroz de Assis - JUN 26 (Seg 19h/20h)",
-        "Luisa Neves Domingues - JUL 27 (Seg 19h/20h)",
-        "Karen Oliveira Sindarin - DEZ 26 (Qua 19H/20)"
-      ],
-      "quantidade_alunos": 4
-    },
-    {
-      "professor": "",
-      "horario": "19:00",
-      "dia": "QUARTA",
-      "turma": "S 4",
-      "alunos": [
-        "Ykharo Regis Dantas Santos",
-        "Ingred Jose Santos"
+        "Arthur Duarte Leite - ABR 26"
       ],
       "quantidade_alunos": 2
     },
     {
-      "professor": "GIOVANA",
-      "horario": "20:00",
+      "professor": "MAYCON",
+      "horario": "18:00",
+      "dia": "QUARTA",
+      "turma": "ONLINE",
+      "alunos": [
+        "Isabelly Goulart Mourao - JAN 27",
+        "Arthur Duarte Leite - ABR 26"
+      ],
+      "quantidade_alunos": 2
+    },
+    {
+      "professor": "FLAVIA",
+      "horario": "19:00",
+      "dia": "QUARTA",
+      "turma": "INT. 1",
+      "alunos": [
+        "Vinicius da Costa Marinho - JUL 26",
+        "Rafaela de Araujo Caldas - DEZ 26",
+        "Maria Laura Azevedo Silva - JUL 27",
+        "Fabricio Calazans Nunes - DEZ 26",
+        "Isadora Duarte dos Santos - DEZ 27",
+        "Luiz Paulo Pereira Ribeiro - MAR 27"
+      ],
+      "quantidade_alunos": 6
+    },
+    {
+      "professor": "MAYCON",
+      "horario": "19:00",
       "dia": "SEGUNDA",
       "turma": "INT. 2",
       "alunos": [
-        "Milena Ferreira Loures - DEZ 26",
-        "Lucas Gomes de Sousa - MAR 26",
-        "Helio Felipe Souza Nascimento - JUN 27",
-        "Ricardo Domingues Reis - JUL 27",
-        "Manuelle Soares Silva de Abreu - JAN 27",
-        "reservado p/ Fabiola/Alisson",
-        "reservado p/ Fabiola/Alisson",
-        "Rychard Aragao Leal - FEV 26 (SEG/TER 20h TER/QUI 14h)",
-        "Juliana de Oliveira Gomes - SET 26 (SEG 19h/20h)"
+        "Marisa Alencar Silva de Sousa - JUN 27",
+        "Maria Cecilia Dias de Barros - DEZ 27",
+        "Maria Clara Dias de Barros - DEZ 27"
+      ],
+      "quantidade_alunos": 3
+    },
+    {
+      "professor": "MAYCON",
+      "horario": "19:00",
+      "dia": "QUARTA",
+      "turma": "INT. 2",
+      "alunos": [
+        "Marisa Alencar Silva de Sousa - JUN 27",
+        "Maria Cecilia Dias de Barros - DEZ 27",
+        "Maria Clara Dias de Barros - DEZ 27"
+      ],
+      "quantidade_alunos": 3
+    },
+    {
+      "professor": "GIOVANNA",
+      "horario": "08:00",
+      "dia": "TERÇA",
+      "turma": "INT. 1",
+      "alunos": [
+        "Marcia Sousa Dias - FEV 26",
+        "Vagne Celio Vasconcelos de Souza - DEZ 26",
+        "Gabriela Benjamine Almeida Colim - JUN 27",
+        "Kelly Cristina Santiago Abreu Pereira",
+        "Joao Filipe de Abreu Santos - FEV 27"
+      ],
+      "quantidade_alunos": 5
+    },
+    {
+      "professor": "GIOVANNA",
+      "horario": "08:00",
+      "dia": "QUINTA",
+      "turma": "INT. 1",
+      "alunos": [
+        "Marcia Sousa Dias - FEV 26",
+        "Vagne Celio Vasconcelos de Souza - DEZ 26",
+        "Gabriela Benjamine Almeida Colim - JUN 27",
+        "Kelly Cristina Santiago Abreu Pereira",
+        "Joao Filipe de Abreu Santos - FEV 27"
+      ],
+      "quantidade_alunos": 5
+    },
+    {
+      "professor": "GIOVANA",
+      "horario": "09:00",
+      "dia": "TERÇA",
+      "turma": "LK 4 A",
+      "alunos": [
+        "Flavia de Oliveira Nunes Carvalho - DEZ 27",
+        "Maria Luisa de Jesus Barbosa - DEZ 26",
+        "Joao Miguel Santana de Araujo - DEZ 26"
+      ],
+      "quantidade_alunos": 3
+    },
+    {
+      "professor": "GIOVANA",
+      "horario": "09:00",
+      "dia": "QUINTA",
+      "turma": "LK 4 A",
+      "alunos": [
+        "Flavia de Oliveira Nunes Carvalho - DEZ 27",
+        "Maria Luisa de Jesus Barbosa - DEZ 26",
+        "Joao Miguel Santana de Araujo - DEZ 26"
+      ],
+      "quantidade_alunos": 3
+    },
+    {
+      "professor": "NATALIA",
+      "horario": "09:00",
+      "dia": "TERÇA",
+      "turma": "KIDS 1",
+      "alunos": [
+        "Helena Gomes Texeira Dias - JUL 27",
+        "Sophie Lamounier Aguiar - DEZ 26",
+        "Lucas Peixoto Lopes - DEZ 26",
+        "Davi Oliveira Lira - ABR 26"
+      ],
+      "quantidade_alunos": 4
+    },
+    {
+      "professor": "NATALIA",
+      "horario": "09:00",
+      "dia": "QUINTA",
+      "turma": "KIDS 1",
+      "alunos": [
+        "Helena Gomes Texeira Dias - JUL 27",
+        "Sophie Lamounier Aguiar - DEZ 26",
+        "Lucas Peixoto Lopes - DEZ 26",
+        "Davi Oliveira Lira - ABR 26"
+      ],
+      "quantidade_alunos": 4
+    },
+    {
+      "professor": "GIOVANNA",
+      "horario": "09:00",
+      "dia": "TERÇA",
+      "turma": "INT. 1",
+      "alunos": [
+        "Lucas Hernandes Moreira Soares - DEZ 26",
+        "Davi dos Santos Silva - MAR 25/26",
+        "Kaio Vinicius Caetano de Almeida - JUL 26"
+      ],
+      "quantidade_alunos": 3
+    },
+    {
+      "professor": "GIOVANNA",
+      "horario": "09:00",
+      "dia": "QUINTA",
+      "turma": "INT. 1",
+      "alunos": [
+        "Lucas Hernandes Moreira Soares - DEZ 26",
+        "Davi dos Santos Silva - MAR 25/26",
+        "Kaio Vinicius Caetano de Almeida - JUL 26"
+      ],
+      "quantidade_alunos": 3
+    },
+    {
+      "professor": "ANA PAULA",
+      "horario": "14:00",
+      "dia": "TERÇA",
+      "turma": "KIDS 1",
+      "alunos": [
+        "Heitor Dantas Tavares de Sousa - DEZ 27",
+        "Vicente Silva Dias - JUL 27",
+        "Elisa Cerqueira Ferreira - SET 27"
+      ],
+      "quantidade_alunos": 3
+    },
+    {
+      "professor": "ANA PAULA",
+      "horario": "14:00",
+      "dia": "QUINTA",
+      "turma": "KIDS 1",
+      "alunos": [
+        "Heitor Dantas Tavares de Sousa - DEZ 27",
+        "Vicente Silva Dias - JUL 27",
+        "Elisa Cerqueira Ferreira - SET 27"
+      ],
+      "quantidade_alunos": 3
+    },
+    {
+      "professor": "FLAVIA",
+      "horario": "14:00",
+      "dia": "TERÇA",
+      "turma": "INT. 1",
+      "alunos": [
+        "Raphael Henrique Martins Eler - JUN 26",
+        "Anita Nobre Quirino - JAN 27",
+        "Giovana Nobre Quirino - JAN 27",
+        "Daniela Bastos Moreira Guimaraes - JUN 26"
+      ],
+      "quantidade_alunos": 4
+    },
+    {
+      "professor": "FLAVIA",
+      "horario": "14:00",
+      "dia": "QUINTA",
+      "turma": "INT. 1",
+      "alunos": [
+        "Raphael Henrique Martins Eler - JUN 26",
+        "Anita Nobre Quirino - JAN 27",
+        "Giovana Nobre Quirino - JAN 27",
+        "Daniela Bastos Moreira Guimaraes - JUN 26"
+      ],
+      "quantidade_alunos": 4
+    },
+    {
+      "professor": "NATALIA",
+      "horario": "14:00",
+      "dia": "TERÇA",
+      "turma": "INT. 2",
+      "alunos": [
+        "Sara Hermida Cardoso - DEZ 26",
+        "Leticia Sales Vieira - MAR 25/26",
+        "Mariana Carvalho Borges - FEV 28"
+      ],
+      "quantidade_alunos": 3
+    },
+    {
+      "professor": "NATALIA",
+      "horario": "14:00",
+      "dia": "QUINTA",
+      "turma": "INT. 2",
+      "alunos": [
+        "Sara Hermida Cardoso - DEZ 26",
+        "Leticia Sales Vieira - MAR 25/26",
+        "Mariana Carvalho Borges - FEV 28"
+      ],
+      "quantidade_alunos": 3
+    },
+    {
+      "professor": "BEATRIZ",
+      "horario": "14:00",
+      "dia": "TERÇA",
+      "turma": "INT. 3",
+      "alunos": [
+        "Benicio Luiz Azevedo de Oliveira - MAI 27",
+        "Caua Rodrigues de Araujo Boitrago - SET 26",
+        "Bianca Santiago Pereira - DEZ 26"
+      ],
+      "quantidade_alunos": 3
+    },
+    {
+      "professor": "BEATRIZ",
+      "horario": "14:00",
+      "dia": "QUINTA",
+      "turma": "INT. 3",
+      "alunos": [
+        "Benicio Luiz Azevedo de Oliveira - MAI 27",
+        "Caua Rodrigues de Araujo Boitrago - SET 26",
+        "Bianca Santiago Pereira - DEZ 26"
+      ],
+      "quantidade_alunos": 3
+    },
+    {
+      "professor": "ANA PAULA",
+      "horario": "18:00",
+      "dia": "TERÇA",
+      "turma": "KIDS 1",
+      "alunos": [
+        "Sofia Santana das Chagas - JAN 28",
+        "Ester da Costa Salgado - MAI 26",
+        "Avash Tahmasebi - JUL 27",
+        "Valentina Rodrigues de Jesus - DEZ 26"
+      ],
+      "quantidade_alunos": 4
+    },
+    {
+      "professor": "ANA PAULA",
+      "horario": "18:00",
+      "dia": "QUINTA",
+      "turma": "KIDS 1",
+      "alunos": [
+        "Sofia Santana das Chagas - JAN 28",
+        "Ester da Costa Salgado - MAI 26",
+        "Avash Tahmasebi - JUL 27",
+        "Valentina Rodrigues de Jesus - DEZ 26"
+      ],
+      "quantidade_alunos": 4
+    },
+    {
+      "professor": "FLAVIA",
+      "horario": "18:00",
+      "dia": "TERÇA",
+      "turma": "INT. 1",
+      "alunos": [
+        "Davi Jesus Carvalho Ventura - DEZ 26",
+        "Gustavo Rocha da Silva - JAN 27",
+        "Roberthy Danyel Veras de Sousa Silva"
+      ],
+      "quantidade_alunos": 3
+    },
+    {
+      "professor": "FLAVIA",
+      "horario": "18:00",
+      "dia": "QUINTA",
+      "turma": "INT. 1",
+      "alunos": [
+        "Davi Jesus Carvalho Ventura - DEZ 26",
+        "Gustavo Rocha da Silva - JAN 27",
+        "Roberthy Danyel Veras de Sousa Silva"
+      ],
+      "quantidade_alunos": 3
+    },
+    {
+      "professor": "MAYCON",
+      "horario": "18:00",
+      "dia": "TERÇA",
+      "turma": "INT. 3",
+      "alunos": [
+        "Miguel Augusto Lopes Carnicelli - MAR 26",
+        "Erivelton Bastos Costa - JUL 27",
+        "Gracia Madalena Baldez Lima - DEZ 27"
+      ],
+      "quantidade_alunos": 3
+    },
+    {
+      "professor": "MAYCON",
+      "horario": "18:00",
+      "dia": "QUINTA",
+      "turma": "INT. 3",
+      "alunos": [
+        "Miguel Augusto Lopes Carnicelli - MAR 26",
+        "Erivelton Bastos Costa - JUL 27",
+        "Gracia Madalena Baldez Lima - DEZ 27"
+      ],
+      "quantidade_alunos": 3
+    },
+    {
+      "professor": "MAYCON",
+      "horario": "19:00",
+      "dia": "TERÇA",
+      "turma": "INT. 1",
+      "alunos": [
+        "Sara Cristina Santos Santana - MAR 26",
+        "Maria Gabriela Cabral Brasil - FEV 26",
+        "Glaucia Regina Silva Vieira - JAN 28"
+      ],
+      "quantidade_alunos": 3
+    },
+    {
+      "professor": "MAYCON",
+      "horario": "19:00",
+      "dia": "QUINTA",
+      "turma": "INT. 1",
+      "alunos": [
+        "Sara Cristina Santos Santana - MAR 26",
+        "Maria Gabriela Cabral Brasil - FEV 26",
+        "Glaucia Regina Silva Vieira - JAN 28"
+      ],
+      "quantidade_alunos": 3
+    },
+    {
+      "professor": "CARLOS",
+      "horario": "08:00",
+      "dia": "SÁBADO",
+      "turma": "ITALIANO 6",
+      "alunos": [
+        "Joao Eduardo Marques Tochetto - MAR 26",
+        "Leticia Cardoso Morales - MAR 26"
+      ],
+      "quantidade_alunos": 2
+    },
+    {
+      "professor": "GIOVANNA",
+      "horario": "08:00",
+      "dia": "SÁBADO",
+      "turma": "KIDS 1",
+      "alunos": [
+        "Maria Luiza Tenorio de Araujo - DEZ 27",
+        "Samara de Oliveira Rodrigues - DEZ 26",
+        "Milena Fornaziero Novaes - DEZ 27",
+        "Enzo Cardoso Ruwer - DEZ 27",
+        "Dandara Calazans Pereira - JAN 28",
+        "Ana Carolina Alves de Camargos Sena - DEZ 26"
+      ],
+      "quantidade_alunos": 6
+    },
+    {
+      "professor": "NATALIA",
+      "horario": "08:00",
+      "dia": "SÁBADO",
+      "turma": "KIDS 2",
+      "alunos": [
+        "Samuel Lourenco Souza Couto - AGO 27",
+        "Laura Rocha Amaral - DEZ 27",
+        "Felipe Augusto Freita Souza - DEZ 26",
+        "Matheus Silva Maciel",
+        "Ana Catarina Souza Maia - FEV 27",
+        "Giovanna Fontenele Botelho - DEZ 26"
+      ],
+      "quantidade_alunos": 6
+    },
+    {
+      "professor": "GIOVANA",
+      "horario": "08:00",
+      "dia": "SÁBADO",
+      "turma": "LK 2 B",
+      "alunos": [
+        "Theo Mendes Fonseca - JUN 27",
+        "Manuela Neves Queiroz - JUL 26"
+      ],
+      "quantidade_alunos": 2
+    },
+    {
+      "professor": "ANA PAULA",
+      "horario": "08:00",
+      "dia": "SÁBADO",
+      "turma": "TOTS 2 A",
+      "alunos": [
+        "Clarice Leandro de Faria - ABR 26",
+        "Elizabeth Pessoa Rezende - ABR 26",
+        "Catarina Leite Costa Marsaro dos Santos - JUN 26",
+        "Jade Militao Marino - DEZ 26",
+        "Joao Miguel Gomes Vieira - JUN 26"
+      ],
+      "quantidade_alunos": 5
+    },
+    {
+      "professor": "FLAVIA",
+      "horario": "08:00",
+      "dia": "SÁBADO",
+      "turma": "INT. 1",
+      "alunos": [
+        "Joao Gabriel Souza de Paula - SET 26",
+        "Bianca Silvino Silva - JUN 26",
+        "Pyetra da Silva Lima - JUL 26",
+        "Julia Maria de Moura Veras - JUN 26",
+        "Vitoria Beatriz Silvino Silva - JUN 26",
+        "Leticia Mayumi Yamaguti Mourao - DEZ 26"
+      ],
+      "quantidade_alunos": 6
+    },
+    {
+      "professor": "MAYCON",
+      "horario": "14:00",
+      "dia": "SÁBADO",
+      "turma": "INT. 1",
+      "alunos": [
+        "Matheus Augusto de Freitas - JUN 26",
+        "Ana Luisa Gomes da Rocha - OUT 26",
+        "Eduardo Araujo Soares - JUL 27",
+        "Leonardo Lira Lopes - MAR 27",
+        "Renato Ferreira Batista - AGO 26",
+        "Giovani Fernandes Pavezzi - DEZ 26",
+        "Alana Cruz Pereira - MAR 26",
+        "Alice Conceicao de Goes - FEV 26",
+        "Ana Clara Rodrigues da Silva - MAR 26"
       ],
       "quantidade_alunos": 9
     },
     {
-      "professor": "GIOVANA",
-      "horario": "20:00",
-      "dia": "QUARTA",
-      "turma": "INT. 2",
+      "professor": "CARLOS",
+      "horario": "10:00",
+      "dia": "SÁBADO",
+      "turma": "FRANCES 2",
       "alunos": [
-        "Milena Ferreira Loures - DEZ 26",
-        "Lucas Gomes de Sousa - MAR 26",
-        "Helio Felipe Souza Nascimento - JUN 27",
-        "Ricardo Domingues Reis - JUL 27",
-        "Manuelle Soares Silva de Abreu - JAN 27",
-        "reservado p/ Fabiola/Alisson",
-        "reservado p/ Fabiola/Alisson",
-        "Gustavo Ataulfo da Silva Sales - JAN 26 (QUA 19h/20h)"
+        "Ramon Carvalho Mauricio Filho - MAR 26",
+        "Matheus Henrique Faria e Cruz - MAR 26",
+        "Yan Menezes Oliveira - ABR 26",
+        "Lucas Carvalho de Aquino - ABR 26",
+        "Jose Wilson de Menezes - MAI 26",
+        "Daniel Cruz de Carvalho - JUN 26",
+        "Edislania Cristina Melo - JUN 26"
       ],
-      "quantidade_alunos": 8
+      "quantidade_alunos": 7
     },
     {
       "professor": "NATALIA",
@@ -1015,234 +694,16 @@
       "turma": "INT. 3",
       "alunos": [
         "Ana Vitoria Lustosa Mota - DEZ 27",
+        "Julliana Patriota Leitao - JUL 27",
         "Carlos Henrique Oliveira Ramos Ribeiro - JUL 27",
         "Barbara Borges Soares de Paula - JAN 27",
         "Jessica Rocha Carlos - JUN 26",
         "Eloa Sofia Oliveira de Paiva - DEZ 26",
-        "Gustavo Araújo Oliveira - DEZ 27",
+        "Gustavo Araujo Oliveira - DEZ 27",
         "Ana Julia Nunes Marques - FEV 27",
         "Jhulia Beatriz Cabral de Castro - DEZ 27"
       ],
-      "quantidade_alunos": 8
-    },
-    {
-      "professor": "CARLOS",
-      "horario": "08:00",
-      "dia": "SÁBADO",
-      "turma": "ITALIANO 6",
-      "alunos": [
-        "Joao Eduardo Marques Tochetto - MAR 26",
-        "caua bo",
-        "Leticia Cardoso Morales - MAR 26"
-      ],
-      "quantidade_alunos": 3
-    },
-    {
-      "professor": "",
-      "horario": "08:00",
-      "dia": "SÁBADO",
-      "turma": "KIDS 1",
-      "alunos": [
-        "Maria Luiza Tenorio de Araujo - DEZ 27",
-        "Samara de Oliveira Rodrigues - DEZ 26",
-        "Milena Fornaziero  Novaes - DEZ 27",
-        "Enzo Cardoso Ruwer - DEZ 27",
-        "Dandara Calazans Pereira - JAN 28",
-        "Ana Carolina Alves de Camargos Sena - DEZ 26"
-      ],
-      "quantidade_alunos": 6
-    },
-    {
-      "professor": "",
-      "horario": "08:00",
-      "dia": "SÁBADO",
-      "turma": "LK 2 B",
-      "alunos": [
-        "Theo Mendes Fonseca - JUN 27",
-        "Manuela Neves Queiroz - JUL 26"
-      ],
-      "quantidade_alunos": 2
-    },
-    {
-      "professor": "",
-      "horario": "08:00",
-      "dia": "SÁBADO",
-      "turma": "INT. 1",
-      "alunos": [
-        "Joao Gabriel Souza de Paula - SET 26",
-        "Bianca Silvino Silva - JUN 26",
-        "Pyetra da Silva Lima - JUL 26",
-        "Julia Maria de Moura Veras - JUN 26",
-        "Vitoria Beatriz Silvino Silva - JUN 26",
-        "Leticia Mayumi Yamaguti Mourao - DEZ 26",
-        "Helloa Samille Rodrigues dos Santos - DEZ 27",
-        "Miguel de Oliveira Basile Salomao - FEV 28",
-        "Heloisa Pereira Nascimento - DEZ 26"
-      ],
       "quantidade_alunos": 9
-    },
-    {
-      "professor": "GIOVANA",
-      "horario": "08:00",
-      "dia": "SÁBADO",
-      "turma": "INT. 3",
-      "alunos": [
-        "Felipe Gabriel de Moura Veras - JUN 27",
-        "Soraia de Oliveira Ribeiro Rodrigues - JUL 27",
-        "Leonardo Akio Yamaguti Mourao - DEZ 26",
-        "Isabella Kauany Sabino Braz - DEZ 26",
-        "Rafael Pereira de Medeiros - DEZ 26",
-        "Ana Carolina Alves de Camargos Sena - DEZ 26",
-        "Sophia Soares Silva de Abreu - JUL 27",
-        "RESERVADO PARA NATALIA VILARINS"
-      ],
-      "quantidade_alunos": 8
-    },
-    {
-      "professor": "YESSIKA",
-      "horario": "08:00",
-      "dia": "SÁBADO",
-      "turma": "ESP.",
-      "alunos": [
-        "Carla Neves do Nascimento - ABR 26",
-        "Livia Silva Maciel - JAN 27",
-        "Miguel Nunes de Oliveira Lima - JUL 26"
-      ],
-      "quantidade_alunos": 3
-    },
-    {
-      "professor": "GIOVANA",
-      "horario": "10:00",
-      "dia": "SÁBADO",
-      "turma": "KIDS 1",
-      "alunos": [
-        "Julia Martins Pires - AGO 26",
-        "Lorenzo de Sousa Aranha - JUN 26",
-        "Joao Pedro de Souza Teles - DEZ 26",
-        "Laura de Souza Furtado - JUL 27",
-        "Isabela Azevedo do Nascimento - DEZ 26",
-        "Miguel Silva Bedran - ABR 26",
-        "Miguel Freire Santos - JUN 27"
-      ],
-      "quantidade_alunos": 7
-    },
-    {
-      "professor": "",
-      "horario": "10:00",
-      "dia": "SÁBADO",
-      "turma": "TOTS 6 B",
-      "alunos": [
-        "Maria Luiza Silva Mota - AGO 27",
-        "Augusto Medeiros Moura Nunes - JUL 25/26",
-        "Heitor Torres Batista -JUN 27"
-      ],
-      "quantidade_alunos": 3
-    },
-    {
-      "professor": "",
-      "horario": "10:00",
-      "dia": "SÁBADO",
-      "turma": "INT. 1",
-      "alunos": [
-        "Fausto Luiz Fornazier Neto - MAI 27",
-        "Rafaela da Silva Rodrigues - AGO 26",
-        "Luiz Felipe Domingues Farias - ABR 25/26",
-        "Victor Hugo Furtado Moreira - JUL 27",
-        "Yasmin Grazielly Braga Miguéis Gama - FEV 27",
-        "Davi Lima da Silva Dourado - JUL 27",
-        "Davi Luiz Silva Beserra - DEZ 27",
-        "Lorenzo Melo Oliveira - DEZ 26",
-        "Hyanca Marques de Castro - JUL 26",
-        "Luiz Henrick Marques de Castro - JUL 26"
-      ],
-      "quantidade_alunos": 10
-    },
-    {
-      "professor": "",
-      "horario": "10:00",
-      "dia": "SÁBADO",
-      "turma": "INT 3",
-      "alunos": [
-        "Maria Luisa Oliveira Rocha Mendes - FEV 26",
-        "Joao Guilherme Alves Kuster Maia - JAN 27",
-        "Bruno Gonçalves da Silva - JUN 26",
-        "Sophia Faria de Sousa Pereira - FEV 25/26",
-        "Julia Agapito Silva - DEZ 26",
-        "Eduardo Alberto da Silva Santos - JUN 27",
-        "Renato Cardoso Ruwer - DEZ 26",
-        "Henrique Juliao dos Santos  - DEZ 27",
-        "Arthur Marques Passos - FEV 27"
-      ],
-      "quantidade_alunos": 9
-    },
-    {
-      "professor": "GIOVANA",
-      "horario": "14:00",
-      "dia": "SÁBADO",
-      "turma": "INT. 1",
-      "alunos": [
-        "Ana Luisa Gomes da Rocha - OUT 26",
-        "Eduardo Araujo Soares - JUL 27",
-        "Leonardo Lira Lopes - MAR 27",
-        "Renato Ferreira Batista - AGO 26",
-        "Giovani Fernandes Pavezzi - DEZ 26",
-        "Alana Cruz Pereira - MAR 26",
-        "Alice Conceicao de Goes - FEV 26",
-        "Ana Clara Rodrigues da Silva - MAR 26"
-      ],
-      "quantidade_alunos": 8
     }
-  ],
-  "estatisticas": [
-    {
-      "metrica": "Nº de alunos matriculados na unidade",
-      "valor": 573,
-      "tipo": "total"
-    },
-    {
-      "metrica": "Interactive presencial ativos",
-      "valor": 463,
-      "tipo": "total"
-    },
-    {
-      "metrica": "Connection presencial ativos",
-      "valor": 73,
-      "tipo": "total"
-    },
-    {
-      "metrica": "Interactive online ativos",
-      "valor": 31,
-      "tipo": "total"
-    },
-    {
-      "metrica": "Connection online ativos",
-      "valor": 0,
-      "tipo": "total"
-    },
-    {
-      "metrica": "Nº de turmas CONN.",
-      "valor": 21,
-      "tipo": "total"
-    },
-    {
-      "metrica": "Nº de turmas INT.",
-      "valor": 74,
-      "tipo": "total"
-    },
-    {
-      "metrica": "média de alunos por turma interactive",
-      "valor": 12.51,
-      "tipo": "total"
-    },
-    {
-      "metrica": "Média de alunos por turma connection",
-      "valor": 6.95,
-      "tipo": "total"
-    }
-  ],
-  "metadata": {
-    "total_alunos": 282,
-    "total_turmas": 79,
-    "data_geracao": "2026-03-17T15:23:54.156Z"
-  }
+  ]
 }

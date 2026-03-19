@@ -1,0 +1,245 @@
+turma,sala,horario,teacher,dia,nivel,aluno,observacoes
+INT. 3,3,08:00,Giovanna,Segunda,T8 A,Gabriel Duarte Leite,JUL 27
+INT. 3,3,08:00,Giovanna,Quarta,T8 A,Gabriel Duarte Leite,JUL 27
+INT. 3,3,08:00,Giovanna,Segunda,W4 B,Danilo Rodrigues Correia,JUL 26
+INT. 3,3,08:00,Giovanna,Quarta,W4 B,Danilo Rodrigues Correia,JUL 26
+INT. 3,3,08:00,Giovanna,Segunda,T6 A,Anna Caroline Shirney de Campos,FEV 26
+INT. 3,3,08:00,Giovanna,Quarta,T6 A,Anna Caroline Shirney de Campos,FEV 26
+INT. 3,3,08:00,Giovanna,Segunda,T8 A,Lucas Nunes Fernandes,DEZ 26
+INT. 3,3,08:00,Giovanna,Quarta,T8 A,Lucas Nunes Fernandes,DEZ 26
+INT. 3,3,08:00,Giovanna,Segunda,T6 A,Anthony Silva Melo de Menezes Duarte,FEV 28
+INT. 3,3,08:00,Giovanna,Quarta,T6 A,Anthony Silva Melo de Menezes Duarte,FEV 28
+
+turma,sala,horario,teacher,dia,nivel,aluno,observacoes
+KIDS 1,–,14:00,Natalia,Segunda,K2 A,Ana Klara Sousa Carvalho,FEV 28
+KIDS 1,–,14:00,Natalia,Quarta,K2 A,Ana Klara Sousa Carvalho,FEV 28
+KIDS 1,–,14:00,Natalia,Segunda,K2 A,Alice Wilker Soares da Silva,JUL 26
+KIDS 1,–,14:00,Natalia,Quarta,K2 A,Alice Wilker Soares da Silva,JUL 26
+KIDS 1,–,14:00,Natalia,Segunda,K2 A,Lara Lopes Saraiva,DEZ 27
+KIDS 1,–,14:00,Natalia,Quarta,K2 A,Lara Lopes Saraiva,DEZ 27
+KIDS 1,–,14:00,Natalia,Segunda,NG A,Sofia Mol Camera Leite e Costa,DEZ 26
+KIDS 1,–,14:00,Natalia,Quarta,NG A,Sofia Mol Camera Leite e Costa,DEZ 26
+KIDS 1,–,14:00,Natalia,Segunda,NG A,João Gabriel Candido Diniz,
+KIDS 1,–,14:00,Natalia,Quarta,NG A,João Gabriel Candido Diniz,
+
+KIDS 2,–,14:00,Giovanna,Segunda,NG A,Julia Silva Rocha,FEV 26
+KIDS 2,–,14:00,Giovanna,Quarta,NG A,Julia Silva Rocha,FEV 26
+KIDS 2,–,14:00,Giovanna,Segunda,NG A,Camila Andrade Carneiro de Aguiar,FEV 27
+KIDS 2,–,14:00,Giovanna,Quarta,NG A,Camila Andrade Carneiro de Aguiar,FEV 27
+KIDS 2,–,14:00,Giovanna,Segunda,NG A,Arthur Landim do Carmo,AGO 27
+KIDS 2,–,14:00,Giovanna,Quarta,NG A,Arthur Landim do Carmo,AGO 27
+KIDS 2,–,14:00,Giovanna,Segunda,NG B,Pedro Henrique Sousa Lustosa,JUL 27
+KIDS 2,–,14:00,Giovanna,Quarta,NG B,Pedro Henrique Sousa Lustosa,JUL 27
+
+INT. 1,1,14:00,Beatriz,Segunda,T4 A,Sofia Rodrigues Marques Santana,DEZ 27
+INT. 1,1,14:00,Beatriz,Quarta,T4 A,Sofia Rodrigues Marques Santana,DEZ 27
+INT. 1,1,14:00,Beatriz,Segunda,T4 A,Raira Santos Silva,DEZ 26
+INT. 1,1,14:00,Beatriz,Quarta,T4 A,Raira Santos Silva,DEZ 26
+INT. 1,1,14:00,Beatriz,Segunda,T4 A,Vitor Wilker Soares da Silva,JUN 26
+INT. 1,1,14:00,Beatriz,Quarta,T4 A,Vitor Wilker Soares da Silva,JUN 26
+
+INT. 2,2,14:00,Flavia,Segunda,W6 A,Milena Freitas Soares,JUL 26
+INT. 2,2,14:00,Flavia,Quarta,W6 A,Milena Freitas Soares,JUL 26
+INT. 2,2,14:00,Flavia,Segunda,W10 A,Danilo Goncalves da Silva,DEZ 27
+INT. 2,2,14:00,Flavia,Quarta,W10 A,Danilo Goncalves da Silva,DEZ 27
+INT. 2,2,14:00,Flavia,Segunda,T8 B,Pietro de Souza Costa Vaz,AGO 26
+INT. 2,2,14:00,Flavia,Quarta,T8 B,Pietro de Souza Costa Vaz,AGO 26
+
+INT. 3,3,14:00,Giovana,Segunda,T4 B,Davy Calixto da Silva Andrade,FEV 27,SEG 14h/15h
+INT. 3,3,14:00,Giovana,Quarta,T6 B,Hiyoji de Castro Kawashima,JUL 27,QUA 14h/15h
+INT. 3,3,14:00,Giovana,Segunda,T6 A,Yasmim Rodrigues de Aguiar,ABR 26,SEG 14h
+INT. 3,3,14:00,Giovana,Quarta,T8 A,Maria Eduarda dos Santos Pereira,JAN 27,QUA 14h/15h
+
+turma,sala,horario,teacher,dia,nivel,aluno,observacoes
+KIDS 1,–,18:00,Ana Paula,Segunda,NG A,Joao Lucas Andrade Meneses,JAN 26
+KIDS 1,–,18:00,Ana Paula,Quarta,NG A,Joao Lucas Andrade Meneses,JAN 26
+KIDS 1,–,18:00,Ana Paula,Segunda,NG A,Maryane Pereira Nunes,DEZ 27
+KIDS 1,–,18:00,Ana Paula,Quarta,NG A,Maryane Pereira Nunes,DEZ 27
+KIDS 1,–,18:00,Ana Paula,Segunda,K4 B,Ester Farias Andrade,AGO 27
+KIDS 1,–,18:00,Ana Paula,Quarta,K4 B,Ester Farias Andrade,AGO 27
+KIDS 1,–,18:00,Ana Paula,Segunda,NG A,Vinicius Ribeiro Lopes Estrela Marra,FEV 27
+KIDS 1,–,18:00,Ana Paula,Quarta,NG A,Vinicius Ribeiro Lopes Estrela Marra,FEV 27
+
+INT. 1,1,18:00,Flavia,Segunda,T8 B,Davi Braga de Deus,JUN 26
+INT. 1,1,18:00,Flavia,Quarta,T8 B,Davi Braga de Deus,JUN 26
+INT. 1,1,18:00,Flavia,Segunda,T6 A,Arthur Pereira Pires,DEZ 26
+INT. 1,1,18:00,Flavia,Quarta,T6 A,Arthur Pereira Pires,DEZ 26
+INT. 1,1,18:00,Flavia,Segunda,W2 A,Leonardo da Costa Marinho,DEZ 27
+INT. 1,1,18:00,Flavia,Quarta,W2 A,Leonardo da Costa Marinho,DEZ 27
+INT. 1,1,18:00,Flavia,Segunda,W2 A,Camila Caroba de Souza,DEZ 26,SEG/QUA 18h/19h
+INT. 1,1,18:00,Flavia,Quarta,W2 A,Camila Caroba de Souza,DEZ 26,SEG/QUA 18h/19h
+
+ONLINE,–,18:00,Maycon,Segunda,W4 A,Isabelly Goulart Mourao,JAN 27
+ONLINE,–,18:00,Maycon,Quarta,W4 A,Isabelly Goulart Mourao,JAN 27
+ONLINE,–,18:00,Maycon,Segunda,W12 B,Arthur Duarte Leite,ABR 26
+ONLINE,–,18:00,Maycon,Quarta,W12 B,Arthur Duarte Leite,ABR 26
+
+INT. 1,1,19:00,Flavia,Quarta,W6 B,Vinicius da Costa Marinho,JUL 26
+INT. 1,1,19:00,Flavia,Quarta,W12 A,Rafaela de Araujo Caldas,DEZ 26
+INT. 1,1,19:00,Flavia,Quarta,W8 A,Maria Laura Azevedo Silva,JUL 27
+INT. 1,1,19:00,Flavia,Quarta,T4 B,Fabricio Calazans Nunes,DEZ 26
+INT. 1,1,19:00,Flavia,Quarta,W10 A,Isadora Duarte dos Santos,DEZ 27
+INT. 1,1,19:00,Flavia,Quarta,T2 B,Luiz Paulo Pereira Ribeiro,MAR 27
+
+INT. 2,2,19:00,Maycon,Segunda,W2 A,Marisa Alencar Silva de Sousa,JUN 27
+INT. 2,2,19:00,Maycon,Quarta,W2 A,Marisa Alencar Silva de Sousa,JUN 27
+INT. 2,2,19:00,Maycon,Segunda,W2 A,Maria Cecilia Dias de Barros,DEZ 27
+INT. 2,2,19:00,Maycon,Quarta,W2 A,Maria Cecilia Dias de Barros,DEZ 27
+INT. 2,2,19:00,Maycon,Segunda,W2 A,Maria Clara Dias de Barros,DEZ 27
+INT. 2,2,19:00,Maycon,Quarta,W2 A,Maria Clara Dias de Barros,DEZ 27
+
+turma,sala,horario,teacher,dia,nivel,aluno,observacoes
+INT. 1,1,08:00,Giovanna,Terça,W4 B,Marcia Sousa Dias,FEV 26
+INT. 1,1,08:00,Giovanna,Quinta,W4 B,Marcia Sousa Dias,FEV 26
+INT. 1,1,08:00,Giovanna,Terça,W2 A,Vagne Celio Vasconcelos de Souza,DEZ 26
+INT. 1,1,08:00,Giovanna,Quinta,W2 A,Vagne Celio Vasconcelos de Souza,DEZ 26
+INT. 1,1,08:00,Giovanna,Terça,T2 B,Gabriela Benjamine Almeida Colim,JUN 27
+INT. 1,1,08:00,Giovanna,Quinta,T2 B,Gabriela Benjamine Almeida Colim,JUN 27
+INT. 1,1,08:00,Giovanna,Terça,W6 B,Kelly Cristina Santiago Abreu Pereira,
+INT. 1,1,08:00,Giovanna,Quinta,W6 B,Kelly Cristina Santiago Abreu Pereira,
+INT. 1,1,08:00,Giovanna,Terça,W12 A,Joao Filipe de Abreu Santos,FEV 27
+INT. 1,1,08:00,Giovanna,Quinta,W12 A,Joao Filipe de Abreu Santos,FEV 27
+
+LK 4 A,–,09:00,Giovana,Terça,LK 4 A,Flavia de Oliveira Nunes Carvalho,DEZ 27
+LK 4 A,–,09:00,Giovana,Quinta,LK 4 A,Flavia de Oliveira Nunes Carvalho,DEZ 27
+LK 4 A,–,09:00,Giovana,Terça,LK 4 A,Maria Luisa de Jesus Barbosa,DEZ 26
+LK 4 A,–,09:00,Giovana,Quinta,LK 4 A,Maria Luisa de Jesus Barbosa,DEZ 26
+LK 4 A,–,09:00,Giovana,Terça,LK 4 A,Joao Miguel Santana de Araujo,DEZ 26
+LK 4 A,–,09:00,Giovana,Quinta,LK 4 A,Joao Miguel Santana de Araujo,DEZ 26
+
+KIDS 1,–,09:00,Natalia,Terça,NG B,Helena Gomes Texeira Dias,JUL 27
+KIDS 1,–,09:00,Natalia,Quinta,NG B,Helena Gomes Texeira Dias,JUL 27
+KIDS 1,–,09:00,Natalia,Terça,NG B,Sophie Lamounier Aguiar,DEZ 26
+KIDS 1,–,09:00,Natalia,Quinta,NG B,Sophie Lamounier Aguiar,DEZ 26
+KIDS 1,–,09:00,Natalia,Terça,K4 A,Lucas Peixoto Lopes,DEZ 26
+KIDS 1,–,09:00,Natalia,Quinta,K4 A,Lucas Peixoto Lopes,DEZ 26
+KIDS 1,–,09:00,Natalia,Terça,K2 B,Davi Oliveira Lira,ABR 26
+KIDS 1,–,09:00,Natalia,Quinta,K2 B,Davi Oliveira Lira,ABR 26
+
+INT. 1,1,09:00,Giovanna,Terça,T6 A,Lucas Hernandes Moreira Soares,DEZ 26
+INT. 1,1,09:00,Giovanna,Quinta,T6 A,Lucas Hernandes Moreira Soares,DEZ 26
+INT. 1,1,09:00,Giovanna,Terça,W4 B,Davi dos Santos Silva,MAR 25/26
+INT. 1,1,09:00,Giovanna,Quinta,W4 B,Davi dos Santos Silva,MAR 25/26
+INT. 1,1,09:00,Giovanna,Terça,W12 B,Kaio Vinicius Caetano de Almeida,JUL 26
+INT. 1,1,09:00,Giovanna,Quinta,W12 B,Kaio Vinicius Caetano de Almeida,JUL 26
+
+turma,sala,horario,teacher,dia,nivel,aluno,observacoes
+KIDS 1,–,14:00,Ana Paula,Terça,NG B,Yasmin Bezerra Pontes,DEZ 26,ATRASADA P/ T2
+KIDS 1,–,14:00,Ana Paula,Quinta,NG B,Yasmin Bezerra Pontes,DEZ 26,ATRASADA P/ T2
+KIDS 1,–,14:00,Ana Paula,Terça,NG A,Heitor Dantas Tavares de Sousa,DEZ 27
+KIDS 1,–,14:00,Ana Paula,Quinta,NG A,Heitor Dantas Tavares de Sousa,DEZ 27
+KIDS 1,–,14:00,Ana Paula,Terça,K4 A,Vicente Silva Dias,JUL 27
+KIDS 1,–,14:00,Ana Paula,Quinta,K4 A,Vicente Silva Dias,JUL 27
+KIDS 1,–,14:00,Ana Paula,Terça,K4 A,Elisa Cerqueira Ferreira,SET 27
+KIDS 1,–,14:00,Ana Paula,Quinta,K4 A,Elisa Cerqueira Ferreira,SET 27
+
+INT. 1,1,14:00,Flavia,Terça,W10 B,Raphael Henrique Martins Eler,JUN 26
+INT. 1,1,14:00,Flavia,Quinta,W10 B,Raphael Henrique Martins Eler,JUN 26
+INT. 1,1,14:00,Flavia,Terça,T8 A,Anita Nobre Quirino,JAN 27
+INT. 1,1,14:00,Flavia,Quinta,T8 A,Anita Nobre Quirino,JAN 27
+INT. 1,1,14:00,Flavia,Terça,T8 A,Giovana Nobre Quirino,JAN 27
+INT. 1,1,14:00,Flavia,Quinta,T8 A,Giovana Nobre Quirino,JAN 27
+INT. 1,1,14:00,Flavia,Terça,T8 B,Daniela Bastos Moreira Guimaraes,JUN 26
+INT. 1,1,14:00,Flavia,Quinta,T8 B,Daniela Bastos Moreira Guimaraes,JUN 26
+
+INT. 2,2,14:00,Natalia,Terça,W6 A,Sara Hermida Cardoso,DEZ 26
+INT. 2,2,14:00,Natalia,Quinta,W6 A,Sara Hermida Cardoso,DEZ 26
+INT. 2,2,14:00,Natalia,Terça,W4 B,Leticia Sales Vieira,MAR 25/26
+INT. 2,2,14:00,Natalia,Quinta,W4 B,Leticia Sales Vieira,MAR 25/26
+INT. 2,2,14:00,Natalia,Terça,W6 A,Mariana Carvalho Borges,FEV 28
+INT. 2,2,14:00,Natalia,Quinta,W6 A,Mariana Carvalho Borges,FEV 28
+
+INT. 3,3,14:00,Beatriz,Terça,T2 B,Benicio Luiz Azevedo de Oliveira,MAI 27
+INT. 3,3,14:00,Beatriz,Quinta,T2 B,Benicio Luiz Azevedo de Oliveira,MAI 27
+INT. 3,3,14:00,Beatriz,Terça,T2 B,Caua Rodrigues de Araujo Boitrago,SET 26
+INT. 3,3,14:00,Beatriz,Quinta,T2 B,Caua Rodrigues de Araujo Boitrago,SET 26
+INT. 3,3,14:00,Beatriz,Terça,T2 A,Bianca Santiago Pereira,DEZ 26
+INT. 3,3,14:00,Beatriz,Quinta,T2 A,Bianca Santiago Pereira,DEZ 26
+
+
+turma,sala,horario,teacher,dia,nivel,aluno,observacoes
+KIDS 1,–,18:00,Ana Paula,Terça,NG A,Sofia Santana das Chagas,JAN 28
+KIDS 1,–,18:00,Ana Paula,Quinta,NG A,Sofia Santana das Chagas,JAN 28
+KIDS 1,–,18:00,Ana Paula,Terça,K4 B,Ester da Costa Salgado,MAI 26
+KIDS 1,–,18:00,Ana Paula,Quinta,K4 B,Ester da Costa Salgado,MAI 26
+KIDS 1,–,18:00,Ana Paula,Terça,NG A,Avash Tahmasebi,JUL 27
+KIDS 1,–,18:00,Ana Paula,Quinta,NG A,Avash Tahmasebi,JUL 27
+KIDS 1,–,18:00,Ana Paula,Terça,NG A,Valentina Rodrigues de Jesus,DEZ 26
+KIDS 1,–,18:00,Ana Paula,Quinta,NG A,Valentina Rodrigues de Jesus,DEZ 26
+
+INT. 1,1,18:00,Flavia,Terça,T8 A,Davi Jesus Carvalho Ventura,DEZ 26
+INT. 1,1,18:00,Flavia,Quinta,T8 A,Davi Jesus Carvalho Ventura,DEZ 26
+INT. 1,1,18:00,Flavia,Terça,W10 A,Gustavo Rocha da Silva,JAN 27
+INT. 1,1,18:00,Flavia,Quinta,W10 A,Gustavo Rocha da Silva,JAN 27
+INT. 1,1,18:00,Flavia,Terça,W2 A,Roberthy Danyel Veras de Sousa Silva,
+INT. 1,1,18:00,Flavia,Quinta,W2 A,Roberthy Danyel Veras de Sousa Silva,
+
+INT. 3,3,18:00,Maycon,Terça,T6 A,Miguel Augusto Lopes Carnicelli,MAR 26
+INT. 3,3,18:00,Maycon,Quinta,T6 A,Miguel Augusto Lopes Carnicelli,MAR 26
+INT. 3,3,18:00,Maycon,Terça,W8 B,Erivelton Bastos Costa,JUL 27
+INT. 3,3,18:00,Maycon,Quinta,W8 B,Erivelton Bastos Costa,JUL 27
+INT. 3,3,18:00,Maycon,Terça,W6 A,Gracia Madalena Baldez Lima,DEZ 27
+INT. 3,3,18:00,Maycon,Quinta,W6 A,Gracia Madalena Baldez Lima,DEZ 27
+
+INT. 1,1,19:00,Maycon,Terça,T8 A,Sara Cristina Santos Santana,MAR 26
+INT. 1,1,19:00,Maycon,Quinta,T8 A,Sara Cristina Santos Santana,MAR 26
+INT. 1,1,19:00,Maycon,Terça,W4 B,Maria Gabriela Cabral Brasil,FEV 26
+INT. 1,1,19:00,Maycon,Quinta,W4 B,Maria Gabriela Cabral Brasil,FEV 26
+INT. 1,1,19:00,Maycon,Terça,W2 A,Glaucia Regina Silva Vieira,JAN 28
+INT. 1,1,19:00,Maycon,Quinta,W2 A,Glaucia Regina Silva Vieira,JAN 28
+
+
+turma,sala,horario,teacher,dia,nivel,aluno,observacoes
+ITALIANO 6,–,08:00,Carlos,Sábado,I6 B,Joao Eduardo Marques Tochetto,MAR 26
+ITALIANO 6,–,08:00,Carlos,Sábado,I6 B,Leticia Cardoso Morales,MAR 26
+
+KIDS 1,–,08:00,Giovanna,Sábado,K2 A,Maria Luiza Tenorio de Araujo,DEZ 27
+KIDS 1,–,08:00,Giovanna,Sábado,K2 A,Samara de Oliveira Rodrigues,DEZ 26
+KIDS 1,–,08:00,Giovanna,Sábado,K2 A,Milena Fornaziero Novaes,DEZ 27
+KIDS 1,–,08:00,Giovanna,Sábado,K4 A,Enzo Cardoso Ruwer,DEZ 27
+KIDS 1,–,08:00,Giovanna,Sábado,K4 A,Dandara Calazans Pereira,JAN 28
+KIDS 1,–,08:00,Giovanna,Sábado,T2 A,Ana Carolina Alves de Camargos Sena,DEZ 26
+
+KIDS 2,–,08:00,Natalia,Sábado,K4 B,Samuel Lourenco Souza Couto,AGO 27
+KIDS 2,–,08:00,Natalia,Sábado,NG A,Laura Rocha Amaral,DEZ 27
+KIDS 2,–,08:00,Natalia,Sábado,K4 A,Felipe Augusto Freita Souza,DEZ 26
+KIDS 2,–,08:00,Natalia,Sábado,K4 A,Matheus Silva Maciel,
+KIDS 2,–,08:00,Natalia,Sábado,K2 A,Ana Catarina Souza Maia,FEV 27
+KIDS 2,–,08:00,Natalia,Sábado,K2 A,Giovanna Fontenele Botelho,DEZ 26
+
+LK 2 B,–,08:00,Giovana,Sábado,LK 2 B,Theo Mendes Fonseca,JUN 27
+LK 2 B,–,08:00,Giovana,Sábado,LK 2 B,Manuela Neves Queiroz,JUL 26
+
+TOTS 2 A,–,08:00,Ana Paula,Sábado,TOTS 2 A,Clarice Leandro de Faria,ABR 26
+TOTS 2 A,–,08:00,Ana Paula,Sábado,TOTS 2 A,Elizabeth Pessoa Rezende,ABR 26
+TOTS 2 A,–,08:00,Ana Paula,Sábado,TOTS 2 A,Catarina Leite Costa Marsaro dos Santos,JUN 26
+TOTS 2 A,–,08:00,Ana Paula,Sábado,TOTS 2 A,Jade Militao Marino,DEZ 26
+TOTS 2 A,–,08:00,Ana Paula,Sábado,TOTS 2 A,Joao Miguel Gomes Vieira,JUN 26
+
+INT. 1,1,08:00,Flavia,Sábado,W10 A,Joao Gabriel Souza de Paula,SET 26
+INT. 1,1,08:00,Flavia,Sábado,W10 B,Bianca Silvino Silva,JUN 26
+INT. 1,1,08:00,Flavia,Sábado,T8 A,Pyetra da Silva Lima,JUL 26
+INT. 1,1,08:00,Flavia,Sábado,W12 A,Julia Maria de Moura Veras,JUN 26
+INT. 1,1,08:00,Flavia,Sábado,W10 B,Vitoria Beatriz Silvino Silva,JUN 26
+INT. 1,1,08:00,Flavia,Sábado,W6 A,Leticia Mayumi Yamaguti Mourao,DEZ 26
+
+
+turma,sala,horario,teacher,dia,nivel,aluno,observacoes
+INT. 1,1,14:00,Maycon,Sábado,W4 B,Matheus Augusto de Freitas,JUN 26
+INT. 1,1,14:00,Maycon,Sábado,W12 A,Ana Luisa Gomes da Rocha,OUT 26
+INT. 1,1,14:00,Maycon,Sábado,W4 B,Eduardo Araujo Soares,JUL 27
+INT. 1,1,14:00,Maycon,Sábado,T8 B,Leonardo Lira Lopes,MAR 27
+INT. 1,1,14:00,Maycon,Sábado,T8 A,Renato Ferreira Batista,AGO 26
+INT. 1,1,14:00,Maycon,Sábado,W6 A,Giovani Fernandes Pavezzi,DEZ 26
+INT. 1,1,14:00,Maycon,Sábado,T2 B,Alana Cruz Pereira,MAR 26
+INT. 1,1,14:00,Maycon,Sábado,T2 B,Alice Conceicao de Goes,FEV 26
+INT. 1,1,14:00,Maycon,Sábado,T2 B,Ana Clara Rodrigues da Silva,MAR 26
+INT. 1,1,14:00,Maycon,Sábado,W4 A,Ester Ramos Teodoro,DEZ 26,ONLINE
+
+FRANCES 2,–,10:00,Carlos,Sábado,F2 B,Ramon Carvalho Mauricio Filho,MAR 26
+FRANCES 2,–,10:00,Carlos,Sábado,F2 B,Matheus Henrique Faria e Cruz,MAR 26
+FRANCES 2,–,10:00,Carlos,Sábado,F2 B,Yan Menezes Oliveira,ABR 26
+FRANCES 2,–,10:00,Carlos,Sábado,F2 B,Lucas Carvalho de Aquino,ABR 26
+FRANCES 2,–,10:00,Carlos,Sábado,F2 B,Jose Wilson de Menezes,MAI 26
+FRANCES 2,–,10:00,Carlos,Sábado,F2 B,Daniel Cruz de Carvalho,JUN 26
+FRANCES 2,–,10:00,Carlos,Sábado,F2 B,Edislania Cristina Melo,JUN 26
