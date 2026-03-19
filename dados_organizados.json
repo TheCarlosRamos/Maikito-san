@@ -40,9 +40,11 @@
         "aluno - observacoes",
         "aluno - observacoes",
         "aluno - observacoes",
+        "aluno - observacoes",
+        "aluno - observacoes",
         "aluno - observacoes"
       ],
-      "quantidade_alunos": 7
+      "quantidade_alunos": 9
     },
     {
       "professor": "NATALIA",
@@ -704,6 +706,18 @@
         "Jhulia Beatriz Cabral de Castro - DEZ 27"
       ],
       "quantidade_alunos": 9
+    },
+    {
+      "professor": "CARLOS",
+      "horario": "19:00",
+      "dia": "SEGUNDA",
+      "turma": "FRANCES 4",
+      "alunos": [
+        "Adna de Oliveira Queiroz - JUN 26",
+        "Millena Queiroz de Assis - JUN 26",
+        "Luisa Neves Domingues - JUL 27"
+      ],
+      "quantidade_alunos": 3
     }
   ]
 }
