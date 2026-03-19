@@ -98,8 +98,8 @@ class Dashboard {
     getDiasUnicos() {
         const horarios = this.dadosOrganizados?.horarios || [];
         const diasSet = new Set(horarios.map(h => h.dia));
-        // Ordenar dias da semana
-        return this.diasOrdenados.filter(dia => diasSet.has(dia));
+        // Filtrar apenas dias válidos e ordenar
+        return this.diasOrdenados.filter(dia => diasSet.has(dia) && dia !== 'DIA');
     }
 
     getQuantidadeTurmasPorDia(dia) {
@@ -114,7 +114,7 @@ class Dashboard {
             'TERÇA': 'fa-calendar-check',
             'QUARTA': 'fa-calendar-alt',
             'QUINTA': 'fa-calendar-week',
-            'SEXTA': 'fa-calendar-star',
+            'SEXTA': 'fa-calendar-day', // Corrigido para um ícone válido
             'SÁBADO': 'fa-calendar-plus'
         };
         return icones[dia] || 'fa-calendar';

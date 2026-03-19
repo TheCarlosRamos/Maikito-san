@@ -31,10 +31,15 @@ def csv_para_json(caminho_csv='tabelas/01.csv', caminho_json='dados_organizados.
         agrupado = defaultdict(list)
         
         for _, row in df.iterrows():
+            # Normalizar o dia para maiúsculas e tratar valores inválidos
+            dia_raw = row['dia'] if pd.notna(row['dia']) else ''
+            if dia_raw.lower() == 'dia':
+                continue  # Pular linhas com 'dia' inválido
+            
             chave = (
                 row['teacher'].upper() if pd.notna(row['teacher']) else '', 
                 row['horario'] if pd.notna(row['horario']) else '',
-                row['dia'].upper() if pd.notna(row['dia']) else '',
+                dia_raw.upper(),  # Converter para maiúsculas
                 row['turma'] if pd.notna(row['turma']) else ''
             )
             

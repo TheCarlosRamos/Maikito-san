@@ -29,24 +29,6 @@
       "quantidade_alunos": 5
     },
     {
-      "professor": "TEACHER",
-      "horario": "horario",
-      "dia": "DIA",
-      "turma": "turma",
-      "alunos": [
-        "aluno - observacoes",
-        "aluno - observacoes",
-        "aluno - observacoes",
-        "aluno - observacoes",
-        "aluno - observacoes",
-        "aluno - observacoes",
-        "aluno - observacoes",
-        "aluno - observacoes",
-        "aluno - observacoes"
-      ],
-      "quantidade_alunos": 9
-    },
-    {
       "professor": "NATALIA",
       "horario": "14:00",
       "dia": "SEGUNDA",
