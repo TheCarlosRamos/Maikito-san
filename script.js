@@ -61,6 +61,20 @@ class Dashboard {
         const navItems = document.getElementById('navItems');
         navItems.innerHTML = '';
 
+        // Adicionar item de Reposição com link direto
+        const reposicaoItem = document.createElement('div');
+        reposicaoItem.className = 'nav-item';
+        reposicaoItem.innerHTML = '<i class="fas fa-calendar-check"></i>Agendamento de Reposição';
+        reposicaoItem.onclick = () => {
+            window.location.href = 'reposicao.html';
+        };
+        navItems.appendChild(reposicaoItem);
+        
+        // Adicionar separador
+        const separator = document.createElement('div');
+        separator.style.cssText = 'height: 1px; background: rgba(255,255,255,0.1); margin: 0.5rem 0;';
+        navItems.appendChild(separator);
+
         // Mostrar todos os dias da semana (mesmo que não tenham aulas)
         const diasSemana = ['SEGUNDA', 'TERÇA', 'QUARTA', 'QUINTA', 'SEXTA', 'SÁBADO'];
         
@@ -192,7 +206,8 @@ class Dashboard {
     getNavIcon(sheetName) {
         const icons = {
             'Horários': '<i class="fas fa-calendar-alt"></i>',
-            'Pef': '<i class="fas fa-chart-bar"></i>'
+            'Pef': '<i class="fas fa-chart-bar"></i>',
+            'Reposição': '<i class="fas fa-calendar-check"></i>'
         };
         return icons[sheetName] || '<i class="fas fa-file-alt"></i>';
     }
@@ -221,9 +236,21 @@ class Dashboard {
         const modal = document.getElementById('detailModal');
         const modalClose = document.getElementById('modalClose');
         
-        modalClose.addEventListener('click', () => this.closeModal());
+        if (!modal || !modalClose) {
+            console.warn('Modal elements not found');
+            return;
+        }
+        
+        modalClose.addEventListener('click', (e) => {
+            e.preventDefault();
+            e.stopPropagation();
+            this.closeModal();
+        });
+        
         modal.addEventListener('click', (e) => {
-            if (e.target === modal) this.closeModal();
+            if (e.target === modal) {
+                this.closeModal();
+            }
         });
         
         document.addEventListener('keydown', (e) => {
@@ -246,8 +273,13 @@ class Dashboard {
 
     closeModal() {
         const modal = document.getElementById('detailModal');
-        modal.classList.remove('active');
-        document.body.style.overflow = '';
+        if (modal) {
+            modal.classList.remove('active');
+            document.body.style.overflow = '';
+            console.log('Modal fechado');
+        } else {
+            console.warn('Modal element not found');
+        }
     }
 
     loadInitialData() {
@@ -807,4 +839,11 @@ class Dashboard {
 
 document.addEventListener('DOMContentLoaded', () => {
     window.dashboard = new Dashboard();
+    
+    // Função global para fechar modal (usada nos botões dentro do modal)
+    window.closeModal = () => {
+        if (window.dashboard) {
+            window.dashboard.closeModal();
+        }
+    };
 });

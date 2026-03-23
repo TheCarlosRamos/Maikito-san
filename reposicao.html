@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Agendamento de Reposição</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" rel="stylesheet">
+</head>
+<body>
+    <header class="header">
+        <div class="header-content">
+            <div class="header-nav">
+                <a href="index.html" class="back-btn">
+                    <i class="fas fa-arrow-left"></i>
+                    <span>Voltar ao Dashboard</span>
+                </a>
+                <h1><i class="fas fa-calendar-check"></i> Agendamento de Reposição</h1>
+            </div>
+            <div class="search-container">
+                <i class="fas fa-search"></i>
+                <input id="searchBox" placeholder="Buscar aluno..." type="text">
+            </div>
+        </div>
+    </header>
+
+    <main class="main-content">
+        <div class="reposicao-container">
+            <!-- Formulário de Agendamento -->
+            <section class="form-section">
+                <div class="form-card">
+                    <h2><i class="fas fa-user-plus"></i> Novo Agendamento</h2>
+                    
+                    <form id="reposicaoForm" class="reposicao-form">
+                        <!-- Seleção de Aluno -->
+                        <div class="form-group">
+                            <label for="alunoInput">
+                                <i class="fas fa-user-graduate"></i>
+                                Aluno
+                            </label>
+                            <div class="autocomplete-container">
+                                <input type="text" id="alunoInput" placeholder="Digite o nome do aluno..." autocomplete="off">
+                                <div id="alunoSuggestions" class="suggestions-dropdown"></div>
+                                <input type="hidden" id="alunoSelect" required>
+                            </div>
+                        </div>
+
+                        <!-- Informações do Aluno (preenchidas automaticamente) -->
+                        <div id="alunoInfo" class="aluno-info hidden">
+                            <div class="info-card">
+                                <h3>Informações do Aluno</h3>
+                                <div class="info-grid">
+                                    <div class="info-item">
+                                        <span class="label">Turma Atual:</span>
+                                        <span id="alunoTurma" class="value">-</span>
+                                    </div>
+                                    <div class="info-item">
+                                        <span class="label">Professor:</span>
+                                        <span id="alunoProfessor" class="value">-</span>
+                                    </div>
+                                    <div class="info-item">
+                                        <span class="label">Status:</span>
+                                        <span id="alunoStatus" class="value status-badge">Ativo</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Data da Reposição -->
+                        <div class="form-group">
+                            <label for="dataReposicao">
+                                <i class="fas fa-calendar"></i>
+                                Data da Reposição
+                            </label>
+                            <input type="date" id="dataReposicao" required>
+                        </div>
+
+                        <!-- Horário da Reposição -->
+                        <div class="form-group">
+                            <label for="horarioSelect">
+                                <i class="fas fa-clock"></i>
+                                Horário
+                            </label>
+                            <div class="select-wrapper">
+                                <select id="horarioSelect" required>
+                                    <option value="">Selecione um horário...</option>
+                                </select>
+                                <i class="fas fa-chevron-down"></i>
+                            </div>
+                        </div>
+
+                        <!-- Seleção de Turma para Reposição -->
+                        <div class="form-group">
+                            <label for="turmaSelect">
+                                <i class="fas fa-chalkboard"></i>
+                                Turma para Reposição
+                            </label>
+                            <div class="select-wrapper">
+                                <select id="turmaSelect" required>
+                                    <option value="">Selecione uma turma...</option>
+                                </select>
+                                <i class="fas fa-chevron-down"></i>
+                            </div>
+                        </div>
+
+                        <!-- Informações da Turma (preenchidas automaticamente) -->
+                        <div id="turmaInfo" class="turma-info hidden">
+                            <div class="info-card">
+                                <h3>Informações da Turma</h3>
+                                <div class="info-grid">
+                                    <div class="info-item">
+                                        <span class="label">Professor:</span>
+                                        <span id="turmaProfessor" class="value">-</span>
+                                    </div>
+                                    <div class="info-item">
+                                        <span class="label">Dia da Semana:</span>
+                                        <span id="turmaDia" class="value">-</span>
+                                    </div>
+                                    <div class="info-item">
+                                        <span class="label">Nível:</span>
+                                        <span id="turmaNivel" class="value">-</span>
+                                    </div>
+                                    <div class="info-item">
+                                        <span class="label">Alunos na Turma:</span>
+                                        <span id="turmaAlunos" class="value">-</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Motivo da Reposição -->
+                        <div class="form-group">
+                            <label for="motivoReposicao">
+                                <i class="fas fa-comment-alt"></i>
+                                Motivo da Reposição
+                            </label>
+                            <textarea id="motivoReposicao" rows="3" placeholder="Descreva o motivo da reposição (falta, aula cancelada, etc.)"></textarea>
+                        </div>
+
+                        <!-- Botões de Ação -->
+                        <div class="form-actions">
+                            <button type="button" class="btn btn-secondary" onclick="limparFormulario()">
+                                <i class="fas fa-times"></i>
+                                Limpar
+                            </button>
+                            <button type="submit" class="btn btn-primary">
+                                <i class="fas fa-check"></i>
+                                Agendar Reposição
+                            </button>
+                        </div>
+                    </form>
+                </div>
+            </section>
+
+            <!-- Lista de Agendamentos -->
+            <section class="agendamentos-section">
+                <div class="section-header">
+                    <h2><i class="fas fa-list"></i> Agendamentos Realizados</h2>
+                    <div class="header-actions">
+                        <div class="filter-controls">
+                            <input type="date" id="filterData" class="filter-input">
+                            <select id="filterStatus" class="filter-input">
+                                <option value="">Todos os status</option>
+                                <option value="pendente">Pendente</option>
+                                <option value="confirmado">Confirmado</option>
+                                <option value="realizado">Realizado</option>
+                                <option value="cancelado">Cancelado</option>
+                            </select>
+                        </div>
+                        <button class="btn-primary" onclick="sistemaReposicao.exportarTodosParaPDF()" title="Exportar todos para PDF">
+                            <i class="fas fa-file-pdf"></i> Exportar Tudo
+                        </button>
+                    </div>
+                </div>
+                
+                <div class="agendamentos-list" id="agendamentosList">
+                    <!-- Agendamentos serão inseridos aqui dinamicamente -->
+                </div>
+            </section>
+        </div>
+    </main>
+
+    <!-- Modal de Confirmação -->
+    <div id="confirmModal" class="modal hidden">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h3><i class="fas fa-check-circle"></i> Confirmar Agendamento</h3>
+                <button class="modal-close" onclick="closeModal()">
+                    <i class="fas fa-times"></i>
+                </button>
+            </div>
+            <div class="modal-body">
+                <div class="confirmation-details">
+                    <h4>Resumo do Agendamento:</h4>
+                    <div id="confirmDetails"></div>
+                </div>
+            </div>
+            <div class="modal-footer">
+                <button class="btn btn-secondary" onclick="closeModal()">Cancelar</button>
+                <button class="btn btn-primary" onclick="confirmarAgendamento()">
+                    <i class="fas fa-check"></i> Confirmar
+                </button>
+            </div>
+        </div>
+    </div>
+
+    <!-- Toast de Notificação -->
+    <div id="toast" class="toast hidden">
+        <div class="toast-content">
+            <i class="fas fa-check-circle"></i>
+            <span id="toastMessage"></span>
+        </div>
+    </div>
+
+    <script src="reposicao.js"></script>
+</body>
+</html>
