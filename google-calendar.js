@@ -16,12 +16,11 @@ class GoogleCalendarService {
             `📋 AGENDAMENTO DE REPOSIÇÃO\n\n` +
             `👤 Aluno: ${agendamento.aluno}\n` +
             `📚 Turma: ${agendamento.turma}\n` +
-            `👨‍🏫 Professor: ${agendamento.professor}\n` +
+            `👨‍🏫 Professor(a): ${agendamento.professor}\n` +
             `📧 E-mail: ${agendamento.email}\n` +
             `💭 Motivo: ${agendamento.motivo}\n` +
-            `📊 Status: ${agendamento.status}\n\n` +
             `⏰ Este é um lembrete automático da reposição agendada.\n` +
-            `📍 Maikito-san Centro de Idiomas`
+            `📍 Maikito-san`
         );
 
         const googleCalendarUrl = `https://calendar.google.com/calendar/render?action=TEMPLATE` +
