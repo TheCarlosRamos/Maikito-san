@@ -32,37 +32,55 @@
                     <h2><i class="fas fa-user-plus"></i> Novo Agendamento</h2>
                     
                     <form id="reposicaoForm" class="reposicao-form">
-                        <!-- Seleção de Aluno -->
-                        <div class="form-group">
-                            <label for="alunoInput">
-                                <i class="fas fa-user-graduate"></i>
-                                Aluno
-                            </label>
-                            <div class="autocomplete-container">
-                                <input type="text" id="alunoInput" placeholder="Digite o nome do aluno..." autocomplete="off">
-                                <div id="alunoSuggestions" class="suggestions-dropdown"></div>
-                                <input type="hidden" id="alunoSelect" required>
+                        <div class="form-row">
+                            <div class="form-group">
+                                <label for="alunoNome">
+                                    <i class="fas fa-user"></i> Nome do Aluno
+                                </label>
+                                <input 
+                                    type="text" 
+                                    id="alunoNome" 
+                                    placeholder="Digite o nome do aluno..."
+                                    required
+                                >
+                            </div>
+                            
+                            <div class="form-group">
+                                <label for="alunoTurma">
+                                    <i class="fas fa-users"></i> Turma
+                                </label>
+                                <input 
+                                    type="text" 
+                                    id="alunoTurma" 
+                                    placeholder="Digite a turma..."
+                                    required
+                                >
                             </div>
                         </div>
 
-                        <!-- Informações do Aluno (preenchidas automaticamente) -->
-                        <div id="alunoInfo" class="aluno-info hidden">
-                            <div class="info-card">
-                                <h3>Informações do Aluno</h3>
-                                <div class="info-grid">
-                                    <div class="info-item">
-                                        <span class="label">Turma Atual:</span>
-                                        <span id="alunoTurma" class="value">-</span>
-                                    </div>
-                                    <div class="info-item">
-                                        <span class="label">Professor:</span>
-                                        <span id="alunoProfessor" class="value">-</span>
-                                    </div>
-                                    <div class="info-item">
-                                        <span class="label">Status:</span>
-                                        <span id="alunoStatus" class="value status-badge">Ativo</span>
-                                    </div>
-                                </div>
+                        <div class="form-row">
+                            <div class="form-group">
+                                <label for="alunoProfessor">
+                                    <i class="fas fa-chalkboard-teacher"></i> Professor
+                                </label>
+                                <input 
+                                    type="text" 
+                                    id="alunoProfessor" 
+                                    placeholder="Digite o nome do professor..."
+                                    required
+                                >
+                            </div>
+
+                            <div class="form-group">
+                                <label for="alunoEmail">
+                                    <i class="fas fa-envelope"></i> E-mail
+                                </label>
+                                <input 
+                                    type="email" 
+                                    id="alunoEmail" 
+                                    placeholder="email@exemplo.com"
+                                    required
+                                >
                             </div>
                         </div>
 
@@ -75,66 +93,68 @@
                             <input type="date" id="dataReposicao" required>
                         </div>
 
-                        <!-- Horário da Reposição -->
-                        <div class="form-group">
-                            <label for="horarioSelect">
-                                <i class="fas fa-clock"></i>
-                                Horário
-                            </label>
-                            <div class="select-wrapper">
-                                <select id="horarioSelect" required>
-                                    <option value="">Selecione um horário...</option>
-                                </select>
-                                <i class="fas fa-chevron-down"></i>
+                        <div class="form-row">
+                            <div class="form-group">
+                                <label for="motivoReposicao">
+                                    <i class="fas fa-comment"></i> Motivo
+                                </label>
+                                <textarea 
+                                    id="motivoReposicao" 
+                                    placeholder="Descreva o motivo da reposição..."
+                                    rows="3"
+                                    required
+                                ></textarea>
                             </div>
                         </div>
 
-                        <!-- Seleção de Turma para Reposição -->
-                        <div class="form-group">
-                            <label for="turmaSelect">
-                                <i class="fas fa-chalkboard"></i>
-                                Turma para Reposição
-                            </label>
-                            <div class="select-wrapper">
-                                <select id="turmaSelect" required>
-                                    <option value="">Selecione uma turma...</option>
-                                </select>
-                                <i class="fas fa-chevron-down"></i>
+                        <div class="form-row">
+                            <div class="form-group">
+                                <label for="alunoTurma">
+                                    <i class="fas fa-users"></i> Turma
+                                </label>
+                                <input 
+                                    type="text" 
+                                    id="alunoTurma" 
+                                    value="Reposição Geral"
+                                    readonly
+                                    style="background: #f8f9fa; cursor: default;"
+                                >
                             </div>
-                        </div>
 
-                        <!-- Informações da Turma (preenchidas automaticamente) -->
-                        <div id="turmaInfo" class="turma-info hidden">
-                            <div class="info-card">
-                                <h3>Informações da Turma</h3>
-                                <div class="info-grid">
-                                    <div class="info-item">
-                                        <span class="label">Professor:</span>
-                                        <span id="turmaProfessor" class="value">-</span>
-                                    </div>
-                                    <div class="info-item">
-                                        <span class="label">Dia da Semana:</span>
-                                        <span id="turmaDia" class="value">-</span>
-                                    </div>
-                                    <div class="info-item">
-                                        <span class="label">Nível:</span>
-                                        <span id="turmaNivel" class="value">-</span>
-                                    </div>
-                                    <div class="info-item">
-                                        <span class="label">Alunos na Turma:</span>
-                                        <span id="turmaAlunos" class="value">-</span>
-                                    </div>
+                            <div class="form-group">
+                                <label for="horarioSelect">
+                                    <i class="fas fa-clock"></i> Horário
+                                </label>
+                                <div class="select-wrapper">
+                                    <select id="horarioSelect" required>
+                                        <option value="">Selecione um horário</option>
+                                        <option value="08:00">08:00</option>
+                                        <option value="09:00">09:00</option>
+                                        <option value="10:00">10:00</option>
+                                        <option value="11:00">11:00</option>
+                                        <option value="14:00">14:00</option>
+                                        <option value="15:00">15:00</option>
+                                        <option value="16:00">16:00</option>
+                                        <option value="17:00">17:00</option>
+                                        <option value="18:00">18:00</option>
+                                        <option value="19:00">19:00</option>
+                                        <option value="20:00">20:00</option>
+                                    </select>
+                                    <i class="fas fa-chevron-down"></i>
                                 </div>
                             </div>
                         </div>
 
-                        <!-- Motivo da Reposição -->
-                        <div class="form-group">
-                            <label for="motivoReposicao">
-                                <i class="fas fa-comment-alt"></i>
-                                Motivo da Reposição
-                            </label>
-                            <textarea id="motivoReposicao" rows="3" placeholder="Descreva o motivo da reposição (falta, aula cancelada, etc.)"></textarea>
+                        <div class="form-row">
+                            <div class="form-group">
+                                <div class="checkbox-group">
+                                    <input type="checkbox" id="criarEventoGoogle" checked>
+                                    <label for="criarEventoGoogle">
+                                        <i class="fab fa-google"></i>
+                                        Criar lembrete no Google Calendar
+                                    </label>
+                                </div>
+                            </div>
                         </div>
 
                         <!-- Botões de Ação -->
@@ -212,6 +232,8 @@
         </div>
     </div>
 
+    <!-- Scripts -->
+    <script src="google-calendar.js"></script>
     <script src="reposicao.js"></script>
 </body>
 </html>

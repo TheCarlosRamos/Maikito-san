@@ -3,24 +3,28 @@ class SistemaReposicao {
         this.alunos = [];
         this.turmas = [];
         this.horarios = [];
-        this.agendamentos = this.carregarAgendamentos();
+        this.agendamentos = [];
         this.selectedAluno = null;
         this.selectedIndex = -1;
+        this.googleCalendar = null;
         this.init();
     }
 
     async init() {
         try {
+            // Inicializar Google Calendar (modo simplificado)
+            this.googleCalendar = new GoogleCalendarService();
+            console.log('✅ Google Calendar Service inicializado (modo link)');
+            
+            // Carregar dados
             await this.carregarDadosOrganizados();
+            this.carregarAgendamentos();
+            this.adicionarAgendamentosTeste();
             this.setupEventListeners();
             this.preencherSelects();
-            
-            // Adicionar agendamentos de teste se não existirem
-            if (this.agendamentos.length === 0) {
-                this.adicionarAgendamentosTeste();
-            }
-            
             this.renderizarAgendamentos();
+            
+            console.log('✅ Sistema inicializado com sucesso');
         } catch (error) {
             console.error('❌ Erro ao inicializar sistema:', error);
         }
@@ -35,21 +39,32 @@ class SistemaReposicao {
                 throw new Error(`HTTP error! status: ${response.status}`);
             }
             
-            const dadosOrganizados = await response.json();
-            console.log('✅ Dados carregados com sucesso');
+            const dados = await response.json();
+            console.log('📊 Dados carregados:', dados);
             
-            this.extrairDados(dadosOrganizados);
+            // Extrair dados simples
+            this.alunos = this.extrairAlunosSimples(dados);
+            this.horarios = this.extrairHorariosSimples(dados);
+            
+            console.log(`✅ ${this.alunos.length} alunos carregados`);
+            console.log(`✅ ${this.horarios.length} horários carregados`);
+            
         } catch (error) {
-            console.error('❌ Erro ao carregar dados organizados:', error);
-            console.log('🔄 Tentando usar dados do excelData como fallback...');
-            
-            // Fallback para dados antigos se existirem
-            if (typeof excelData !== 'undefined') {
-                this.extrairDadosExcel();
-            } else {
-                throw new Error('Nenhum dado disponível');
-            }
+            console.error('❌ Erro ao carregar dados:', error);
+            // Inicializar com arrays vazios
+            this.alunos = [];
+            this.horarios = ['08:00', '09:00', '10:00', '11:00', '14:00', '15:00', '16:00', '17:00', '18:00', '19:00', '20:00'];
         }
+    }
+
+    extrairAlunosSimples(dados) {
+        const alunos = [];
+        // Dados simples para agendamento livre
+        return alunos;
+    }
+
+    extrairHorariosSimples(dados) {
+        return ['08:00', '09:00', '10:00', '11:00', '14:00', '15:00', '16:00', '17:00', '18:00', '19:00', '20:00'];
     }
 
     adicionarAgendamentosTeste() {
@@ -514,33 +529,13 @@ class SistemaReposicao {
     preencherSelects() {
         console.log('🔄 Preenchendo selects...');
         
-        // Preencher select de horários
+        // Horários já estão no HTML, não precisa preencher dinamicamente
         const horarioSelect = document.getElementById('horarioSelect');
         if (horarioSelect) {
-            horarioSelect.innerHTML = '<option value="">Selecione um horário...</option>';
-            this.horarios.forEach(horario => {
-                const option = document.createElement('option');
-                option.value = horario;
-                option.textContent = horario;
-                horarioSelect.appendChild(option);
-            });
-        }
-
-        // Preencher select de turmas
-        const turmaSelect = document.getElementById('turmaSelect');
-        if (turmaSelect) {
-            turmaSelect.innerHTML = '<option value="">Selecione uma turma...</option>';
-            const turmasUnicas = [...new Map(this.turmas.map(t => [`${t.codigo} - ${t.dia}`, t])).values()];
-            
-            turmasUnicas.forEach(turma => {
-                const option = document.createElement('option');
-                option.value = `${turma.codigo} - ${turma.dia}`;
-                option.textContent = `${turma.codigo} - ${turma.dia} (${turma.professor})`;
-                turmaSelect.appendChild(option);
-            });
+            console.log('✅ Select de horários encontrado (já preenchido no HTML)');
         }
         
-        console.log('✅ Selects preenchidos com sucesso');
+        console.log('✅ Selects verificados');
     }
 
     getProfessorDaTurma(turmaCodigo) {
@@ -686,23 +681,47 @@ class SistemaReposicao {
         }
         
         // Verificar campos obrigatórios
-        const alunoValue = document.getElementById('alunoSelect').value;
+        const alunoValue = document.getElementById('alunoNome').value;
+        const turmaValue = document.getElementById('alunoTurma').value;
+        const professorValue = document.getElementById('alunoProfessor').value;
+        const emailValue = document.getElementById('alunoEmail').value;
         const dataValue = document.getElementById('dataReposicao').value;
         const horarioValue = document.getElementById('horarioSelect').value;
-        const turmaValue = document.getElementById('turmaSelect').value;
         const motivoValue = document.getElementById('motivoReposicao').value;
+        const criarEvento = document.getElementById('criarEventoGoogle').checked;
         
         console.log('📋 Valores do formulário:');
         console.log('  Aluno:', alunoValue);
+        console.log('  Turma:', turmaValue);
+        console.log('  Professor:', professorValue);
+        console.log('  E-mail:', emailValue);
         console.log('  Data:', dataValue);
         console.log('  Horário:', horarioValue);
-        console.log('  Turma:', turmaValue);
         console.log('  Motivo:', motivoValue);
+        console.log('  Criar evento:', criarEvento);
         
         // Validação
         if (!alunoValue) {
-            console.error('❌ Aluno não selecionado');
-            this.showToast('Por favor, selecione um aluno');
+            console.error('❌ Nome do aluno não informado');
+            this.showToast('Por favor, informe o nome do aluno');
+            return;
+        }
+        
+        if (!turmaValue) {
+            console.error('❌ Turma não informada');
+            this.showToast('Por favor, informe a turma');
+            return;
+        }
+        
+        if (!professorValue) {
+            console.error('❌ Professor não informado');
+            this.showToast('Por favor, informe o nome do professor');
+            return;
+        }
+        
+        if (!emailValue) {
+            console.error('❌ E-mail não informado');
+            this.showToast('Por favor, informe o e-mail');
             return;
         }
         
@@ -718,12 +737,6 @@ class SistemaReposicao {
             return;
         }
         
-        if (!turmaValue) {
-            console.error('❌ Turma não selecionada');
-            this.showToast('Por favor, selecione uma turma');
-            return;
-        }
-        
         if (!motivoValue) {
             console.error('❌ Motivo não informado');
             this.showToast('Por favor, informe o motivo');
@@ -733,12 +746,15 @@ class SistemaReposicao {
         const agendamento = {
             id: Date.now(),
             aluno: alunoValue,
+            turma: turmaValue,
+            professor: professorValue,
+            email: emailValue,
             data: dataValue,
             horario: horarioValue,
-            turma: turmaValue,
             motivo: motivoValue,
             status: 'pendente',
-            criadoEm: new Date().toISOString()
+            criadoEm: new Date().toISOString(),
+            criarEvento: criarEvento
         };
         
         console.log('✅ Agendamento preparado:', agendamento);
@@ -765,15 +781,20 @@ class SistemaReposicao {
             return;
         }
         
-        const aluno = this.alunos.find(a => a.nome === agendamento.aluno);
-        const turma = this.turmas.find(t => `${t.codigo} - ${t.dia}` === agendamento.turma);
-        
-        console.log('👤 Aluno encontrado:', aluno ? aluno.nome : 'Não encontrado');
-        console.log('📚 Turma encontrada:', turma ? turma.codigo : 'Não encontrada');
+        console.log('📋 Dados do agendamento:', agendamento);
         
         details.innerHTML = `
             <div class="detail-item">
                 <strong>Aluno:</strong> ${agendamento.aluno}
+            </div>
+            <div class="detail-item">
+                <strong>Turma:</strong> ${agendamento.turma}
+            </div>
+            <div class="detail-item">
+                <strong>Professor:</strong> ${agendamento.professor}
+            </div>
+            <div class="detail-item">
+                <strong>E-mail:</strong> ${agendamento.email}
             </div>
             <div class="detail-item">
                 <strong>Data:</strong> ${this.formatarData(agendamento.data)}
@@ -782,14 +803,14 @@ class SistemaReposicao {
                 <strong>Horário:</strong> ${agendamento.horario}
             </div>
             <div class="detail-item">
-                <strong>Turma:</strong> ${agendamento.turma}
-            </div>
-            <div class="detail-item">
-                <strong>Professor:</strong> ${turma ? turma.professor : 'N/A'}
-            </div>
-            <div class="detail-item">
                 <strong>Motivo:</strong> ${agendamento.motivo || 'Não informado'}
             </div>
+            ${agendamento.criarEvento ? `
+                <div class="detail-item google-calendar-info">
+                    <i class="fab fa-google"></i>
+                    <strong>Evento no Google Calendar:</strong> Será criado automaticamente
+                </div>
+            ` : ''}
         `;
         
         // Forçar exibição do modal
@@ -816,8 +837,14 @@ class SistemaReposicao {
         const agendamento = JSON.parse(modal.dataset.agendamento);
         console.log('📋 Agendamento a ser salvo:', agendamento);
         
+        // Salvar agendamento
         this.agendamentos.push(agendamento);
         this.salvarAgendamentos();
+        
+        // Criar evento no Google Calendar se solicitado
+        if (agendamento.criarEvento && this.googleCalendar) {
+            this.criarEventoGoogleCalendar(agendamento);
+        }
         
         this.showToast('Agendamento realizado com sucesso!');
         this.limparFormulario();
@@ -826,9 +853,30 @@ class SistemaReposicao {
         modal.classList.remove('active');
         modal.classList.add('hidden');
         
+        // Renderizar agendamentos para garantir que o card apareça
         this.renderizarAgendamentos();
         
         console.log('✅ Agendamento confirmado e salvo');
+        console.log(`📋 Total de agendamentos: ${this.agendamentos.length}`);
+    }
+
+    async criarEventoGoogleCalendar(agendamento) {
+        try {
+            console.log('🔄 Criando lembrete no Google Calendar...');
+            
+            // Usar sempre o método de link (funciona imediatamente)
+            if (this.googleCalendar) {
+                const resultado = this.googleCalendar.criarEventoViaLink(agendamento);
+                console.log('✅ Lembrete criado:', resultado.url);
+                this.showToast('📅 Lembrete criado! Confirme no Google Calendar.');
+            } else {
+                console.warn('⚠️ Google Calendar não disponível');
+                this.showToast('Agendamento salvo!');
+            }
+        } catch (error) {
+            console.error('❌ Erro ao criar lembrete:', error);
+            this.showToast('Agendamento salvo!');
+        }
     }
 
     salvarAgendamentos() {
@@ -1482,9 +1530,24 @@ class SistemaReposicao {
     }
 
     limparFormulario() {
-        document.getElementById('reposicaoForm').reset();
-        document.getElementById('alunoInfo').classList.add('hidden');
-        document.getElementById('turmaInfo').classList.add('hidden');
+        console.log('🧹 Limpando formulário...');
+        
+        const form = document.getElementById('reposicaoForm');
+        if (form) {
+            form.reset();
+            
+            // Limpar campos específicos
+            document.getElementById('alunoNome').value = '';
+            document.getElementById('alunoProfessor').value = '';
+            document.getElementById('alunoEmail').value = '';
+            document.getElementById('alunoTurma').value = 'Reposição Geral';
+            document.getElementById('dataReposicao').value = '';
+            document.getElementById('horarioSelect').value = '';
+            document.getElementById('motivoReposicao').value = '';
+            document.getElementById('criarEventoGoogle').checked = true;
+            
+            console.log('✅ Formulário limpo');
+        }
     }
 
     closeModal() {

@@ -655,6 +655,41 @@ body {
     margin-bottom: 1rem;
 }
 
+.detail-item {
+    margin-bottom: 1rem;
+    padding-bottom: 0.5rem;
+    border-bottom: 1px solid var(--border-color);
+}
+
+.detail-item:last-child {
+    border-bottom: none;
+    margin-bottom: 0;
+}
+
+.detail-item strong {
+    color: var(--text-primary);
+    display: block;
+    margin-bottom: 0.25rem;
+}
+
+.google-calendar-info {
+    background: linear-gradient(135deg, rgba(66, 133, 244, 0.1), rgba(52, 168, 83, 0.1));
+    border: 1px solid rgba(66, 133, 244, 0.2);
+    border-radius: 8px;
+    padding: 1rem !important;
+    margin-top: 1rem;
+}
+
+.google-calendar-info i {
+    color: #4285f4;
+    margin-right: 0.5rem;
+}
+
+.google-calendar-info strong {
+    color: #4285f4;
+    display: inline;
+}
+
 .data-card-content strong {
     color: var(--text-primary);
     font-weight: 600;
@@ -975,6 +1010,45 @@ body {
 .status-badge.active {
     background: rgba(72, 187, 120, 0.1);
     color: var(--success-color);
+}
+
+/* Checkbox Group */
+.checkbox-group {
+    display: flex;
+    align-items: center;
+    gap: 0.75rem;
+    padding: 1rem;
+    background: linear-gradient(135deg, rgba(102, 126, 234, 0.05), rgba(118, 75, 162, 0.05));
+    border: 1px solid rgba(102, 126, 234, 0.2);
+    border-radius: 8px;
+    margin-top: 0.5rem;
+}
+
+.checkbox-group input[type="checkbox"] {
+    width: 20px;
+    height: 20px;
+    accent-color: var(--primary-color);
+    cursor: pointer;
+}
+
+.checkbox-group label {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    cursor: pointer;
+    font-weight: 500;
+    color: var(--text-primary);
+    margin: 0;
+}
+
+.checkbox-group label i {
+    color: #4285f4;
+    font-size: 1.1rem;
+}
+
+.checkbox-group:hover {
+    background: linear-gradient(135deg, rgba(102, 126, 234, 0.1), rgba(118, 75, 162, 0.1));
+    border-color: var(--primary-color);
 }
 
 .form-actions {
