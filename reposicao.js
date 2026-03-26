@@ -12,9 +12,10 @@ class SistemaReposicao {
 
     async init() {
         try {
-            // Inicializar Google Calendar (modo simplificado)
+            // Inicializar serviços
             this.googleCalendar = new GoogleCalendarService();
-            console.log('✅ Google Calendar Service inicializado (modo link)');
+            this.whatsAppService = new WhatsAppService();
+            console.log('✅ Serviços inicializados (Google Calendar + WhatsApp)');
             
             // Carregar dados
             await this.carregarDadosOrganizados();
@@ -138,28 +139,26 @@ class SistemaReposicao {
             console.error('❌ Formulário não encontrado');
         }
 
-        // Filtros - Adicionar verificação e logs
+        // Máscara para telefone
+        const telefoneInput = document.getElementById('alunoTelefone');
+        if (telefoneInput) {
+            telefoneInput.addEventListener('input', (e) => {
+                if (this.whatsAppService) {
+                    this.whatsAppService.aplicarMascara(e.target);
+                }
+            });
+        }
+
+        // Botões de filtro
         const filterData = document.getElementById('filterData');
         const filterStatus = document.getElementById('filterStatus');
         
         if (filterData) {
-            console.log('✅ Elemento filterData encontrado');
-            filterData.addEventListener('change', (e) => {
-                console.log('🔄 Filtro de data alterado para:', e.target.value);
-                this.renderizarAgendamentos();
-            });
-        } else {
-            console.error('❌ Elemento filterData não encontrado');
+            filterData.addEventListener('change', () => this.renderizarAgendamentos());
         }
         
         if (filterStatus) {
-            console.log('✅ Elemento filterStatus encontrado');
-            filterStatus.addEventListener('change', (e) => {
-                console.log('🔄 Filtro de status alterado para:', e.target.value);
-                this.renderizarAgendamentos();
-            });
-        } else {
-            console.error('❌ Elemento filterStatus não encontrado');
+            filterStatus.addEventListener('change', () => this.renderizarAgendamentos());
         }
 
         // Definir data mínima como hoje
@@ -674,92 +673,55 @@ class SistemaReposicao {
     prepararAgendamento() {
         console.log('🔄 Preparando agendamento...');
         
-        const form = document.getElementById('reposicaoForm');
-        if (!form) {
-            console.error('❌ Formulário não encontrado');
-            return;
-        }
-        
-        // Verificar campos obrigatórios
-        const alunoValue = document.getElementById('alunoNome').value;
-        const turmaValue = document.getElementById('alunoTurma').value;
-        const professorValue = document.getElementById('alunoProfessor').value;
-        const emailValue = document.getElementById('alunoEmail').value;
-        const dataValue = document.getElementById('dataReposicao').value;
-        const horarioValue = document.getElementById('horarioSelect').value;
-        const motivoValue = document.getElementById('motivoReposicao').value;
+        // Obter valores dos campos
+        const aluno = document.getElementById('alunoNome').value.trim();
+        const professor = document.getElementById('alunoProfessor').value.trim();
+        const email = document.getElementById('alunoEmail').value.trim();
+        const telefone = document.getElementById('alunoTelefone').value.trim();
+        const turma = document.getElementById('alunoTurma').value.trim();
+        const data = document.getElementById('dataReposicao').value;
+        const horario = document.getElementById('horarioSelect').value;
+        const motivo = document.getElementById('motivoReposicao').value.trim();
         const criarEvento = document.getElementById('criarEventoGoogle').checked;
-        
-        console.log('📋 Valores do formulário:');
-        console.log('  Aluno:', alunoValue);
-        console.log('  Turma:', turmaValue);
-        console.log('  Professor:', professorValue);
-        console.log('  E-mail:', emailValue);
-        console.log('  Data:', dataValue);
-        console.log('  Horário:', horarioValue);
-        console.log('  Motivo:', motivoValue);
-        console.log('  Criar evento:', criarEvento);
-        
-        // Validação
-        if (!alunoValue) {
-            console.error('❌ Nome do aluno não informado');
-            this.showToast('Por favor, informe o nome do aluno');
+        const notificarWhatsApp = document.getElementById('notificarWhatsApp').checked;
+
+        // Validações
+        if (!aluno || !professor || !email || !telefone || !data || !horario || !motivo) {
+            this.showToast('Por favor, preencha todos os campos obrigatórios!', 'error');
             return;
         }
-        
-        if (!turmaValue) {
-            console.error('❌ Turma não informada');
-            this.showToast('Por favor, informe a turma');
+
+        // Validar e-mail
+        const emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
+        if (!emailRegex.test(email)) {
+            this.showToast('Por favor, insira um e-mail válido!', 'error');
             return;
         }
-        
-        if (!professorValue) {
-            console.error('❌ Professor não informado');
-            this.showToast('Por favor, informe o nome do professor');
+
+        // Validar telefone
+        if (!this.whatsAppService.validarNumero(telefone)) {
+            this.showToast('Por favor, insira um telefone válido!', 'error');
             return;
         }
-        
-        if (!emailValue) {
-            console.error('❌ E-mail não informado');
-            this.showToast('Por favor, informe o e-mail');
-            return;
-        }
-        
-        if (!dataValue) {
-            console.error('❌ Data não informada');
-            this.showToast('Por favor, selecione uma data');
-            return;
-        }
-        
-        if (!horarioValue) {
-            console.error('❌ Horário não selecionado');
-            this.showToast('Por favor, selecione um horário');
-            return;
-        }
-        
-        if (!motivoValue) {
-            console.error('❌ Motivo não informado');
-            this.showToast('Por favor, informe o motivo');
-            return;
-        }
-        
+
+        // Criar objeto de agendamento
         const agendamento = {
             id: Date.now(),
-            aluno: alunoValue,
-            turma: turmaValue,
-            professor: professorValue,
-            email: emailValue,
-            data: dataValue,
-            horario: horarioValue,
-            motivo: motivoValue,
+            aluno,
+            professor,
+            email,
+            telefone,
+            turma,
+            data: this.formatarData(data),
+            horario,
+            motivo,
             status: 'pendente',
-            criadoEm: new Date().toISOString(),
-            criarEvento: criarEvento
+            criarEvento,
+            notificarWhatsApp,
+            dataCriacao: new Date().toISOString()
         };
-        
-        console.log('✅ Agendamento preparado:', agendamento);
-        
-        // Exibir modal de confirmação
+
+        console.log('📋 Agendamento preparado:', agendamento);
         this.exibirModalConfirmacao(agendamento);
     }
 
@@ -846,6 +808,11 @@ class SistemaReposicao {
             this.criarEventoGoogleCalendar(agendamento);
         }
         
+        // Enviar mensagem WhatsApp se solicitado
+        if (agendamento.notificarWhatsApp && this.whatsAppService) {
+            this.enviarMensagemWhatsApp(agendamento);
+        }
+        
         this.showToast('Agendamento realizado com sucesso!');
         this.limparFormulario();
         
@@ -875,6 +842,25 @@ class SistemaReposicao {
             }
         } catch (error) {
             console.error('❌ Erro ao criar lembrete:', error);
+            this.showToast('Agendamento salvo!');
+        }
+    }
+
+    async enviarMensagemWhatsApp(agendamento) {
+        try {
+            console.log('📱 Enviando mensagem WhatsApp...');
+            
+            // Usar serviço WhatsApp
+            if (this.whatsAppService) {
+                const resultado = this.whatsAppService.enviarMensagem(agendamento);
+                console.log('✅ WhatsApp aberto:', resultado.url);
+                this.showToast('📱 WhatsApp aberto! Envie a mensagem.');
+            } else {
+                console.warn('⚠️ WhatsApp não disponível');
+                this.showToast('Agendamento salvo!');
+            }
+        } catch (error) {
+            console.error('❌ Erro ao enviar WhatsApp:', error);
             this.showToast('Agendamento salvo!');
         }
     }
@@ -1540,11 +1526,13 @@ class SistemaReposicao {
             document.getElementById('alunoNome').value = '';
             document.getElementById('alunoProfessor').value = '';
             document.getElementById('alunoEmail').value = '';
+            document.getElementById('alunoTelefone').value = '';
             document.getElementById('alunoTurma').value = 'Reposição Geral';
             document.getElementById('dataReposicao').value = '';
             document.getElementById('horarioSelect').value = '';
             document.getElementById('motivoReposicao').value = '';
             document.getElementById('criarEventoGoogle').checked = true;
+            document.getElementById('notificarWhatsApp').checked = true;
             
             console.log('✅ Formulário limpo');
         }
