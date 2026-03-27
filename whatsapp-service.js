@@ -29,28 +29,42 @@ class WhatsAppService {
 
     // Criar mensagem para WhatsApp
     criarMensagem(agendamento) {
-        const mensagem = `📅 *LEMBRETE DE REPOSIÇÃO* 📅\n\n` +
-            `👤 *Aluno:* ${agendamento.aluno}\n` +
-            `📚 *Turma:* ${agendamento.turma}\n` +
-            `👨‍🏫 *Professor:* ${agendamento.professor}\n` +
-            `📧 *E-mail:* ${agendamento.email}\n` +
-            `📅 *Data:* ${this.formatarData(agendamento.data)}\n` +
-            `🕐 *Horário:* ${agendamento.horario}\n` +
-            `💭 *Motivo:* ${agendamento.motivo}\n\n` +
-            `📍 *Local:* Maikito-san Centro de Idiomas\n\n` +
-            `⏰ *Este é um lembrete automático da sua reposição agendada.*\n` +
-            `✅ *Confirmar presença e chegar com 10 minutos de antecedência.*`;
+        const mensagem = ` *LEMBRETE DE REPOSIÇÃO* \n\n` +
+            ` *Aluno:* ${agendamento.aluno}\n` +
+            ` *Turma:* ${agendamento.turma}\n` +
+            ` *Professor:* ${agendamento.professor}\n` +
+            ` *E-mail:* ${agendamento.email}\n` +
+            ` *Data:* ${this.formatarData(agendamento.data)}\n` +
+            ` *Horário:* ${agendamento.horario}\n` +
+            ` *Motivo:* ${agendamento.motivo}\n\n` +
+            ` *Este é um lembrete automático da sua reposição agendada.*\n` +
+            ` *Confirmar presença e chegar com 10 minutos de antecedência.*`;
 
         return mensagem;
     }
 
     // Formatar data para exibição
     formatarData(dataString) {
-        const [ano, mes, dia] = dataString.split('-');
-        const data = new Date(ano, mes - 1, dia);
-        const diasSemana = ['Domingo', 'Segunda-feira', 'Terça-feira', 'Quarta-feira', 'Quinta-feira', 'Sexta-feira', 'Sábado'];
+        // Se já estiver no formato DD/MM/YYYY, só precisa converter para Date
+        if (dataString.includes('/')) {
+            const [dia, mes, ano] = dataString.split('/');
+            const data = new Date(ano, mes - 1, dia);
+            const diasSemana = ['Domingo', 'Segunda-feira', 'Terça-feira', 'Quarta-feira', 'Quinta-feira', 'Sexta-feira', 'Sábado'];
+            
+            return `${diasSemana[data.getDay()]}, ${dia}/${mes}/${ano}`;
+        }
         
-        return `${diasSemana[data.getDay()]}, ${dia}/${mes}/${ano}`;
+        // Se estiver no formato YYYY-MM-DD
+        if (dataString.includes('-')) {
+            const [ano, mes, dia] = dataString.split('-');
+            const data = new Date(ano, mes - 1, dia);
+            const diasSemana = ['Domingo', 'Segunda-feira', 'Terça-feira', 'Quarta-feira', 'Quinta-feira', 'Sexta-feira', 'Sábado'];
+            
+            return `${diasSemana[data.getDay()]}, ${dia}/${mes}/${ano}`;
+        }
+        
+        // Fallback
+        return dataString;
     }
 
     // Enviar mensagem via WhatsApp Web

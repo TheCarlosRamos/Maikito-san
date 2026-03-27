@@ -6,16 +6,14 @@ class SistemaReposicao {
         this.agendamentos = [];
         this.selectedAluno = null;
         this.selectedIndex = -1;
-        this.googleCalendar = null;
         this.init();
     }
 
     async init() {
         try {
-            // Inicializar serviços
-            this.googleCalendar = new GoogleCalendarService();
+            // Inicializar serviço WhatsApp
             this.whatsAppService = new WhatsAppService();
-            console.log('✅ Serviços inicializados (Google Calendar + WhatsApp)');
+            console.log('✅ WhatsApp Service inicializado');
             
             // Carregar dados
             await this.carregarDadosOrganizados();
@@ -682,7 +680,6 @@ class SistemaReposicao {
         const data = document.getElementById('dataReposicao').value;
         const horario = document.getElementById('horarioSelect').value;
         const motivo = document.getElementById('motivoReposicao').value.trim();
-        const criarEvento = document.getElementById('criarEventoGoogle').checked;
         const notificarWhatsApp = document.getElementById('notificarWhatsApp').checked;
 
         // Validações
@@ -716,7 +713,6 @@ class SistemaReposicao {
             horario,
             motivo,
             status: 'pendente',
-            criarEvento,
             notificarWhatsApp,
             dataCriacao: new Date().toISOString()
         };
@@ -803,11 +799,6 @@ class SistemaReposicao {
         this.agendamentos.push(agendamento);
         this.salvarAgendamentos();
         
-        // Criar evento no Google Calendar se solicitado
-        if (agendamento.criarEvento && this.googleCalendar) {
-            this.criarEventoGoogleCalendar(agendamento);
-        }
-        
         // Enviar mensagem WhatsApp se solicitado
         if (agendamento.notificarWhatsApp && this.whatsAppService) {
             this.enviarMensagemWhatsApp(agendamento);
@@ -825,25 +816,6 @@ class SistemaReposicao {
         
         console.log('✅ Agendamento confirmado e salvo');
         console.log(`📋 Total de agendamentos: ${this.agendamentos.length}`);
-    }
-
-    async criarEventoGoogleCalendar(agendamento) {
-        try {
-            console.log('🔄 Criando lembrete no Google Calendar...');
-            
-            // Usar sempre o método de link (funciona imediatamente)
-            if (this.googleCalendar) {
-                const resultado = this.googleCalendar.criarEventoViaLink(agendamento);
-                console.log('✅ Lembrete criado:', resultado.url);
-                this.showToast('📅 Lembrete criado! Confirme no Google Calendar.');
-            } else {
-                console.warn('⚠️ Google Calendar não disponível');
-                this.showToast('Agendamento salvo!');
-            }
-        } catch (error) {
-            console.error('❌ Erro ao criar lembrete:', error);
-            this.showToast('Agendamento salvo!');
-        }
     }
 
     async enviarMensagemWhatsApp(agendamento) {
@@ -1531,7 +1503,6 @@ class SistemaReposicao {
             document.getElementById('dataReposicao').value = '';
             document.getElementById('horarioSelect').value = '';
             document.getElementById('motivoReposicao').value = '';
-            document.getElementById('criarEventoGoogle').checked = true;
             document.getElementById('notificarWhatsApp').checked = true;
             
             console.log('✅ Formulário limpo');
