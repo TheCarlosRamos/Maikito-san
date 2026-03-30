@@ -191,9 +191,30 @@ body {
 /* Main Content */
 .main-content {
     margin-left: 260px;
-    margin-top: 70px;
+    margin-top: 80px;
     padding: 2rem;
-    min-height: calc(100vh - 70px);
+    min-height: calc(100vh - 80px);
+    transition: margin-top 0.3s ease;
+}
+
+.main-content.secondary-nav-visible {
+    margin-top: 130px;
+}
+
+/* Secondary Navigation */
+#secondaryNav {
+    position: fixed;
+    top: 70px;
+    left: 260px;
+    right: 0;
+    z-index: 999;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.5rem;
+    padding: 1rem;
+    background: rgba(102, 126, 234, 0.05);
+    border-bottom: 1px solid var(--border-color);
+    display: none;
 }
 
 /* Stats Overview */

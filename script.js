@@ -158,6 +158,7 @@ class Dashboard {
     setupSecondaryNavigation(dia) {
         // Usar container secundário de navegação para professores
         const secondaryNav = document.getElementById('secondaryNav');
+        const mainContent = document.querySelector('.main-content');
         if (!secondaryNav) return;
 
         const professores = this.getProfessoresPorDia(dia);
@@ -165,7 +166,14 @@ class Dashboard {
         // Mostrar/esconder a barra de secundária
         secondaryNav.style.display = professores.length > 0 ? 'flex' : 'none';
         
-        secondaryNav.innerHTML = '<strong style="width: 100%; color: var(--text-secondary); font-size: 0.9rem; margin-bottom: 0.5rem;">👨‍🏫 Selecione um professor:</strong>';
+        // Adicionar ou remover classe do main content
+        if (professores.length > 0) {
+            mainContent.classList.add('secondary-nav-visible');
+        } else {
+            mainContent.classList.remove('secondary-nav-visible');
+        }
+        
+        secondaryNav.innerHTML = '<strong style="width: 100%; color: var(--text-secondary); font-size: 0.9rem; margin-bottom: 0.5rem;"> Selecione um professor:</strong>';
 
         professores.forEach(prof => {
             const btn = document.createElement('button');
@@ -197,7 +205,7 @@ class Dashboard {
     }
 
     selectProfessor(professor) {
-        console.log('👨‍🏫 Professor selecionado:', professor);
+        console.log('Professor selecionado:', professor);
         this.currentProfessor = professor;
         this.setupSecondaryNavigation(this.currentDay);
         this.renderContent();
