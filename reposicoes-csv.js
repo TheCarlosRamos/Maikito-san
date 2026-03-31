@@ -19,24 +19,26 @@ class ReposicoesCSV {
     }
 
     setupAutoUpdate() {
-        // Ouvir mudanças no localStorage
-        window.addEventListener('storage', (e) => {
-            if (e.key === 'agendamentos') {
-                console.log('🔄 Mudança detectada nos agendamentos, atualizando...');
+        // Monitorar mudanças no localStorage (agendamentos da página de reposição)
+        window.addEventListener('storage', (event) => {
+            if (event.key === 'agendamentos_reposicao') {
+                console.log('🔄 Mudança detectada nos agendamentos da página de reposição');
                 this.carregarAgendamentos().then(() => {
                     this.renderizarReposicoes();
+                    this.preencherSelectsDinamicos(); // Atualizar selects dinâmicos
                 });
             }
         });
 
-        // Também verificar periodicamente (fallback)
+        // Verificação periódica (fallback)
         setInterval(() => {
-            const agendamentosAtuais = localStorage.getItem('agendamentos');
+            const agendamentosAtuais = localStorage.getItem('agendamentos_reposicao');
             if (agendamentosAtuais !== this.ultimoAgendamentos) {
-                console.log('🔄 Verificação periódica encontrou mudanças...');
+                console.log('🔄 Mudança detectada nos agendamentos (verificação periódica)');
                 this.ultimoAgendamentos = agendamentosAtuais;
                 this.carregarAgendamentos().then(() => {
                     this.renderizarReposicoes();
+                    this.preencherSelectsDinamicos(); // Atualizar selects dinâmicos
                 });
             }
         }, 2000); // Verificar a cada 2 segundos
@@ -44,37 +46,51 @@ class ReposicoesCSV {
 
     async carregarAgendamentos() {
         try {
-            // Carregar agendamentos do localStorage
-            const agendamentosSalvos = localStorage.getItem('agendamentos');
-            if (agendamentosSalvos) {
-                const agendamentos = JSON.parse(agendamentosSalvos);
+            // Carregar agendamentos da página de reposição (localStorage)
+            const agendamentosSalvos = localStorage.getItem('agendamentos_reposicao');
+            const agendamentosReposicao = agendamentosSalvos ? JSON.parse(agendamentosSalvos) : [];
+            
+            console.log(`📋 ${agendamentosReposicao.length} agendamentos da página de reposição carregados`);
+            
+            // Converter para o formato unificado
+            this.agendamentosNovos = agendamentosReposicao.map((agendamento, index) => {
+                // Extrair data e hora do agendamento
+                const dataCompleta = agendamento.data || '';
+                const hora = agendamento.hora || '';
                 
-                // Converter para o formato esperado
-                this.agendamentosNovos = agendamentos.map((agendamento, index) => ({
-                    id: `NOVO_${index + 1}`,
-                    nome: agendamento.aluno || '',
+                // Extrair dia da semana da data
+                const diaSemana = this.extrairDiaSemana(dataCompleta);
+                
+                // Criar origem baseada na data
+                const dataObj = new Date(dataCompleta);
+                const mes = this.extrairMes(dataCompleta);
+                const ano = this.extrairAno(dataCompleta);
+                const origem = `${mes.toUpperCase()} ${ano}`;
+                
+                return {
+                    id: `reposicao_${index + 1}`,
+                    nome: agendamento.aluno || agendamento.nome || '',
                     turma: agendamento.turma || '',
-                    data: agendamento.data || '',
-                    hora: agendamento.hora || '',
-                    diaSemana: this.normalizarDiaSemana(agendamento.diaSemana || ''),
-                    origem: 'Novo Agendamento',
-                    tipo: 'NOVO',
-                    status: agendamento.status || 'pendente',
-                    motivo: agendamento.motivo || ''
-                }));
-                
-                // Armazenar estado atual para comparação
-                this.ultimoAgendamentos = agendamentosSalvos;
-                
-                console.log(`📋 ${this.agendamentosNovos.length} novos agendamentos carregados`);
-            } else {
-                this.agendamentosNovos = [];
-                this.ultimoAgendamentos = null;
-            }
+                    data: dataCompleta,
+                    hora: hora,
+                    diaSemana: diaSemana,
+                    origem: origem,
+                    tipo: 'AGENDAMENTO',
+                    status: agendamento.status || 'confirmado',
+                    motivo: agendamento.motivo || 'Reposição',
+                    mes: mes,
+                    ano: ano
+                };
+            });
+            
+            console.log(`✅ ${this.agendamentosNovos.length} agendamentos convertidos para formato unificado`);
+            
+            // Armazenar estado atual para comparação
+            this.ultimoAgendamentos = JSON.stringify(agendamentosReposicao);
+            
         } catch (error) {
             console.error('❌ Erro ao carregar agendamentos:', error);
             this.agendamentosNovos = [];
-            this.ultimoAgendamentos = null;
         }
     }
 
@@ -534,33 +550,39 @@ class ReposicoesCSV {
 
     criarCardReposicao(reposicao) {
         const temHorario = reposicao.hora && reposicao.hora.trim() !== '';
-        const ehNovoAgendamento = reposicao.tipo === 'NOVO';
+        
+        // Adicionar badge de tipo
+        let tipoBadge = '';
+        if (reposicao.tipo === 'CSV') {
+            tipoBadge = '<span class="badge csv-badge">CSV</span>';
+        } else if (reposicao.tipo === 'AGENDAMENTO') {
+            tipoBadge = '<span class="badge agendamento-badge">Agendamento</span>';
+        }
+        
+        const cardClass = reposicao.tipo === 'CSV' ? 'csv-card' : 'agendamento-card';
         
         return `
-            <div class="reposicao-card ${ehNovoAgendamento ? 'novo-card' : 'csv-card'}" data-id="${reposicao.id}">
+            <div class="reposicao-card ${cardClass}">
                 <div class="card-header">
-                    <div class="aluno-info">
-                        <h4>${reposicao.nome}</h4>
-                        <span class="turma">${reposicao.turma}</span>
-                    </div>
-                    <div class="card-badges">
-                        <span class="badge ${ehNovoAgendamento ? 'novo-badge' : 'csv-badge'}">
-                            <i class="fas fa-${ehNovoAgendamento ? 'plus-circle' : 'file-csv'}"></i> ${ehNovoAgendamento ? 'Novo' : 'CSV'}
-                        </span>
-                        ${temHorario ? `
-                            <span class="badge time-badge">
-                                <i class="fas fa-clock"></i> ${reposicao.hora}
-                            </span>
-                        ` : `
-                            <span class="badge no-time-badge">
-                                <i class="fas fa-clock"></i> Sem horário
-                            </span>
-                        `}
-                        ${reposicao.status ? `
-                            <span class="badge status-badge status-${reposicao.status}">
-                                <i class="fas fa-info-circle"></i> ${this.formatarStatus(reposicao.status)}
-                            </span>
-                        ` : ''}
+                    <div class="card-title">
+                        <h3>${reposicao.nome}</h3>
+                        <div class="card-badges">
+                            ${tipoBadge}
+                            ${temHorario ? `
+                                <span class="badge time-badge">
+                                    <i class="fas fa-clock"></i> ${reposicao.hora}
+                                </span>
+                            ` : `
+                                <span class="badge no-time-badge">
+                                    <i class="fas fa-clock"></i> Sem horário
+                                </span>
+                            `}
+                            ${reposicao.status ? `
+                                <span class="badge status-badge status-${reposicao.status}">
+                                    <i class="fas fa-info-circle"></i> ${this.formatarStatus(reposicao.status)}
+                                </span>
+                            ` : ''}
+                        </div>
                     </div>
                 </div>
                 <div class="card-content">
@@ -580,6 +602,12 @@ class ReposicoesCSV {
                     ` : ''}
                     <div class="info-row">
                         <span class="label">
+                            <i class="fas fa-users"></i> Turma:
+                        </span>
+                        <span class="value">${reposicao.turma}</span>
+                    </div>
+                    <div class="info-row">
+                        <span class="label">
                             <i class="fas fa-source"></i> Origem:
                         </span>
                         <span class="value">${reposicao.origem}</span>
@@ -592,16 +620,6 @@ class ReposicoesCSV {
                             <span class="value">${reposicao.motivo}</span>
                         </div>
                     ` : ''}
-                </div>
-                <div class="card-actions">
-                    ${!ehNovoAgendamento ? `
-                        <button class="btn-action btn-primary" onclick="reposicoesCSV.agendarReposicao(${reposicao.id})" title="Agendar horário">
-                            <i class="fas fa-calendar-plus"></i> Agendar
-                        </button>
-                    ` : ''}
-                    <button class="btn-action btn-secondary" onclick="reposicoesCSV.verDetalhes(${reposicao.id})" title="Ver detalhes">
-                        <i class="fas fa-info-circle"></i>
-                    </button>
                 </div>
             </div>
         `;
