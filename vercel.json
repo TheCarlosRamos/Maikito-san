@@ -1,0 +1,37 @@
+{
+  "version": 2,
+  "builds": [
+    {
+      "src": "**/*",
+      "use": "@vercel/static"
+    }
+  ],
+  "routes": [
+    {
+      "src": "/",
+      "dest": "/index.html"
+    },
+    {
+      "src": "/reposicao",
+      "dest": "/reposicao.html"
+    },
+    {
+      "src": "/reposicoes-todas",
+      "dest": "/reposicoes-todas.html"
+    },
+    {
+      "src": "/reposicao-canceladas",
+      "dest": "/reposicao-canceladas.html"
+    },
+    {
+      "src": "/reposicoes-csv",
+      "dest": "/reposicoes-csv.html"
+    },
+    {
+      "src": "/(.*)",
+      "dest": "/$1"
+    }
+  ],
+  "cleanUrls": true,
+  "trailingSlash": false
+}

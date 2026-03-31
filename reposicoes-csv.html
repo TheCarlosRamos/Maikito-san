@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Reposições - Dashboard Maikito-san</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" rel="stylesheet">
+</head>
+<body>
+    <header class="header">
+        <div class="header-content">
+            <h1><i class="fas fa-calendar"></i> Reposições</h1>
+            <div class="header-nav">
+                <button class="btn btn-secondary" onclick="window.location.href='index.html'">
+                    <i class="fas fa-arrow-left"></i> Voltar ao Dashboard
+                </button>
+                <button class="btn btn-secondary" onclick="window.location.href='reposicao.html'">
+                    <i class="fas fa-calendar-plus"></i> Nova Reposição
+                </button>
+                <button class="btn btn-secondary" onclick="window.location.href='reposicoes-todas.html'">
+                    <i class="fas fa-list"></i> Todas as Reposições
+                </button>
+                <button class="btn btn-danger" onclick="window.location.href='reposicao-canceladas.html'">
+                    <i class="fas fa-calendar-times"></i> Reposições Canceladas
+                </button>
+            </div>
+        </div>
+    </header>
+
+    <main class="main-content">
+        <!-- Filtros -->
+        <section class="filters-section">
+            <div class="filter-group">
+                <label for="filtroDiaSemana">
+                    <i class="fas fa-calendar-week"></i> Filtrar por Dia da Semana
+                </label>
+                <select id="filtroDiaSemana">
+                    <option value="">Todos os dias</option>
+                    <option value="segunda">Segunda-feira</option>
+                    <option value="terça">Terça-feira</option>
+                    <option value="quarta">Quarta-feira</option>
+                    <option value="quinta">Quinta-feira</option>
+                    <option value="sexta">Sexta-feira</option>
+                    <option value="sábado">Sábado</option>
+                    <option value="domingo">Domingo</option>
+                </select>
+            </div>
+            
+            <div class="filter-group">
+                <label for="filtroProfessor">
+                    <i class="fas fa-user"></i> Filtrar por Professor
+                </label>
+                <input type="text" id="filtroProfessor" placeholder="Digite o nome do aluno...">
+            </div>
+            
+            <div class="filter-group">
+                <label for="filtroTurma">
+                    <i class="fas fa-users"></i> Filtrar por Turma
+                </label>
+                <input type="text" id="filtroTurma" placeholder="Digite o nome da turma...">
+            </div>
+            
+            <div class="filter-actions">
+                <button class="btn btn-secondary" id="limparFiltros">
+                    <i class="fas fa-eraser"></i> Limpar Filtros
+                </button>
+                <button class="btn btn-primary" id="exportarCSV">
+                    <i class="fas fa-download"></i> Exportar CSV
+                </button>
+            </div>
+        </section>
+
+        <!-- Estatísticas -->
+        <section class="stats-section">
+            <div class="stat-card">
+                <div class="stat-icon">
+                    <i class="fas fa-file-csv"></i>
+                </div>
+                <div class="stat-content">
+                    <h3 id="totalCSV">0</h3>
+                    <p>Total de Reposições</p>
+                </div>
+            </div>
+            
+            <div class="stat-card">
+                <div class="stat-icon">
+                    <i class="fas fa-clock"></i>
+                </div>
+                <div class="stat-content">
+                    <h3 id="comHorarioCSV">0</h3>
+                    <p>Com Horário</p>
+                </div>
+            </div>
+            
+            <div class="stat-card">
+                <div class="stat-icon">
+                    <i class="fas fa-exclamation-triangle"></i>
+                </div>
+                <div class="stat-content">
+                    <h3 id="semHorarioCSV">0</h3>
+                    <p>Sem Horário</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Lista de Reposições -->
+        <section class="reposicoes-section">
+            <div class="section-header">
+                <h2><i class="fas fa-list"></i> Reposições do CSV</h2>
+            </div>
+            
+            <div id="reposicoesCSVList">
+                <!-- Reposições serão inseridas aqui dinamicamente -->
+            </div>
+        </section>
+    </main>
+
+    <!-- Modal de Detalhes -->
+    <div class="modal" id="detailModal">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h3 id="modalTitle">Detalhes</h3>
+                <button class="modal-close" onclick="document.getElementById('detailModal').classList.add('hidden')">
+                    <i class="fas fa-times"></i>
+                </button>
+            </div>
+            <div class="modal-body" id="modalBody">
+                <!-- Conteúdo do modal será inserido aqui -->
+            </div>
+        </div>
+    </div>
+
+    <!-- Toast de Notificação -->
+    <div id="toast" class="toast hidden">
+        <div class="toast-content">
+            <i class="fas fa-check-circle"></i>
+            <span id="toastMessage"></span>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+    <script src="reposicoes-csv.js"></script>
+</body>
+</html>

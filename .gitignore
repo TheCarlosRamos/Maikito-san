@@ -126,3 +126,5 @@ corrigir_*.js
 limpar_*.js
 verificar_*.js
 teste_*.js
+
+.vercel

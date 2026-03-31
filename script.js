@@ -79,6 +79,14 @@ class Dashboard {
         };
         navItems.appendChild(todasReposicoesItem);
         
+        const reposicoesCSVItem = document.createElement('div');
+        reposicoesCSVItem.className = 'nav-item nav-subitem';
+        reposicoesCSVItem.innerHTML = '<i class="fas fa-file-csv"></i>Reposições CSV';
+        reposicoesCSVItem.onclick = () => {
+            window.location.href = 'reposicoes-csv.html';
+        };
+        navItems.appendChild(reposicoesCSVItem);
+        
         const canceladasItem = document.createElement('div');
         canceladasItem.className = 'nav-item nav-subitem';
         canceladasItem.innerHTML = '<i class="fas fa-calendar-times"></i>Reposições Canceladas';
