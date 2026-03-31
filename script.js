@@ -71,17 +71,9 @@ class Dashboard {
         navItems.appendChild(reposicaoItem);
         
         // Adicionar sub-itens de Reposição
-        const todasReposicoesItem = document.createElement('div');
-        todasReposicoesItem.className = 'nav-item nav-subitem';
-        todasReposicoesItem.innerHTML = '<i class="fas fa-list"></i>Todas as Reposições';
-        todasReposicoesItem.onclick = () => {
-            window.location.href = 'reposicoes-todas.html';
-        };
-        navItems.appendChild(todasReposicoesItem);
-        
         const reposicoesCSVItem = document.createElement('div');
         reposicoesCSVItem.className = 'nav-item nav-subitem';
-        reposicoesCSVItem.innerHTML = '<i class="fas fa-file-csv"></i>Reposições CSV';
+        reposicoesCSVItem.innerHTML = '<i class="fas fa-file-csv"></i>Reposições';
         reposicoesCSVItem.onclick = () => {
             window.location.href = 'reposicoes-csv.html';
         };
@@ -153,7 +145,7 @@ class Dashboard {
             'TERÇA': 'fa-calendar-check',
             'QUARTA': 'fa-calendar-alt',
             'QUINTA': 'fa-calendar-week',
-            'SEXTA': 'fa-calendar-day', // Corrigido para um ícone válido
+            'SEXTA': 'fa-calendar-day', 
             'SÁBADO': 'fa-calendar-plus'
         };
         return icones[dia] || 'fa-calendar';
@@ -239,7 +231,6 @@ class Dashboard {
     getNavIcon(sheetName) {
         const icons = {
             'Horários': '<i class="fas fa-calendar-alt"></i>',
-            'Pef': '<i class="fas fa-chart-bar"></i>',
             'Reposição': '<i class="fas fa-calendar-check"></i>'
         };
         return icons[sheetName] || '<i class="fas fa-file-alt"></i>';

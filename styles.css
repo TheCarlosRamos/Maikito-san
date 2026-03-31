@@ -1537,6 +1537,10 @@ transition: var(--transition);
     border-left: 4px solid #28a745;
 }
 
+.reposicao-card.novo-card {
+    border-left: 4px solid #007bff;
+}
+
 .card-header {
     display: flex;
     justify-content: space-between;
@@ -1580,6 +1584,11 @@ transition: var(--transition);
     color: white;
 }
 
+.novo-badge {
+    background: #007bff;
+    color: white;
+}
+
 .time-badge {
     background: #17a2b8;
     color: white;
@@ -1588,6 +1597,27 @@ transition: var(--transition);
 .no-time-badge {
     background: #ffc107;
     color: #212529;
+}
+
+.status-badge {
+    color: white;
+}
+
+.status-badge.status-pendente {
+    background: #ffc107;
+    color: #212529;
+}
+
+.status-badge.status-confirmado {
+    background: #28a745;
+}
+
+.status-badge.status-cancelado {
+    background: #dc3545;
+}
+
+.status-badge.status-concluido {
+    background: #6c757d;
 }
 
 .card-content {

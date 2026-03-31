@@ -8,11 +8,43 @@ class ReposicoesCSV {
     async init() {
         try {
             await this.carregarCSV();
+            await this.carregarAgendamentos(); // Carregar novos agendamentos
             this.setupEventListeners();
             this.renderizarReposicoes();
             console.log('✅ Sistema de Reposições CSV inicializado');
         } catch (error) {
             console.error('❌ Erro ao inicializar sistema:', error);
+        }
+    }
+
+    async carregarAgendamentos() {
+        try {
+            // Carregar agendamentos do localStorage
+            const agendamentosSalvos = localStorage.getItem('agendamentos');
+            if (agendamentosSalvos) {
+                const agendamentos = JSON.parse(agendamentosSalvos);
+                
+                // Converter para o formato esperado
+                this.agendamentosNovos = agendamentos.map((agendamento, index) => ({
+                    id: `NOVO_${index + 1}`,
+                    nome: agendamento.aluno || '',
+                    turma: agendamento.turma || '',
+                    data: agendamento.data || '',
+                    hora: agendamento.hora || '',
+                    diaSemana: this.normalizarDiaSemana(agendamento.diaSemana || ''),
+                    origem: 'Novo Agendamento',
+                    tipo: 'NOVO',
+                    status: agendamento.status || 'pendente',
+                    motivo: agendamento.motivo || ''
+                }));
+                
+                console.log(`📋 ${this.agendamentosNovos.length} novos agendamentos carregados`);
+            } else {
+                this.agendamentosNovos = [];
+            }
+        } catch (error) {
+            console.error('❌ Erro ao carregar agendamentos:', error);
+            this.agendamentosNovos = [];
         }
     }
 
@@ -22,32 +54,52 @@ class ReposicoesCSV {
             const response = await fetch('reposicoes_completas.csv');
             const csvText = await response.text();
             
+            console.log('📄 CSV bruto:', csvText.substring(0, 500)); // Debug: mostrar primeiros 500 caracteres
+            
             // Processar CSV
             const linhas = csvText.split('\n').filter(linha => linha.trim());
             const cabecalho = linhas[0].split(',').map(col => col.trim());
+            
+            console.log('📋 Cabeçalho:', cabecalho); // Debug: mostrar cabeçalho
             
             this.reposicoesCSV = [];
             
             for (let i = 1; i < linhas.length; i++) {
                 const valores = linhas[i].split(',').map(val => val.trim());
                 
+                console.log(`📝 Linha ${i}:`, valores); // Debug: mostrar cada linha
+                
                 if (valores.length >= 4 && valores[0]) { // Verificar se tem dados válidos
-                    const reposicao = {
-                        id: i,
-                        nome: valores[0] || '',
-                        turma: valores[1] || '',
-                        data: valores[2] || '',
-                        hora: valores[3] || '', // CSV não tem hora, fica vazio
-                        diaSemana: this.normalizarDiaSemana(valores[4] || ''),
-                        origem: valores[5] || '',
-                        tipo: 'CSV' // Marcar como vindo do CSV
-                    };
+                    const origem = valores[5] || '';
+                    const ano = this.extrairAno(origem);
                     
-                    this.reposicoesCSV.push(reposicao);
+                    // FILTRAR APENAS DADOS DE 2026
+                    if (ano === 2026 || origem.includes('26') || origem.includes('2026')) {
+                        const reposicao = {
+                            id: i,
+                            nome: valores[0] || '',
+                            turma: valores[1] || '',
+                            data: valores[2] || '',
+                            hora: valores[3] || '', // CSV não tem hora, fica vazio
+                            diaSemana: this.normalizarDiaSemana(valores[4] || ''),
+                            origem: origem,
+                            tipo: 'CSV' // Marcar como vindo do CSV
+                        };
+                        
+                        this.reposicoesCSV.push(reposicao);
+                        
+                        console.log(`✅ Reposição ${i} (2026):`, {
+                            mes: this.extrairMes(origem),
+                            ano: ano,
+                            dataBruta: origem
+                        }); // Debug: mostrar dados extraídos
+                    } else {
+                        console.log(`⏭️ Linha ${i} ignorada (não é 2026):`, origem);
+                    }
                 }
             }
             
-            console.log(`📊 ${this.reposicoesCSV.length} reposições carregadas do CSV`);
+            console.log(`📊 ${this.reposicoesCSV.length} reposições de 2026 carregadas do CSV`);
         } catch (error) {
             console.error('❌ Erro ao carregar CSV:', error);
             // Fallback: carregar dados de exemplo
@@ -98,6 +150,12 @@ class ReposicoesCSV {
     }
 
     setupEventListeners() {
+        // Filtro por origem
+        const filtroOrigem = document.getElementById('filtroOrigem');
+        if (filtroOrigem) {
+            filtroOrigem.addEventListener('input', () => this.renderizarReposicoes());
+        }
+
         // Filtro por dia da semana
         const filtroDia = document.getElementById('filtroDiaSemana');
         if (filtroDia) {
@@ -127,12 +185,16 @@ class ReposicoesCSV {
         if (btnExportar) {
             btnExportar.addEventListener('click', () => this.exportarParaCSV());
         }
+
+        // Preencher datalist de origens
+        this.preencherOrigensDatalist();
     }
 
     renderizarReposicoes() {
         console.log('🔄 Renderizando reposições do CSV...');
         
         const container = document.getElementById('reposicoesCSVList');
+        const filtroOrigem = document.getElementById('filtroOrigem');
         const filtroDia = document.getElementById('filtroDiaSemana');
         const filtroProfessor = document.getElementById('filtroProfessor');
         const filtroTurma = document.getElementById('filtroTurma');
@@ -142,31 +204,42 @@ class ReposicoesCSV {
             return;
         }
 
-        let reposicoesFiltradas = [...this.reposicoesCSV];
+        // Combinar dados do CSV com novos agendamentos
+        let todasReposicoes = [
+            ...this.reposicoesCSV,
+            ...(this.agendamentosNovos || [])
+        ];
 
         // Aplicar filtros
+        if (filtroOrigem && filtroOrigem.value) {
+            const termoOrigem = filtroOrigem.value.toLowerCase();
+            todasReposicoes = todasReposicoes.filter(r => 
+                r.origem.toLowerCase().includes(termoOrigem)
+            );
+        }
+
         if (filtroDia && filtroDia.value) {
-            reposicoesFiltradas = reposicoesFiltradas.filter(r => 
+            todasReposicoes = todasReposicoes.filter(r => 
                 r.diaSemana.toLowerCase().includes(filtroDia.value.toLowerCase())
             );
         }
 
         if (filtroProfessor && filtroProfessor.value) {
             const termoProfessor = filtroProfessor.value.toLowerCase();
-            reposicoesFiltradas = reposicoesFiltradas.filter(r => 
+            todasReposicoes = todasReposicoes.filter(r => 
                 r.nome.toLowerCase().includes(termoProfessor)
             );
         }
 
         if (filtroTurma && filtroTurma.value) {
             const termoTurma = filtroTurma.value.toLowerCase();
-            reposicoesFiltradas = reposicoesFiltradas.filter(r => 
+            todasReposicoes = todasReposicoes.filter(r => 
                 r.turma.toLowerCase().includes(termoTurma)
             );
         }
 
         // Agrupar por dia da semana
-        const reposicoesPorDia = this.agruparPorDia(reposicoesFiltradas);
+        const reposicoesPorDia = this.agruparPorDia(todasReposicoes);
 
         if (Object.keys(reposicoesPorDia).length === 0) {
             container.innerHTML = `
@@ -187,8 +260,160 @@ class ReposicoesCSV {
             container.appendChild(diaSection);
         });
 
-        this.atualizarEstatisticas(reposicoesFiltradas);
-        console.log(`✅ ${reposicoesFiltradas.length} reposições renderizadas`);
+        this.atualizarEstatisticas(todasReposicoes);
+        console.log(`✅ ${todasReposicoes.length} reposições renderizadas (CSV: ${this.reposicoesCSV.length}, Novos: ${this.agendamentosNovos?.length || 0})`);
+    }
+
+    preencherSelectsDinamicos() {
+        // Extrair meses, anos e origens únicos do CSV
+        const meses = new Set();
+        const anos = new Set();
+        const origens = new Set();
+
+        this.reposicoesCSV.forEach(reposicao => {
+            if (reposicao.data) {
+                const mes = this.extrairMes(reposicao.data);
+                const ano = this.extrairAno(reposicao.data);
+                if (mes) meses.add(mes.toLowerCase());
+                if (ano) anos.add(ano.toString());
+            }
+            
+            if (reposicao.origem) {
+                origens.add(reposicao.origem);
+            }
+        });
+
+        // Preencher select de meses
+        const filtroMes = document.getElementById('filtroMes');
+        if (filtroMes) {
+            const valorAtual = filtroMes.value;
+            filtroMes.innerHTML = '<option value="">Todos os meses</option>';
+            
+            const mesesOrdenados = ['janeiro', 'fevereiro', 'março', 'abril', 'maio', 'junho', 'julho', 'agosto', 'setembro', 'outubro', 'novembro', 'dezembro'];
+            mesesOrdenados.forEach(mes => {
+                if (meses.has(mes)) {
+                    const option = document.createElement('option');
+                    option.value = mes;
+                    option.textContent = mes.charAt(0).toUpperCase() + mes.slice(1);
+                    if (mes === valorAtual) {
+                        option.selected = true;
+                    }
+                    filtroMes.appendChild(option);
+                }
+            });
+        }
+
+        // Preencher select de anos
+        const filtroAno = document.getElementById('filtroAno');
+        if (filtroAno) {
+            const valorAtual = filtroAno.value;
+            filtroAno.innerHTML = '<option value="">Todos os anos</option>';
+            
+            const anosArray = Array.from(anos).sort((a, b) => b - a);
+            anosArray.forEach(ano => {
+                const option = document.createElement('option');
+                option.value = ano;
+                option.textContent = ano;
+                if (ano === valorAtual) {
+                    option.selected = true;
+                }
+                filtroAno.appendChild(option);
+            });
+        }
+
+        // Criar datalist para origens (sugestões)
+        const filtroOrigem = document.getElementById('filtroOrigem');
+        if (filtroOrigem) {
+            // Remover datalist existente se houver
+            const datalistExistente = document.getElementById('origensList');
+            if (datalistExistente) {
+                datalistExistente.remove();
+            }
+
+            // Criar novo datalist
+            const datalist = document.createElement('datalist');
+            datalist.id = 'origensList';
+            
+            Array.from(origens).sort().forEach(origem => {
+                const option = document.createElement('option');
+                option.value = origem;
+                datalist.appendChild(option);
+            });
+            
+            filtroOrigem.setAttribute('list', 'origensList');
+            document.body.appendChild(datalist);
+        }
+    }
+
+    extrairMes(data) {
+        if (!data) return '';
+        
+        // Formato do CSV: "MES ANO" (ex: "MAR 2026")
+        const formatoCSV = /^([A-Z]{3})\s+(\d{4})$/;
+        const match = data.match(formatoCSV);
+        
+        if (match) {
+            const mesAbrev = match[1].toLowerCase();
+            const ano = match[2];
+            
+            const meses = {
+                'jan': 'janeiro', 'feb': 'fevereiro', 'mar': 'março', 'apr': 'abril',
+                'may': 'maio', 'jun': 'junho', 'jul': 'julho', 'aug': 'agosto',
+                'sep': 'setembro', 'oct': 'outubro', 'nov': 'novembro', 'dec': 'dezembro'
+            };
+            
+            return meses[mesAbrev] || '';
+        }
+        
+        // Tentar outros formatos como fallback
+        const formatos = [
+            /(\d{2})\/(\d{2})\/(\d{4})/, // DD/MM/YYYY
+            /(\d{4})-(\d{2})-(\d{2})/, // YYYY-MM-DD
+            /(\d{2})-(\w{3})-(\d{4})/  // MM-YYYY (formato antigo)
+        ];
+
+        for (const formato of formatos) {
+            const match = data.match(formato);
+            if (match) {
+                if (match[1] && match[2]) {
+                    // Formato DD/MM/YYYY ou YYYY-MM-DD
+                    const meses = ['janeiro', 'fevereiro', 'março', 'abril', 'maio', 'junho', 'julho', 'agosto', 'setembro', 'outubro', 'novembro', 'dezembro'];
+                    return meses[parseInt(match[2]) - 1] || '';
+                }
+            }
+        }
+
+        return '';
+    }
+
+    extrairAno(data) {
+        if (!data) return null;
+        
+        // Formato do CSV: "MES ANO" (ex: "MAR 2026")
+        const formatoCSV = /^([A-Z]{3})\s+(\d{4})$/;
+        const match = data.match(formatoCSV);
+        
+        if (match) {
+            return parseInt(match[2]);
+        }
+        
+        // Tentar outros formatos como fallback
+        const formatos = [
+            /(\d{2})\/(\d{2})\/(\d{4})/, // DD/MM/YYYY
+            /(\d{4})-(\d{2})-(\d{2})/, // YYYY-MM-DD
+            /(\d{2})-(\w{3})-(\d{4})/  // MM-YYYY (formato antigo)
+        ];
+
+        for (const formato of formatos) {
+            const match = data.match(formato);
+            if (match) {
+                if (match[3]) {
+                    return parseInt(match[3]);
+                }
+            }
+        }
+
+        return null;
     }
 
     agruparPorDia(reposicoes) {
@@ -236,17 +461,18 @@ class ReposicoesCSV {
 
     criarCardReposicao(reposicao) {
         const temHorario = reposicao.hora && reposicao.hora.trim() !== '';
+        const ehNovoAgendamento = reposicao.tipo === 'NOVO';
         
         return `
-            <div class="reposicao-card csv-card" data-id="${reposicao.id}">
+            <div class="reposicao-card ${ehNovoAgendamento ? 'novo-card' : 'csv-card'}" data-id="${reposicao.id}">
                 <div class="card-header">
                     <div class="aluno-info">
                         <h4>${reposicao.nome}</h4>
                         <span class="turma">${reposicao.turma}</span>
                     </div>
                     <div class="card-badges">
-                        <span class="badge csv-badge">
-                            <i class="fas fa-file-csv"></i> CSV
+                        <span class="badge ${ehNovoAgendamento ? 'novo-badge' : 'csv-badge'}">
+                            <i class="fas fa-${ehNovoAgendamento ? 'plus-circle' : 'file-csv'}"></i> ${ehNovoAgendamento ? 'Novo' : 'CSV'}
                         </span>
                         ${temHorario ? `
                             <span class="badge time-badge">
@@ -257,6 +483,11 @@ class ReposicoesCSV {
                                 <i class="fas fa-clock"></i> Sem horário
                             </span>
                         `}
+                        ${reposicao.status ? `
+                            <span class="badge status-badge status-${reposicao.status}">
+                                <i class="fas fa-info-circle"></i> ${this.formatarStatus(reposicao.status)}
+                            </span>
+                        ` : ''}
                     </div>
                 </div>
                 <div class="card-content">
@@ -280,17 +511,37 @@ class ReposicoesCSV {
                         </span>
                         <span class="value">${reposicao.origem}</span>
                     </div>
+                    ${reposicao.motivo ? `
+                        <div class="info-row">
+                            <span class="label">
+                                <i class="fas fa-comment"></i> Motivo:
+                            </span>
+                            <span class="value">${reposicao.motivo}</span>
+                        </div>
+                    ` : ''}
                 </div>
                 <div class="card-actions">
-                    <button class="btn-action btn-primary" onclick="reposicoesCSV.agendarReposicao(${reposicao.id})" title="Agendar horário">
-                        <i class="fas fa-calendar-plus"></i> Agendar
-                    </button>
+                    ${!ehNovoAgendamento ? `
+                        <button class="btn-action btn-primary" onclick="reposicoesCSV.agendarReposicao(${reposicao.id})" title="Agendar horário">
+                            <i class="fas fa-calendar-plus"></i> Agendar
+                        </button>
+                    ` : ''}
                     <button class="btn-action btn-secondary" onclick="reposicoesCSV.verDetalhes(${reposicao.id})" title="Ver detalhes">
                         <i class="fas fa-info-circle"></i>
                     </button>
                 </div>
             </div>
         `;
+    }
+
+    formatarStatus(status) {
+        const statusMap = {
+            'pendente': 'Pendente',
+            'confirmado': 'Confirmado',
+            'cancelado': 'Cancelado',
+            'concluido': 'Concluído'
+        };
+        return statusMap[status] || status;
     }
 
     agendarReposicao(id) {
@@ -376,11 +627,47 @@ class ReposicoesCSV {
         }
     }
 
+    preencherOrigensDatalist() {
+        // Extrair origens únicas do CSV
+        const origens = new Set();
+
+        this.reposicoesCSV.forEach(reposicao => {
+            if (reposicao.origem) {
+                origens.add(reposicao.origem);
+            }
+        });
+
+        // Criar datalist para origens (sugestões)
+        const filtroOrigem = document.getElementById('filtroOrigem');
+        if (filtroOrigem) {
+            // Remover datalist existente se houver
+            const datalistExistente = document.getElementById('origensList');
+            if (datalistExistente) {
+                datalistExistente.remove();
+            }
+
+            // Criar novo datalist
+            const datalist = document.createElement('datalist');
+            datalist.id = 'origensList';
+            
+            Array.from(origens).sort().forEach(origem => {
+                const option = document.createElement('option');
+                option.value = origem;
+                datalist.appendChild(option);
+            });
+            
+            filtroOrigem.setAttribute('list', 'origensList');
+            document.body.appendChild(datalist);
+        }
+    }
+
     limparFiltros() {
+        const filtroOrigem = document.getElementById('filtroOrigem');
         const filtroDia = document.getElementById('filtroDiaSemana');
         const filtroProfessor = document.getElementById('filtroProfessor');
         const filtroTurma = document.getElementById('filtroTurma');
 
+        if (filtroOrigem) filtroOrigem.value = '';
         if (filtroDia) filtroDia.value = '';
         if (filtroProfessor) filtroProfessor.value = '';
         if (filtroTurma) filtroTurma.value = '';
