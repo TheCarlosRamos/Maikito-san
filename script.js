@@ -70,6 +70,23 @@ class Dashboard {
         };
         navItems.appendChild(reposicaoItem);
         
+        // Adicionar sub-itens de Reposição
+        const todasReposicoesItem = document.createElement('div');
+        todasReposicoesItem.className = 'nav-item nav-subitem';
+        todasReposicoesItem.innerHTML = '<i class="fas fa-list"></i>Todas as Reposições';
+        todasReposicoesItem.onclick = () => {
+            window.location.href = 'reposicoes-todas.html';
+        };
+        navItems.appendChild(todasReposicoesItem);
+        
+        const canceladasItem = document.createElement('div');
+        canceladasItem.className = 'nav-item nav-subitem';
+        canceladasItem.innerHTML = '<i class="fas fa-calendar-times"></i>Reposições Canceladas';
+        canceladasItem.onclick = () => {
+            window.location.href = 'reposicao-canceladas.html';
+        };
+        navItems.appendChild(canceladasItem);
+        
         // Adicionar separador
         const separator = document.createElement('div');
         separator.style.cssText = 'height: 1px; background: rgba(255,255,255,0.1); margin: 0.5rem 0;';

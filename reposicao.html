@@ -15,6 +15,12 @@
                     <i class="fas fa-arrow-left"></i>
                     <span>Voltar ao Dashboard</span>
                 </a>
+                <button class="btn btn-secondary" onclick="window.location.href='reposicoes-todas.html'">
+                    <i class="fas fa-list"></i> Todas as Reposições
+                </button>
+                <button class="btn btn-danger" onclick="window.location.href='reposicao-canceladas.html'">
+                    <i class="fas fa-calendar-times"></i> Reposições Canceladas
+                </button>
                 <h1><i class="fas fa-calendar-check"></i> Agendamento de Reposição</h1>
             </div>
             <div class="search-container">
@@ -187,21 +193,40 @@
                 </div>
             </section>
 
+            <!-- Filtros -->
+            <div class="filters-section">
+                <div class="filter-group">
+                    <label for="filterData">
+                        <i class="fas fa-calendar"></i> Filtrar por Data
+                    </label>
+                    <input type="date" id="filterData">
+                </div>
+                
+                <div class="filter-group">
+                    <label for="filterProfessor">
+                        <i class="fas fa-user"></i> Filtrar por Professor
+                    </label>
+                    <input type="text" id="filterProfessor" placeholder="Digite o nome do professor...">
+                </div>
+                
+                <div class="filter-group">
+                    <label for="filterStatus">
+                        <i class="fas fa-filter"></i> Filtrar por Status
+                    </label>
+                    <select id="filterStatus">
+                        <option value="">Todos</option>
+                        <option value="pendente">Pendente</option>
+                        <option value="confirmado">Confirmado</option>
+                        <option value="realizado">Realizado</option>
+                    </select>
+                </div>
+            </div>
+
             <!-- Lista de Agendamentos -->
             <section class="agendamentos-section">
                 <div class="section-header">
                     <h2><i class="fas fa-list"></i> Agendamentos Realizados</h2>
                     <div class="header-actions">
-                        <div class="filter-controls">
-                            <input type="date" id="filterData" class="filter-input">
-                            <select id="filterStatus" class="filter-input">
-                                <option value="">Todos os status</option>
-                                <option value="pendente">Pendente</option>
-                                <option value="confirmado">Confirmado</option>
-                                <option value="realizado">Realizado</option>
-                                <option value="cancelado">Cancelado</option>
-                            </select>
-                        </div>
                         <button class="btn-primary" onclick="sistemaReposicao.exportarTodosParaPDF()" title="Exportar todos para PDF">
                             <i class="fas fa-file-pdf"></i> Exportar Tudo
                         </button>

@@ -4,6 +4,7 @@ class SistemaReposicao {
         this.turmas = [];
         this.horarios = [];
         this.agendamentos = [];
+        this.agendamentosCancelados = [];
         this.selectedAluno = null;
         this.selectedIndex = -1;
         this.init();
@@ -17,7 +18,8 @@ class SistemaReposicao {
             
             // Carregar dados
             await this.carregarDadosOrganizados();
-            this.carregarAgendamentos();
+            this.agendamentos = this.carregarAgendamentos();
+            this.agendamentosCancelados = this.carregarAgendamentosCancelados();
             this.adicionarAgendamentosTeste();
             this.setupEventListeners();
             this.preencherSelects();
@@ -149,10 +151,15 @@ class SistemaReposicao {
 
         // Botões de filtro
         const filterData = document.getElementById('filterData');
+        const filterProfessor = document.getElementById('filterProfessor');
         const filterStatus = document.getElementById('filterStatus');
         
         if (filterData) {
             filterData.addEventListener('change', () => this.renderizarAgendamentos());
+        }
+        
+        if (filterProfessor) {
+            filterProfessor.addEventListener('input', () => this.renderizarAgendamentos());
         }
         
         if (filterStatus) {
@@ -837,8 +844,44 @@ class SistemaReposicao {
         }
     }
 
+    cancelarAgendamento(id) {
+        const agendamento = this.agendamentos.find(a => a.id === id);
+        if (!agendamento) {
+            this.showToast('Agendamento não encontrado!', 'error');
+            return;
+        }
+
+        // Perguntar motivo do cancelamento
+        const motivo = prompt('Por favor, informe o motivo do cancelamento:');
+        if (!motivo || motivo.trim() === '') {
+            this.showToast('Motivo do cancelamento é obrigatório!', 'error');
+            return;
+        }
+
+        // Mover para cancelados
+        agendamento.status = 'cancelado';
+        agendamento.motivoCancelamento = motivo.trim();
+        agendamento.dataCancelamento = new Date().toISOString();
+
+        this.agendamentosCancelados.push(agendamento);
+        this.agendamentos = this.agendamentos.filter(a => a.id !== id);
+
+        // Salvar ambos os arrays
+        this.salvarAgendamentos();
+        this.salvarAgendamentosCancelados();
+
+        this.showToast('Agendamento cancelado com sucesso!');
+        this.renderizarAgendamentos();
+    }
+
+    // Salvar agendamentos
     salvarAgendamentos() {
         localStorage.setItem('agendamentos_reposicao', JSON.stringify(this.agendamentos));
+    }
+
+    // Salvar agendamentos cancelados
+    salvarAgendamentosCancelados() {
+        localStorage.setItem('agendamentos_cancelados', JSON.stringify(this.agendamentosCancelados));
     }
 
     carregarAgendamentos() {
@@ -846,43 +889,42 @@ class SistemaReposicao {
         return salvos ? JSON.parse(salvos) : [];
     }
 
+    carregarAgendamentosCancelados() {
+        const cancelados = localStorage.getItem('agendamentos_cancelados');
+        return cancelados ? JSON.parse(cancelados) : [];
+    }
+
     renderizarAgendamentos() {
         console.log('🔄 Renderizando agendamentos...');
         
         const container = document.getElementById('agendamentosList');
         const filtroData = document.getElementById('filterData');
+        const filtroProfessor = document.getElementById('filterProfessor');
         const filtroStatus = document.getElementById('filterStatus');
         
         if (!container) {
             console.error('❌ Container agendamentosList não encontrado');
             return;
         }
-        
-        if (!filtroData) {
-            console.error('❌ Elemento filterData não encontrado');
-            return;
-        }
-        
-        if (!filtroStatus) {
-            console.error('❌ Elemento filterStatus não encontrado');
-            return;
-        }
-        
-        console.log('📊 Agendamentos totais:', this.agendamentos.length);
-        console.log('📅 Filtro data:', filtroData.value);
-        console.log('📋 Filtro status:', filtroStatus.value);
-        
-        let agendamentosFiltrados = this.agendamentos;
-        
-        if (filtroData.value) {
+
+        let agendamentosFiltrados = [...this.agendamentos];
+
+        // Aplicar filtros
+        if (filtroData && filtroData.value) {
             agendamentosFiltrados = agendamentosFiltrados.filter(a => a.data === filtroData.value);
-            console.log('✅ Filtrados por data:', agendamentosFiltrados.length);
         }
-        
-        if (filtroStatus.value) {
+
+        if (filtroProfessor && filtroProfessor.value) {
+            const termoProfessor = filtroProfessor.value.toLowerCase();
+            agendamentosFiltrados = agendamentosFiltrados.filter(a => 
+                a.professor.toLowerCase().includes(termoProfessor)
+            );
+        }
+
+        if (filtroStatus && filtroStatus.value) {
             agendamentosFiltrados = agendamentosFiltrados.filter(a => a.status === filtroStatus.value);
-            console.log('✅ Filtrados por status:', agendamentosFiltrados.length);
         }
+
         
         if (agendamentosFiltrados.length === 0) {
             console.log('⚠️ Nenhum agendamento encontrado com os filtros');
@@ -950,14 +992,11 @@ class SistemaReposicao {
                 <div class="data-card-footer">
                     <small>
                         <i class="fas fa-clock"></i>
-                        Criado em ${this.formatarDataHora(agendamento.criadoEm)}
+                        Criado em ${this.formatarDataHora(agendamento.dataCriacao)}
                     </small>
                     <div class="card-actions">
-                        <button class="btn-action btn-edit" onclick="sistemaReposicao.editarAgendamento(${agendamento.id})" title="Editar">
-                            <i class="fas fa-edit"></i>
-                        </button>
-                        <button class="btn-action btn-delete" onclick="sistemaReposicao.excluirAgendamento(${agendamento.id})" title="Excluir">
-                            <i class="fas fa-trash"></i>
+                        <button class="btn-action btn-cancel" onclick="sistemaReposicao.cancelarAgendamento(${agendamento.id})" title="Cancelar Agendamento">
+                            <i class="fas fa-times"></i>
                         </button>
                         <button class="btn-action btn-pdf" onclick="sistemaReposicao.exportarParaPDF(${agendamento.id})" title="Exportar PDF">
                             <i class="fas fa-file-pdf"></i>

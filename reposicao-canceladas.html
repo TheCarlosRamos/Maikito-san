@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Reposições Canceladas - Dashboard Maikito-san</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" rel="stylesheet">
+</head>
+<body>
+    <header class="header">
+        <div class="header-content">
+            <h1><i class="fas fa-calendar-times"></i> Reposições Canceladas</h1>
+            <div class="header-nav">
+                <button class="btn btn-secondary" onclick="window.location.href='index.html'">
+                    <i class="fas fa-arrow-left"></i> Voltar ao Dashboard
+                </button>
+                <button class="btn btn-secondary" onclick="window.location.href='reposicao.html'">
+                    <i class="fas fa-calendar-plus"></i> Nova Reposição
+                </button>
+            </div>
+        </div>
+    </header>
+
+    <main class="main-content">
+        <section class="filters-section">
+            <div class="filter-group">
+                <label for="filterData">
+                    <i class="fas fa-calendar"></i> Filtrar por Data
+                </label>
+                <input type="date" id="filterData">
+            </div>
+            
+            <div class="filter-group">
+                <label for="filterProfessor">
+                    <i class="fas fa-user"></i> Filtrar por Professor
+                </label>
+                <input type="text" id="filterProfessor" placeholder="Digite o nome do professor...">
+            </div>
+            
+            <div class="filter-group">
+                <label for="filterMotivo">
+                    <i class="fas fa-comment"></i> Filtrar por Motivo
+                </label>
+                <input type="text" id="filterMotivo" placeholder="Digite o motivo do cancelamento...">
+            </div>
+        </section>
+
+        <section class="agendamentos-section">
+            <div class="section-header">
+                <h2><i class="fas fa-list"></i> Histórico de Cancelamentos</h2>
+                <div class="header-actions">
+                    <button class="btn-primary" onclick="sistemaCancelados.exportarTodosParaPDF()" title="Exportar todos para PDF">
+                        <i class="fas fa-file-pdf"></i> Exportar Tudo
+                    </button>
+                </div>
+            </div>
+            
+            <div class="agendamentos-list" id="canceladosList">
+                <!-- Agendamentos cancelados serão inseridos aqui dinamicamente -->
+            </div>
+        </section>
+    </main>
+
+    <!-- Toast de Notificação -->
+    <div id="toast" class="toast hidden">
+        <div class="toast-content">
+            <i class="fas fa-check-circle"></i>
+            <span id="toastMessage"></span>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+    <script src="whatsapp-service.js"></script>
+    <script src="reposicao-canceladas.js"></script>
+</body>
+</html>
