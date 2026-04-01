@@ -211,6 +211,12 @@ class ReposicoesCSV {
     }
 
     setupEventListeners() {
+        // Filtro por data específica
+        const filtroData = document.getElementById('filtroData');
+        if (filtroData) {
+            filtroData.addEventListener('change', () => this.renderizarReposicoes());
+        }
+
         // Filtro por mês
         const filtroMes = document.getElementById('filtroMes');
         if (filtroMes) {
@@ -267,6 +273,7 @@ class ReposicoesCSV {
         console.log('🔄 Renderizando reposições do CSV...');
         
         const container = document.getElementById('reposicoesCSVList');
+        const filtroData = document.getElementById('filtroData');
         const filtroMes = document.getElementById('filtroMes');
         const filtroAno = document.getElementById('filtroAno');
         const filtroOrigem = document.getElementById('filtroOrigem');
@@ -286,6 +293,21 @@ class ReposicoesCSV {
         ];
 
         // Aplicar filtros
+        if (filtroData && filtroData.value) {
+            const dataFiltro = filtroData.value; // Formato: YYYY-MM-DD
+            console.log('🔍 Filtrando por data específica:', dataFiltro);
+            
+            todasReposicoes = todasReposicoes.filter(r => {
+                if (!r.data) return false;
+                
+                // Converter a data do filtro para o formato DD/MM/YYYY
+                const [ano, mes, dia] = dataFiltro.split('-');
+                const dataFormatada = `${dia}/${mes}/${ano}`;
+                
+                // Verificar se a data da reposição corresponde
+                return r.data === dataFormatada || r.data.includes(dataFormatada);
+            });
+        }
         if (filtroMes && filtroMes.value) {
             todasReposicoes = todasReposicoes.filter(r => 
                 (r.mes && r.mes.toLowerCase() === filtroMes.value.toLowerCase()) ||
@@ -808,6 +830,7 @@ class ReposicoesCSV {
     }
 
     limparFiltros() {
+        const filtroData = document.getElementById('filtroData');
         const filtroMes = document.getElementById('filtroMes');
         const filtroAno = document.getElementById('filtroAno');
         const filtroOrigem = document.getElementById('filtroOrigem');
@@ -815,6 +838,7 @@ class ReposicoesCSV {
         const filtroProfessor = document.getElementById('filtroProfessor');
         const filtroTurma = document.getElementById('filtroTurma');
 
+        if (filtroData) filtroData.value = '';
         if (filtroMes) filtroMes.value = '';
         if (filtroAno) filtroAno.value = '';
         if (filtroOrigem) filtroOrigem.value = '';
