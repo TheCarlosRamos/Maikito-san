@@ -1,0 +1,12 @@
+services:
+  - type: web
+    name: maikito-san-backend
+    env: python
+    branch: main
+    buildCommand: "cd ChatBot && pip install -r requirements.txt"
+    startCommand: "cd ChatBot && uvicorn main_smart:app --host 0.0.0.0 --port $PORT"
+    envVars:
+      - key: GOOGLE_API_KEY
+        sync: false
+      - key: PYTHON_VERSION
+        value: 3.10.0
