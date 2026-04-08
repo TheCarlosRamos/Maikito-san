@@ -13,18 +13,37 @@ class Dashboard {
 
     init() {
         console.log('🚀 Inicializando dashboard...');
-        this.loadData().then(() => {
-            console.log('✅ Dados carregados, configurando interface...');
-            this.setupNavigation();
-            this.setupSearch();
-            this.setupViewControls();
-            this.setupModal();
-            this.loadInitialData();
-            this.loadStats();
-            console.log('🎉 Dashboard inicializado com sucesso!');
-        }).catch(error => {
-            console.error('❌ Erro na inicialização:', error);
-        });
+        console.log('📋 Estado do DOM:', document.readyState);
+        
+        // Aguardar o DOM estar completamente carregado
+        if (document.readyState === 'loading') {
+            console.log('⏳ Aguardando DOM carregar...');
+            document.addEventListener('DOMContentLoaded', () => {
+                console.log('✅ DOM carregado via event');
+                this.initializeAfterDOM();
+            });
+        } else {
+            console.log('✅ DOM já carregado');
+            this.initializeAfterDOM();
+        }
+    }
+
+    initializeAfterDOM() {
+        // Pequeno atraso para garantir que todos os elementos estejam disponíveis
+        setTimeout(() => {
+            this.loadData().then(() => {
+                console.log('✅ Dados carregados, configurando interface...');
+                this.setupNavigation();
+                this.setupSearch();
+                this.setupViewControls();
+                this.setupModal();
+                this.loadInitialData();
+                this.loadStats();
+                console.log('🎉 Dashboard inicializado com sucesso!');
+            }).catch(error => {
+                console.error('❌ Erro na inicialização:', error);
+            });
+        }, 200);
     }
 
     async loadData() {
@@ -58,8 +77,80 @@ class Dashboard {
     }
 
     setupNavigation() {
-        const navItems = document.getElementById('navItems');
+        console.log('🔍 Configurando navegação...');
+        console.log('📋 Estado do body:', !!document.body);
+        console.log('📋 Elementos disponíveis:', document.querySelectorAll('.nav-items, #navItems').length);
+        
+        // Verificar se o body existe
+        if (!document.body) {
+            console.error('❌ Document body não encontrado!');
+            return;
+        }
+        
+        // Tentar encontrar o sidebar
+        const sidebar = document.querySelector('.sidebar') || document.getElementById('sidebar');
+        console.log('📦 Sidebar encontrado:', !!sidebar);
+        
+        if (!sidebar) {
+            console.error('❌ Sidebar não encontrado no DOM!');
+            console.log('🔍 Procurando por sidebar:', document.querySelectorAll('.sidebar, #sidebar'));
+            
+            // Tentar criar o sidebar dinamicamente
+            console.log('🔧 Criando sidebar dinamicamente...');
+            const newSidebar = document.createElement('nav');
+            newSidebar.className = 'sidebar';
+            newSidebar.id = 'sidebar';
+            newSidebar.innerHTML = `
+                <div class="sidebar-header">
+                    <i class="fas fa-menu"></i>
+                    <span>Navegação</span>
+                </div>
+                <div class="nav-items" id="navItems"></div>
+            `;
+            document.body.appendChild(newSidebar);
+            console.log('✅ Sidebar criado dinamicamente');
+        }
+        
+        // Tentar encontrar navItems novamente
+        let navItems = document.getElementById('navItems') || document.querySelector('.nav-items');
+        console.log('🎯 navItems encontrado:', !!navItems);
+        
+        if (!navItems) {
+            console.error('❌ Elemento navItems não encontrado no DOM');
+            console.log('🔍 Procurando elementos nav-items:', document.querySelectorAll('.nav-items'));
+            console.log('🔍 Procurando elementos #navItems:', document.querySelectorAll('#navItems'));
+            
+            // Criar navItems dentro do sidebar
+            const sidebarElement = document.querySelector('.sidebar') || document.getElementById('sidebar');
+            if (sidebarElement) {
+                console.log('🔧 Criando navItems dinamicamente...');
+                navItems = document.createElement('div');
+                navItems.className = 'nav-items';
+                navItems.id = 'navItems';
+                sidebarElement.appendChild(navItems);
+                console.log('✅ navItems criado e adicionado ao sidebar');
+            } else {
+                console.error('❌ Sidebar não encontrado para criar navItems!');
+                return;
+            }
+        }
+        
+        console.log('✅ navItems encontrado, limpando conteúdo...');
         navItems.innerHTML = '';
+
+        // Adicionar item de Chatbot IA
+        const chatbotItem = document.createElement('div');
+        chatbotItem.className = 'nav-item';
+        chatbotItem.innerHTML = '<i class="fas fa-robot"></i>Assistente IA';
+        chatbotItem.onclick = () => {
+            window.location.href = 'chatbot.html';
+        };
+        navItems.appendChild(chatbotItem);
+        
+        // Adicionar separador
+        const separator1 = document.createElement('div');
+        separator1.style.cssText = 'height: 1px; background: rgba(255,255,255,0.1); margin: 0.5rem 0;';
+        navItems.appendChild(separator1);
 
         // Adicionar item de Reposição com link direto
         const reposicaoItem = document.createElement('div');
@@ -238,6 +329,10 @@ class Dashboard {
 
     setupSearch() {
         const searchBox = document.getElementById('searchBox');
+        if (!searchBox) {
+            console.warn('⚠️ Elemento searchBox não encontrado, pulando configuração de busca');
+            return;
+        }
         searchBox.addEventListener('input', (e) => {
             this.searchTerm = e.target.value.toLowerCase();
             this.filterAndRender();
@@ -246,6 +341,10 @@ class Dashboard {
 
     setupViewControls() {
         const viewBtns = document.querySelectorAll('.view-btn');
+        if (viewBtns.length === 0) {
+            console.warn('⚠️ Botões de view não encontrados, pulando configuração');
+            return;
+        }
         viewBtns.forEach(btn => {
             btn.addEventListener('click', () => {
                 viewBtns.forEach(b => b.classList.remove('active'));
@@ -260,8 +359,13 @@ class Dashboard {
         const modal = document.getElementById('detailModal');
         const modalClose = document.getElementById('modalClose');
         
-        if (!modal || !modalClose) {
-            console.warn('Modal elements not found');
+        if (!modal) {
+            console.warn('⚠️ Modal não encontrado, pulando configuração');
+            return;
+        }
+        
+        if (!modalClose) {
+            console.warn('⚠️ Botão de fechar modal não encontrado');
             return;
         }
         
@@ -861,13 +965,20 @@ class Dashboard {
     }
 }
 
-document.addEventListener('DOMContentLoaded', () => {
-    window.dashboard = new Dashboard();
-    
-    // Função global para fechar modal (usada nos botões dentro do modal)
-    window.closeModal = () => {
-        if (window.dashboard) {
-            window.dashboard.closeModal();
-        }
-    };
-});
+// Garantir que só inicialize uma vez
+if (!window.dashboardInitialized) {
+    document.addEventListener('DOMContentLoaded', () => {
+        console.log('🎯 Inicializando Dashboard (única vez)');
+        window.dashboard = new Dashboard();
+        window.dashboardInitialized = true;
+        
+        // Função global para fechar modal (usada nos botões dentro do modal)
+        window.closeModal = () => {
+            if (window.dashboard) {
+                window.dashboard.closeModal();
+            }
+        };
+    });
+} else {
+    console.log('⚠️ Dashboard já inicializado');
+}

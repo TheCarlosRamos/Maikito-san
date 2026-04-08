@@ -1,0 +1,878 @@
+id,texto,aluno,turma,data,hora,origem
+1,Aluno Gabriel Duarte Leite pertence à turma INT. 3 e tem aula com o professor Giovanna Segunda às 08:00.,Gabriel Duarte Leite,INT. 3,,08:00,organized
+2,Aluno Gabriel Duarte Leite pertence à turma INT. 3 e tem aula com o professor Giovanna Quarta às 08:00.,Gabriel Duarte Leite,INT. 3,,08:00,organized
+3,Aluno Danilo Rodrigues Correia pertence à turma INT. 3 e tem aula com o professor Giovanna Segunda às 08:00.,Danilo Rodrigues Correia,INT. 3,,08:00,organized
+4,Aluno Danilo Rodrigues Correia pertence à turma INT. 3 e tem aula com o professor Giovanna Quarta às 08:00.,Danilo Rodrigues Correia,INT. 3,,08:00,organized
+5,Aluno Anna Caroline Shirney de Campos pertence à turma INT. 3 e tem aula com o professor Giovanna Segunda às 08:00.,Anna Caroline Shirney de Campos,INT. 3,,08:00,organized
+6,Aluno Anna Caroline Shirney de Campos pertence à turma INT. 3 e tem aula com o professor Giovanna Quarta às 08:00.,Anna Caroline Shirney de Campos,INT. 3,,08:00,organized
+7,Aluno Lucas Nunes Fernandes pertence à turma INT. 3 e tem aula com o professor Giovanna Segunda às 08:00.,Lucas Nunes Fernandes,INT. 3,,08:00,organized
+8,Aluno Lucas Nunes Fernandes pertence à turma INT. 3 e tem aula com o professor Giovanna Quarta às 08:00.,Lucas Nunes Fernandes,INT. 3,,08:00,organized
+9,Aluno Anthony Silva Melo de Menezes Duarte pertence à turma INT. 3 e tem aula com o professor Giovanna Segunda às 08:00.,Anthony Silva Melo de Menezes Duarte,INT. 3,,08:00,organized
+10,Aluno Anthony Silva Melo de Menezes Duarte pertence à turma INT. 3 e tem aula com o professor Giovanna Quarta às 08:00.,Anthony Silva Melo de Menezes Duarte,INT. 3,,08:00,organized
+11,Aluno aluno pertence à turma turma e tem aula com o professor Teacher dia às horario.,aluno,turma,,horario,organized
+12,Aluno Ana Klara Sousa Carvalho pertence à turma KIDS 1 e tem aula com o professor Natalia Segunda às 14:00.,Ana Klara Sousa Carvalho,KIDS 1,,14:00,organized
+13,Aluno Ana Klara Sousa Carvalho pertence à turma KIDS 1 e tem aula com o professor Natalia Quarta às 14:00.,Ana Klara Sousa Carvalho,KIDS 1,,14:00,organized
+14,Aluno Alice Wilker Soares da Silva pertence à turma KIDS 1 e tem aula com o professor Natalia Segunda às 14:00.,Alice Wilker Soares da Silva,KIDS 1,,14:00,organized
+15,Aluno Alice Wilker Soares da Silva pertence à turma KIDS 1 e tem aula com o professor Natalia Quarta às 14:00.,Alice Wilker Soares da Silva,KIDS 1,,14:00,organized
+16,Aluno Lara Lopes Saraiva pertence à turma KIDS 1 e tem aula com o professor Natalia Segunda às 14:00.,Lara Lopes Saraiva,KIDS 1,,14:00,organized
+17,Aluno Lara Lopes Saraiva pertence à turma KIDS 1 e tem aula com o professor Natalia Quarta às 14:00.,Lara Lopes Saraiva,KIDS 1,,14:00,organized
+18,Aluno Sofia Mol Camera Leite e Costa pertence à turma KIDS 1 e tem aula com o professor Natalia Segunda às 14:00.,Sofia Mol Camera Leite e Costa,KIDS 1,,14:00,organized
+19,Aluno Sofia Mol Camera Leite e Costa pertence à turma KIDS 1 e tem aula com o professor Natalia Quarta às 14:00.,Sofia Mol Camera Leite e Costa,KIDS 1,,14:00,organized
+20,Aluno João Gabriel Candido Diniz pertence à turma KIDS 1 e tem aula com o professor Natalia Segunda às 14:00.,João Gabriel Candido Diniz,KIDS 1,,14:00,organized
+21,Aluno João Gabriel Candido Diniz pertence à turma KIDS 1 e tem aula com o professor Natalia Quarta às 14:00.,João Gabriel Candido Diniz,KIDS 1,,14:00,organized
+22,Aluno Julia Silva Rocha pertence à turma KIDS 2 e tem aula com o professor Giovanna Segunda às 14:00.,Julia Silva Rocha,KIDS 2,,14:00,organized
+23,Aluno Julia Silva Rocha pertence à turma KIDS 2 e tem aula com o professor Giovanna Quarta às 14:00.,Julia Silva Rocha,KIDS 2,,14:00,organized
+24,Aluno Camila Andrade Carneiro de Aguiar pertence à turma KIDS 2 e tem aula com o professor Giovanna Segunda às 14:00.,Camila Andrade Carneiro de Aguiar,KIDS 2,,14:00,organized
+25,Aluno Camila Andrade Carneiro de Aguiar pertence à turma KIDS 2 e tem aula com o professor Giovanna Quarta às 14:00.,Camila Andrade Carneiro de Aguiar,KIDS 2,,14:00,organized
+26,Aluno Arthur Landim do Carmo pertence à turma KIDS 2 e tem aula com o professor Giovanna Segunda às 14:00.,Arthur Landim do Carmo,KIDS 2,,14:00,organized
+27,Aluno Arthur Landim do Carmo pertence à turma KIDS 2 e tem aula com o professor Giovanna Quarta às 14:00.,Arthur Landim do Carmo,KIDS 2,,14:00,organized
+28,Aluno Pedro Henrique Sousa Lustosa pertence à turma KIDS 2 e tem aula com o professor Giovanna Segunda às 14:00.,Pedro Henrique Sousa Lustosa,KIDS 2,,14:00,organized
+29,Aluno Pedro Henrique Sousa Lustosa pertence à turma KIDS 2 e tem aula com o professor Giovanna Quarta às 14:00.,Pedro Henrique Sousa Lustosa,KIDS 2,,14:00,organized
+30,Aluno Sofia Rodrigues Marques Santana pertence à turma INT. 1 e tem aula com o professor Beatriz Segunda às 14:00.,Sofia Rodrigues Marques Santana,INT. 1,,14:00,organized
+31,Aluno Sofia Rodrigues Marques Santana pertence à turma INT. 1 e tem aula com o professor Beatriz Quarta às 14:00.,Sofia Rodrigues Marques Santana,INT. 1,,14:00,organized
+32,Aluno Raira Santos Silva pertence à turma INT. 1 e tem aula com o professor Beatriz Segunda às 14:00.,Raira Santos Silva,INT. 1,,14:00,organized
+33,Aluno Raira Santos Silva pertence à turma INT. 1 e tem aula com o professor Beatriz Quarta às 14:00.,Raira Santos Silva,INT. 1,,14:00,organized
+34,Aluno Vitor Wilker Soares da Silva pertence à turma INT. 1 e tem aula com o professor Beatriz Segunda às 14:00.,Vitor Wilker Soares da Silva,INT. 1,,14:00,organized
+35,Aluno Vitor Wilker Soares da Silva pertence à turma INT. 1 e tem aula com o professor Beatriz Quarta às 14:00.,Vitor Wilker Soares da Silva,INT. 1,,14:00,organized
+36,Aluno Milena Freitas Soares pertence à turma INT. 2 e tem aula com o professor Flavia Segunda às 14:00.,Milena Freitas Soares,INT. 2,,14:00,organized
+37,Aluno Milena Freitas Soares pertence à turma INT. 2 e tem aula com o professor Flavia Quarta às 14:00.,Milena Freitas Soares,INT. 2,,14:00,organized
+38,Aluno Danilo Goncalves da Silva pertence à turma INT. 2 e tem aula com o professor Flavia Segunda às 14:00.,Danilo Goncalves da Silva,INT. 2,,14:00,organized
+39,Aluno Danilo Goncalves da Silva pertence à turma INT. 2 e tem aula com o professor Flavia Quarta às 14:00.,Danilo Goncalves da Silva,INT. 2,,14:00,organized
+40,Aluno Pietro de Souza Costa Vaz pertence à turma INT. 2 e tem aula com o professor Flavia Segunda às 14:00.,Pietro de Souza Costa Vaz,INT. 2,,14:00,organized
+41,Aluno Pietro de Souza Costa Vaz pertence à turma INT. 2 e tem aula com o professor Flavia Quarta às 14:00.,Pietro de Souza Costa Vaz,INT. 2,,14:00,organized
+42,Aluno aluno pertence à turma turma e tem aula com o professor Teacher dia às horario.,aluno,turma,,horario,organized
+43,Aluno Joao Lucas Andrade Meneses pertence à turma KIDS 1 e tem aula com o professor Ana Paula Segunda às 18:00.,Joao Lucas Andrade Meneses,KIDS 1,,18:00,organized
+44,Aluno Joao Lucas Andrade Meneses pertence à turma KIDS 1 e tem aula com o professor Ana Paula Quarta às 18:00.,Joao Lucas Andrade Meneses,KIDS 1,,18:00,organized
+45,Aluno Maryane Pereira Nunes pertence à turma KIDS 1 e tem aula com o professor Ana Paula Segunda às 18:00.,Maryane Pereira Nunes,KIDS 1,,18:00,organized
+46,Aluno Maryane Pereira Nunes pertence à turma KIDS 1 e tem aula com o professor Ana Paula Quarta às 18:00.,Maryane Pereira Nunes,KIDS 1,,18:00,organized
+47,Aluno Ester Farias Andrade pertence à turma KIDS 1 e tem aula com o professor Ana Paula Segunda às 18:00.,Ester Farias Andrade,KIDS 1,,18:00,organized
+48,Aluno Ester Farias Andrade pertence à turma KIDS 1 e tem aula com o professor Ana Paula Quarta às 18:00.,Ester Farias Andrade,KIDS 1,,18:00,organized
+49,Aluno Vinicius Ribeiro Lopes Estrela Marra pertence à turma KIDS 1 e tem aula com o professor Ana Paula Segunda às 18:00.,Vinicius Ribeiro Lopes Estrela Marra,KIDS 1,,18:00,organized
+50,Aluno Vinicius Ribeiro Lopes Estrela Marra pertence à turma KIDS 1 e tem aula com o professor Ana Paula Quarta às 18:00.,Vinicius Ribeiro Lopes Estrela Marra,KIDS 1,,18:00,organized
+51,Aluno Davi Braga de Deus pertence à turma INT. 1 e tem aula com o professor Flavia Segunda às 18:00.,Davi Braga de Deus,INT. 1,,18:00,organized
+52,Aluno Davi Braga de Deus pertence à turma INT. 1 e tem aula com o professor Flavia Quarta às 18:00.,Davi Braga de Deus,INT. 1,,18:00,organized
+53,Aluno Arthur Pereira Pires pertence à turma INT. 1 e tem aula com o professor Flavia Segunda às 18:00.,Arthur Pereira Pires,INT. 1,,18:00,organized
+54,Aluno Arthur Pereira Pires pertence à turma INT. 1 e tem aula com o professor Flavia Quarta às 18:00.,Arthur Pereira Pires,INT. 1,,18:00,organized
+55,Aluno Leonardo da Costa Marinho pertence à turma INT. 1 e tem aula com o professor Flavia Segunda às 18:00.,Leonardo da Costa Marinho,INT. 1,,18:00,organized
+56,Aluno Leonardo da Costa Marinho pertence à turma INT. 1 e tem aula com o professor Flavia Quarta às 18:00.,Leonardo da Costa Marinho,INT. 1,,18:00,organized
+57,Aluno Isabelly Goulart Mourao pertence à turma ONLINE e tem aula com o professor Maycon Segunda às 18:00.,Isabelly Goulart Mourao,ONLINE,,18:00,organized
+58,Aluno Isabelly Goulart Mourao pertence à turma ONLINE e tem aula com o professor Maycon Quarta às 18:00.,Isabelly Goulart Mourao,ONLINE,,18:00,organized
+59,Aluno Arthur Duarte Leite pertence à turma ONLINE e tem aula com o professor Maycon Segunda às 18:00.,Arthur Duarte Leite,ONLINE,,18:00,organized
+60,Aluno Arthur Duarte Leite pertence à turma ONLINE e tem aula com o professor Maycon Quarta às 18:00.,Arthur Duarte Leite,ONLINE,,18:00,organized
+61,Aluno Vinicius da Costa Marinho pertence à turma INT. 1 e tem aula com o professor Flavia Quarta às 19:00.,Vinicius da Costa Marinho,INT. 1,,19:00,organized
+62,Aluno Rafaela de Araujo Caldas pertence à turma INT. 1 e tem aula com o professor Flavia Quarta às 19:00.,Rafaela de Araujo Caldas,INT. 1,,19:00,organized
+63,Aluno Maria Laura Azevedo Silva pertence à turma INT. 1 e tem aula com o professor Flavia Quarta às 19:00.,Maria Laura Azevedo Silva,INT. 1,,19:00,organized
+64,Aluno Fabricio Calazans Nunes pertence à turma INT. 1 e tem aula com o professor Flavia Quarta às 19:00.,Fabricio Calazans Nunes,INT. 1,,19:00,organized
+65,Aluno Isadora Duarte dos Santos pertence à turma INT. 1 e tem aula com o professor Flavia Quarta às 19:00.,Isadora Duarte dos Santos,INT. 1,,19:00,organized
+66,Aluno Luiz Paulo Pereira Ribeiro pertence à turma INT. 1 e tem aula com o professor Flavia Quarta às 19:00.,Luiz Paulo Pereira Ribeiro,INT. 1,,19:00,organized
+67,Aluno Marisa Alencar Silva de Sousa pertence à turma INT. 2 e tem aula com o professor Maycon Segunda às 19:00.,Marisa Alencar Silva de Sousa,INT. 2,,19:00,organized
+68,Aluno Marisa Alencar Silva de Sousa pertence à turma INT. 2 e tem aula com o professor Maycon Quarta às 19:00.,Marisa Alencar Silva de Sousa,INT. 2,,19:00,organized
+69,Aluno Maria Cecilia Dias de Barros pertence à turma INT. 2 e tem aula com o professor Maycon Segunda às 19:00.,Maria Cecilia Dias de Barros,INT. 2,,19:00,organized
+70,Aluno Maria Cecilia Dias de Barros pertence à turma INT. 2 e tem aula com o professor Maycon Quarta às 19:00.,Maria Cecilia Dias de Barros,INT. 2,,19:00,organized
+71,Aluno Maria Clara Dias de Barros pertence à turma INT. 2 e tem aula com o professor Maycon Segunda às 19:00.,Maria Clara Dias de Barros,INT. 2,,19:00,organized
+72,Aluno Maria Clara Dias de Barros pertence à turma INT. 2 e tem aula com o professor Maycon Quarta às 19:00.,Maria Clara Dias de Barros,INT. 2,,19:00,organized
+73,Aluno aluno pertence à turma turma e tem aula com o professor Teacher dia às horario.,aluno,turma,,horario,organized
+74,Aluno Marcia Sousa Dias pertence à turma INT. 1 e tem aula com o professor Giovanna Terça às 08:00.,Marcia Sousa Dias,INT. 1,,08:00,organized
+75,Aluno Marcia Sousa Dias pertence à turma INT. 1 e tem aula com o professor Giovanna Quinta às 08:00.,Marcia Sousa Dias,INT. 1,,08:00,organized
+76,Aluno Vagne Celio Vasconcelos de Souza pertence à turma INT. 1 e tem aula com o professor Giovanna Terça às 08:00.,Vagne Celio Vasconcelos de Souza,INT. 1,,08:00,organized
+77,Aluno Vagne Celio Vasconcelos de Souza pertence à turma INT. 1 e tem aula com o professor Giovanna Quinta às 08:00.,Vagne Celio Vasconcelos de Souza,INT. 1,,08:00,organized
+78,Aluno Gabriela Benjamine Almeida Colim pertence à turma INT. 1 e tem aula com o professor Giovanna Terça às 08:00.,Gabriela Benjamine Almeida Colim,INT. 1,,08:00,organized
+79,Aluno Gabriela Benjamine Almeida Colim pertence à turma INT. 1 e tem aula com o professor Giovanna Quinta às 08:00.,Gabriela Benjamine Almeida Colim,INT. 1,,08:00,organized
+80,Aluno Kelly Cristina Santiago Abreu Pereira pertence à turma INT. 1 e tem aula com o professor Giovanna Terça às 08:00.,Kelly Cristina Santiago Abreu Pereira,INT. 1,,08:00,organized
+81,Aluno Kelly Cristina Santiago Abreu Pereira pertence à turma INT. 1 e tem aula com o professor Giovanna Quinta às 08:00.,Kelly Cristina Santiago Abreu Pereira,INT. 1,,08:00,organized
+82,Aluno Joao Filipe de Abreu Santos pertence à turma INT. 1 e tem aula com o professor Giovanna Terça às 08:00.,Joao Filipe de Abreu Santos,INT. 1,,08:00,organized
+83,Aluno Joao Filipe de Abreu Santos pertence à turma INT. 1 e tem aula com o professor Giovanna Quinta às 08:00.,Joao Filipe de Abreu Santos,INT. 1,,08:00,organized
+84,Aluno Flavia de Oliveira Nunes Carvalho pertence à turma LK 4 A e tem aula com o professor Giovana Terça às 09:00.,Flavia de Oliveira Nunes Carvalho,LK 4 A,,09:00,organized
+85,Aluno Flavia de Oliveira Nunes Carvalho pertence à turma LK 4 A e tem aula com o professor Giovana Quinta às 09:00.,Flavia de Oliveira Nunes Carvalho,LK 4 A,,09:00,organized
+86,Aluno Maria Luisa de Jesus Barbosa pertence à turma LK 4 A e tem aula com o professor Giovana Terça às 09:00.,Maria Luisa de Jesus Barbosa,LK 4 A,,09:00,organized
+87,Aluno Maria Luisa de Jesus Barbosa pertence à turma LK 4 A e tem aula com o professor Giovana Quinta às 09:00.,Maria Luisa de Jesus Barbosa,LK 4 A,,09:00,organized
+88,Aluno Joao Miguel Santana de Araujo pertence à turma LK 4 A e tem aula com o professor Giovana Terça às 09:00.,Joao Miguel Santana de Araujo,LK 4 A,,09:00,organized
+89,Aluno Joao Miguel Santana de Araujo pertence à turma LK 4 A e tem aula com o professor Giovana Quinta às 09:00.,Joao Miguel Santana de Araujo,LK 4 A,,09:00,organized
+90,Aluno Helena Gomes Texeira Dias pertence à turma KIDS 1 e tem aula com o professor Natalia Terça às 09:00.,Helena Gomes Texeira Dias,KIDS 1,,09:00,organized
+91,Aluno Helena Gomes Texeira Dias pertence à turma KIDS 1 e tem aula com o professor Natalia Quinta às 09:00.,Helena Gomes Texeira Dias,KIDS 1,,09:00,organized
+92,Aluno Sophie Lamounier Aguiar pertence à turma KIDS 1 e tem aula com o professor Natalia Terça às 09:00.,Sophie Lamounier Aguiar,KIDS 1,,09:00,organized
+93,Aluno Sophie Lamounier Aguiar pertence à turma KIDS 1 e tem aula com o professor Natalia Quinta às 09:00.,Sophie Lamounier Aguiar,KIDS 1,,09:00,organized
+94,Aluno Lucas Peixoto Lopes pertence à turma KIDS 1 e tem aula com o professor Natalia Terça às 09:00.,Lucas Peixoto Lopes,KIDS 1,,09:00,organized
+95,Aluno Lucas Peixoto Lopes pertence à turma KIDS 1 e tem aula com o professor Natalia Quinta às 09:00.,Lucas Peixoto Lopes,KIDS 1,,09:00,organized
+96,Aluno Davi Oliveira Lira pertence à turma KIDS 1 e tem aula com o professor Natalia Terça às 09:00.,Davi Oliveira Lira,KIDS 1,,09:00,organized
+97,Aluno Davi Oliveira Lira pertence à turma KIDS 1 e tem aula com o professor Natalia Quinta às 09:00.,Davi Oliveira Lira,KIDS 1,,09:00,organized
+98,Aluno Lucas Hernandes Moreira Soares pertence à turma INT. 1 e tem aula com o professor Giovanna Terça às 09:00.,Lucas Hernandes Moreira Soares,INT. 1,,09:00,organized
+99,Aluno Lucas Hernandes Moreira Soares pertence à turma INT. 1 e tem aula com o professor Giovanna Quinta às 09:00.,Lucas Hernandes Moreira Soares,INT. 1,,09:00,organized
+100,Aluno Davi dos Santos Silva pertence à turma INT. 1 e tem aula com o professor Giovanna Terça às 09:00.,Davi dos Santos Silva,INT. 1,,09:00,organized
+101,Aluno Davi dos Santos Silva pertence à turma INT. 1 e tem aula com o professor Giovanna Quinta às 09:00.,Davi dos Santos Silva,INT. 1,,09:00,organized
+102,Aluno Kaio Vinicius Caetano de Almeida pertence à turma INT. 1 e tem aula com o professor Giovanna Terça às 09:00.,Kaio Vinicius Caetano de Almeida,INT. 1,,09:00,organized
+103,Aluno Kaio Vinicius Caetano de Almeida pertence à turma INT. 1 e tem aula com o professor Giovanna Quinta às 09:00.,Kaio Vinicius Caetano de Almeida,INT. 1,,09:00,organized
+104,Aluno aluno pertence à turma turma e tem aula com o professor Teacher dia às horario.,aluno,turma,,horario,organized
+105,Aluno Heitor Dantas Tavares de Sousa pertence à turma KIDS 1 e tem aula com o professor Ana Paula Terça às 14:00.,Heitor Dantas Tavares de Sousa,KIDS 1,,14:00,organized
+106,Aluno Heitor Dantas Tavares de Sousa pertence à turma KIDS 1 e tem aula com o professor Ana Paula Quinta às 14:00.,Heitor Dantas Tavares de Sousa,KIDS 1,,14:00,organized
+107,Aluno Vicente Silva Dias pertence à turma KIDS 1 e tem aula com o professor Ana Paula Terça às 14:00.,Vicente Silva Dias,KIDS 1,,14:00,organized
+108,Aluno Vicente Silva Dias pertence à turma KIDS 1 e tem aula com o professor Ana Paula Quinta às 14:00.,Vicente Silva Dias,KIDS 1,,14:00,organized
+109,Aluno Elisa Cerqueira Ferreira pertence à turma KIDS 1 e tem aula com o professor Ana Paula Terça às 14:00.,Elisa Cerqueira Ferreira,KIDS 1,,14:00,organized
+110,Aluno Elisa Cerqueira Ferreira pertence à turma KIDS 1 e tem aula com o professor Ana Paula Quinta às 14:00.,Elisa Cerqueira Ferreira,KIDS 1,,14:00,organized
+111,Aluno Raphael Henrique Martins Eler pertence à turma INT. 1 e tem aula com o professor Flavia Terça às 14:00.,Raphael Henrique Martins Eler,INT. 1,,14:00,organized
+112,Aluno Raphael Henrique Martins Eler pertence à turma INT. 1 e tem aula com o professor Flavia Quinta às 14:00.,Raphael Henrique Martins Eler,INT. 1,,14:00,organized
+113,Aluno Anita Nobre Quirino pertence à turma INT. 1 e tem aula com o professor Flavia Terça às 14:00.,Anita Nobre Quirino,INT. 1,,14:00,organized
+114,Aluno Anita Nobre Quirino pertence à turma INT. 1 e tem aula com o professor Flavia Quinta às 14:00.,Anita Nobre Quirino,INT. 1,,14:00,organized
+115,Aluno Giovana Nobre Quirino pertence à turma INT. 1 e tem aula com o professor Flavia Terça às 14:00.,Giovana Nobre Quirino,INT. 1,,14:00,organized
+116,Aluno Giovana Nobre Quirino pertence à turma INT. 1 e tem aula com o professor Flavia Quinta às 14:00.,Giovana Nobre Quirino,INT. 1,,14:00,organized
+117,Aluno Daniela Bastos Moreira Guimaraes pertence à turma INT. 1 e tem aula com o professor Flavia Terça às 14:00.,Daniela Bastos Moreira Guimaraes,INT. 1,,14:00,organized
+118,Aluno Daniela Bastos Moreira Guimaraes pertence à turma INT. 1 e tem aula com o professor Flavia Quinta às 14:00.,Daniela Bastos Moreira Guimaraes,INT. 1,,14:00,organized
+119,Aluno Sara Hermida Cardoso pertence à turma INT. 2 e tem aula com o professor Natalia Terça às 14:00.,Sara Hermida Cardoso,INT. 2,,14:00,organized
+120,Aluno Sara Hermida Cardoso pertence à turma INT. 2 e tem aula com o professor Natalia Quinta às 14:00.,Sara Hermida Cardoso,INT. 2,,14:00,organized
+121,Aluno Leticia Sales Vieira pertence à turma INT. 2 e tem aula com o professor Natalia Terça às 14:00.,Leticia Sales Vieira,INT. 2,,14:00,organized
+122,Aluno Leticia Sales Vieira pertence à turma INT. 2 e tem aula com o professor Natalia Quinta às 14:00.,Leticia Sales Vieira,INT. 2,,14:00,organized
+123,Aluno Mariana Carvalho Borges pertence à turma INT. 2 e tem aula com o professor Natalia Terça às 14:00.,Mariana Carvalho Borges,INT. 2,,14:00,organized
+124,Aluno Mariana Carvalho Borges pertence à turma INT. 2 e tem aula com o professor Natalia Quinta às 14:00.,Mariana Carvalho Borges,INT. 2,,14:00,organized
+125,Aluno Benicio Luiz Azevedo de Oliveira pertence à turma INT. 3 e tem aula com o professor Beatriz Terça às 14:00.,Benicio Luiz Azevedo de Oliveira,INT. 3,,14:00,organized
+126,Aluno Benicio Luiz Azevedo de Oliveira pertence à turma INT. 3 e tem aula com o professor Beatriz Quinta às 14:00.,Benicio Luiz Azevedo de Oliveira,INT. 3,,14:00,organized
+127,Aluno Caua Rodrigues de Araujo Boitrago pertence à turma INT. 3 e tem aula com o professor Beatriz Terça às 14:00.,Caua Rodrigues de Araujo Boitrago,INT. 3,,14:00,organized
+128,Aluno Caua Rodrigues de Araujo Boitrago pertence à turma INT. 3 e tem aula com o professor Beatriz Quinta às 14:00.,Caua Rodrigues de Araujo Boitrago,INT. 3,,14:00,organized
+129,Aluno Bianca Santiago Pereira pertence à turma INT. 3 e tem aula com o professor Beatriz Terça às 14:00.,Bianca Santiago Pereira,INT. 3,,14:00,organized
+130,Aluno Bianca Santiago Pereira pertence à turma INT. 3 e tem aula com o professor Beatriz Quinta às 14:00.,Bianca Santiago Pereira,INT. 3,,14:00,organized
+131,Aluno aluno pertence à turma turma e tem aula com o professor Teacher dia às horario.,aluno,turma,,horario,organized
+132,Aluno Sofia Santana das Chagas pertence à turma KIDS 1 e tem aula com o professor Ana Paula Terça às 18:00.,Sofia Santana das Chagas,KIDS 1,,18:00,organized
+133,Aluno Sofia Santana das Chagas pertence à turma KIDS 1 e tem aula com o professor Ana Paula Quinta às 18:00.,Sofia Santana das Chagas,KIDS 1,,18:00,organized
+134,Aluno Ester da Costa Salgado pertence à turma KIDS 1 e tem aula com o professor Ana Paula Terça às 18:00.,Ester da Costa Salgado,KIDS 1,,18:00,organized
+135,Aluno Ester da Costa Salgado pertence à turma KIDS 1 e tem aula com o professor Ana Paula Quinta às 18:00.,Ester da Costa Salgado,KIDS 1,,18:00,organized
+136,Aluno Avash Tahmasebi pertence à turma KIDS 1 e tem aula com o professor Ana Paula Terça às 18:00.,Avash Tahmasebi,KIDS 1,,18:00,organized
+137,Aluno Avash Tahmasebi pertence à turma KIDS 1 e tem aula com o professor Ana Paula Quinta às 18:00.,Avash Tahmasebi,KIDS 1,,18:00,organized
+138,Aluno Valentina Rodrigues de Jesus pertence à turma KIDS 1 e tem aula com o professor Ana Paula Terça às 18:00.,Valentina Rodrigues de Jesus,KIDS 1,,18:00,organized
+139,Aluno Valentina Rodrigues de Jesus pertence à turma KIDS 1 e tem aula com o professor Ana Paula Quinta às 18:00.,Valentina Rodrigues de Jesus,KIDS 1,,18:00,organized
+140,Aluno Davi Jesus Carvalho Ventura pertence à turma INT. 1 e tem aula com o professor Flavia Terça às 18:00.,Davi Jesus Carvalho Ventura,INT. 1,,18:00,organized
+141,Aluno Davi Jesus Carvalho Ventura pertence à turma INT. 1 e tem aula com o professor Flavia Quinta às 18:00.,Davi Jesus Carvalho Ventura,INT. 1,,18:00,organized
+142,Aluno Gustavo Rocha da Silva pertence à turma INT. 1 e tem aula com o professor Flavia Terça às 18:00.,Gustavo Rocha da Silva,INT. 1,,18:00,organized
+143,Aluno Gustavo Rocha da Silva pertence à turma INT. 1 e tem aula com o professor Flavia Quinta às 18:00.,Gustavo Rocha da Silva,INT. 1,,18:00,organized
+144,Aluno Roberthy Danyel Veras de Sousa Silva pertence à turma INT. 1 e tem aula com o professor Flavia Terça às 18:00.,Roberthy Danyel Veras de Sousa Silva,INT. 1,,18:00,organized
+145,Aluno Roberthy Danyel Veras de Sousa Silva pertence à turma INT. 1 e tem aula com o professor Flavia Quinta às 18:00.,Roberthy Danyel Veras de Sousa Silva,INT. 1,,18:00,organized
+146,Aluno Miguel Augusto Lopes Carnicelli pertence à turma INT. 3 e tem aula com o professor Maycon Terça às 18:00.,Miguel Augusto Lopes Carnicelli,INT. 3,,18:00,organized
+147,Aluno Miguel Augusto Lopes Carnicelli pertence à turma INT. 3 e tem aula com o professor Maycon Quinta às 18:00.,Miguel Augusto Lopes Carnicelli,INT. 3,,18:00,organized
+148,Aluno Erivelton Bastos Costa pertence à turma INT. 3 e tem aula com o professor Maycon Terça às 18:00.,Erivelton Bastos Costa,INT. 3,,18:00,organized
+149,Aluno Erivelton Bastos Costa pertence à turma INT. 3 e tem aula com o professor Maycon Quinta às 18:00.,Erivelton Bastos Costa,INT. 3,,18:00,organized
+150,Aluno Gracia Madalena Baldez Lima pertence à turma INT. 3 e tem aula com o professor Maycon Terça às 18:00.,Gracia Madalena Baldez Lima,INT. 3,,18:00,organized
+151,Aluno Gracia Madalena Baldez Lima pertence à turma INT. 3 e tem aula com o professor Maycon Quinta às 18:00.,Gracia Madalena Baldez Lima,INT. 3,,18:00,organized
+152,Aluno Sara Cristina Santos Santana pertence à turma INT. 1 e tem aula com o professor Maycon Terça às 19:00.,Sara Cristina Santos Santana,INT. 1,,19:00,organized
+153,Aluno Sara Cristina Santos Santana pertence à turma INT. 1 e tem aula com o professor Maycon Quinta às 19:00.,Sara Cristina Santos Santana,INT. 1,,19:00,organized
+154,Aluno Maria Gabriela Cabral Brasil pertence à turma INT. 1 e tem aula com o professor Maycon Terça às 19:00.,Maria Gabriela Cabral Brasil,INT. 1,,19:00,organized
+155,Aluno Maria Gabriela Cabral Brasil pertence à turma INT. 1 e tem aula com o professor Maycon Quinta às 19:00.,Maria Gabriela Cabral Brasil,INT. 1,,19:00,organized
+156,Aluno Glaucia Regina Silva Vieira pertence à turma INT. 1 e tem aula com o professor Maycon Terça às 19:00.,Glaucia Regina Silva Vieira,INT. 1,,19:00,organized
+157,Aluno Glaucia Regina Silva Vieira pertence à turma INT. 1 e tem aula com o professor Maycon Quinta às 19:00.,Glaucia Regina Silva Vieira,INT. 1,,19:00,organized
+158,Aluno aluno pertence à turma turma e tem aula com o professor Teacher dia às horario.,aluno,turma,,horario,organized
+159,Aluno Joao Eduardo Marques Tochetto pertence à turma ITALIANO 6 e tem aula com o professor Carlos Sábado às 08:00.,Joao Eduardo Marques Tochetto,ITALIANO 6,,08:00,organized
+160,Aluno Leticia Cardoso Morales pertence à turma ITALIANO 6 e tem aula com o professor Carlos Sábado às 08:00.,Leticia Cardoso Morales,ITALIANO 6,,08:00,organized
+161,Aluno Maria Luiza Tenorio de Araujo pertence à turma KIDS 1 e tem aula com o professor Giovanna Sábado às 08:00.,Maria Luiza Tenorio de Araujo,KIDS 1,,08:00,organized
+162,Aluno Samara de Oliveira Rodrigues pertence à turma KIDS 1 e tem aula com o professor Giovanna Sábado às 08:00.,Samara de Oliveira Rodrigues,KIDS 1,,08:00,organized
+163,Aluno Milena Fornaziero Novaes pertence à turma KIDS 1 e tem aula com o professor Giovanna Sábado às 08:00.,Milena Fornaziero Novaes,KIDS 1,,08:00,organized
+164,Aluno Enzo Cardoso Ruwer pertence à turma KIDS 1 e tem aula com o professor Giovanna Sábado às 08:00.,Enzo Cardoso Ruwer,KIDS 1,,08:00,organized
+165,Aluno Dandara Calazans Pereira pertence à turma KIDS 1 e tem aula com o professor Giovanna Sábado às 08:00.,Dandara Calazans Pereira,KIDS 1,,08:00,organized
+166,Aluno Ana Carolina Alves de Camargos Sena pertence à turma KIDS 1 e tem aula com o professor Giovanna Sábado às 08:00.,Ana Carolina Alves de Camargos Sena,KIDS 1,,08:00,organized
+167,Aluno Samuel Lourenco Souza Couto pertence à turma KIDS 2 e tem aula com o professor Natalia Sábado às 08:00.,Samuel Lourenco Souza Couto,KIDS 2,,08:00,organized
+168,Aluno Laura Rocha Amaral pertence à turma KIDS 2 e tem aula com o professor Natalia Sábado às 08:00.,Laura Rocha Amaral,KIDS 2,,08:00,organized
+169,Aluno Felipe Augusto Freita Souza pertence à turma KIDS 2 e tem aula com o professor Natalia Sábado às 08:00.,Felipe Augusto Freita Souza,KIDS 2,,08:00,organized
+170,Aluno Matheus Silva Maciel pertence à turma KIDS 2 e tem aula com o professor Natalia Sábado às 08:00.,Matheus Silva Maciel,KIDS 2,,08:00,organized
+171,Aluno Ana Catarina Souza Maia pertence à turma KIDS 2 e tem aula com o professor Natalia Sábado às 08:00.,Ana Catarina Souza Maia,KIDS 2,,08:00,organized
+172,Aluno Giovanna Fontenele Botelho pertence à turma KIDS 2 e tem aula com o professor Natalia Sábado às 08:00.,Giovanna Fontenele Botelho,KIDS 2,,08:00,organized
+173,Aluno Theo Mendes Fonseca pertence à turma LK 2 B e tem aula com o professor Giovana Sábado às 08:00.,Theo Mendes Fonseca,LK 2 B,,08:00,organized
+174,Aluno Manuela Neves Queiroz pertence à turma LK 2 B e tem aula com o professor Giovana Sábado às 08:00.,Manuela Neves Queiroz,LK 2 B,,08:00,organized
+175,Aluno Clarice Leandro de Faria pertence à turma TOTS 2 A e tem aula com o professor Ana Paula Sábado às 08:00.,Clarice Leandro de Faria,TOTS 2 A,,08:00,organized
+176,Aluno Elizabeth Pessoa Rezende pertence à turma TOTS 2 A e tem aula com o professor Ana Paula Sábado às 08:00.,Elizabeth Pessoa Rezende,TOTS 2 A,,08:00,organized
+177,Aluno Catarina Leite Costa Marsaro dos Santos pertence à turma TOTS 2 A e tem aula com o professor Ana Paula Sábado às 08:00.,Catarina Leite Costa Marsaro dos Santos,TOTS 2 A,,08:00,organized
+178,Aluno Jade Militao Marino pertence à turma TOTS 2 A e tem aula com o professor Ana Paula Sábado às 08:00.,Jade Militao Marino,TOTS 2 A,,08:00,organized
+179,Aluno Joao Miguel Gomes Vieira pertence à turma TOTS 2 A e tem aula com o professor Ana Paula Sábado às 08:00.,Joao Miguel Gomes Vieira,TOTS 2 A,,08:00,organized
+180,Aluno Joao Gabriel Souza de Paula pertence à turma INT. 1 e tem aula com o professor Flavia Sábado às 08:00.,Joao Gabriel Souza de Paula,INT. 1,,08:00,organized
+181,Aluno Bianca Silvino Silva pertence à turma INT. 1 e tem aula com o professor Flavia Sábado às 08:00.,Bianca Silvino Silva,INT. 1,,08:00,organized
+182,Aluno Pyetra da Silva Lima pertence à turma INT. 1 e tem aula com o professor Flavia Sábado às 08:00.,Pyetra da Silva Lima,INT. 1,,08:00,organized
+183,Aluno Julia Maria de Moura Veras pertence à turma INT. 1 e tem aula com o professor Flavia Sábado às 08:00.,Julia Maria de Moura Veras,INT. 1,,08:00,organized
+184,Aluno Vitoria Beatriz Silvino Silva pertence à turma INT. 1 e tem aula com o professor Flavia Sábado às 08:00.,Vitoria Beatriz Silvino Silva,INT. 1,,08:00,organized
+185,Aluno Leticia Mayumi Yamaguti Mourao pertence à turma INT. 1 e tem aula com o professor Flavia Sábado às 08:00.,Leticia Mayumi Yamaguti Mourao,INT. 1,,08:00,organized
+186,Aluno aluno pertence à turma turma e tem aula com o professor Teacher dia às horario.,aluno,turma,,horario,organized
+187,Aluno Matheus Augusto de Freitas pertence à turma INT. 1 e tem aula com o professor Maycon Sábado às 14:00.,Matheus Augusto de Freitas,INT. 1,,14:00,organized
+188,Aluno Ana Luisa Gomes da Rocha pertence à turma INT. 1 e tem aula com o professor Maycon Sábado às 14:00.,Ana Luisa Gomes da Rocha,INT. 1,,14:00,organized
+189,Aluno Eduardo Araujo Soares pertence à turma INT. 1 e tem aula com o professor Maycon Sábado às 14:00.,Eduardo Araujo Soares,INT. 1,,14:00,organized
+190,Aluno Leonardo Lira Lopes pertence à turma INT. 1 e tem aula com o professor Maycon Sábado às 14:00.,Leonardo Lira Lopes,INT. 1,,14:00,organized
+191,Aluno Renato Ferreira Batista pertence à turma INT. 1 e tem aula com o professor Maycon Sábado às 14:00.,Renato Ferreira Batista,INT. 1,,14:00,organized
+192,Aluno Giovani Fernandes Pavezzi pertence à turma INT. 1 e tem aula com o professor Maycon Sábado às 14:00.,Giovani Fernandes Pavezzi,INT. 1,,14:00,organized
+193,Aluno Alana Cruz Pereira pertence à turma INT. 1 e tem aula com o professor Maycon Sábado às 14:00.,Alana Cruz Pereira,INT. 1,,14:00,organized
+194,Aluno Alice Conceicao de Goes pertence à turma INT. 1 e tem aula com o professor Maycon Sábado às 14:00.,Alice Conceicao de Goes,INT. 1,,14:00,organized
+195,Aluno Ana Clara Rodrigues da Silva pertence à turma INT. 1 e tem aula com o professor Maycon Sábado às 14:00.,Ana Clara Rodrigues da Silva,INT. 1,,14:00,organized
+196,Aluno Ramon Carvalho Mauricio Filho pertence à turma FRANCES 2 e tem aula com o professor Carlos Sábado às 10:00.,Ramon Carvalho Mauricio Filho,FRANCES 2,,10:00,organized
+197,Aluno Matheus Henrique Faria e Cruz pertence à turma FRANCES 2 e tem aula com o professor Carlos Sábado às 10:00.,Matheus Henrique Faria e Cruz,FRANCES 2,,10:00,organized
+198,Aluno Yan Menezes Oliveira pertence à turma FRANCES 2 e tem aula com o professor Carlos Sábado às 10:00.,Yan Menezes Oliveira,FRANCES 2,,10:00,organized
+199,Aluno Lucas Carvalho de Aquino pertence à turma FRANCES 2 e tem aula com o professor Carlos Sábado às 10:00.,Lucas Carvalho de Aquino,FRANCES 2,,10:00,organized
+200,Aluno Jose Wilson de Menezes pertence à turma FRANCES 2 e tem aula com o professor Carlos Sábado às 10:00.,Jose Wilson de Menezes,FRANCES 2,,10:00,organized
+201,Aluno Daniel Cruz de Carvalho pertence à turma FRANCES 2 e tem aula com o professor Carlos Sábado às 10:00.,Daniel Cruz de Carvalho,FRANCES 2,,10:00,organized
+202,Aluno Edislania Cristina Melo pertence à turma FRANCES 2 e tem aula com o professor Carlos Sábado às 10:00.,Edislania Cristina Melo,FRANCES 2,,10:00,organized
+203,Aluno aluno pertence à turma turma e tem aula com o professor Teacher dia às horario.,aluno,turma,,horario,organized
+204,Aluno Carolina Macedo Batista Silva pertence à turma INT. 3 e tem aula com o professor Natalia Sexta às 09:00.,Carolina Macedo Batista Silva,INT. 3,,09:00,organized
+205,Aluno Gabriela Alves dos Santos Correia pertence à turma INT. 3 e tem aula com o professor Natalia Sexta às 09:00.,Gabriela Alves dos Santos Correia,INT. 3,,09:00,organized
+206,Aluno Joao Victor Diniz Gadelha pertence à turma INT. 3 e tem aula com o professor Natalia Sexta às 09:00.,Joao Victor Diniz Gadelha,INT. 3,,09:00,organized
+207,Aluno Jennifer Lopes Patricio dos Santos pertence à turma INT. 3 e tem aula com o professor Natalia Sexta às 09:00.,Jennifer Lopes Patricio dos Santos,INT. 3,,09:00,organized
+208,Aluno Hellayane Gomes pertence à turma INT. 3 e tem aula com o professor Natalia Sexta às 09:00.,Hellayane Gomes,INT. 3,,09:00,organized
+209,Aluno Rafael Queiroz Abdon pertence à turma INT. 3 e tem aula com o professor Natalia Sexta às 09:00.,Rafael Queiroz Abdon,INT. 3,,09:00,organized
+210,Aluno Arthur Duarte Leite pertence à turma INT. 3 e tem aula com o professor Natalia Sexta às 09:00.,Arthur Duarte Leite,INT. 3,,09:00,organized
+211,Aluno Beatriz Milhome Amorim pertence à turma INT. 3 e tem aula com o professor Natalia Sexta às 09:00.,Beatriz Milhome Amorim,INT. 3,,09:00,organized
+212,Aluno Ana Vitoria Lustosa Mota pertence à turma INT. 3 e tem aula com o professor Flavia Sexta às 18:00.,Ana Vitoria Lustosa Mota,INT. 3,,18:00,organized
+213,Aluno Julliana Patriota Leitao pertence à turma INT. 3 e tem aula com o professor Flavia Sexta às 18:00.,Julliana Patriota Leitao,INT. 3,,18:00,organized
+214,Aluno Carlos Henrique Oliveira Ramos Ribeiro pertence à turma INT. 3 e tem aula com o professor Flavia Sexta às 18:00.,Carlos Henrique Oliveira Ramos Ribeiro,INT. 3,,18:00,organized
+215,Aluno Barbara Borges Soares de Paula pertence à turma INT. 3 e tem aula com o professor Flavia Sexta às 18:00.,Barbara Borges Soares de Paula,INT. 3,,18:00,organized
+216,Aluno Jessica Rocha Carlos pertence à turma INT. 3 e tem aula com o professor Flavia Sexta às 18:00.,Jessica Rocha Carlos,INT. 3,,18:00,organized
+217,Aluno Eloa Sofia Oliveira de Paiva pertence à turma INT. 3 e tem aula com o professor Flavia Sexta às 18:00.,Eloa Sofia Oliveira de Paiva,INT. 3,,18:00,organized
+218,Aluno Gustavo Araujo Oliveira pertence à turma INT. 3 e tem aula com o professor Flavia Sexta às 18:00.,Gustavo Araujo Oliveira,INT. 3,,18:00,organized
+219,Aluno Ana Julia Nunes Marques pertence à turma INT. 3 e tem aula com o professor Flavia Sexta às 18:00.,Ana Julia Nunes Marques,INT. 3,,18:00,organized
+220,Aluno Jhulia Beatriz Cabral de Castro pertence à turma INT. 3 e tem aula com o professor Flavia Sexta às 18:00.,Jhulia Beatriz Cabral de Castro,INT. 3,,18:00,organized
+221,Aluno aluno pertence à turma turma e tem aula com o professor Teacher dia às horario.,aluno,turma,,horario,organized
+222,Aluno Adna de Oliveira Queiroz pertence à turma FRANCES 4 e tem aula com o professor Carlos Segunda às 19:00.,Adna de Oliveira Queiroz,FRANCES 4,,19:00,organized
+223,Aluno Millena Queiroz de Assis pertence à turma FRANCES 4 e tem aula com o professor Carlos Segunda às 19:00.,Millena Queiroz de Assis,FRANCES 4,,19:00,organized
+224,Aluno Luisa Neves Domingues pertence à turma FRANCES 4 e tem aula com o professor Carlos Segunda às 19:00.,Luisa Neves Domingues,FRANCES 4,,19:00,organized
+225,"Reposição de aula do aluno Gabriela Benjamine Almeida Colim, turma INT 03, no dia 04/03/2026 (Quarta), às 08:00.",Gabriela Benjamine Almeida Colim,INT 03,04/03/2026,08:00,reposicoes
+226,"Reposição de aula do aluno Camila Caroba de Souza, turma INT 3, no dia 07/03/2026 (Sábado), às 08:00.",Camila Caroba de Souza,INT 3,07/03/2026,08:00,reposicoes
+227,"Reposição de aula do aluno Camila Caroba, turma INT 1, no dia 14/03/2026 (Sábado), às 08:00.",Camila Caroba,INT 1,14/03/2026,08:00,reposicoes
+228,"Reposição de aula do aluno Artur de Araujo Santos, turma INT 01, no dia 16/03/2026 (Segunda), às 08:00.",Artur de Araujo Santos,INT 01,16/03/2026,08:00,reposicoes
+229,"Reposição de aula do aluno Jessica Rocha, turma INT 1, no dia 19/03/2026 (Quinta), às 08:00.",Jessica Rocha,INT 1,19/03/2026,08:00,reposicoes
+230,"Reposição de aula do aluno Jessica Rocha Carlos, turma INT 1, no dia 26/03/2026 (Quinta), às 08:00.",Jessica Rocha Carlos,INT 1,26/03/2026,08:00,reposicoes
+231,"Reposição de aula do aluno Jessica Rocha, turma INT 1, no dia 28/03/2026 (Sábado), às 08:00.",Jessica Rocha,INT 1,28/03/2026,08:00,reposicoes
+232,"Reposição de aula do aluno Andre Gonçalves, turma INT 1, no dia 31/03/2026 (Terça), às 08:00.",Andre Gonçalves,INT 1,31/03/2026,08:00,reposicoes
+233,"Reposição de aula do aluno Glaucia Regina Silva Vieira, turma Int 1, no dia 06/03/2026 (Sexta), às 09:00.",Glaucia Regina Silva Vieira,Int 1,06/03/2026,09:00,reposicoes
+234,"Reposição de aula do aluno Camila Caroba, turma INT 1, no dia 14/03/2026 (Sábado), às 09:00.",Camila Caroba,INT 1,14/03/2026,09:00,reposicoes
+235,"Reposição de aula do aluno Artur de Araujo Santos, turma INT 01, no dia 16/03/2026 (Segunda), às 09:00.",Artur de Araujo Santos,INT 01,16/03/2026,09:00,reposicoes
+236,"Reposição de aula do aluno Jessica Rocha, turma INT 1, no dia 19/03/2026 (Quinta), às 09:00.",Jessica Rocha,INT 1,19/03/2026,09:00,reposicoes
+237,"Reposição de aula do aluno Lucas Hernandes Moreira Soares, turma INT 1, no dia 20/03/2026 (Sexta), às 09:00.",Lucas Hernandes Moreira Soares,INT 1,20/03/2026,09:00,reposicoes
+238,"Reposição de aula do aluno Arthur Nunes Santos, turma Aula experimental LK4, no dia 24/03/2026 (Terça), às 09:00.",Arthur Nunes Santos,Aula experimental LK4,24/03/2026,09:00,reposicoes
+239,"Reposição de aula do aluno Jessica Rocha Carlos, turma INT 1, no dia 26/03/2026 (Quinta), às 09:00.",Jessica Rocha Carlos,INT 1,26/03/2026,09:00,reposicoes
+240,"Reposição de aula do aluno Anthony Silva Melo de Menezes Duarte, turma INT 03, no dia 27/03/2026 (Sexta), às 09:00.",Anthony Silva Melo de Menezes Duarte,INT 03,27/03/2026,09:00,reposicoes
+241,"Reposição de aula do aluno Yasmim Rodrigues de Aguiar, turma INT 3, no dia 28/03/2026 (Sábado), às 09:00.",Yasmim Rodrigues de Aguiar,INT 3,28/03/2026,09:00,reposicoes
+242,"Reposição de aula do aluno Luisa Amaro, turma KIDS 2, no dia 30/03/2026 (Segunda), às 09:00.",Luisa Amaro,KIDS 2,30/03/2026,09:00,reposicoes
+243,"Reposição de aula do aluno Julia Faria, turma KIDS 01, no dia 31/03/2026 (Terça), às 09:00.",Julia Faria,KIDS 01,31/03/2026,09:00,reposicoes
+244,"Reposição de aula do aluno Julia Faria Cruz, turma KIDS 01, no dia 02/03/2026 (Segunda), às 10:00.",Julia Faria Cruz,KIDS 01,02/03/2026,10:00,reposicoes
+245,"Reposição de aula do aluno Luan Dos Santos Arantes, turma KIDS1, no dia 04/03/2026 (Quarta), às 10:00.",Luan Dos Santos Arantes,KIDS1,04/03/2026,10:00,reposicoes
+246,"Reposição de aula do aluno Lucas Hernandes Moreira, turma INT 1, no dia 05/03/2026 (Quinta), às 10:00.",Lucas Hernandes Moreira,INT 1,05/03/2026,10:00,reposicoes
+247,"Reposição de aula do aluno Theo Avila Fernandes, turma KIDS 01, no dia 09/03/2026 (Segunda), às 10:00.",Theo Avila Fernandes,KIDS 01,09/03/2026,10:00,reposicoes
+248,"Reposição de aula do aluno Lucas Hernandes Moreira, turma INT 1, no dia 10/03/2026 (Terça), às 10:00.",Lucas Hernandes Moreira,INT 1,10/03/2026,10:00,reposicoes
+249,"Reposição de aula do aluno Maria Isabel Rodrigues, turma Prof. Beatriz, no dia 11/03/2026 (Quarta), às 10:00.",Maria Isabel Rodrigues,Prof. Beatriz,11/03/2026,10:00,reposicoes
+250,"Reposição de aula do aluno Sophia Amaro de Almeida Maciel, turma INT 03, no dia 12/03/2026 (Quinta), às 10:00.",Sophia Amaro de Almeida Maciel,INT 03,12/03/2026,10:00,reposicoes
+251,"Reposição de aula do aluno Maria Launa Nunes Santana, turma Aula Experimental KIDS 2, no dia 14/03/2026 (Sábado), às 10:00.",Maria Launa Nunes Santana,Aula Experimental KIDS 2,14/03/2026,10:00,reposicoes
+252,"Reposição de aula do aluno Anthony Silva Melo de Menezes Duarte, turma INT 03, no dia 27/03/2026 (Sexta), às 10:00.",Anthony Silva Melo de Menezes Duarte,INT 03,27/03/2026,10:00,reposicoes
+253,"Reposição de aula do aluno Luisa Amaro de Almeida Maciel, turma KIDS 02, no dia 28/03/2026 (Sábado), às 10:00.",Luisa Amaro de Almeida Maciel,KIDS 02,28/03/2026,10:00,reposicoes
+254,"Reposição de aula do aluno Sophia Faria de Sousa, turma INT 2, no dia 02/03/2026 (Segunda), às 14:00.",Sophia Faria de Sousa,INT 2,02/03/2026,14:00,reposicoes
+255,"Reposição de aula do aluno Marcus Vinicius Braga M, turma INT 1, no dia 05/03/2026 (Quinta), às 14:00.",Marcus Vinicius Braga M,INT 1,05/03/2026,14:00,reposicoes
+256,"Reposição de aula do aluno Marcus Vinicius Braga M, turma INT 1, no dia 10/03/2026 (Terça), às 14:00.",Marcus Vinicius Braga M,INT 1,10/03/2026,14:00,reposicoes
+257,"Reposição de aula do aluno Jeane Ramos Sampaio, turma INT 2, no dia 16/03/2026 (Segunda), às 14:00.",Jeane Ramos Sampaio,INT 2,16/03/2026,14:00,reposicoes
+258,"Reposição de aula do aluno Jeane Ramos, turma INT 3, no dia 23/03/2026 (Segunda), às 14:00.",Jeane Ramos,INT 3,23/03/2026,14:00,reposicoes
+259,"Reposição de aula do aluno Sophia Faria de Souza, turma INT 3, no dia 25/03/2026 (Quarta), às 14:00.",Sophia Faria de Souza,INT 3,25/03/2026,14:00,reposicoes
+260,"Reposição de aula do aluno William Alves Carvalho Ribeiro, turma INT 2, no dia 26/03/2026 (Quinta), às 14:00.",William Alves Carvalho Ribeiro,INT 2,26/03/2026,14:00,reposicoes
+261,"Reposição de aula do aluno Nauany Ferreira, turma INT 1, no dia 28/03/2026 (Sábado), às 14:00.",Nauany Ferreira,INT 1,28/03/2026,14:00,reposicoes
+262,"Reposição de aula do aluno William Alves Carvalho Ribeiro, turma INT 2, no dia 31/03/2026 (Terça), às 14:00.",William Alves Carvalho Ribeiro,INT 2,31/03/2026,14:00,reposicoes
+263,"Reposição de aula do aluno Mariana Morais Ribeiro Santana AULA 0, turma INT 1, no dia 05/03/2026 (Quinta), às 15:00.",Mariana Morais Ribeiro Santana AULA 0,INT 1,05/03/2026,15:00,reposicoes
+264,"Reposição de aula do aluno Yasmin Beserra Pontes, turma KIDS 1, no dia 10/03/2026 (Terça), às 15:00.",Yasmin Beserra Pontes,KIDS 1,10/03/2026,15:00,reposicoes
+265,"Reposição de aula do aluno Isadora Pereira Athayde, turma INT 2, no dia 11/03/2026 (Quarta), às 15:00.",Isadora Pereira Athayde,INT 2,11/03/2026,15:00,reposicoes
+266,"Reposição de aula do aluno Benicio Luiz Azevedo de Oliveira, turma INT 2, no dia 12/03/2026 (Quinta), às 15:00.",Benicio Luiz Azevedo de Oliveira,INT 2,12/03/2026,15:00,reposicoes
+267,"Reposição de aula do aluno Isadora Pereira Athayde, turma INT 1, no dia 16/03/2026 (Segunda), às 15:00.",Isadora Pereira Athayde,INT 1,16/03/2026,15:00,reposicoes
+268,"Reposição de aula do aluno Yasmin Grazielly Braga, turma INT 2, no dia 19/03/2026 (Quinta), às 15:00.",Yasmin Grazielly Braga,INT 2,19/03/2026,15:00,reposicoes
+269,"Reposição de aula do aluno Anne Beatriz Duarte, turma INT 2, no dia 23/03/2026 (Segunda), às 15:00.",Anne Beatriz Duarte,INT 2,23/03/2026,15:00,reposicoes
+270,"Reposição de aula do aluno Davi Carvalho, turma INT 1, no dia 25/03/2026 (Quarta), às 15:00.",Davi Carvalho,INT 1,25/03/2026,15:00,reposicoes
+271,"Reposição de aula do aluno Jennifer Lopes, turma INT 1, no dia 28/03/2026 (Sábado), às 15:00.",Jennifer Lopes,INT 1,28/03/2026,15:00,reposicoes
+272,"Reposição de aula do aluno Marcus Vinicius, turma INT 3, no dia 30/03/2026 (Segunda), às 15:00.",Marcus Vinicius,INT 3,30/03/2026,15:00,reposicoes
+273,"Reposição de aula do aluno Raphael Henrique Martins, turma INT3, no dia 31/03/2026 (Terça), às 15:00.",Raphael Henrique Martins,INT3,31/03/2026,15:00,reposicoes
+274,"Reposição de aula do aluno Juliana Rodrigues de Franca, turma INT 1, no dia 02/03/2026 (Segunda), às 16:00.",Juliana Rodrigues de Franca,INT 1,02/03/2026,16:00,reposicoes
+275,"Reposição de aula do aluno Juliana Rodrigues de Franca, turma INT 1, no dia 04/03/2026 (Quarta), às 16:00.",Juliana Rodrigues de Franca,INT 1,04/03/2026,16:00,reposicoes
+276,"Reposição de aula do aluno Emanuela dos Santos Santana, turma INT 03, no dia 09/03/2026 (Segunda), às 16:00.",Emanuela dos Santos Santana,INT 03,09/03/2026,16:00,reposicoes
+277,"Reposição de aula do aluno Daniela Avinte Correa, turma INT 2, no dia 10/03/2026 (Terça), às 16:00.",Daniela Avinte Correa,INT 2,10/03/2026,16:00,reposicoes
+278,"Reposição de aula do aluno Emanuela dos Santos Santana, turma INT 03, no dia 11/03/2026 (Quarta), às 16:00.",Emanuela dos Santos Santana,INT 03,11/03/2026,16:00,reposicoes
+279,"Reposição de aula do aluno Miguel Lima Araujo, turma INT 2, no dia 12/03/2026 (Quinta), às 16:00.",Miguel Lima Araujo,INT 2,12/03/2026,16:00,reposicoes
+280,"Reposição de aula do aluno Emanuela dos Santos Santana, turma INT 03, no dia 16/03/2026 (Segunda), às 16:00.",Emanuela dos Santos Santana,INT 03,16/03/2026,16:00,reposicoes
+281,"Reposição de aula do aluno Debora Leticia Cordeiro, turma INT 2, no dia 19/03/2026 (Quinta), às 16:00.",Debora Leticia Cordeiro,INT 2,19/03/2026,16:00,reposicoes
+282,"Reposição de aula do aluno Emanuela dos Santos Santana, turma INT 03, no dia 23/03/2026 (Segunda), às 16:00.",Emanuela dos Santos Santana,INT 03,23/03/2026,16:00,reposicoes
+283,"Reposição de aula do aluno Eduardo Alberto da Silva, turma INT 3, no dia 25/03/2026 (Quarta), às 16:00.",Eduardo Alberto da Silva,INT 3,25/03/2026,16:00,reposicoes
+284,"Reposição de aula do aluno Maria Eduarda Gonçalves Cruzz, turma INT 2, no dia 26/03/2026 (Quinta), às 16:00.",Maria Eduarda Gonçalves Cruzz,INT 2,26/03/2026,16:00,reposicoes
+285,"Reposição de aula do aluno Mariana Carvalho Borges, turma INT 3, no dia 30/03/2026 (Segunda), às 16:00.",Mariana Carvalho Borges,INT 3,30/03/2026,16:00,reposicoes
+286,"Reposição de aula do aluno Gabriel Alves Rodrigues, turma INT 1, no dia 31/03/2026 (Terça), às 16:00.",Gabriel Alves Rodrigues,INT 1,31/03/2026,16:00,reposicoes
+287,"Reposição de aula do aluno Pedro Motta Dias, turma T4, no dia 02/03/2026 (Segunda), às 17:00.",Pedro Motta Dias,T4,02/03/2026,17:00,reposicoes
+288,"Reposição de aula do aluno Nauany Ferreira Dias, turma INT 1, no dia 04/03/2026 (Quarta), às 17:00.",Nauany Ferreira Dias,INT 1,04/03/2026,17:00,reposicoes
+289,"Reposição de aula do aluno Daniela Avinte Correa Schuster, turma INT 2, no dia 10/03/2026 (Terça), às 17:00.",Daniela Avinte Correa Schuster,INT 2,10/03/2026,17:00,reposicoes
+290,"Reposição de aula do aluno Gustavo Rochaa, turma INT 1, no dia 11/03/2026 (Quarta), às 17:00.",Gustavo Rochaa,INT 1,11/03/2026,17:00,reposicoes
+291,"Reposição de aula do aluno Debora Leticia Cordeiro, turma INT 2, no dia 12/03/2026 (Quinta), às 17:00.",Debora Leticia Cordeiro,INT 2,12/03/2026,17:00,reposicoes
+292,"Reposição de aula do aluno Pyetra da Silva Lima, turma INT 1, no dia 16/03/2026 (Segunda), às 17:00.",Pyetra da Silva Lima,INT 1,16/03/2026,17:00,reposicoes
+293,"Reposição de aula do aluno Evelyn Nunes, turma Aula 0, no dia 17/03/2026 (Terça), às 17:00.",Evelyn Nunes,Aula 0,17/03/2026,17:00,reposicoes
+294,"Reposição de aula do aluno Maria Eduarda Gonçalves Cruz, turma INT 1, no dia 19/03/2026 (Quinta), às 17:00.",Maria Eduarda Gonçalves Cruz,INT 1,19/03/2026,17:00,reposicoes
+295,"Reposição de aula do aluno Pyetra da Silva Lima, turma INT 1, no dia 24/03/2026 (Terça), às 17:00.",Pyetra da Silva Lima,INT 1,24/03/2026,17:00,reposicoes
+296,"Reposição de aula do aluno Eduardo Alberto da Silva, turma INT 1, no dia 25/03/2026 (Quarta), às 17:00.",Eduardo Alberto da Silva,INT 1,25/03/2026,17:00,reposicoes
+297,"Reposição de aula do aluno Pyetra da Silva Lima, turma INT 1, no dia 26/03/2026 (Quinta), às 17:00.",Pyetra da Silva Lima,INT 1,26/03/2026,17:00,reposicoes
+298,"Reposição de aula do aluno Matheus Henrique Faria, turma ONLINE Prof. Carlos, no dia 27/03/2026 (Sexta), às 17:00.",Matheus Henrique Faria,ONLINE Prof. Carlos,27/03/2026,17:00,reposicoes
+299,"Reposição de aula do aluno Graziely Monique, turma INT 1, no dia 30/03/2026 (Segunda), às 17:00.",Graziely Monique,INT 1,30/03/2026,17:00,reposicoes
+300,"Reposição de aula do aluno Lorena Goncalves, turma INT 2, no dia 31/03/2026 (Terça), às 17:00.",Lorena Goncalves,INT 2,31/03/2026,17:00,reposicoes
+301,"Reposição de aula do aluno Vinicius da Costa Marinho, turma INT 1, no dia 04/03/2026 (Quarta), às 18:00.",Vinicius da Costa Marinho,INT 1,04/03/2026,18:00,reposicoes
+302,"Reposição de aula do aluno Emanuela dos Santos Santana, turma INT 03, no dia 05/03/2026 (Quinta), às 18:00.",Emanuela dos Santos Santana,INT 03,05/03/2026,18:00,reposicoes
+303,"Reposição de aula do aluno Thauane Joshua, turma INT 1, no dia 10/03/2026 (Terça), às 18:00.",Thauane Joshua,INT 1,10/03/2026,18:00,reposicoes
+304,"Reposição de aula do aluno Pyetra da Silva Lima, turma INT 1, no dia 11/03/2026 (Quarta), às 18:00.",Pyetra da Silva Lima,INT 1,11/03/2026,18:00,reposicoes
+305,"Reposição de aula do aluno Pyetra da Silva Lima, turma INT 1, no dia 12/03/2026 (Quinta), às 18:00.",Pyetra da Silva Lima,INT 1,12/03/2026,18:00,reposicoes
+306,"Reposição de aula do aluno Milena Freitas, turma INT 1, no dia 16/03/2026 (Segunda), às 18:00.",Milena Freitas,INT 1,16/03/2026,18:00,reposicoes
+307,"Reposição de aula do aluno Pyetra da Silva Lima, turma INT 1, no dia 24/03/2026 (Terça), às 18:00.",Pyetra da Silva Lima,INT 1,24/03/2026,18:00,reposicoes
+308,"Reposição de aula do aluno Pyetra da Silva Lima, turma INT 1, no dia 26/03/2026 (Quinta), às 18:00.",Pyetra da Silva Lima,INT 1,26/03/2026,18:00,reposicoes
+309,"Reposição de aula do aluno Matheus Henrique Faria, turma ONLINE Prof. Carlos, no dia 27/03/2026 (Sexta), às 18:00.",Matheus Henrique Faria,ONLINE Prof. Carlos,27/03/2026,18:00,reposicoes
+310,"Reposição de aula do aluno Theo Soares, turma KIDS 01, no dia 30/03/2026 (Segunda), às 18:00.",Theo Soares,KIDS 01,30/03/2026,18:00,reposicoes
+311,"Reposição de aula do aluno Kaio Vinícius Caetano, turma INT 1 (aula adiada), no dia 31/03/2026 (Terça), às 18:00.",Kaio Vinícius Caetano,INT 1 (aula adiada),31/03/2026,18:00,reposicoes
+312,"Reposição de aula do aluno Cristina Alves Aguiar, turma INT 1, no dia 04/03/2026 (Quarta), às 19:00.",Cristina Alves Aguiar,INT 1,04/03/2026,19:00,reposicoes
+313,"Reposição de aula do aluno Irwing Okubo Aguiar, turma INt1, no dia 16/03/2026 (Segunda), às 19:00.",Irwing Okubo Aguiar,INt1,16/03/2026,19:00,reposicoes
+314,"Reposição de aula do aluno Maria Eduarda dos Santos Pereira, turma INT 1, no dia 23/03/2026 (Segunda), às 19:00.",Maria Eduarda dos Santos Pereira,INT 1,23/03/2026,19:00,reposicoes
+315,"Reposição de aula do aluno Nauany Ferreira, turma INT 1, no dia 24/03/2026 (Terça), às 19:00.",Nauany Ferreira,INT 1,24/03/2026,19:00,reposicoes
+316,"Reposição de aula do aluno Suelllen Pereira, turma INT 1, no dia 26/03/2026 (Quinta), às 19:00.",Suelllen Pereira,INT 1,26/03/2026,19:00,reposicoes
+317,"Reposição de aula do aluno Cristina Alves Aguiar, turma INT 1, no dia 04/03/2026 (Quarta), às 20:00.",Cristina Alves Aguiar,INT 1,04/03/2026,20:00,reposicoes
+318,"Reposição de aula do aluno Gabriela Gonçalves W10, turma INT 01, no dia 10/03/2026 (Terça), às 20:00.",Gabriela Gonçalves W10,INT 01,10/03/2026,20:00,reposicoes
+319,"Reposição de aula do aluno Leticia de Souza Okubo Aguiar, turma INt1, no dia 12/03/2026 (Quinta), às 20:00.",Leticia de Souza Okubo Aguiar,INt1,12/03/2026,20:00,reposicoes
+320,"Reposição de aula do aluno Isadora Duarte dos Santos, turma INT 2, no dia 16/03/2026 (Segunda), às 20:00.",Isadora Duarte dos Santos,INT 2,16/03/2026,20:00,reposicoes
+321,"Reposição de aula do aluno Leticia de Souza Okubo Aguiar, turma INt1, no dia 19/03/2026 (Quinta), às 20:00.",Leticia de Souza Okubo Aguiar,INt1,19/03/2026,20:00,reposicoes
+322,"Reposição de aula do aluno Maria Laura Azevedo, turma INT 2, no dia 23/03/2026 (Segunda), às 20:00.",Maria Laura Azevedo,INT 2,23/03/2026,20:00,reposicoes
+323,"Reposição de aula do aluno Nauany Ferreira, turma INT 1, no dia 24/03/2026 (Terça), às 20:00.",Nauany Ferreira,INT 1,24/03/2026,20:00,reposicoes
+324,"Reposição de aula do aluno Maria Laura Azevedo, turma INT 2, no dia 25/03/2026 (Quarta), às 20:00.",Maria Laura Azevedo,INT 2,25/03/2026,20:00,reposicoes
+325,"Reposição de aula do aluno Leticia de Souza Okubo Aguiar, turma INt1, no dia 26/03/2026 (Quinta), às 20:00.",Leticia de Souza Okubo Aguiar,INt1,26/03/2026,20:00,reposicoes
+326,"Reposição de aula do aluno Sophia soares abreu, turma INT 1, no dia 30/03/2026 (Segunda), às 20:00.",Sophia soares abreu,INT 1,30/03/2026,20:00,reposicoes
+327,"Reposição de aula do aluno Jose Deyvid da Conceicao Pacifico, turma INT 01, no dia 31/03/2026 (Terça), às 08:00.",Jose Deyvid da Conceicao Pacifico,INT 01,31/03/2026,08:00,reposicoes
+328,"Reposição de aula do aluno Andre Gonçalves, turma INT 1, no dia 02/04/2026 (Quinta), às 08:00.",Andre Gonçalves,INT 1,02/04/2026,08:00,reposicoes
+329,"Reposição de aula do aluno Jose Deyvid da Conceicao Pacifico, turma INT 01, no dia 07/04/2026 (Terça), às 08:00.",Jose Deyvid da Conceicao Pacifico,INT 01,07/04/2026,08:00,reposicoes
+330,"Reposição de aula do aluno Jessica Rocha Carlos, turma INT 1, no dia 02/04/2026 (Quinta), às 09:00.",Jessica Rocha Carlos,INT 1,02/04/2026,09:00,reposicoes
+331,"Reposição de aula do aluno Alice Barbosa Brandao, turma INT 1, no dia 02/04/2026 (Quinta), às 10:00.",Alice Barbosa Brandao,INT 1,02/04/2026,10:00,reposicoes
+332,"Reposição de aula do aluno Isabella Soares Vieira, turma INT 3, no dia 01/04/2027 (Quarta), às 14:00.",Isabella Soares Vieira,INT 3,01/04/2027,14:00,reposicoes
+333,"Reposição de aula do aluno Marcus Vinius, turma INT 2, no dia 01/04/2027 (Quarta), às 15:00.",Marcus Vinius,INT 2,01/04/2027,15:00,reposicoes
+334,"Reposição de aula do aluno Yasmin Cintra Freire, turma INT 3, no dia 02/04/2026 (Quinta), às 15:00.",Yasmin Cintra Freire,INT 3,02/04/2026,15:00,reposicoes
+335,"Reposição de aula do aluno Marcus Vinicius, turma INT 3, no dia 06/04/2026 (Segunda), às 15:00.",Marcus Vinicius,INT 3,06/04/2026,15:00,reposicoes
+336,"Reposição de aula do aluno Marcus Vinicius, turma INT 3, no dia 13/04/2026 (Segunda), às 15:00.",Marcus Vinicius,INT 3,13/04/2026,15:00,reposicoes
+337,"Reposição de aula do aluno Eduardo Alberto da Silva, turma INT 3, no dia 01/04/2027 (Quarta), às 16:00.",Eduardo Alberto da Silva,INT 3,01/04/2027,16:00,reposicoes
+338,"Reposição de aula do aluno Yasmin Cintra Freire, turma INT 03, no dia 02/04/2026 (Quinta), às 16:00.",Yasmin Cintra Freire,INT 03,02/04/2026,16:00,reposicoes
+339,"Reposição de aula do aluno Marcus Vinicius, turma INT 3, no dia 06/04/2026 (Segunda), às 16:00.",Marcus Vinicius,INT 3,06/04/2026,16:00,reposicoes
+340,"Reposição de aula do aluno Marcus Vinicius, turma INT 3, no dia 13/04/2026 (Segunda), às 16:00.",Marcus Vinicius,INT 3,13/04/2026,16:00,reposicoes
+341,"Reposição de aula do aluno Lorena Goncalves, turma INT 2, no dia 02/04/2026 (Quinta), às 17:00.",Lorena Goncalves,INT 2,02/04/2026,17:00,reposicoes
+342,"Reposição de aula do aluno Matheus Henrique Faria, turma ONLINE Prof. Carlos, no dia 10/04/2026 (Sexta), às 17:00.",Matheus Henrique Faria,ONLINE Prof. Carlos,10/04/2026,17:00,reposicoes
+343,"Reposição de aula do aluno Matheus Henrique Faria, turma ONLINE Prof. Carlos, no dia 17/04/2026 (Sexta), às 17:00.",Matheus Henrique Faria,ONLINE Prof. Carlos,17/04/2026,17:00,reposicoes
+344,"Reposição de aula do aluno Mariana Fatima, turma INT 1, no dia 31/03/2026 (Terça), às 18:00.",Mariana Fatima,INT 1,31/03/2026,18:00,reposicoes
+345,"Reposição de aula do aluno Vinicius Da Costa Marinho, turma INT 01, no dia 01/04/2027 (Quarta), às 18:00.",Vinicius Da Costa Marinho,INT 01,01/04/2027,18:00,reposicoes
+346,"Reposição de aula do aluno Matheus Henrique Faria, turma ONLINE Prof. Carlos, no dia 10/04/2026 (Sexta), às 18:00.",Matheus Henrique Faria,ONLINE Prof. Carlos,10/04/2026,18:00,reposicoes
+347,"Reposição de aula do aluno Matheus Henrique Faria, turma ONLINE Prof. Carlos, no dia 17/04/2026 (Sexta), às 18:00.",Matheus Henrique Faria,ONLINE Prof. Carlos,17/04/2026,18:00,reposicoes
+348,"Reposição de aula do aluno Mariana Fatima, turma INT 1, no dia 31/03/2026 (Terça), às 19:00.",Mariana Fatima,INT 1,31/03/2026,19:00,reposicoes
+349,"Reposição de aula do aluno Maria Luiza Castro Alves, turma INT 2, no dia 01/04/2027 (Quarta), às 19:00.",Maria Luiza Castro Alves,INT 2,01/04/2027,19:00,reposicoes
+350,"Reposição de aula do aluno Sophia soares abreu, turma INT1, no dia 06/04/2026 (Segunda), às 20:00.",Sophia soares abreu,INT1,06/04/2026,20:00,reposicoes
+351,"Reposição de aula do aluno Aula experimental, turma Enzo Gabriel KIDS 2, no dia 26/07/2025 (Sábado), às 10:00.",Aula experimental,Enzo Gabriel KIDS 2,26/07/2025,10:00,reposicoes
+352,"Reposição de aula do aluno Alice Cavalcanti de Souza, turma DEZ 25, no dia 30/07/2025 (Quarta), às 15:00.",Alice Cavalcanti de Souza,DEZ 25,30/07/2025,15:00,reposicoes
+353,"Reposição de aula do aluno Maria Gorete, turma Aula experimental Flávia, no dia 28/07/2025 (Segunda), às 19:00.",Maria Gorete,Aula experimental Flávia,28/07/2025,19:00,reposicoes
+354,"Reposição de aula do aluno Maria Gorete, turma Aula experimental Flávia, no dia 30/07/2025 (Quarta), às 19:00.",Maria Gorete,Aula experimental Flávia,30/07/2025,19:00,reposicoes
+355,"Reposição de aula do aluno Rayane Sena De Oliveira, turma Int 1, no dia 06/08/2025 (Quarta), às 08:00.",Rayane Sena De Oliveira,Int 1,06/08/2025,08:00,reposicoes
+356,"Reposição de aula do aluno Aula Experimental, turma Tots2, no dia 09/08/2025 (Sábado), às 08:00.",Aula Experimental,Tots2,09/08/2025,08:00,reposicoes
+357,"Reposição de aula do aluno Emmanuel Marcos Cunha, turma INT 1, no dia 19/08/2025 (Terça), às 08:00.",Emmanuel Marcos Cunha,INT 1,19/08/2025,08:00,reposicoes
+358,"Reposição de aula do aluno Danielle Lopes Porto, turma ONLINE, no dia 20/08/2025 (Quarta), às 08:00.",Danielle Lopes Porto,ONLINE,20/08/2025,08:00,reposicoes
+359,"Reposição de aula do aluno Luis Fernando Savio, turma KIDS 2, no dia 23/08/2025 (Sábado), às 08:00.",Luis Fernando Savio,KIDS 2,23/08/2025,08:00,reposicoes
+360,"Reposição de aula do aluno Vitoria Pereira de Araujo, turma ON LINE, no dia 25/08/2025 (Segunda), às 08:00.",Vitoria Pereira de Araujo,ON LINE,25/08/2025,08:00,reposicoes
+361,"Reposição de aula do aluno Vitoria Pereira de Araujo, turma ON LINE, no dia 27/08/2025 (Quarta), às 08:00.",Vitoria Pereira de Araujo,ON LINE,27/08/2025,08:00,reposicoes
+362,"Reposição de aula do aluno Ana Paula de Oliveira Neves Santos, turma INT 1, no dia 28/08/2025 (Quinta), às 08:00.",Ana Paula de Oliveira Neves Santos,INT 1,28/08/2025,08:00,reposicoes
+363,"Reposição de aula do aluno Ana Paula de Oliveira, turma ONLINE, no dia 30/08/2025 (Sábado), às 08:00.",Ana Paula de Oliveira,ONLINE,30/08/2025,08:00,reposicoes
+364,"Reposição de aula do aluno Manuela dos Santos Arantes, turma INT 01, no dia 01/08/2025 (Sexta), às 09:00.",Manuela dos Santos Arantes,INT 01,01/08/2025,09:00,reposicoes
+365,"Reposição de aula do aluno Henrique Kevin Carvalho Silva, turma INT 1, no dia 04/08/2025 (Segunda), às 09:00.",Henrique Kevin Carvalho Silva,INT 1,04/08/2025,09:00,reposicoes
+366,"Reposição de aula do aluno Estela Rodrigues Teixeira, turma KIDS 1, no dia 06/08/2025 (Quarta), às 09:00.",Estela Rodrigues Teixeira,KIDS 1,06/08/2025,09:00,reposicoes
+367,"Reposição de aula do aluno Kelly Cristina, turma INT 1, no dia 07/08/2025 (Quinta), às 09:00.",Kelly Cristina,INT 1,07/08/2025,09:00,reposicoes
+368,"Reposição de aula do aluno Lucas Hernandes, turma INT1, no dia 11/08/2025 (Segunda), às 09:00.",Lucas Hernandes,INT1,11/08/2025,09:00,reposicoes
+369,"Reposição de aula do aluno Lucas Hernandes, turma INT1, no dia 13/08/2025 (Quarta), às 09:00.",Lucas Hernandes,INT1,13/08/2025,09:00,reposicoes
+370,"Reposição de aula do aluno Kelly Cristina, turma INT 1, no dia 14/08/2025 (Quinta), às 09:00.",Kelly Cristina,INT 1,14/08/2025,09:00,reposicoes
+371,"Reposição de aula do aluno Jeane ramos Sampaio, turma INt1 Atestado, no dia 15/08/2025 (Sexta), às 09:00.",Jeane ramos Sampaio,INt1 Atestado,15/08/2025,09:00,reposicoes
+372,"Reposição de aula do aluno Marcia Souza Dias, turma INT 01, no dia 19/08/2025 (Terça), às 09:00.",Marcia Souza Dias,INT 01,19/08/2025,09:00,reposicoes
+373,"Reposição de aula do aluno Henrique Kevin, turma INT 1, no dia 20/08/2025 (Quarta), às 09:00.",Henrique Kevin,INT 1,20/08/2025,09:00,reposicoes
+374,"Reposição de aula do aluno Kelly Cristina, turma INT 1, no dia 21/08/2025 (Quinta), às 09:00.",Kelly Cristina,INT 1,21/08/2025,09:00,reposicoes
+375,"Reposição de aula do aluno Jeane Ramos Sampaio, turma INT 1, no dia 22/08/2025 (Sexta), às 09:00.",Jeane Ramos Sampaio,INT 1,22/08/2025,09:00,reposicoes
+376,"Reposição de aula do aluno Jessica Rocha Carlos, turma INT1, no dia 25/08/2025 (Segunda), às 09:00.",Jessica Rocha Carlos,INT1,25/08/2025,09:00,reposicoes
+377,"Reposição de aula do aluno Ana Paula de Oliveira Neves Santos, turma INT 1, no dia 28/08/2025 (Quinta), às 09:00.",Ana Paula de Oliveira Neves Santos,INT 1,28/08/2025,09:00,reposicoes
+378,"Reposição de aula do aluno Guilherme Rodrigues de Oliveira, turma INT 01, no dia 04/08/2025 (Segunda), às 10:00.",Guilherme Rodrigues de Oliveira,INT 01,04/08/2025,10:00,reposicoes
+379,"Reposição de aula do aluno Luisa Amaro de Almeida, turma LK2 B, no dia 05/08/2025 (Terça), às 10:00.",Luisa Amaro de Almeida,LK2 B,05/08/2025,10:00,reposicoes
+380,"Reposição de aula do aluno Estela Rodrigues Teixeira, turma KIDS 2, no dia 06/08/2025 (Quarta), às 10:00.",Estela Rodrigues Teixeira,KIDS 2,06/08/2025,10:00,reposicoes
+381,"Reposição de aula do aluno Beatriz Rufino Romeiro da Silva, turma Kiss1, no dia 13/08/2025 (Quarta), às 10:00.",Beatriz Rufino Romeiro da Silva,Kiss1,13/08/2025,10:00,reposicoes
+382,"Reposição de aula do aluno Manuela dos Santos Arantes, turma INT 1, no dia 14/08/2025 (Quinta), às 10:00.",Manuela dos Santos Arantes,INT 1,14/08/2025,10:00,reposicoes
+383,"Reposição de aula do aluno Jeane ramos Sampaio, turma INt1 Atestado, no dia 15/08/2025 (Sexta), às 10:00.",Jeane ramos Sampaio,INt1 Atestado,15/08/2025,10:00,reposicoes
+384,"Reposição de aula do aluno Ana Julia Duarte dos Santos, turma INT 01, no dia 22/08/2025 (Sexta), às 10:00.",Ana Julia Duarte dos Santos,INT 01,22/08/2025,10:00,reposicoes
+385,"Reposição de aula do aluno Heitor Rezende Melo, turma Prof Lais, no dia 27/08/2025 (Quarta), às 10:00.",Heitor Rezende Melo,Prof Lais,27/08/2025,10:00,reposicoes
+386,"Reposição de aula do aluno Isabela Azevedo do Nascimento, turma KIDS02, no dia 28/08/2025 (Quinta), às 10:00.",Isabela Azevedo do Nascimento,KIDS02,28/08/2025,10:00,reposicoes
+387,"Reposição de aula do aluno Jessica Rocha Carlos, turma Int2, no dia 05/08/2025 (Terça), às 14:00.",Jessica Rocha Carlos,Int2,05/08/2025,14:00,reposicoes
+388,"Reposição de aula do aluno Geovanna Carvalho, turma INT 2, no dia 06/08/2025 (Quarta), às 14:00.",Geovanna Carvalho,INT 2,06/08/2025,14:00,reposicoes
+389,"Reposição de aula do aluno Suellen Pereira de Souza, turma INT 1, no dia 09/08/2025 (Sábado), às 14:00.",Suellen Pereira de Souza,INT 1,09/08/2025,14:00,reposicoes
+390,"Reposição de aula do aluno Nicolas Ferreira Nunes, turma INT 2, no dia 11/08/2025 (Segunda), às 14:00.",Nicolas Ferreira Nunes,INT 2,11/08/2025,14:00,reposicoes
+391,"Reposição de aula do aluno Renato Ferreira Batista, turma INT 03, no dia 16/08/2025 (Sábado), às 14:00.",Renato Ferreira Batista,INT 03,16/08/2025,14:00,reposicoes
+392,"Reposição de aula do aluno Marcus Vinicius Braga Migueis, turma INT 1, no dia 23/08/2025 (Sábado), às 14:00.",Marcus Vinicius Braga Migueis,INT 1,23/08/2025,14:00,reposicoes
+393,"Reposição de aula do aluno Ellen da silva morcef, turma INt2, no dia 25/08/2025 (Segunda), às 14:00.",Ellen da silva morcef,INt2,25/08/2025,14:00,reposicoes
+394,"Reposição de aula do aluno Gustavo Cavalcante W2, turma INT 2, no dia 28/08/2025 (Quinta), às 14:00.",Gustavo Cavalcante W2,INT 2,28/08/2025,14:00,reposicoes
+395,"Reposição de aula do aluno Renato Ferreira Batista, turma INT 03, no dia 30/08/2025 (Sábado), às 14:00.",Renato Ferreira Batista,INT 03,30/08/2025,14:00,reposicoes
+396,"Reposição de aula do aluno Marcus Vinicius Braga Migueis, turma INT 1, no dia 23/08/2025 (Sábado), às 15:00.",Marcus Vinicius Braga Migueis,INT 1,23/08/2025,15:00,reposicoes
+397,"Reposição de aula do aluno William Alves Carvalho Ribeiro, turma INT2, no dia 25/08/2025 (Segunda), às 15:00.",William Alves Carvalho Ribeiro,INT2,25/08/2025,15:00,reposicoes
+398,"Reposição de aula do aluno Davy Calixto da Silva, turma INT 3, no dia 28/08/2025 (Quinta), às 15:00.",Davy Calixto da Silva,INT 3,28/08/2025,15:00,reposicoes
+399,"Reposição de aula do aluno Yasmim Rodrigues de Aguiar, turma INT 3, no dia 04/08/2025 (Segunda), às 16:00.",Yasmim Rodrigues de Aguiar,INT 3,04/08/2025,16:00,reposicoes
+400,"Reposição de aula do aluno Pedro Mota dias, turma INT 3, no dia 05/08/2025 (Terça), às 16:00.",Pedro Mota dias,INT 3,05/08/2025,16:00,reposicoes
+401,"Reposição de aula do aluno William Alves Carvalho, turma INT 3, no dia 12/08/2025 (Terça), às 16:00.",William Alves Carvalho,INT 3,12/08/2025,16:00,reposicoes
+402,"Reposição de aula do aluno Alice Nunes Ponte, turma KIDS 01, no dia 13/08/2025 (Quarta), às 16:00.",Alice Nunes Ponte,KIDS 01,13/08/2025,16:00,reposicoes
+403,"Reposição de aula do aluno Davi Juan Maia, turma INT 3, no dia 14/08/2025 (Quinta), às 16:00.",Davi Juan Maia,INT 3,14/08/2025,16:00,reposicoes
+404,"Reposição de aula do aluno Calebe Vieira Gomes, turma INt3, no dia 20/08/2025 (Quarta), às 16:00.",Calebe Vieira Gomes,INt3,20/08/2025,16:00,reposicoes
+405,"Reposição de aula do aluno Bruno Mendes Viana, turma INT3, no dia 26/08/2025 (Terça), às 16:00.",Bruno Mendes Viana,INT3,26/08/2025,16:00,reposicoes
+406,"Reposição de aula do aluno Sofia de Barros Oliveira, turma KIDS 01, no dia 27/08/2025 (Quarta), às 16:00.",Sofia de Barros Oliveira,KIDS 01,27/08/2025,16:00,reposicoes
+407,"Reposição de aula do aluno Davy Calixto da Silva, turma INT 3, no dia 28/08/2025 (Quinta), às 16:00.",Davy Calixto da Silva,INT 3,28/08/2025,16:00,reposicoes
+408,"Reposição de aula do aluno Calebe Vieira Gomes, turma INt3, no dia 20/08/2025 (Quarta), às 17:00.",Calebe Vieira Gomes,INt3,20/08/2025,17:00,reposicoes
+409,"Reposição de aula do aluno Lucas Viana Marques, turma ONline, no dia 21/08/2025 (Quinta), às 17:00.",Lucas Viana Marques,ONline,21/08/2025,17:00,reposicoes
+410,"Reposição de aula do aluno Otavio Magno, turma Aula de reforço, no dia 25/08/2025 (Segunda), às 17:00.",Otavio Magno,Aula de reforço,25/08/2025,17:00,reposicoes
+411,"Reposição de aula do aluno Maria eduarda gonçalves cruz, turma INt1, no dia 26/08/2025 (Terça), às 17:00.",Maria eduarda gonçalves cruz,INt1,26/08/2025,17:00,reposicoes
+412,"Reposição de aula do aluno Sofia de Barros Oliveira, turma KIDS 01, no dia 27/08/2025 (Quarta), às 17:00.",Sofia de Barros Oliveira,KIDS 01,27/08/2025,17:00,reposicoes
+413,"Reposição de aula do aluno Heitor de Souza Aguiar, turma KIDS 1, no dia 04/08/2025 (Segunda), às 18:00.",Heitor de Souza Aguiar,KIDS 1,04/08/2025,18:00,reposicoes
+414,"Reposição de aula do aluno Heitor de Souza Aguiar, turma Kids 1, no dia 11/08/2025 (Segunda), às 18:00.",Heitor de Souza Aguiar,Kids 1,11/08/2025,18:00,reposicoes
+415,"Reposição de aula do aluno Marcia Souza Dias, turma ON LINE, no dia 13/08/2025 (Quarta), às 18:00.",Marcia Souza Dias,ON LINE,13/08/2025,18:00,reposicoes
+416,"Reposição de aula do aluno Eloa Sofia Oliveira de Paiva, turma INT 01, no dia 15/08/2025 (Sexta), às 18:00.",Eloa Sofia Oliveira de Paiva,INT 01,15/08/2025,18:00,reposicoes
+417,"Reposição de aula do aluno Adriana da Costa Arruda, turma on, no dia 20/08/2025 (Quarta), às 18:00.",Adriana da Costa Arruda,on,20/08/2025,18:00,reposicoes
+418,"Reposição de aula do aluno Miguel Ferreira de lima, turma INT 3, no dia 27/08/2025 (Quarta), às 18:00.",Miguel Ferreira de lima,INT 3,27/08/2025,18:00,reposicoes
+419,"Reposição de aula do aluno Edislania e Daniel, turma FRANCÊS com o Carlos, no dia 28/08/2025 (Quinta), às 18:00.",Edislania e Daniel,FRANCÊS com o Carlos,28/08/2025,18:00,reposicoes
+420,"Reposição de aula do aluno Maria Gorete, turma Aula experimental Flávia, no dia 04/08/2025 (Segunda), às 19:00.",Maria Gorete,Aula experimental Flávia,04/08/2025,19:00,reposicoes
+421,"Reposição de aula do aluno Rafaelle Monaco Costa, turma INT 3, no dia 06/08/2025 (Quarta), às 19:00.",Rafaelle Monaco Costa,INT 3,06/08/2025,19:00,reposicoes
+422,"Reposição de aula do aluno Juliana de Oliveira Gomes, turma INT 03, no dia 13/08/2025 (Quarta), às 19:00.",Juliana de Oliveira Gomes,INT 03,13/08/2025,19:00,reposicoes
+423,"Reposição de aula do aluno Clara Quintino Pires, turma INT 1, no dia 26/08/2025 (Terça), às 19:00.",Clara Quintino Pires,INT 1,26/08/2025,19:00,reposicoes
+424,"Reposição de aula do aluno Clara Quintino Pires, turma INT1, no dia 28/08/2025 (Quinta), às 19:00.",Clara Quintino Pires,INT1,28/08/2025,19:00,reposicoes
+425,"Reposição de aula do aluno Vinicius da Costa, turma INT 1, no dia 06/08/2025 (Quarta), às 20:00.",Vinicius da Costa,INT 1,06/08/2025,20:00,reposicoes
+426,"Reposição de aula do aluno Adriana da Costa Arruda, turma Online, no dia 12/08/2025 (Terça), às 20:00.",Adriana da Costa Arruda,Online,12/08/2025,20:00,reposicoes
+427,"Reposição de aula do aluno Juliana de Oliveira Gomes, turma INT 03, no dia 13/08/2025 (Quarta), às 20:00.",Juliana de Oliveira Gomes,INT 03,13/08/2025,20:00,reposicoes
+428,"Reposição de aula do aluno Adriana da Costa Arruda, turma Online, no dia 14/08/2025 (Quinta), às 20:00.",Adriana da Costa Arruda,Online,14/08/2025,20:00,reposicoes
+429,"Reposição de aula do aluno Adriana da Costa Arruda, turma online, no dia 19/08/2025 (Terça), às 20:00.",Adriana da Costa Arruda,online,19/08/2025,20:00,reposicoes
+430,"Reposição de aula do aluno Adriana da Costa Arruda, turma online, no dia 21/08/2025 (Quinta), às 20:00.",Adriana da Costa Arruda,online,21/08/2025,20:00,reposicoes
+431,"Reposição de aula do aluno Ricardo domingues reis, turma INt1 experimental, no dia 25/08/2025 (Segunda), às 20:00.",Ricardo domingues reis,INt1 experimental,25/08/2025,20:00,reposicoes
+432,"Reposição de aula do aluno Adriana da Costa Arruda, turma Online, no dia 26/08/2025 (Terça), às 20:00.",Adriana da Costa Arruda,Online,26/08/2025,20:00,reposicoes
+433,"Reposição de aula do aluno Yasmin Terencio Marques, turma INT1, no dia 29/08/2025 (Sexta), às 20:00.",Yasmin Terencio Marques,INT1,29/08/2025,20:00,reposicoes
+434,"Reposição de aula do aluno Ana Paula de Oliveira, turma ONLINE, no dia 06/09/2025 (Sábado), às 08:00.",Ana Paula de Oliveira,ONLINE,06/09/2025,08:00,reposicoes
+435,"Reposição de aula do aluno Emmanuel Marcos, turma INT 1, no dia 09/09/2025 (Terça), às 08:00.",Emmanuel Marcos,INT 1,09/09/2025,08:00,reposicoes
+436,"Reposição de aula do aluno Igor daniel facundes, turma INT !, no dia 10/09/2025 (Quarta), às 08:00.",Igor daniel facundes,INT !,10/09/2025,08:00,reposicoes
+437,"Reposição de aula do aluno Manuela dos Santos Arantes, turma INT 1, no dia 11/09/2025 (Quinta), às 08:00.",Manuela dos Santos Arantes,INT 1,11/09/2025,08:00,reposicoes
+438,"Reposição de aula do aluno Ana Paula de Oliveira, turma ONLINE, no dia 13/09/2025 (Sábado), às 08:00.",Ana Paula de Oliveira,ONLINE,13/09/2025,08:00,reposicoes
+439,"Reposição de aula do aluno Igor Daniel Facundes, turma INT 1, no dia 17/09/2025 (Quarta), às 08:00.",Igor Daniel Facundes,INT 1,17/09/2025,08:00,reposicoes
+440,"Reposição de aula do aluno Stephany Almeida Oliveira, turma ONLINE, no dia 20/09/2025 (Sábado), às 08:00.",Stephany Almeida Oliveira,ONLINE,20/09/2025,08:00,reposicoes
+441,"Reposição de aula do aluno Igor Daniel Facundes, turma INT 1, no dia 24/09/2025 (Quarta), às 08:00.",Igor Daniel Facundes,INT 1,24/09/2025,08:00,reposicoes
+442,"Reposição de aula do aluno Luis Eduardo da Silva Dias, turma INT 01, no dia 25/09/2025 (Quinta), às 08:00.",Luis Eduardo da Silva Dias,INT 01,25/09/2025,08:00,reposicoes
+443,"Reposição de aula do aluno Stephany Almeida Oliveira, turma ONLINE, no dia 27/09/2025 (Sábado), às 08:00.",Stephany Almeida Oliveira,ONLINE,27/09/2025,08:00,reposicoes
+444,"Reposição de aula do aluno Luis Eduardo da Silva Dias, turma INT 01, no dia 30/09/2025 (Terça), às 08:00.",Luis Eduardo da Silva Dias,INT 01,30/09/2025,08:00,reposicoes
+445,"Reposição de aula do aluno Ana Julia Duarte dos Santos, turma INT 1, no dia 01/09/2025 (Segunda), às 09:00.",Ana Julia Duarte dos Santos,INT 1,01/09/2025,09:00,reposicoes
+446,"Reposição de aula do aluno Lorena Pereira Siqueira, turma INT 3, no dia 02/09/2025 (Terça), às 09:00.",Lorena Pereira Siqueira,INT 3,02/09/2025,09:00,reposicoes
+447,"Reposição de aula do aluno Isabela Azevedo do Nascimento, turma KIDS01, no dia 04/09/2025 (Quinta), às 09:00.",Isabela Azevedo do Nascimento,KIDS01,04/09/2025,09:00,reposicoes
+448,"Reposição de aula do aluno Jeane Ramos Sampaio, turma INT 1, no dia 05/09/2025 (Sexta), às 09:00.",Jeane Ramos Sampaio,INT 1,05/09/2025,09:00,reposicoes
+449,"Reposição de aula do aluno Danilo Rodrigues, turma ONLINE, no dia 06/09/2025 (Sábado), às 09:00.",Danilo Rodrigues,ONLINE,06/09/2025,09:00,reposicoes
+450,"Reposição de aula do aluno Anthony Silva, turma INT 01, no dia 08/09/2025 (Segunda), às 09:00.",Anthony Silva,INT 01,08/09/2025,09:00,reposicoes
+451,"Reposição de aula do aluno Emmanuel Marcos, turma INT 1, no dia 09/09/2025 (Terça), às 09:00.",Emmanuel Marcos,INT 1,09/09/2025,09:00,reposicoes
+452,"Reposição de aula do aluno Maria Clara Paiva, turma concluir o NG, no dia 10/09/2025 (Quarta), às 09:00.",Maria Clara Paiva,concluir o NG,10/09/2025,09:00,reposicoes
+453,"Reposição de aula do aluno Jennifer Lopes Patricio, turma INT 1, no dia 11/09/2025 (Quinta), às 09:00.",Jennifer Lopes Patricio,INT 1,11/09/2025,09:00,reposicoes
+454,"Reposição de aula do aluno Ana Paula de Oliveira, turma ONLINE, no dia 13/09/2025 (Sábado), às 09:00.",Ana Paula de Oliveira,ONLINE,13/09/2025,09:00,reposicoes
+455,"Reposição de aula do aluno Jeane Ramos Sampaio, turma INT 1, no dia 15/09/2025 (Segunda), às 09:00.",Jeane Ramos Sampaio,INT 1,15/09/2025,09:00,reposicoes
+456,"Reposição de aula do aluno Monique, turma nivelamento, no dia 16/09/2025 (Terça), às 09:00.",Monique,nivelamento,16/09/2025,09:00,reposicoes
+457,"Reposição de aula do aluno Igor Daniel Facundes, turma INT 1, no dia 17/09/2025 (Quarta), às 09:00.",Igor Daniel Facundes,INT 1,17/09/2025,09:00,reposicoes
+458,"Reposição de aula do aluno Ester Pires Borges Rangel, turma INT 01, no dia 18/09/2025 (Quinta), às 09:00.",Ester Pires Borges Rangel,INT 01,18/09/2025,09:00,reposicoes
+459,"Reposição de aula do aluno Ana Paula de Oliveira, turma ONLINE, no dia 20/09/2025 (Sábado), às 09:00.",Ana Paula de Oliveira,ONLINE,20/09/2025,09:00,reposicoes
+460,"Reposição de aula do aluno Anthony Silva Melo de Menezes Duarte, turma INT 01, no dia 22/09/2025 (Segunda), às 09:00.",Anthony Silva Melo de Menezes Duarte,INT 01,22/09/2025,09:00,reposicoes
+461,"Reposição de aula do aluno Igor Daniel Facundes, turma INT 1, no dia 24/09/2025 (Quarta), às 09:00.",Igor Daniel Facundes,INT 1,24/09/2025,09:00,reposicoes
+462,"Reposição de aula do aluno Ana Paula de Oliveira Neves, turma ON Line, no dia 27/09/2025 (Sábado), às 09:00.",Ana Paula de Oliveira Neves,ON Line,27/09/2025,09:00,reposicoes
+463,"Reposição de aula do aluno Ester Pires Borges Rangel, turma INT 01, no dia 30/09/2025 (Terça), às 09:00.",Ester Pires Borges Rangel,INT 01,30/09/2025,09:00,reposicoes
+464,"Reposição de aula do aluno Lucas Hernandes Moreira Soares, turma INT3, no dia 02/09/2025 (Terça), às 10:00.",Lucas Hernandes Moreira Soares,INT3,02/09/2025,10:00,reposicoes
+465,"Reposição de aula do aluno Isabela Azevedo do Nascimento, turma KIDS01, no dia 04/09/2025 (Quinta), às 10:00.",Isabela Azevedo do Nascimento,KIDS01,04/09/2025,10:00,reposicoes
+466,"Reposição de aula do aluno Jeane Ramos Sampaio, turma INT 1, no dia 05/09/2025 (Sexta), às 10:00.",Jeane Ramos Sampaio,INT 1,05/09/2025,10:00,reposicoes
+467,"Reposição de aula do aluno Jessica Rocha, turma INT2, no dia 06/09/2025 (Sábado), às 10:00.",Jessica Rocha,INT2,06/09/2025,10:00,reposicoes
+468,"Reposição de aula do aluno Guilherme Rodrigues de Oliveira Dias, turma INT 01, no dia 08/09/2025 (Segunda), às 10:00.",Guilherme Rodrigues de Oliveira Dias,INT 01,08/09/2025,10:00,reposicoes
+469,"Reposição de aula do aluno Karen Fernanda Lima, turma INT 3, no dia 09/09/2025 (Terça), às 10:00.",Karen Fernanda Lima,INT 3,09/09/2025,10:00,reposicoes
+470,"Reposição de aula do aluno Guilherme Rodrigues de Oliveira Dias, turma INT 01, no dia 10/09/2025 (Quarta), às 10:00.",Guilherme Rodrigues de Oliveira Dias,INT 01,10/09/2025,10:00,reposicoes
+471,"Reposição de aula do aluno Eric Sousa Gouveia, turma INT 1 (SOMENTE UMA AULA), no dia 12/09/2025 (Sexta), às 10:00.",Eric Sousa Gouveia,INT 1 (SOMENTE UMA AULA),12/09/2025,10:00,reposicoes
+472,"Reposição de aula do aluno Noah de Souza Mesquita TOTS 6, turma reposição, no dia 22/09/2025 (Segunda), às 10:00.",Noah de Souza Mesquita TOTS 6,reposição,22/09/2025,10:00,reposicoes
+473,"Reposição de aula do aluno Lara Emanuely Pereira Melo, turma KIDS2, no dia 25/09/2025 (Quinta), às 10:00.",Lara Emanuely Pereira Melo,KIDS2,25/09/2025,10:00,reposicoes
+474,"Reposição de aula do aluno Guilherme Rodrigues de Oliveira Dias, turma INT 01, no dia 29/09/2025 (Segunda), às 10:00.",Guilherme Rodrigues de Oliveira Dias,INT 01,29/09/2025,10:00,reposicoes
+475,"Reposição de aula do aluno Lucas Belarmino, turma INT 3, no dia 30/09/2025 (Terça), às 10:00.",Lucas Belarmino,INT 3,30/09/2025,10:00,reposicoes
+476,"Reposição de aula do aluno Rychard Aragao, turma INT 2, no dia 01/09/2025 (Segunda), às 14:00.",Rychard Aragao,INT 2,01/09/2025,14:00,reposicoes
+477,"Reposição de aula do aluno Fernanda Brandao Silva, turma INT 1, no dia 02/09/2025 (Terça), às 14:00.",Fernanda Brandao Silva,INT 1,02/09/2025,14:00,reposicoes
+478,"Reposição de aula do aluno Manuela Maria Dutra RIbeiro, turma KIDS 01, no dia 03/09/2025 (Quarta), às 14:00.",Manuela Maria Dutra RIbeiro,KIDS 01,03/09/2025,14:00,reposicoes
+479,"Reposição de aula do aluno Fillype Santos Tavares Lima, turma INT2, no dia 04/09/2025 (Quinta), às 14:00.",Fillype Santos Tavares Lima,INT2,04/09/2025,14:00,reposicoes
+480,"Reposição de aula do aluno Renato Ferreira Batista, turma INT 01, no dia 06/09/2025 (Sábado), às 14:00.",Renato Ferreira Batista,INT 01,06/09/2025,14:00,reposicoes
+481,"Reposição de aula do aluno Reforço, turma Enzo Lucca, no dia 08/09/2025 (Segunda), às 14:00.",Reforço,Enzo Lucca,08/09/2025,14:00,reposicoes
+482,"Reposição de aula do aluno Fillype Santos Tavares Lima, turma INT3, no dia 09/09/2025 (Terça), às 14:00.",Fillype Santos Tavares Lima,INT3,09/09/2025,14:00,reposicoes
+483,"Reposição de aula do aluno Isabela Maria Dutra, turma INT 2, no dia 11/09/2025 (Quinta), às 14:00.",Isabela Maria Dutra,INT 2,11/09/2025,14:00,reposicoes
+484,"Reposição de aula do aluno Nicolas Ferreira Nunes, turma INT 3, no dia 15/09/2025 (Segunda), às 14:00.",Nicolas Ferreira Nunes,INT 3,15/09/2025,14:00,reposicoes
+485,"Reposição de aula do aluno Helloa Samille Rodrigues, turma INT 3, no dia 17/09/2025 (Quarta), às 14:00.",Helloa Samille Rodrigues,INT 3,17/09/2025,14:00,reposicoes
+486,"Reposição de aula do aluno Mariana Torres de Carvalho, turma INT 1, no dia 18/09/2025 (Quinta), às 14:00.",Mariana Torres de Carvalho,INT 1,18/09/2025,14:00,reposicoes
+487,"Reposição de aula do aluno Alex Rodrigues Lima, turma INT 03, no dia 20/09/2025 (Sábado), às 14:00.",Alex Rodrigues Lima,INT 03,20/09/2025,14:00,reposicoes
+488,"Reposição de aula do aluno Davi Carvalho, turma INT 3, no dia 22/09/2025 (Segunda), às 14:00.",Davi Carvalho,INT 3,22/09/2025,14:00,reposicoes
+489,"Reposição de aula do aluno Arthur Landim do Carmo, turma KIDS 1, no dia 23/09/2025 (Terça), às 14:00.",Arthur Landim do Carmo,KIDS 1,23/09/2025,14:00,reposicoes
+490,"Reposição de aula do aluno Davi Carvalho, turma INT 3, no dia 24/09/2025 (Quarta), às 14:00.",Davi Carvalho,INT 3,24/09/2025,14:00,reposicoes
+491,"Reposição de aula do aluno Alex Rodrigues Lima, turma INT 03, no dia 27/09/2025 (Sábado), às 14:00.",Alex Rodrigues Lima,INT 03,27/09/2025,14:00,reposicoes
+492,"Reposição de aula do aluno Davi Lima da Silva Dourado, turma INT 03, no dia 29/09/2025 (Segunda), às 14:00.",Davi Lima da Silva Dourado,INT 03,29/09/2025,14:00,reposicoes
+493,"Reposição de aula do aluno Arthur Landim do Carmo, turma KIDS 1, no dia 30/09/2025 (Terça), às 14:00.",Arthur Landim do Carmo,KIDS 1,30/09/2025,14:00,reposicoes
+494,"Reposição de aula do aluno Vitoria Rodrigues de Melo, turma INT 2, no dia 01/09/2025 (Segunda), às 15:00.",Vitoria Rodrigues de Melo,INT 2,01/09/2025,15:00,reposicoes
+495,"Reposição de aula do aluno Mariana Carvalho Borges, turma INT 3, no dia 02/09/2025 (Terça), às 15:00.",Mariana Carvalho Borges,INT 3,02/09/2025,15:00,reposicoes
+496,"Reposição de aula do aluno Mariana Carvalho Borges, turma INT 3, no dia 04/09/2025 (Quinta), às 15:00.",Mariana Carvalho Borges,INT 3,04/09/2025,15:00,reposicoes
+497,"Reposição de aula do aluno Miguel Olieira Magalhaes, turma reunião com o Vini, no dia 09/09/2025 (Terça), às 15:00.",Miguel Olieira Magalhaes,reunião com o Vini,09/09/2025,15:00,reposicoes
+498,"Reposição de aula do aluno Maria Eduarda dos Santos, turma INT 2, no dia 10/09/2025 (Quarta), às 15:00.",Maria Eduarda dos Santos,INT 2,10/09/2025,15:00,reposicoes
+499,"Reposição de aula do aluno Isabela Maria Dutra, turma INT 3, no dia 11/09/2025 (Quinta), às 15:00.",Isabela Maria Dutra,INT 3,11/09/2025,15:00,reposicoes
+500,"Reposição de aula do aluno Marcus Vinicius Braga Migueis Gama, turma INT 3, no dia 13/09/2025 (Sábado), às 15:00.",Marcus Vinicius Braga Migueis Gama,INT 3,13/09/2025,15:00,reposicoes
+501,"Reposição de aula do aluno Ellen da Silva Morcerf, turma INT 1, no dia 15/09/2025 (Segunda), às 15:00.",Ellen da Silva Morcerf,INT 1,15/09/2025,15:00,reposicoes
+502,"Reposição de aula do aluno Mariana Torres de Carvalho, turma INT 1, no dia 18/09/2025 (Quinta), às 15:00.",Mariana Torres de Carvalho,INT 1,18/09/2025,15:00,reposicoes
+503,"Reposição de aula do aluno Alex Rodrigues Lima, turma INT 03, no dia 20/09/2025 (Sábado), às 15:00.",Alex Rodrigues Lima,INT 03,20/09/2025,15:00,reposicoes
+504,"Reposição de aula do aluno Juliana Rodrigues de Franca, turma KIDS 2, no dia 22/09/2025 (Segunda), às 15:00.",Juliana Rodrigues de Franca,KIDS 2,22/09/2025,15:00,reposicoes
+505,"Reposição de aula do aluno Elizabeth Pessoa Andrade, turma Reposição com a Amanda, no dia 24/09/2025 (Quarta), às 15:00.",Elizabeth Pessoa Andrade,Reposição com a Amanda,24/09/2025,15:00,reposicoes
+506,"Reposição de aula do aluno Alex Rodrigues Lima, turma INT 03, no dia 27/09/2025 (Sábado), às 15:00.",Alex Rodrigues Lima,INT 03,27/09/2025,15:00,reposicoes
+507,"Reposição de aula do aluno Davi Lima da Silva Dourado, turma INT 03, no dia 29/09/2025 (Segunda), às 15:00.",Davi Lima da Silva Dourado,INT 03,29/09/2025,15:00,reposicoes
+508,"Reposição de aula do aluno Raphael Henrique Martins Eler, turma INT 1, no dia 30/09/2025 (Terça), às 15:00.",Raphael Henrique Martins Eler,INT 1,30/09/2025,15:00,reposicoes
+509,"Reposição de aula do aluno Anne Beatriz duarte, turma INT3, no dia 02/09/2025 (Terça), às 16:00.",Anne Beatriz duarte,INT3,02/09/2025,16:00,reposicoes
+510,"Reposição de aula do aluno Augusto de Alencar de Pinto, turma KIDS 1, no dia 03/09/2025 (Quarta), às 16:00.",Augusto de Alencar de Pinto,KIDS 1,03/09/2025,16:00,reposicoes
+511,"Reposição de aula do aluno Reunião com o Vini, turma mãe do Davi Luca (REAGENDAR!), no dia 09/09/2025 (Terça), às 16:00.",Reunião com o Vini,mãe do Davi Luca (REAGENDAR!),09/09/2025,16:00,reposicoes
+512,"Reposição de aula do aluno Maria Eduarda dos Santos, turma INT 3, no dia 10/09/2025 (Quarta), às 16:00.",Maria Eduarda dos Santos,INT 3,10/09/2025,16:00,reposicoes
+513,"Reposição de aula do aluno Levi Ubiratan, turma Com a monitora, no dia 17/09/2025 (Quarta), às 16:00.",Levi Ubiratan,Com a monitora,17/09/2025,16:00,reposicoes
+514,"Reposição de aula do aluno Juliana Rodrigues de Franca, turma KIDS 1, no dia 22/09/2025 (Segunda), às 16:00.",Juliana Rodrigues de Franca,KIDS 1,22/09/2025,16:00,reposicoes
+515,"Reposição de aula do aluno Vitoria Ferreira de Lima Silva, turma INT1, no dia 24/09/2025 (Quarta), às 16:00.",Vitoria Ferreira de Lima Silva,INT1,24/09/2025,16:00,reposicoes
+516,"Reposição de aula do aluno Alice Saraiva de Andrade, turma INT 01, no dia 25/09/2025 (Quinta), às 16:00.",Alice Saraiva de Andrade,INT 01,25/09/2025,16:00,reposicoes
+517,"Reposição de aula do aluno Ana Elisa Portela Meneses, turma KIds1, no dia 29/09/2025 (Segunda), às 16:00.",Ana Elisa Portela Meneses,KIds1,29/09/2025,16:00,reposicoes
+518,"Reposição de aula do aluno Davi Juan Maia Coelho, turma INT 3, no dia 30/09/2025 (Terça), às 16:00.",Davi Juan Maia Coelho,INT 3,30/09/2025,16:00,reposicoes
+519,"Reposição de aula do aluno Lucas Viana Marques, turma ONLINE, no dia 04/09/2025 (Quinta), às 17:00.",Lucas Viana Marques,ONLINE,04/09/2025,17:00,reposicoes
+520,"Reposição de aula do aluno Lucas Viana Marques, turma ONLINE, no dia 09/09/2025 (Terça), às 17:00.",Lucas Viana Marques,ONLINE,09/09/2025,17:00,reposicoes
+521,"Reposição de aula do aluno Caio Nicolas Dias, turma INT 1, no dia 11/09/2025 (Quinta), às 17:00.",Caio Nicolas Dias,INT 1,11/09/2025,17:00,reposicoes
+522,"Reposição de aula do aluno Caio Nicolas Dias, turma INT 1, no dia 18/09/2025 (Quinta), às 17:00.",Caio Nicolas Dias,INT 1,18/09/2025,17:00,reposicoes
+523,"Reposição de aula do aluno Juliana Rodrigues de Franca, turma KIDS 1, no dia 22/09/2025 (Segunda), às 17:00.",Juliana Rodrigues de Franca,KIDS 1,22/09/2025,17:00,reposicoes
+524,"Reposição de aula do aluno Ester Ramos Teodoro, turma INT 1, no dia 25/09/2025 (Quinta), às 17:00.",Ester Ramos Teodoro,INT 1,25/09/2025,17:00,reposicoes
+525,"Reposição de aula do aluno Juliana Rodrigues de Franca, turma KIDS 1, no dia 29/09/2025 (Segunda), às 17:00.",Juliana Rodrigues de Franca,KIDS 1,29/09/2025,17:00,reposicoes
+526,"Reposição de aula do aluno Rafaella Tayna Rodrigues, turma INT3, no dia 01/09/2025 (Segunda), às 18:00.",Rafaella Tayna Rodrigues,INT3,01/09/2025,18:00,reposicoes
+527,"Reposição de aula do aluno Rafaella Tayna Rodrigues, turma INT 3, no dia 03/09/2025 (Quarta), às 18:00.",Rafaella Tayna Rodrigues,INT 3,03/09/2025,18:00,reposicoes
+528,"Reposição de aula do aluno Thauane Joshua Santos, turma INT 1, no dia 04/09/2025 (Quinta), às 18:00.",Thauane Joshua Santos,INT 1,04/09/2025,18:00,reposicoes
+529,"Reposição de aula do aluno Isadora Pereira Athayde, turma INT1, no dia 05/09/2025 (Sexta), às 18:00.",Isadora Pereira Athayde,INT1,05/09/2025,18:00,reposicoes
+530,"Reposição de aula do aluno Gracy Keller, turma INT 1, no dia 09/09/2025 (Terça), às 18:00.",Gracy Keller,INT 1,09/09/2025,18:00,reposicoes
+531,"Reposição de aula do aluno Caio Nicolas Dias, turma INT 1, no dia 11/09/2025 (Quinta), às 18:00.",Caio Nicolas Dias,INT 1,11/09/2025,18:00,reposicoes
+532,"Reposição de aula do aluno Maryane Pereira Nunes, turma INT 01, no dia 16/09/2025 (Terça), às 18:00.",Maryane Pereira Nunes,INT 01,16/09/2025,18:00,reposicoes
+533,"Reposição de aula do aluno Caio Nicolas Dias, turma INT 1, no dia 18/09/2025 (Quinta), às 18:00.",Caio Nicolas Dias,INT 1,18/09/2025,18:00,reposicoes
+534,"Reposição de aula do aluno Eduardo da sIlva, turma INT 1, no dia 19/09/2025 (Sexta), às 18:00.",Eduardo da sIlva,INT 1,19/09/2025,18:00,reposicoes
+535,"Reposição de aula do aluno Joao Gabriel Souza De Paula, turma INT 01, no dia 22/09/2025 (Segunda), às 18:00.",Joao Gabriel Souza De Paula,INT 01,22/09/2025,18:00,reposicoes
+536,"Reposição de aula do aluno Fabricio Calazans Nunes, turma INt3, no dia 25/09/2025 (Quinta), às 18:00.",Fabricio Calazans Nunes,INt3,25/09/2025,18:00,reposicoes
+537,"Reposição de aula do aluno Eduardo Alberto da Silva Santos, turma INT 3, no dia 26/09/2025 (Sexta), às 18:00.",Eduardo Alberto da Silva Santos,INT 3,26/09/2025,18:00,reposicoes
+538,"Reposição de aula do aluno Maryane Pereira nunes, turma KIDs1, no dia 30/09/2025 (Terça), às 18:00.",Maryane Pereira nunes,KIDs1,30/09/2025,18:00,reposicoes
+539,"Reposição de aula do aluno Rafaella Tayna Rodrigues, turma INT3, no dia 01/09/2025 (Segunda), às 19:00.",Rafaella Tayna Rodrigues,INT3,01/09/2025,19:00,reposicoes
+540,"Reposição de aula do aluno Filipe Antonio Cerqueira Araujo, turma INT3, no dia 03/09/2025 (Quarta), às 19:00.",Filipe Antonio Cerqueira Araujo,INT3,03/09/2025,19:00,reposicoes
+541,"Reposição de aula do aluno Suellen Pereira de Souza, turma INT 1, no dia 04/09/2025 (Quinta), às 19:00.",Suellen Pereira de Souza,INT 1,04/09/2025,19:00,reposicoes
+542,"Reposição de aula do aluno Filipe Antonio Cerqueira Araujo, turma INT3, no dia 08/09/2025 (Segunda), às 19:00.",Filipe Antonio Cerqueira Araujo,INT3,08/09/2025,19:00,reposicoes
+543,"Reposição de aula do aluno Gracy Keller, turma INT 1, no dia 09/09/2025 (Terça), às 19:00.",Gracy Keller,INT 1,09/09/2025,19:00,reposicoes
+544,"Reposição de aula do aluno LUcas gomes de sousa, turma INT1, no dia 15/09/2025 (Segunda), às 19:00.",LUcas gomes de sousa,INT1,15/09/2025,19:00,reposicoes
+545,"Reposição de aula do aluno Clara Quintino Pires, turma INT 01, no dia 16/09/2025 (Terça), às 19:00.",Clara Quintino Pires,INT 01,16/09/2025,19:00,reposicoes
+546,"Reposição de aula do aluno Mariana Fatima Silva, turma INT 1, no dia 18/09/2025 (Quinta), às 19:00.",Mariana Fatima Silva,INT 1,18/09/2025,19:00,reposicoes
+547,"Reposição de aula do aluno fabricio miranda lima, turma INT1, no dia 19/09/2025 (Sexta), às 19:00.",fabricio miranda lima,INT1,19/09/2025,19:00,reposicoes
+548,"Reposição de aula do aluno Joao Gabriel Souza De Paula, turma INT 01, no dia 22/09/2025 (Segunda), às 19:00.",Joao Gabriel Souza De Paula,INT 01,22/09/2025,19:00,reposicoes
+549,"Reposição de aula do aluno Clara Quintino, turma INT 1, no dia 30/09/2025 (Terça), às 19:00.",Clara Quintino,INT 1,30/09/2025,19:00,reposicoes
+550,"Reposição de aula do aluno LUcas gomes de sousa, turma INT1, no dia 01/09/2025 (Segunda), às 20:00.",LUcas gomes de sousa,INT1,01/09/2025,20:00,reposicoes
+551,"Reposição de aula do aluno Adriana da Costa Arruda, turma ONLINE, no dia 02/09/2025 (Terça), às 20:00.",Adriana da Costa Arruda,ONLINE,02/09/2025,20:00,reposicoes
+552,"Reposição de aula do aluno Lucas Gomes de sousa, turma INT1, no dia 08/09/2025 (Segunda), às 20:00.",Lucas Gomes de sousa,INT1,08/09/2025,20:00,reposicoes
+553,"Reposição de aula do aluno Adriana da Costa Arruda, turma ONLINE, no dia 09/09/2025 (Terça), às 20:00.",Adriana da Costa Arruda,ONLINE,09/09/2025,20:00,reposicoes
+554,"Reposição de aula do aluno Maria Laura Azevedo, turma INT 1, no dia 10/09/2025 (Quarta), às 20:00.",Maria Laura Azevedo,INT 1,10/09/2025,20:00,reposicoes
+555,"Reposição de aula do aluno Lucas Gomes de sousa, turma INT1, no dia 11/09/2025 (Quinta), às 20:00.",Lucas Gomes de sousa,INT1,11/09/2025,20:00,reposicoes
+556,"Reposição de aula do aluno Adriana da Costa Arruda, turma ONLINE, no dia 16/09/2025 (Terça), às 20:00.",Adriana da Costa Arruda,ONLINE,16/09/2025,20:00,reposicoes
+557,"Reposição de aula do aluno Maria Laura Azevedo, turma INT 1, no dia 17/09/2025 (Quarta), às 20:00.",Maria Laura Azevedo,INT 1,17/09/2025,20:00,reposicoes
+558,"Reposição de aula do aluno Maria Laura Azevedo, turma INT 1, no dia 24/09/2025 (Quarta), às 20:00.",Maria Laura Azevedo,INT 1,24/09/2025,20:00,reposicoes
+559,"Reposição de aula do aluno Igor Daniel Facundes, turma INT 1, no dia 01/10/2025 (Quarta), às 08:00.",Igor Daniel Facundes,INT 1,01/10/2025,08:00,reposicoes
+560,"Reposição de aula do aluno Miguel de Oliveira, turma Int 01, no dia 02/10/2025 (Quinta), às 08:00.",Miguel de Oliveira,Int 01,02/10/2025,08:00,reposicoes
+561,"Reposição de aula do aluno Stephany Almeida Oliveira, turma ONLINE, no dia 04/10/2025 (Sábado), às 08:00.",Stephany Almeida Oliveira,ONLINE,04/10/2025,08:00,reposicoes
+562,"Reposição de aula do aluno Igor Daniel Fagundes, turma INT 01, no dia 08/10/2025 (Quarta), às 08:00.",Igor Daniel Fagundes,INT 01,08/10/2025,08:00,reposicoes
+563,"Reposição de aula do aluno Bruno Mendes Viana, turma INT 1, no dia 09/10/2025 (Quinta), às 08:00.",Bruno Mendes Viana,INT 1,09/10/2025,08:00,reposicoes
+564,"Reposição de aula do aluno Stephany Almeida Oliveira, turma ONLINE, no dia 11/10/2025 (Sábado), às 08:00.",Stephany Almeida Oliveira,ONLINE,11/10/2025,08:00,reposicoes
+565,"Reposição de aula do aluno Ana Paula de Oliveira Neves, turma ON LINE, no dia 13/10/2025 (Segunda), às 08:00.",Ana Paula de Oliveira Neves,ON LINE,13/10/2025,08:00,reposicoes
+566,"Reposição de aula do aluno Stephany Almeida Oliveira, turma ONLINE, no dia 18/10/2025 (Sábado), às 08:00.",Stephany Almeida Oliveira,ONLINE,18/10/2025,08:00,reposicoes
+567,"Reposição de aula do aluno Igor Daniel Facundes Silva, turma INT1, no dia 22/10/2025 (Quarta), às 08:00.",Igor Daniel Facundes Silva,INT1,22/10/2025,08:00,reposicoes
+568,"Reposição de aula do aluno Stephany Almeida Oliveira, turma ONLINE, no dia 25/10/2025 (Sábado), às 08:00.",Stephany Almeida Oliveira,ONLINE,25/10/2025,08:00,reposicoes
+569,"Reposição de aula do aluno Vitoria Beatriz, turma INT 1, no dia 30/10/2025 (Quinta), às 08:00.",Vitoria Beatriz,INT 1,30/10/2025,08:00,reposicoes
+570,"Reposição de aula do aluno Stephany Almeida Oliveira, turma ONLINE, no dia 31/10/2025 (Sexta), às 08:00.",Stephany Almeida Oliveira,ONLINE,31/10/2025,08:00,reposicoes
+571,"Reposição de aula do aluno Igor Daniel Facundes, turma INT 1, no dia 01/10/2025 (Quarta), às 09:00.",Igor Daniel Facundes,INT 1,01/10/2025,09:00,reposicoes
+572,"Reposição de aula do aluno Ester Pires Borges Rangel, turma INT 01, no dia 02/10/2025 (Quinta), às 09:00.",Ester Pires Borges Rangel,INT 01,02/10/2025,09:00,reposicoes
+573,"Reposição de aula do aluno Ester Pires Borges Rangel, turma INT 01, no dia 07/10/2025 (Terça), às 09:00.",Ester Pires Borges Rangel,INT 01,07/10/2025,09:00,reposicoes
+574,"Reposição de aula do aluno Igor Daniel Fagundes, turma INT 01, no dia 08/10/2025 (Quarta), às 09:00.",Igor Daniel Fagundes,INT 01,08/10/2025,09:00,reposicoes
+575,"Reposição de aula do aluno Bruno Mendes Viana, turma INT 1, no dia 09/10/2025 (Quinta), às 09:00.",Bruno Mendes Viana,INT 1,09/10/2025,09:00,reposicoes
+576,"Reposição de aula do aluno Ana Paula de Oliveira Neves, turma INT 03, no dia 14/10/2025 (Terça), às 09:00.",Ana Paula de Oliveira Neves,INT 03,14/10/2025,09:00,reposicoes
+577,"Reposição de aula do aluno Alice da Silva Guimaraes, turma KIDS 01, no dia 16/10/2025 (Quinta), às 09:00.",Alice da Silva Guimaraes,KIDS 01,16/10/2025,09:00,reposicoes
+578,"Reposição de aula do aluno Alice da Silva Guimaraes, turma KIDS 01, no dia 20/10/2025 (Segunda), às 09:00.",Alice da Silva Guimaraes,KIDS 01,20/10/2025,09:00,reposicoes
+579,"Reposição de aula do aluno Ana Julia Duare, turma INT 1, no dia 22/10/2025 (Quarta), às 09:00.",Ana Julia Duare,INT 1,22/10/2025,09:00,reposicoes
+580,"Reposição de aula do aluno Brunna Kethelyy Dias, turma INT 1, no dia 27/10/2025 (Segunda), às 09:00.",Brunna Kethelyy Dias,INT 1,27/10/2025,09:00,reposicoes
+581,"Reposição de aula do aluno Vitoria Beatriz, turma INT 1, no dia 30/10/2025 (Quinta), às 09:00.",Vitoria Beatriz,INT 1,30/10/2025,09:00,reposicoes
+582,"Reposição de aula do aluno Beatriz Rufino Romeiro Da Silva, turma kids 1, no dia 01/10/2025 (Quarta), às 10:00.",Beatriz Rufino Romeiro Da Silva,kids 1,01/10/2025,10:00,reposicoes
+583,"Reposição de aula do aluno Rayane Sena, turma INT 1, no dia 02/10/2025 (Quinta), às 10:00.",Rayane Sena,INT 1,02/10/2025,10:00,reposicoes
+584,"Reposição de aula do aluno Suellen Peeira de Sousa, turma INT 2, no dia 04/10/2025 (Sábado), às 10:00.",Suellen Peeira de Sousa,INT 2,04/10/2025,10:00,reposicoes
+585,"Reposição de aula do aluno Davi Oliveira Lira, turma KIDS 02, no dia 09/10/2025 (Quinta), às 10:00.",Davi Oliveira Lira,KIDS 02,09/10/2025,10:00,reposicoes
+586,"Reposição de aula do aluno Marcus Vinicius, turma INT 2, no dia 11/10/2025 (Sábado), às 10:00.",Marcus Vinicius,INT 2,11/10/2025,10:00,reposicoes
+587,"Reposição de aula do aluno Ana Paula de Oliveira Neves, turma INT 03, no dia 14/10/2025 (Terça), às 10:00.",Ana Paula de Oliveira Neves,INT 03,14/10/2025,10:00,reposicoes
+588,"Reposição de aula do aluno Alice da Silva Guimaraes, turma KIDS 01, no dia 16/10/2025 (Quinta), às 10:00.",Alice da Silva Guimaraes,KIDS 01,16/10/2025,10:00,reposicoes
+589,"Reposição de aula do aluno Marcus Vinicius, turma INT 2, no dia 18/10/2025 (Sábado), às 10:00.",Marcus Vinicius,INT 2,18/10/2025,10:00,reposicoes
+590,"Reposição de aula do aluno Alice da Silva Guimaraes, turma KIDS 01, no dia 20/10/2025 (Segunda), às 10:00.",Alice da Silva Guimaraes,KIDS 01,20/10/2025,10:00,reposicoes
+591,"Reposição de aula do aluno Lucas Hernandes Moreira Sales, turma INT 1, no dia 21/10/2025 (Terça), às 10:00.",Lucas Hernandes Moreira Sales,INT 1,21/10/2025,10:00,reposicoes
+592,"Reposição de aula do aluno Guilherme de Oliveira Duraes, turma INT 01, no dia 22/10/2025 (Quarta), às 10:00.",Guilherme de Oliveira Duraes,INT 01,22/10/2025,10:00,reposicoes
+593,"Reposição de aula do aluno Ana Beatriz Nogueira Rodrigues, turma KIDS, no dia 27/10/2025 (Segunda), às 10:00.",Ana Beatriz Nogueira Rodrigues,KIDS,27/10/2025,10:00,reposicoes
+594,"Reposição de aula do aluno Ana Luisa Gomes da Rocha, turma INT1, no dia 29/10/2025 (Quarta), às 10:00.",Ana Luisa Gomes da Rocha,INT1,29/10/2025,10:00,reposicoes
+595,"Reposição de aula do aluno Sophie Lamounier Aguiar, turma KIDS 2, no dia 30/10/2025 (Quinta), às 10:00.",Sophie Lamounier Aguiar,KIDS 2,30/10/2025,10:00,reposicoes
+596,"Reposição de aula do aluno Marcus Vinicius, turma INT 2, no dia 31/10/2025 (Sexta), às 10:00.",Marcus Vinicius,INT 2,31/10/2025,10:00,reposicoes
+597,"Reposição de aula do aluno Mateus Pedroza Nascimento, turma INT 3, no dia 01/10/2025 (Quarta), às 14:00.",Mateus Pedroza Nascimento,INT 3,01/10/2025,14:00,reposicoes
+598,"Reposição de aula do aluno Julia Martins Pires, turma KIDS 1, no dia 02/10/2025 (Quinta), às 14:00.",Julia Martins Pires,KIDS 1,02/10/2025,14:00,reposicoes
+599,"Reposição de aula do aluno Maria Luiza Moreira Felix, turma INT 2, no dia 04/10/2025 (Sábado), às 14:00.",Maria Luiza Moreira Felix,INT 2,04/10/2025,14:00,reposicoes
+600,"Reposição de aula do aluno Arthur Emanuel Simoes barbosa, turma INT1, no dia 06/10/2025 (Segunda), às 14:00.",Arthur Emanuel Simoes barbosa,INT1,06/10/2025,14:00,reposicoes
+601,"Reposição de aula do aluno Lorenzo de Sousa Aranha, turma KIDS 1, no dia 07/10/2025 (Terça), às 14:00.",Lorenzo de Sousa Aranha,KIDS 1,07/10/2025,14:00,reposicoes
+602,"Reposição de aula do aluno Arthur Emanuel Simoes barbosa, turma INT1, no dia 08/10/2025 (Quarta), às 14:00.",Arthur Emanuel Simoes barbosa,INT1,08/10/2025,14:00,reposicoes
+603,"Reposição de aula do aluno Suellen Pereira de Souza, turma INT 2, no dia 11/10/2025 (Sábado), às 14:00.",Suellen Pereira de Souza,INT 2,11/10/2025,14:00,reposicoes
+604,"Reposição de aula do aluno Mateus Pedroza Nascimento, turma INT 01, no dia 13/10/2025 (Segunda), às 14:00.",Mateus Pedroza Nascimento,INT 01,13/10/2025,14:00,reposicoes
+605,"Reposição de aula do aluno Angelina Almeida Gorski, turma KIDS 2, no dia 14/10/2025 (Terça), às 14:00.",Angelina Almeida Gorski,KIDS 2,14/10/2025,14:00,reposicoes
+606,"Reposição de aula do aluno Suellen Pereira de Souza, turma INT 2, no dia 18/10/2025 (Sábado), às 14:00.",Suellen Pereira de Souza,INT 2,18/10/2025,14:00,reposicoes
+607,"Reposição de aula do aluno Arthur Emanuel Simoes Barbosa, turma INT 01, no dia 20/10/2025 (Segunda), às 14:00.",Arthur Emanuel Simoes Barbosa,INT 01,20/10/2025,14:00,reposicoes
+608,"Reposição de aula do aluno Arthur Landim, turma KIDS 2, no dia 21/10/2025 (Terça), às 14:00.",Arthur Landim,KIDS 2,21/10/2025,14:00,reposicoes
+609,"Reposição de aula do aluno Arthur Emanuel Simoes Barbosa, turma INT 01, no dia 22/10/2025 (Quarta), às 14:00.",Arthur Emanuel Simoes Barbosa,INT 01,22/10/2025,14:00,reposicoes
+610,"Reposição de aula do aluno Milena soares, turma INT 1, no dia 23/10/2025 (Quinta), às 14:00.",Milena soares,INT 1,23/10/2025,14:00,reposicoes
+611,"Reposição de aula do aluno Suellen Pereira de Souza, turma INT 2, no dia 25/10/2025 (Sábado), às 14:00.",Suellen Pereira de Souza,INT 2,25/10/2025,14:00,reposicoes
+612,"Reposição de aula do aluno Arthur Emanuel Simoes Bastos, turma INT 1, no dia 27/10/2025 (Segunda), às 14:00.",Arthur Emanuel Simoes Bastos,INT 1,27/10/2025,14:00,reposicoes
+613,"Reposição de aula do aluno Arthur Landim do Carmo, turma KIDS 2, no dia 28/10/2025 (Terça), às 14:00.",Arthur Landim do Carmo,KIDS 2,28/10/2025,14:00,reposicoes
+614,"Reposição de aula do aluno Arthur Emanuel Simoes, turma INT 1, no dia 29/10/2025 (Quarta), às 14:00.",Arthur Emanuel Simoes,INT 1,29/10/2025,14:00,reposicoes
+615,"Reposição de aula do aluno Raira Santos Silva, turma KIDS 02, no dia 30/10/2025 (Quinta), às 14:00.",Raira Santos Silva,KIDS 02,30/10/2025,14:00,reposicoes
+616,"Reposição de aula do aluno Suellen Pereira de Souza, turma INT 2, no dia 31/10/2025 (Sexta), às 14:00.",Suellen Pereira de Souza,INT 2,31/10/2025,14:00,reposicoes
+617,"Reposição de aula do aluno Ana Julia de Lima Melo, turma INT 2, no dia 01/10/2025 (Quarta), às 15:00.",Ana Julia de Lima Melo,INT 2,01/10/2025,15:00,reposicoes
+618,"Reposição de aula do aluno Raphael Henrique Martins Eler, turma INT 1, no dia 02/10/2025 (Quinta), às 15:00.",Raphael Henrique Martins Eler,INT 1,02/10/2025,15:00,reposicoes
+619,"Reposição de aula do aluno Maria Luiza Moreira Felix, turma INT 2, no dia 04/10/2025 (Sábado), às 15:00.",Maria Luiza Moreira Felix,INT 2,04/10/2025,15:00,reposicoes
+620,"Reposição de aula do aluno Anne Beatriz Duarte, turma INT 2, no dia 06/10/2025 (Segunda), às 15:00.",Anne Beatriz Duarte,INT 2,06/10/2025,15:00,reposicoes
+621,"Reposição de aula do aluno Lorenzo de Sousa Aranha, turma KIDS 1, no dia 07/10/2025 (Terça), às 15:00.",Lorenzo de Sousa Aranha,KIDS 1,07/10/2025,15:00,reposicoes
+622,"Reposição de aula do aluno Maria Eduarda Dolor Soares, turma INT 2, no dia 08/10/2025 (Quarta), às 15:00.",Maria Eduarda Dolor Soares,INT 2,08/10/2025,15:00,reposicoes
+623,"Reposição de aula do aluno Mateus Pedroza Nascimento, turma INT 01, no dia 13/10/2025 (Segunda), às 15:00.",Mateus Pedroza Nascimento,INT 01,13/10/2025,15:00,reposicoes
+624,"Reposição de aula do aluno Luis Fernando Savio de Paula, turma KIDS 1, no dia 14/10/2025 (Terça), às 15:00.",Luis Fernando Savio de Paula,KIDS 1,14/10/2025,15:00,reposicoes
+625,"Reposição de aula do aluno Gabriela Benjamine Almeida, turma INT3, no dia 16/10/2025 (Quinta), às 15:00.",Gabriela Benjamine Almeida,INT3,16/10/2025,15:00,reposicoes
+626,"Reposição de aula do aluno Joao Gabriel Candido Diniz, turma KIDS 2, no dia 20/10/2025 (Segunda), às 15:00.",Joao Gabriel Candido Diniz,KIDS 2,20/10/2025,15:00,reposicoes
+627,"Reposição de aula do aluno Ester Ramos Teodoro, turma INT 3, no dia 21/10/2025 (Terça), às 15:00.",Ester Ramos Teodoro,INT 3,21/10/2025,15:00,reposicoes
+628,"Reposição de aula do aluno Benicio Luiz Azevedo, turma INT 1, no dia 23/10/2025 (Quinta), às 15:00.",Benicio Luiz Azevedo,INT 1,23/10/2025,15:00,reposicoes
+629,"Reposição de aula do aluno Anne Beatriz Duarte Alves, turma INT 02, no dia 27/10/2025 (Segunda), às 15:00.",Anne Beatriz Duarte Alves,INT 02,27/10/2025,15:00,reposicoes
+630,"Reposição de aula do aluno Otavio Magno Silva E Souza, turma Reforço escolar, no dia 28/10/2025 (Terça), às 15:00.",Otavio Magno Silva E Souza,Reforço escolar,28/10/2025,15:00,reposicoes
+631,"Reposição de aula do aluno Sofia de Barros Oliveira, turma KIDS 01, no dia 29/10/2025 (Quarta), às 15:00.",Sofia de Barros Oliveira,KIDS 01,29/10/2025,15:00,reposicoes
+632,"Reposição de aula do aluno Fillype Santos Tavares, turma INT 1, no dia 30/10/2025 (Quinta), às 15:00.",Fillype Santos Tavares,INT 1,30/10/2025,15:00,reposicoes
+633,"Reposição de aula do aluno Juliana Rodrigues de Franca, turma KIDS 1, no dia 01/10/2025 (Quarta), às 16:00.",Juliana Rodrigues de Franca,KIDS 1,01/10/2025,16:00,reposicoes
+634,"Reposição de aula do aluno Juliana Rodrigues de Franca, turma KIDS 1, no dia 06/10/2025 (Segunda), às 16:00.",Juliana Rodrigues de Franca,KIDS 1,06/10/2025,16:00,reposicoes
+635,"Reposição de aula do aluno Vitoria Rodrigues de Melo, turma INT 3, no dia 09/10/2025 (Quinta), às 16:00.",Vitoria Rodrigues de Melo,INT 3,09/10/2025,16:00,reposicoes
+636,"Reposição de aula do aluno Juliana Rodrigues de Franca, turma KIDS 1, no dia 13/10/2025 (Segunda), às 16:00.",Juliana Rodrigues de Franca,KIDS 1,13/10/2025,16:00,reposicoes
+637,"Reposição de aula do aluno Luis Fernando Savio de Paula, turma KIDS 1, no dia 14/10/2025 (Terça), às 16:00.",Luis Fernando Savio de Paula,KIDS 1,14/10/2025,16:00,reposicoes
+638,"Reposição de aula do aluno Bruno Mendes Viana, turma INT 3, no dia 16/10/2025 (Quinta), às 16:00.",Bruno Mendes Viana,INT 3,16/10/2025,16:00,reposicoes
+639,"Reposição de aula do aluno Davi Juan Maia Coelho, turma INT 3, no dia 21/10/2025 (Terça), às 16:00.",Davi Juan Maia Coelho,INT 3,21/10/2025,16:00,reposicoes
+640,"Reposição de aula do aluno Benjamim Camargos de Faria, turma INT 1, no dia 22/10/2025 (Quarta), às 16:00.",Benjamim Camargos de Faria,INT 1,22/10/2025,16:00,reposicoes
+641,"Reposição de aula do aluno Paulo Barreto de Sales, turma INT 3, no dia 23/10/2025 (Quinta), às 16:00.",Paulo Barreto de Sales,INT 3,23/10/2025,16:00,reposicoes
+642,"Reposição de aula do aluno Ana Elisa Portela Meneses, turma KIDS 1, no dia 28/10/2025 (Terça), às 16:00.",Ana Elisa Portela Meneses,KIDS 1,28/10/2025,16:00,reposicoes
+643,"Reposição de aula do aluno Sofia de Barros Oliveira, turma KIDS 01, no dia 29/10/2025 (Quarta), às 16:00.",Sofia de Barros Oliveira,KIDS 01,29/10/2025,16:00,reposicoes
+644,"Reposição de aula do aluno Paulo Barreto de Sale, turma INT3, no dia 30/10/2025 (Quinta), às 16:00.",Paulo Barreto de Sale,INT3,30/10/2025,16:00,reposicoes
+645,"Reposição de aula do aluno Aliane de Oliveira Menezes, turma INT 3, no dia 01/10/2025 (Quarta), às 17:00.",Aliane de Oliveira Menezes,INT 3,01/10/2025,17:00,reposicoes
+646,"Reposição de aula do aluno Juliana Rodrigues de Franca, turma KIDS 1, no dia 06/10/2025 (Segunda), às 17:00.",Juliana Rodrigues de Franca,KIDS 1,06/10/2025,17:00,reposicoes
+647,"Reposição de aula do aluno Aliane de Oliveira Menezes, turma INT 1, no dia 08/10/2025 (Quarta), às 17:00.",Aliane de Oliveira Menezes,INT 1,08/10/2025,17:00,reposicoes
+648,"Reposição de aula do aluno Caio Nicolas Dias Vieira Avelino, turma INT 1, no dia 09/10/2025 (Quinta), às 17:00.",Caio Nicolas Dias Vieira Avelino,INT 1,09/10/2025,17:00,reposicoes
+649,"Reposição de aula do aluno Juliana Rodrigues de Franca, turma KIDS 1, no dia 13/10/2025 (Segunda), às 17:00.",Juliana Rodrigues de Franca,KIDS 1,13/10/2025,17:00,reposicoes
+650,"Reposição de aula do aluno Marcia Sousa Dias, turma INT 01, no dia 14/10/2025 (Terça), às 17:00.",Marcia Sousa Dias,INT 01,14/10/2025,17:00,reposicoes
+651,"Reposição de aula do aluno Caio Nicolas Dias Vieira Avelino, turma INT1, no dia 16/10/2025 (Quinta), às 17:00.",Caio Nicolas Dias Vieira Avelino,INT1,16/10/2025,17:00,reposicoes
+652,"Reposição de aula do aluno Filipe Antonio Cerqueira Araujo, turma INT1, no dia 21/10/2025 (Terça), às 17:00.",Filipe Antonio Cerqueira Araujo,INT1,21/10/2025,17:00,reposicoes
+653,"Reposição de aula do aluno Heitor de Souza Aguiar, turma KID1, no dia 22/10/2025 (Quarta), às 17:00.",Heitor de Souza Aguiar,KID1,22/10/2025,17:00,reposicoes
+654,"Reposição de aula do aluno Paulo Barreto de Sales, turma INT 1, no dia 23/10/2025 (Quinta), às 17:00.",Paulo Barreto de Sales,INT 1,23/10/2025,17:00,reposicoes
+655,"Reposição de aula do aluno Rafaella Monaco, turma INT 3, no dia 27/10/2025 (Segunda), às 17:00.",Rafaella Monaco,INT 3,27/10/2025,17:00,reposicoes
+656,"Reposição de aula do aluno Marcia Souza Dias, turma ON, no dia 28/10/2025 (Terça), às 17:00.",Marcia Souza Dias,ON,28/10/2025,17:00,reposicoes
+657,"Reposição de aula do aluno Heitor de Souza Aguiar, turma KID1, no dia 29/10/2025 (Quarta), às 17:00.",Heitor de Souza Aguiar,KID1,29/10/2025,17:00,reposicoes
+658,"Reposição de aula do aluno Marcia Souza Dias, turma ON, no dia 30/10/2025 (Quinta), às 17:00.",Marcia Souza Dias,ON,30/10/2025,17:00,reposicoes
+659,"Reposição de aula do aluno Aliane de Oliveira Menezes, turma INT 3, no dia 01/10/2025 (Quarta), às 18:00.",Aliane de Oliveira Menezes,INT 3,01/10/2025,18:00,reposicoes
+660,"Reposição de aula do aluno Alessandro Moreira Pires, turma INT 1, no dia 02/10/2025 (Quinta), às 18:00.",Alessandro Moreira Pires,INT 1,02/10/2025,18:00,reposicoes
+661,"Reposição de aula do aluno Eduardo Alberto da Silva Santos, turma INT 3, no dia 03/10/2025 (Sexta), às 18:00.",Eduardo Alberto da Silva Santos,INT 3,03/10/2025,18:00,reposicoes
+662,"Reposição de aula do aluno Gracy Keller Lima, turma INT 1, no dia 07/10/2025 (Terça), às 18:00.",Gracy Keller Lima,INT 1,07/10/2025,18:00,reposicoes
+663,"Reposição de aula do aluno Aliane de Oliveira Menezes, turma INT 3, no dia 08/10/2025 (Quarta), às 18:00.",Aliane de Oliveira Menezes,INT 3,08/10/2025,18:00,reposicoes
+664,"Reposição de aula do aluno Ariel Vinicius, turma INT 1, no dia 10/10/2025 (Sexta), às 18:00.",Ariel Vinicius,INT 1,10/10/2025,18:00,reposicoes
+665,"Reposição de aula do aluno Brunna Kethely, turma INT 1, no dia 14/10/2025 (Terça), às 18:00.",Brunna Kethely,INT 1,14/10/2025,18:00,reposicoes
+666,"Reposição de aula do aluno Mariana Fatima, turma INT 1, no dia 16/10/2025 (Quinta), às 18:00.",Mariana Fatima,INT 1,16/10/2025,18:00,reposicoes
+667,"Reposição de aula do aluno Brunna Kethely, turma INT 1, no dia 21/10/2025 (Terça), às 18:00.",Brunna Kethely,INT 1,21/10/2025,18:00,reposicoes
+668,"Reposição de aula do aluno William Alves Carvalho, turma INT 1, no dia 24/10/2025 (Sexta), às 18:00.",William Alves Carvalho,INT 1,24/10/2025,18:00,reposicoes
+669,"Reposição de aula do aluno Brunna Kethely, turma INT 1, no dia 28/10/2025 (Terça), às 18:00.",Brunna Kethely,INT 1,28/10/2025,18:00,reposicoes
+670,"Reposição de aula do aluno Rafaella Tayna, turma INT 3, no dia 29/10/2025 (Quarta), às 18:00.",Rafaella Tayna,INT 3,29/10/2025,18:00,reposicoes
+671,"Reposição de aula do aluno Maria Eduarda dos Santos Pereira, turma INT 01, no dia 30/10/2025 (Quinta), às 18:00.",Maria Eduarda dos Santos Pereira,INT 01,30/10/2025,18:00,reposicoes
+672,"Reposição de aula do aluno Nicolas Ferreira, turma INT 01, no dia 31/10/2025 (Sexta), às 18:00.",Nicolas Ferreira,INT 01,31/10/2025,18:00,reposicoes
+673,"Reposição de aula do aluno Clara Quintino, turma INT 1, no dia 02/10/2025 (Quinta), às 19:00.",Clara Quintino,INT 1,02/10/2025,19:00,reposicoes
+674,"Reposição de aula do aluno Gracy Keller Lima, turma INT 1, no dia 07/10/2025 (Terça), às 19:00.",Gracy Keller Lima,INT 1,07/10/2025,19:00,reposicoes
+675,"Reposição de aula do aluno Angela Luiza de Oliveira, turma INT 3, no dia 08/10/2025 (Quarta), às 19:00.",Angela Luiza de Oliveira,INT 3,08/10/2025,19:00,reposicoes
+676,"Reposição de aula do aluno Angela Luiza de Oliveira, turma INT 3, no dia 09/10/2025 (Quinta), às 19:00.",Angela Luiza de Oliveira,INT 3,09/10/2025,19:00,reposicoes
+677,"Reposição de aula do aluno Brunna Kethely, turma INT 1, no dia 14/10/2025 (Terça), às 19:00.",Brunna Kethely,INT 1,14/10/2025,19:00,reposicoes
+678,"Reposição de aula do aluno Mariana Fatima, turma INT 1, no dia 16/10/2025 (Quinta), às 19:00.",Mariana Fatima,INT 1,16/10/2025,19:00,reposicoes
+679,"Reposição de aula do aluno Fabricio Miranda Lima, turma INT 1, no dia 17/10/2025 (Sexta), às 19:00.",Fabricio Miranda Lima,INT 1,17/10/2025,19:00,reposicoes
+680,"Reposição de aula do aluno Davi Jesus Carvalho Ventura, turma INT1, no dia 28/10/2025 (Terça), às 19:00.",Davi Jesus Carvalho Ventura,INT1,28/10/2025,19:00,reposicoes
+681,"Reposição de aula do aluno Helio Felipe, turma INT 1, no dia 29/10/2025 (Quarta), às 19:00.",Helio Felipe,INT 1,29/10/2025,19:00,reposicoes
+682,"Reposição de aula do aluno Davi Jesus Carvalho Ventura, turma INt1, no dia 30/10/2025 (Quinta), às 19:00.",Davi Jesus Carvalho Ventura,INt1,30/10/2025,19:00,reposicoes
+683,"Reposição de aula do aluno Nicolas Ferreira, turma INT 01, no dia 31/10/2025 (Sexta), às 19:00.",Nicolas Ferreira,INT 01,31/10/2025,19:00,reposicoes
+684,"Reposição de aula do aluno Maria Laura Azevedo, turma INT 1, no dia 01/10/2025 (Quarta), às 20:00.",Maria Laura Azevedo,INT 1,01/10/2025,20:00,reposicoes
+685,"Reposição de aula do aluno Maria Gabriela Cabral Brasil, turma INT 1, no dia 07/10/2025 (Terça), às 20:00.",Maria Gabriela Cabral Brasil,INT 1,07/10/2025,20:00,reposicoes
+686,"Reposição de aula do aluno Maria Laura Azevedo, turma INT 1, no dia 08/10/2025 (Quarta), às 20:00.",Maria Laura Azevedo,INT 1,08/10/2025,20:00,reposicoes
+687,"Reposição de aula do aluno Maria Laura Azevedo, turma INT 1, no dia 22/10/2025 (Quarta), às 20:00.",Maria Laura Azevedo,INT 1,22/10/2025,20:00,reposicoes
+688,"Reposição de aula do aluno Angela Luiza, turma ONLINE, no dia 23/10/2025 (Quinta), às 20:00.",Angela Luiza,ONLINE,23/10/2025,20:00,reposicoes
+689,"Reposição de aula do aluno Cristina Alves, turma INT 1, no dia 30/10/2025 (Quinta), às 20:00.",Cristina Alves,INT 1,30/10/2025,20:00,reposicoes
+690,"Reposição de aula do aluno Ana Paula de Oliveira, turma On, no dia 01/11/2025 (Sábado), às 08:00.",Ana Paula de Oliveira,On,01/11/2025,08:00,reposicoes
+691,"Reposição de aula do aluno Joao Guilherme Alves Kuster, turma ONLINE Beatriz, no dia 03/11/2025 (Segunda), às 08:00.",Joao Guilherme Alves Kuster,ONLINE Beatriz,03/11/2025,08:00,reposicoes
+692,"Reposição de aula do aluno Joao Guilherme Alves Kuster, turma ONLINE Beatriz, no dia 05/11/2025 (Quarta), às 08:00.",Joao Guilherme Alves Kuster,ONLINE Beatriz,05/11/2025,08:00,reposicoes
+693,"Reposição de aula do aluno Maria Eduarda Dolor Soares, turma ON LINE, no dia 08/11/2025 (Sábado), às 08:00.",Maria Eduarda Dolor Soares,ON LINE,08/11/2025,08:00,reposicoes
+694,"Reposição de aula do aluno Luiz Paulo Pereira Ribeiro, turma INT 01, no dia 12/11/2025 (Quarta), às 08:00.",Luiz Paulo Pereira Ribeiro,INT 01,12/11/2025,08:00,reposicoes
+695,"Reposição de aula do aluno Alice Pires, turma INT 01, no dia 18/11/2025 (Terça), às 08:00.",Alice Pires,INT 01,18/11/2025,08:00,reposicoes
+696,"Reposição de aula do aluno Igor Daniel, turma INT 1, no dia 19/11/2025 (Quarta), às 08:00.",Igor Daniel,INT 1,19/11/2025,08:00,reposicoes
+697,"Reposição de aula do aluno Davi Oliveira LIra, turma KIDS02, no dia 22/11/2025 (Sábado), às 08:00.",Davi Oliveira LIra,KIDS02,22/11/2025,08:00,reposicoes
+698,"Reposição de aula do aluno Sofia Souza Furtado, turma ONLINE, no dia 24/11/2025 (Segunda), às 08:00.",Sofia Souza Furtado,ONLINE,24/11/2025,08:00,reposicoes
+699,"Reposição de aula do aluno Caio Nicolas Dias, turma INT 1, no dia 26/11/2025 (Quarta), às 08:00.",Caio Nicolas Dias,INT 1,26/11/2025,08:00,reposicoes
+700,"Reposição de aula do aluno Victoria Mariane Café e Silva, turma IINT2, no dia 29/11/2025 (Sábado), às 08:00.",Victoria Mariane Café e Silva,IINT2,29/11/2025,08:00,reposicoes
+701,"Reposição de aula do aluno Ana Paula de Oliveira, turma On, no dia 01/11/2025 (Sábado), às 09:00.",Ana Paula de Oliveira,On,01/11/2025,09:00,reposicoes
+702,"Reposição de aula do aluno Antony Silva Melo, turma INT 01, no dia 03/11/2025 (Segunda), às 09:00.",Antony Silva Melo,INT 01,03/11/2025,09:00,reposicoes
+703,"Reposição de aula do aluno Thalita dos Santos Anicelo Martins, turma KIDS 01, no dia 04/11/2025 (Terça), às 09:00.",Thalita dos Santos Anicelo Martins,KIDS 01,04/11/2025,09:00,reposicoes
+704,"Reposição de aula do aluno Igor Daniel, turma INT 1, no dia 05/11/2025 (Quarta), às 09:00.",Igor Daniel,INT 1,05/11/2025,09:00,reposicoes
+705,"Reposição de aula do aluno Emanuel Marcos Cunha, turma INT 01, no dia 06/11/2025 (Quinta), às 09:00.",Emanuel Marcos Cunha,INT 01,06/11/2025,09:00,reposicoes
+706,"Reposição de aula do aluno Maria Eduarda Dolor Soares, turma ON LINE, no dia 08/11/2025 (Sábado), às 09:00.",Maria Eduarda Dolor Soares,ON LINE,08/11/2025,09:00,reposicoes
+707,"Reposição de aula do aluno Brunna Kethely Dias de Sousa, turma INT 01, no dia 10/11/2025 (Segunda), às 09:00.",Brunna Kethely Dias de Sousa,INT 01,10/11/2025,09:00,reposicoes
+708,"Reposição de aula do aluno Bruna Gabrielly Rodrigues RIbeiro, turma INT 03, no dia 11/11/2025 (Terça), às 09:00.",Bruna Gabrielly Rodrigues RIbeiro,INT 03,11/11/2025,09:00,reposicoes
+709,"Reposição de aula do aluno Igor Daniel, turma INT 1, no dia 12/11/2025 (Quarta), às 09:00.",Igor Daniel,INT 1,12/11/2025,09:00,reposicoes
+710,"Reposição de aula do aluno Bruna Gabrielly Rodrigues RIbeiro, turma INT 03, no dia 13/11/2025 (Quinta), às 09:00.",Bruna Gabrielly Rodrigues RIbeiro,INT 03,13/11/2025,09:00,reposicoes
+711,"Reposição de aula do aluno Julia Alves Teixeira, turma KIDS01, no dia 17/11/2025 (Segunda), às 09:00.",Julia Alves Teixeira,KIDS01,17/11/2025,09:00,reposicoes
+712,"Reposição de aula do aluno Bruna Gabrielly Rodrigues RIbeiro, turma INT 03, no dia 18/11/2025 (Terça), às 09:00.",Bruna Gabrielly Rodrigues RIbeiro,INT 03,18/11/2025,09:00,reposicoes
+713,"Reposição de aula do aluno Igor Daniel, turma INT 1, no dia 19/11/2025 (Quarta), às 09:00.",Igor Daniel,INT 1,19/11/2025,09:00,reposicoes
+714,"Reposição de aula do aluno Arthur Kaua De Andrade Mendonça, turma INT1, no dia 21/11/2025 (Sexta), às 09:00.",Arthur Kaua De Andrade Mendonça,INT1,21/11/2025,09:00,reposicoes
+715,"Reposição de aula do aluno Davi Oliveira LIra, turma KIDS02, no dia 22/11/2025 (Sábado), às 09:00.",Davi Oliveira LIra,KIDS02,22/11/2025,09:00,reposicoes
+716,"Reposição de aula do aluno Bruna Gabrielly Rodrigues RIbeiro, turma INT 03, no dia 25/11/2025 (Terça), às 09:00.",Bruna Gabrielly Rodrigues RIbeiro,INT 03,25/11/2025,09:00,reposicoes
+717,"Reposição de aula do aluno Caio Nicolas Dias, turma INT 1, no dia 26/11/2025 (Quarta), às 09:00.",Caio Nicolas Dias,INT 1,26/11/2025,09:00,reposicoes
+718,"Reposição de aula do aluno Bruna Gabrielly Rodrigues RIbeiro, turma INT 03, no dia 27/11/2025 (Quinta), às 09:00.",Bruna Gabrielly Rodrigues RIbeiro,INT 03,27/11/2025,09:00,reposicoes
+719,"Reposição de aula do aluno Marcos Emanuel Cunha, turma INT 1, no dia 28/11/2025 (Sexta), às 09:00.",Marcos Emanuel Cunha,INT 1,28/11/2025,09:00,reposicoes
+720,"Reposição de aula do aluno Victoria Mariane Café e Silva, turma IINT2, no dia 29/11/2025 (Sábado), às 09:00.",Victoria Mariane Café e Silva,IINT2,29/11/2025,09:00,reposicoes
+721,"Reposição de aula do aluno Miguel Medeiros Prado, turma KIDS 1 11H, no dia 01/11/2025 (Sábado), às 10:00.",Miguel Medeiros Prado,KIDS 1 11H,01/11/2025,10:00,reposicoes
+722,"Reposição de aula do aluno Sophie Lamounier Aguiar, turma KIDS 2, no dia 04/11/2025 (Terça), às 10:00.",Sophie Lamounier Aguiar,KIDS 2,04/11/2025,10:00,reposicoes
+723,"Reposição de aula do aluno Sophie Lamounier Aguiar, turma KIDS 2, no dia 06/11/2025 (Quinta), às 10:00.",Sophie Lamounier Aguiar,KIDS 2,06/11/2025,10:00,reposicoes
+724,"Reposição de aula do aluno Danilo Goncalves da Silva, turma INT 2, no dia 08/11/2025 (Sábado), às 10:00.",Danilo Goncalves da Silva,INT 2,08/11/2025,10:00,reposicoes
+725,"Reposição de aula do aluno Guilherme Rodrigues de Oliveira, turma INT 01, no dia 10/11/2025 (Segunda), às 10:00.",Guilherme Rodrigues de Oliveira,INT 01,10/11/2025,10:00,reposicoes
+726,"Reposição de aula do aluno Sophie Lamounier Aguiar, turma KIDS 2, no dia 11/11/2025 (Terça), às 10:00.",Sophie Lamounier Aguiar,KIDS 2,11/11/2025,10:00,reposicoes
+727,"Reposição de aula do aluno Guilherme Rodrigues de Oliveira, turma INT 01, no dia 12/11/2025 (Quarta), às 10:00.",Guilherme Rodrigues de Oliveira,INT 01,12/11/2025,10:00,reposicoes
+728,"Reposição de aula do aluno Lucas Hernandes Moreira Soares, turma INT 01, no dia 13/11/2025 (Quinta), às 10:00.",Lucas Hernandes Moreira Soares,INT 01,13/11/2025,10:00,reposicoes
+729,"Reposição de aula do aluno Noah De Souza Mesquita, turma Reposição TOTS, no dia 17/11/2025 (Segunda), às 10:00.",Noah De Souza Mesquita,Reposição TOTS,17/11/2025,10:00,reposicoes
+730,"Reposição de aula do aluno Gabriel e Guilherme, turma NIVELAMENTO, no dia 18/11/2025 (Terça), às 10:00.",Gabriel e Guilherme,NIVELAMENTO,18/11/2025,10:00,reposicoes
+731,"Reposição de aula do aluno Beatriz Rufino Romeiro da Silva, turma KIDS 01, no dia 19/11/2025 (Quarta), às 10:00.",Beatriz Rufino Romeiro da Silva,KIDS 01,19/11/2025,10:00,reposicoes
+732,"Reposição de aula do aluno Arthur Kaua De Andrade Mendonça, turma INT1, no dia 21/11/2025 (Sexta), às 10:00.",Arthur Kaua De Andrade Mendonça,INT1,21/11/2025,10:00,reposicoes
+733,"Reposição de aula do aluno Guilherme de Oliveira Duraes, turma INT 3, no dia 25/11/2025 (Terça), às 10:00.",Guilherme de Oliveira Duraes,INT 3,25/11/2025,10:00,reposicoes
+734,"Reposição de aula do aluno Heitor Rezende Melo, turma LK4, no dia 27/11/2025 (Quinta), às 10:00.",Heitor Rezende Melo,LK4,27/11/2025,10:00,reposicoes
+735,"Reposição de aula do aluno Marcos Emanuel Cunha, turma INT 1, no dia 28/11/2025 (Sexta), às 10:00.",Marcos Emanuel Cunha,INT 1,28/11/2025,10:00,reposicoes
+736,"Reposição de aula do aluno Raira Santos Silva, turma KIDS 02, no dia 04/11/2025 (Terça), às 14:00.",Raira Santos Silva,KIDS 02,04/11/2025,14:00,reposicoes
+737,"Reposição de aula do aluno Luiz Felipe Domingues, turma INT 1, no dia 05/11/2025 (Quarta), às 14:00.",Luiz Felipe Domingues,INT 1,05/11/2025,14:00,reposicoes
+738,"Reposição de aula do aluno Julia Ferreira Guilherme, turma INT 2, no dia 06/11/2025 (Quinta), às 14:00.",Julia Ferreira Guilherme,INT 2,06/11/2025,14:00,reposicoes
+739,"Reposição de aula do aluno Adelaide Souza Lopes, turma INT 2, no dia 10/11/2025 (Segunda), às 14:00.",Adelaide Souza Lopes,INT 2,10/11/2025,14:00,reposicoes
+740,"Reposição de aula do aluno Luna Isabela Torres de Jesus, turma INT 01, no dia 11/11/2025 (Terça), às 14:00.",Luna Isabela Torres de Jesus,INT 01,11/11/2025,14:00,reposicoes
+741,"Reposição de aula do aluno Leonardo Akio, turma KIDS 2, no dia 12/11/2025 (Quarta), às 14:00.",Leonardo Akio,KIDS 2,12/11/2025,14:00,reposicoes
+742,"Reposição de aula do aluno Anna Beatriz Cunha Santos, turma Nivelament=o Vinicius, no dia 13/11/2025 (Quinta), às 14:00.",Anna Beatriz Cunha Santos,Nivelament=o Vinicius,13/11/2025,14:00,reposicoes
+743,"Reposição de aula do aluno Adelaide, turma INT 3, no dia 18/11/2025 (Terça), às 14:00.",Adelaide,INT 3,18/11/2025,14:00,reposicoes
+744,"Reposição de aula do aluno Pedro Emanuel Silva Cruz, turma INT 1, no dia 19/11/2025 (Quarta), às 14:00.",Pedro Emanuel Silva Cruz,INT 1,19/11/2025,14:00,reposicoes
+745,"Reposição de aula do aluno William Alves Carvalho Ribeiro, turma INT 01, no dia 24/11/2025 (Segunda), às 14:00.",William Alves Carvalho Ribeiro,INT 01,24/11/2025,14:00,reposicoes
+746,"Reposição de aula do aluno Vitor Hugo Nogueira, turma INT 02, no dia 25/11/2025 (Terça), às 14:00.",Vitor Hugo Nogueira,INT 02,25/11/2025,14:00,reposicoes
+747,"Reposição de aula do aluno Helloa Samille, turma INT 1, no dia 26/11/2025 (Quarta), às 14:00.",Helloa Samille,INT 1,26/11/2025,14:00,reposicoes
+748,"Reposição de aula do aluno Grazielly Monique, turma INT 3, no dia 27/11/2025 (Quinta), às 14:00.",Grazielly Monique,INT 3,27/11/2025,14:00,reposicoes
+749,"Reposição de aula do aluno Sheila Sousa Lima, turma INT 3, no dia 29/11/2025 (Sábado), às 14:00.",Sheila Sousa Lima,INT 3,29/11/2025,14:00,reposicoes
+750,"Reposição de aula do aluno Vinicius Ribeiro Lopes Estrela, turma KIDS 1, no dia 03/11/2025 (Segunda), às 15:00.",Vinicius Ribeiro Lopes Estrela,KIDS 1,03/11/2025,15:00,reposicoes
+751,"Reposição de aula do aluno Angelina Shimiti, turma INT 3, no dia 04/11/2025 (Terça), às 15:00.",Angelina Shimiti,INT 3,04/11/2025,15:00,reposicoes
+752,"Reposição de aula do aluno Vinicius Ribeiro Lopes Estrela, turma KIDS 1, no dia 05/11/2025 (Quarta), às 15:00.",Vinicius Ribeiro Lopes Estrela,KIDS 1,05/11/2025,15:00,reposicoes
+753,"Reposição de aula do aluno Manuela Maria Dutra, turma KIDS 1, no dia 06/11/2025 (Quinta), às 15:00.",Manuela Maria Dutra,KIDS 1,06/11/2025,15:00,reposicoes
+754,"Reposição de aula do aluno Vinicius Ribeiro Lopes Estrela, turma KIDS 1, no dia 10/11/2025 (Segunda), às 15:00.",Vinicius Ribeiro Lopes Estrela,KIDS 1,10/11/2025,15:00,reposicoes
+755,"Reposição de aula do aluno Israel Jose Madureira, turma INT 3, no dia 11/11/2025 (Terça), às 15:00.",Israel Jose Madureira,INT 3,11/11/2025,15:00,reposicoes
+756,"Reposição de aula do aluno Sofia de Barros Oliveira, turma KIDS 01, no dia 12/11/2025 (Quarta), às 15:00.",Sofia de Barros Oliveira,KIDS 01,12/11/2025,15:00,reposicoes
+757,"Reposição de aula do aluno Arthur Bersan Moreira, turma KIDS 1, no dia 13/11/2025 (Quinta), às 15:00.",Arthur Bersan Moreira,KIDS 1,13/11/2025,15:00,reposicoes
+758,"Reposição de aula do aluno Yasmin Terencio, turma INT 1, no dia 17/11/2025 (Segunda), às 15:00.",Yasmin Terencio,INT 1,17/11/2025,15:00,reposicoes
+759,"Reposição de aula do aluno Pedro Emanuel Silva Cruz, turma INT 1, no dia 19/11/2025 (Quarta), às 15:00.",Pedro Emanuel Silva Cruz,INT 1,19/11/2025,15:00,reposicoes
+760,"Reposição de aula do aluno William Alves Carvalho Ribeiro, turma INT 01, no dia 24/11/2025 (Segunda), às 15:00.",William Alves Carvalho Ribeiro,INT 01,24/11/2025,15:00,reposicoes
+761,"Reposição de aula do aluno Heitor Dantas Tavares de Sousa, turma KIDS 1, no dia 25/11/2025 (Terça), às 15:00.",Heitor Dantas Tavares de Sousa,KIDS 1,25/11/2025,15:00,reposicoes
+762,"Reposição de aula do aluno Helloa Samille, turma INT 1 Calebe Vieira Gomes, no dia 26/11/2025 (Quarta), às 15:00.",Helloa Samille,INT 1 Calebe Vieira Gomes,26/11/2025,15:00,reposicoes
+763,"Reposição de aula do aluno Miguel Araujo da Silva, turma KIDS 1, no dia 27/11/2025 (Quinta), às 15:00.",Miguel Araujo da Silva,KIDS 1,27/11/2025,15:00,reposicoes
+764,"Reposição de aula do aluno Heitor de Souza Aguiar, turma KID 1, no dia 03/11/2025 (Segunda), às 16:00.",Heitor de Souza Aguiar,KID 1,03/11/2025,16:00,reposicoes
+765,"Reposição de aula do aluno Angelina Shimiti, turma INT 3, no dia 04/11/2025 (Terça), às 16:00.",Angelina Shimiti,INT 3,04/11/2025,16:00,reposicoes
+766,"Reposição de aula do aluno Heitor de Souza Aguiar, turma KID 1, no dia 05/11/2025 (Quarta), às 16:00.",Heitor de Souza Aguiar,KID 1,05/11/2025,16:00,reposicoes
+767,"Reposição de aula do aluno Mariah Araujo, turma INT 3, no dia 06/11/2025 (Quinta), às 16:00.",Mariah Araujo,INT 3,06/11/2025,16:00,reposicoes
+768,"Reposição de aula do aluno Heitor de Souza Aguiar, turma KID 1, no dia 10/11/2025 (Segunda), às 16:00.",Heitor de Souza Aguiar,KID 1,10/11/2025,16:00,reposicoes
+769,"Reposição de aula do aluno Israel Jose Madureira, turma INT 3, no dia 11/11/2025 (Terça), às 16:00.",Israel Jose Madureira,INT 3,11/11/2025,16:00,reposicoes
+770,"Reposição de aula do aluno Sofia de Barros Oliveira, turma KIDS 01, no dia 12/11/2025 (Quarta), às 16:00.",Sofia de Barros Oliveira,KIDS 01,12/11/2025,16:00,reposicoes
+771,"Reposição de aula do aluno Heitor de Souza Aguiar, turma KID 1, no dia 17/11/2025 (Segunda), às 16:00.",Heitor de Souza Aguiar,KID 1,17/11/2025,16:00,reposicoes
+772,"Reposição de aula do aluno Matheus RAmos Bastos, turma KIds 1, no dia 18/11/2025 (Terça), às 16:00.",Matheus RAmos Bastos,KIds 1,18/11/2025,16:00,reposicoes
+773,"Reposição de aula do aluno Heitor de Souza Aguiar, turma KID 1, no dia 19/11/2025 (Quarta), às 16:00.",Heitor de Souza Aguiar,KID 1,19/11/2025,16:00,reposicoes
+774,"Reposição de aula do aluno Nicolle Alves Jaroski, turma INT 1, no dia 24/11/2025 (Segunda), às 16:00.",Nicolle Alves Jaroski,INT 1,24/11/2025,16:00,reposicoes
+775,"Reposição de aula do aluno Matheus RAmos Bastos, turma KIds 1, no dia 25/11/2025 (Terça), às 16:00.",Matheus RAmos Bastos,KIds 1,25/11/2025,16:00,reposicoes
+776,"Reposição de aula do aluno Nicolle Alves Jaroski, turma INT 1, no dia 26/11/2025 (Quarta), às 16:00.",Nicolle Alves Jaroski,INT 1,26/11/2025,16:00,reposicoes
+777,"Reposição de aula do aluno Matheus RAmos Bastos, turma KIds 1, no dia 27/11/2025 (Quinta), às 16:00.",Matheus RAmos Bastos,KIds 1,27/11/2025,16:00,reposicoes
+778,"Reposição de aula do aluno Marcia Souza Dias, turma ON, no dia 04/11/2025 (Terça), às 17:00.",Marcia Souza Dias,ON,04/11/2025,17:00,reposicoes
+779,"Reposição de aula do aluno Manuelle Soares Silva de aBREUS, turma int 1, no dia 05/11/2025 (Quarta), às 17:00.",Manuelle Soares Silva de aBREUS,int 1,05/11/2025,17:00,reposicoes
+780,"Reposição de aula do aluno Marcia Souza Dias, turma ON, no dia 06/11/2025 (Quinta), às 17:00.",Marcia Souza Dias,ON,06/11/2025,17:00,reposicoes
+781,"Reposição de aula do aluno Pyetra da Silva Lima, turma INT 1, no dia 10/11/2025 (Segunda), às 17:00.",Pyetra da Silva Lima,INT 1,10/11/2025,17:00,reposicoes
+782,"Reposição de aula do aluno Marcia Souza Dias, turma ON, no dia 11/11/2025 (Terça), às 17:00.",Marcia Souza Dias,ON,11/11/2025,17:00,reposicoes
+783,"Reposição de aula do aluno Manuelle Soares Silva de Abreu, turma INT3, no dia 12/11/2025 (Quarta), às 17:00.",Manuelle Soares Silva de Abreu,INT3,12/11/2025,17:00,reposicoes
+784,"Reposição de aula do aluno Marcia Souza Dias, turma ON, no dia 13/11/2025 (Quinta), às 17:00.",Marcia Souza Dias,ON,13/11/2025,17:00,reposicoes
+785,"Reposição de aula do aluno Filipe Antonio Cerqueira Araujo, turma INT3, no dia 17/11/2025 (Segunda), às 17:00.",Filipe Antonio Cerqueira Araujo,INT3,17/11/2025,17:00,reposicoes
+786,"Reposição de aula do aluno Marcia Souza Dias, turma ON, no dia 18/11/2025 (Terça), às 17:00.",Marcia Souza Dias,ON,18/11/2025,17:00,reposicoes
+787,"Reposição de aula do aluno Hiterson de Oliveira Silva, turma INT 1, no dia 24/11/2025 (Segunda), às 17:00.",Hiterson de Oliveira Silva,INT 1,24/11/2025,17:00,reposicoes
+788,"Reposição de aula do aluno Hiterson de Oliveira Silva, turma INT 1, no dia 26/11/2025 (Quarta), às 17:00.",Hiterson de Oliveira Silva,INT 1,26/11/2025,17:00,reposicoes
+789,"Reposição de aula do aluno Fernanda Brandao, turma INT 3, no dia 03/11/2025 (Segunda), às 18:00.",Fernanda Brandao,INT 3,03/11/2025,18:00,reposicoes
+790,"Reposição de aula do aluno Pyetra da Silva Lima, turma INT 1, no dia 06/11/2025 (Quinta), às 18:00.",Pyetra da Silva Lima,INT 1,06/11/2025,18:00,reposicoes
+791,"Reposição de aula do aluno Kalil de Souza Rezek, turma int 01, no dia 07/11/2025 (Sexta), às 18:00.",Kalil de Souza Rezek,int 01,07/11/2025,18:00,reposicoes
+792,"Reposição de aula do aluno Pyetra da Silva Lima, turma INT 3, no dia 10/11/2025 (Segunda), às 18:00.",Pyetra da Silva Lima,INT 3,10/11/2025,18:00,reposicoes
+793,"Reposição de aula do aluno Pyetra da Silva Lima, turma INT 1, no dia 13/11/2025 (Quinta), às 18:00.",Pyetra da Silva Lima,INT 1,13/11/2025,18:00,reposicoes
+794,"Reposição de aula do aluno Pyetra da Silva Lima, turma INT 1, no dia 17/11/2025 (Segunda), às 18:00.",Pyetra da Silva Lima,INT 1,17/11/2025,18:00,reposicoes
+795,"Reposição de aula do aluno Fabricio Calazans Nunes, turma INT3, no dia 19/11/2025 (Quarta), às 18:00.",Fabricio Calazans Nunes,INT3,19/11/2025,18:00,reposicoes
+796,"Reposição de aula do aluno Fabricio Calazans Nunes, turma INT3, no dia 24/11/2025 (Segunda), às 18:00.",Fabricio Calazans Nunes,INT3,24/11/2025,18:00,reposicoes
+797,"Reposição de aula do aluno Fernanda Brandão Silva, turma INT 01, no dia 28/11/2025 (Sexta), às 18:00.",Fernanda Brandão Silva,INT 01,28/11/2025,18:00,reposicoes
+798,"Reposição de aula do aluno Fernanda Brandao, turma INT 3, no dia 03/11/2025 (Segunda), às 19:00.",Fernanda Brandao,INT 3,03/11/2025,19:00,reposicoes
+799,"Reposição de aula do aluno Gabriel Souza da Silva, turma INT 1, no dia 05/11/2025 (Quarta), às 19:00.",Gabriel Souza da Silva,INT 1,05/11/2025,19:00,reposicoes
+800,"Reposição de aula do aluno Kalil de Souza Rezek, turma int 01, no dia 07/11/2025 (Sexta), às 19:00.",Kalil de Souza Rezek,int 01,07/11/2025,19:00,reposicoes
+801,"Reposição de aula do aluno Raquel Pereira de Souza Queiroz, turma INT 1, no dia 11/11/2025 (Terça), às 19:00.",Raquel Pereira de Souza Queiroz,INT 1,11/11/2025,19:00,reposicoes
+802,"Reposição de aula do aluno Gabriel Souza da Silva, turma INT 1, no dia 12/11/2025 (Quarta), às 19:00.",Gabriel Souza da Silva,INT 1,12/11/2025,19:00,reposicoes
+803,"Reposição de aula do aluno Alice Pires Azevedo, turma INT 1, no dia 13/11/2025 (Quinta), às 19:00.",Alice Pires Azevedo,INT 1,13/11/2025,19:00,reposicoes
+804,"Reposição de aula do aluno Calebe Vieira Gomes, turma INT 1, no dia 14/11/2025 (Sexta), às 19:00.",Calebe Vieira Gomes,INT 1,14/11/2025,19:00,reposicoes
+805,"Reposição de aula do aluno Fabricio calazns Nunes, turma INT3, no dia 17/11/2025 (Segunda), às 19:00.",Fabricio calazns Nunes,INT3,17/11/2025,19:00,reposicoes
+806,"Reposição de aula do aluno Gabriel Souza da Silva, turma INT 1, no dia 19/11/2025 (Quarta), às 19:00.",Gabriel Souza da Silva,INT 1,19/11/2025,19:00,reposicoes
+807,"Reposição de aula do aluno Angela Luiza, turma INT 1, no dia 21/11/2025 (Sexta), às 19:00.",Angela Luiza,INT 1,21/11/2025,19:00,reposicoes
+808,"Reposição de aula do aluno Mariana Fatima Silv Vasconcelos, turma INT1, no dia 27/11/2025 (Quinta), às 19:00.",Mariana Fatima Silv Vasconcelos,INT1,27/11/2025,19:00,reposicoes
+809,"Reposição de aula do aluno Fernanda Brandão Silva, turma INT 01, no dia 28/11/2025 (Sexta), às 19:00.",Fernanda Brandão Silva,INT 01,28/11/2025,19:00,reposicoes
+810,"Reposição de aula do aluno Gabriel Souza da Silva, turma INT 1, no dia 05/11/2025 (Quarta), às 20:00.",Gabriel Souza da Silva,INT 1,05/11/2025,20:00,reposicoes
+811,"Reposição de aula do aluno Gabriel Souza da Silva, turma INT 1, no dia 12/11/2025 (Quarta), às 20:00.",Gabriel Souza da Silva,INT 1,12/11/2025,20:00,reposicoes
+812,"Reposição de aula do aluno Gabriel Souza da Silva, turma INT 1, no dia 19/11/2025 (Quarta), às 20:00.",Gabriel Souza da Silva,INT 1,19/11/2025,20:00,reposicoes
+813,"Reposição de aula do aluno Adriana da Costa Arruda, turma ONLINE, no dia 25/11/2025 (Terça), às 20:00.",Adriana da Costa Arruda,ONLINE,25/11/2025,20:00,reposicoes
+814,"Reposição de aula do aluno Leonardo Lira lopes, turma INT, no dia 26/11/2025 (Quarta), às 20:00.",Leonardo Lira lopes,INT,26/11/2025,20:00,reposicoes
+815,"Reposição de aula do aluno Adriana da Costa Arruda, turma ONLINE, no dia 27/11/2025 (Quinta), às 20:00.",Adriana da Costa Arruda,ONLINE,27/11/2025,20:00,reposicoes
+816,"Reposição de aula do aluno Sofia Souza Furtado, turma ONLINE, no dia 01/12/2025 (Segunda), às 08:00.",Sofia Souza Furtado,ONLINE,01/12/2025,08:00,reposicoes
+817,"Reposição de aula do aluno Caio Nicolas Dias, turma INT 1, no dia 03/12/2025 (Quarta), às 08:00.",Caio Nicolas Dias,INT 1,03/12/2025,08:00,reposicoes
+818,"Reposição de aula do aluno Yasmin Grazielly Braga Migueis Gama, turma INT 3, no dia 06/12/2025 (Sábado), às 08:00.",Yasmin Grazielly Braga Migueis Gama,INT 3,06/12/2025,08:00,reposicoes
+819,"Reposição de aula do aluno Sofia Souza Furtado, turma ONLINE, no dia 08/12/2025 (Segunda), às 08:00.",Sofia Souza Furtado,ONLINE,08/12/2025,08:00,reposicoes
+820,"Reposição de aula do aluno Sofia Souza Furtado, turma ONLINE, no dia 10/12/2025 (Quarta), às 08:00.",Sofia Souza Furtado,ONLINE,10/12/2025,08:00,reposicoes
+821,"Reposição de aula do aluno Igor Daniel Facundes, turma INT 1, no dia 11/12/2025 (Quinta), às 08:00.",Igor Daniel Facundes,INT 1,11/12/2025,08:00,reposicoes
+822,"Reposição de aula do aluno Bruna Gabrielly Rodrigues RIbeiro, turma INT 03, no dia 02/12/2025 (Terça), às 09:00.",Bruna Gabrielly Rodrigues RIbeiro,INT 03,02/12/2025,09:00,reposicoes
+823,"Reposição de aula do aluno Caio Nicolas Dias, turma INT 1, no dia 03/12/2025 (Quarta), às 09:00.",Caio Nicolas Dias,INT 1,03/12/2025,09:00,reposicoes
+824,"Reposição de aula do aluno Bruna Gabrielly Rodrigues RIbeiro, turma INT 03, no dia 04/12/2025 (Quinta), às 09:00.",Bruna Gabrielly Rodrigues RIbeiro,INT 03,04/12/2025,09:00,reposicoes
+825,"Reposição de aula do aluno Leonardo Lira, turma INT 1, no dia 05/12/2025 (Sexta), às 09:00.",Leonardo Lira,INT 1,05/12/2025,09:00,reposicoes
+826,"Reposição de aula do aluno Heloisa Antonelli, turma kids 01, no dia 08/12/2025 (Segunda), às 09:00.",Heloisa Antonelli,kids 01,08/12/2025,09:00,reposicoes
+827,"Reposição de aula do aluno Igor Daniel Facundes, turma INT 1, no dia 11/12/2025 (Quinta), às 09:00.",Igor Daniel Facundes,INT 1,11/12/2025,09:00,reposicoes
+828,"Reposição de aula do aluno Theo Soares, turma KIDS 1, no dia 01/12/2025 (Segunda), às 10:00.",Theo Soares,KIDS 1,01/12/2025,10:00,reposicoes
+829,"Reposição de aula do aluno Arthur Marques Pasos, turma int 01, no dia 02/12/2025 (Terça), às 10:00.",Arthur Marques Pasos,int 01,02/12/2025,10:00,reposicoes
+830,"Reposição de aula do aluno Sophia Faria de Sousa, turma INT 01, no dia 03/12/2025 (Quarta), às 10:00.",Sophia Faria de Sousa,INT 01,03/12/2025,10:00,reposicoes
+831,"Reposição de aula do aluno Kaua Hallier Barreiro Xavier, turma KIDS 01, no dia 04/12/2025 (Quinta), às 10:00.",Kaua Hallier Barreiro Xavier,KIDS 01,04/12/2025,10:00,reposicoes
+832,"Reposição de aula do aluno Leonardo Lira, turma INT 1, no dia 05/12/2025 (Sexta), às 10:00.",Leonardo Lira,INT 1,05/12/2025,10:00,reposicoes
+833,"Reposição de aula do aluno Miguel Medeiros Prado, turma KIDS 1, no dia 06/12/2025 (Sábado), às 10:00.",Miguel Medeiros Prado,KIDS 1,06/12/2025,10:00,reposicoes
+834,"Reposição de aula do aluno Heloisa Antonelli, turma kids 01, no dia 08/12/2025 (Segunda), às 10:00.",Heloisa Antonelli,kids 01,08/12/2025,10:00,reposicoes
+835,"Reposição de aula do aluno Kaua Hallier Barreiro Xavier, turma KIDS 01, no dia 09/12/2025 (Terça), às 10:00.",Kaua Hallier Barreiro Xavier,KIDS 01,09/12/2025,10:00,reposicoes
+836,"Reposição de aula do aluno Kaua Hallier Barreiro Xavier, turma KIDS 01, no dia 11/12/2025 (Quinta), às 10:00.",Kaua Hallier Barreiro Xavier,KIDS 01,11/12/2025,10:00,reposicoes
+837,"Reposição de aula do aluno Sarah Rodrigues, turma INT 01, no dia 01/12/2025 (Segunda), às 14:00.",Sarah Rodrigues,INT 01,01/12/2025,14:00,reposicoes
+838,"Reposição de aula do aluno Gabriela Alves dos Santos Correa, turma INT 1, no dia 02/12/2025 (Terça), às 14:00.",Gabriela Alves dos Santos Correa,INT 1,02/12/2025,14:00,reposicoes
+839,"Reposição de aula do aluno Marcus Vinicius Braga M, turma INT3, no dia 06/12/2025 (Sábado), às 14:00.",Marcus Vinicius Braga M,INT3,06/12/2025,14:00,reposicoes
+840,"Reposição de aula do aluno Sarah Rodrigues, turma INT 01, no dia 08/12/2025 (Segunda), às 14:00.",Sarah Rodrigues,INT 01,08/12/2025,14:00,reposicoes
+841,"Reposição de aula do aluno Sofia Calvoso, turma INT 1, no dia 09/12/2025 (Terça), às 14:00.",Sofia Calvoso,INT 1,09/12/2025,14:00,reposicoes
+842,"Reposição de aula do aluno Yasnib Graziely, turma INT 2, no dia 10/12/2025 (Quarta), às 14:00.",Yasnib Graziely,INT 2,10/12/2025,14:00,reposicoes
+843,"Reposição de aula do aluno Davi Carvalho, turma INT 1, no dia 11/12/2025 (Quinta), às 14:00.",Davi Carvalho,INT 1,11/12/2025,14:00,reposicoes
+844,"Reposição de aula do aluno Gabriel Alves Rodrigues, turma INT 03, no dia 01/12/2025 (Segunda), às 15:00.",Gabriel Alves Rodrigues,INT 03,01/12/2025,15:00,reposicoes
+845,"Reposição de aula do aluno Bianca Santiago Pereira, turma KIDS 1, no dia 02/12/2025 (Terça), às 15:00.",Bianca Santiago Pereira,KIDS 1,02/12/2025,15:00,reposicoes
+846,"Reposição de aula do aluno Calebe Vieira Gomes, turma INT 1, no dia 03/12/2025 (Quarta), às 15:00.",Calebe Vieira Gomes,INT 1,03/12/2025,15:00,reposicoes
+847,"Reposição de aula do aluno Julia Silva Rocha, turma KIDS 1, no dia 08/12/2025 (Segunda), às 15:00.",Julia Silva Rocha,KIDS 1,08/12/2025,15:00,reposicoes
+848,"Reposição de aula do aluno Sofia Calvoso, turma INT 1, no dia 09/12/2025 (Terça), às 15:00.",Sofia Calvoso,INT 1,09/12/2025,15:00,reposicoes
+849,"Reposição de aula do aluno Julia Silva Rocha, turma KIDS 1, no dia 10/12/2025 (Quarta), às 15:00.",Julia Silva Rocha,KIDS 1,10/12/2025,15:00,reposicoes
+850,"Reposição de aula do aluno Davi Carvalho, turma INT 1, no dia 11/12/2025 (Quinta), às 15:00.",Davi Carvalho,INT 1,11/12/2025,15:00,reposicoes
+851,"Reposição de aula do aluno Heitor de Souza Aguiar, turma KIDS01, no dia 01/12/2025 (Segunda), às 16:00.",Heitor de Souza Aguiar,KIDS01,01/12/2025,16:00,reposicoes
+852,"Reposição de aula do aluno Matheus RAmos Bastos, turma KIds 1, no dia 02/12/2025 (Terça), às 16:00.",Matheus RAmos Bastos,KIds 1,02/12/2025,16:00,reposicoes
+853,"Reposição de aula do aluno Gabriel Alves Rodrigues, turma INT 03, no dia 03/12/2025 (Quarta), às 16:00.",Gabriel Alves Rodrigues,INT 03,03/12/2025,16:00,reposicoes
+854,"Reposição de aula do aluno Clarice Helena Pereira, turma KIDS 01, no dia 04/12/2025 (Quinta), às 16:00.",Clarice Helena Pereira,KIDS 01,04/12/2025,16:00,reposicoes
+855,"Reposição de aula do aluno Sophia Faria de Sousa, turma INT01, no dia 08/12/2025 (Segunda), às 16:00.",Sophia Faria de Sousa,INT01,08/12/2025,16:00,reposicoes
+856,"Reposição de aula do aluno Thiago de Jesus Galvão, turma KIDS 1, no dia 09/12/2025 (Terça), às 16:00.",Thiago de Jesus Galvão,KIDS 1,09/12/2025,16:00,reposicoes
+857,"Reposição de aula do aluno Sofia de Barros Oliveira, turma KIDS 1, no dia 10/12/2025 (Quarta), às 16:00.",Sofia de Barros Oliveira,KIDS 1,10/12/2025,16:00,reposicoes
+858,"Reposição de aula do aluno Thiago de Jesus Galvão, turma KIDS 1, no dia 11/12/2025 (Quinta), às 16:00.",Thiago de Jesus Galvão,KIDS 1,11/12/2025,16:00,reposicoes
+859,"Reposição de aula do aluno Sophia Faria de Sousa, turma INT01, no dia 01/12/2025 (Segunda), às 17:00.",Sophia Faria de Sousa,INT01,01/12/2025,17:00,reposicoes
+860,"Reposição de aula do aluno Maria Luisa Olivweira, turma INT 01, no dia 02/12/2025 (Terça), às 17:00.",Maria Luisa Olivweira,INT 01,02/12/2025,17:00,reposicoes
+861,"Reposição de aula do aluno Theo Soares, turma KIDS 1, no dia 03/12/2025 (Quarta), às 17:00.",Theo Soares,KIDS 1,03/12/2025,17:00,reposicoes
+862,"Reposição de aula do aluno Sophia Faria de Sousa, turma INT01, no dia 08/12/2025 (Segunda), às 17:00.",Sophia Faria de Sousa,INT01,08/12/2025,17:00,reposicoes
+863,"Reposição de aula do aluno Kalil de Sousa Rezek, turma INT 1, no dia 09/12/2025 (Terça), às 17:00.",Kalil de Sousa Rezek,INT 1,09/12/2025,17:00,reposicoes
+864,"Reposição de aula do aluno Sofia de Barros Oliveira, turma KIDS 1, no dia 10/12/2025 (Quarta), às 17:00.",Sofia de Barros Oliveira,KIDS 1,10/12/2025,17:00,reposicoes
+865,"Reposição de aula do aluno Anny Beatriz Silva de Carvalho, turma INT 03, no dia 01/12/2025 (Segunda), às 18:00.",Anny Beatriz Silva de Carvalho,INT 03,01/12/2025,18:00,reposicoes
+866,"Reposição de aula do aluno Maria Luisa Olivweira, turma INT 01, no dia 02/12/2025 (Terça), às 18:00.",Maria Luisa Olivweira,INT 01,02/12/2025,18:00,reposicoes
+867,"Reposição de aula do aluno Anny Beatriz Silva de Carvalho, turma INT 03, no dia 03/12/2025 (Quarta), às 18:00.",Anny Beatriz Silva de Carvalho,INT 03,03/12/2025,18:00,reposicoes
+868,"Reposição de aula do aluno Maria Luisa Oliveira Rocha Mendes, turma INT1, no dia 04/12/2025 (Quinta), às 18:00.",Maria Luisa Oliveira Rocha Mendes,INT1,04/12/2025,18:00,reposicoes
+869,"Reposição de aula do aluno Anny Beatriz Silva de Carvalho, turma INT 01, no dia 05/12/2025 (Sexta), às 18:00.",Anny Beatriz Silva de Carvalho,INT 01,05/12/2025,18:00,reposicoes
+870,"Reposição de aula do aluno Helio Felipe, turma INT 1, no dia 08/12/2025 (Segunda), às 18:00.",Helio Felipe,INT 1,08/12/2025,18:00,reposicoes
+871,"Reposição de aula do aluno Kalil de Sousa Rezek, turma INT 1, no dia 09/12/2025 (Terça), às 18:00.",Kalil de Sousa Rezek,INT 1,09/12/2025,18:00,reposicoes
+872,"Reposição de aula do aluno Raquel Pereira de Souza, turma INT 1, no dia 02/12/2025 (Terça), às 19:00.",Raquel Pereira de Souza,INT 1,02/12/2025,19:00,reposicoes
+873,"Reposição de aula do aluno Raquel Pereira de Souza, turma INT 1, no dia 04/12/2025 (Quinta), às 19:00.",Raquel Pereira de Souza,INT 1,04/12/2025,19:00,reposicoes
+874,"Reposição de aula do aluno Anny Beatriz Silva de Carvalho, turma INT 01, no dia 05/12/2025 (Sexta), às 19:00.",Anny Beatriz Silva de Carvalho,INT 01,05/12/2025,19:00,reposicoes
+875,"Reposição de aula do aluno Pyetra de Sousa Lima, turma INT 1, no dia 08/12/2025 (Segunda), às 19:00.",Pyetra de Sousa Lima,INT 1,08/12/2025,19:00,reposicoes
+876,"Reposição de aula do aluno Gracy Keller Lima Nascimento, turma INT 1, no dia 09/12/2025 (Terça), às 19:00.",Gracy Keller Lima Nascimento,INT 1,09/12/2025,19:00,reposicoes
+877,"Reposição de aula do aluno Cristina Alves Aguiar, turma INT1, no dia 11/12/2025 (Quinta), às 19:00.",Cristina Alves Aguiar,INT1,11/12/2025,19:00,reposicoes
