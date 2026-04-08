@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <title>Chat do Carlosl</title>
+    <link rel="stylesheet" href="/static/style.css" />
+</head>
+<body>
+    <div class="chat-container">
+        <div class="header">
+            <img src="https://www.gov.br/planalto/pt-br/++theme++padrao_govbr/img/brasao-republica.svg" alt="Brasão" class="logo" />
+            <h1>Chat do Carlos</h1>
+            <p>Fale com a IA do Carlos</p>
+        </div>
+
+        <div class="chat-box" id="chatBox">
+            {% for msg in history %}
+                <div class="message {{ msg.role }}">{{ msg.content | safe }}</div>
+            {% endfor %}
+        </div>
+
+        <div class="input-area">
+            <input type="text" id="userInput" placeholder="Digite aqui..." />
+            <button id="sendBtn">Enviar</button>
+            <button id="clearBtn" class="clear">Limpar</button>
+        </div>
+    </div>
+
+    <script>
+        const chatBox = document.getElementById('chatBox');
+        const userInput = document.getElementById('userInput');
+        const sendBtn = document.getElementById('sendBtn');
+        const clearBtn = document.getElementById('clearBtn');
+
+        async function send() {
+            const msg = userInput.value.trim();
+            if (!msg) return;
+            add('user', msg);
+            userInput.value = '';
+            add('assistant', "<i class='loading'>Carregando...</i>");
+
+            const res = await fetch('/chat', {
+                method: 'POST',
+                headers: {'Content-Type': 'application/json'},
+                body: JSON.stringify({message: msg})
+            });
+            const data = await res.json();
+            const last = chatBox.lastElementChild;
+            last.innerHTML = data.history[data.history.length-1].content;
+        }
+
+        function add(role, content) {
+            const div = document.createElement('div');
+            div.className = 'message ' + role;
+            div.innerHTML = content;
+            chatBox.appendChild(div);
+            chatBox.scrollTop = chatBox.scrollHeight;
+        }
+
+        sendBtn.onclick = send;
+        clearBtn.onclick = async () => {
+            await fetch('/clear', {method: 'POST'});
+            chatBox.innerHTML = '';
+            add('assistant', 'Olá! Como posso ajudar?');
+        };
+        userInput.addEventListener('keypress', e => e.key === 'Enter' && send());
+    </script>
+</body>
+</html>

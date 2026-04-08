@@ -1,0 +1,48 @@
+texto,tipo,professor,turmas,origem,categoria,mes,quantidade
+"Professor Giovanna Segunda às leciona as seguintes turmas: INT. 3, KIDS 2.",professor,Giovanna Segunda às,"INT. 3, KIDS 2",agregado,,,
+"Professor Giovanna Quarta às leciona as seguintes turmas: INT. 3, KIDS 2.",professor,Giovanna Quarta às,"INT. 3, KIDS 2",agregado,,,
+Professor Teacher dia às horario leciona as seguintes turmas: turma.,professor,Teacher dia às horario,turma,agregado,,,
+Professor Natalia Segunda às leciona as seguintes turmas: KIDS 1.,professor,Natalia Segunda às,KIDS 1,agregado,,,
+Professor Natalia Quarta às leciona as seguintes turmas: KIDS 1.,professor,Natalia Quarta às,KIDS 1,agregado,,,
+Professor Beatriz Segunda às leciona as seguintes turmas: INT. 1.,professor,Beatriz Segunda às,INT. 1,agregado,,,
+Professor Beatriz Quarta às leciona as seguintes turmas: INT. 1.,professor,Beatriz Quarta às,INT. 1,agregado,,,
+"Professor Flavia Segunda às leciona as seguintes turmas: INT. 1, INT. 2.",professor,Flavia Segunda às,"INT. 1, INT. 2",agregado,,,
+"Professor Flavia Quarta às leciona as seguintes turmas: INT. 1, INT. 2.",professor,Flavia Quarta às,"INT. 1, INT. 2",agregado,,,
+Professor Ana Paula Segunda às leciona as seguintes turmas: KIDS 1.,professor,Ana Paula Segunda às,KIDS 1,agregado,,,
+Professor Ana Paula Quarta às leciona as seguintes turmas: KIDS 1.,professor,Ana Paula Quarta às,KIDS 1,agregado,,,
+"Professor Maycon Segunda às leciona as seguintes turmas: INT. 2, ONLINE.",professor,Maycon Segunda às,"INT. 2, ONLINE",agregado,,,
+"Professor Maycon Quarta às leciona as seguintes turmas: INT. 2, ONLINE.",professor,Maycon Quarta às,"INT. 2, ONLINE",agregado,,,
+Professor Giovanna Terça às leciona as seguintes turmas: INT. 1.,professor,Giovanna Terça às,INT. 1,agregado,,,
+Professor Giovanna Quinta às leciona as seguintes turmas: INT. 1.,professor,Giovanna Quinta às,INT. 1,agregado,,,
+Professor Giovana Terça às leciona as seguintes turmas: LK 4 A.,professor,Giovana Terça às,LK 4 A,agregado,,,
+Professor Giovana Quinta às leciona as seguintes turmas: LK 4 A.,professor,Giovana Quinta às,LK 4 A,agregado,,,
+"Professor Natalia Terça às leciona as seguintes turmas: INT. 2, KIDS 1.",professor,Natalia Terça às,"INT. 2, KIDS 1",agregado,,,
+"Professor Natalia Quinta às leciona as seguintes turmas: INT. 2, KIDS 1.",professor,Natalia Quinta às,"INT. 2, KIDS 1",agregado,,,
+Professor Ana Paula Terça às leciona as seguintes turmas: KIDS 1.,professor,Ana Paula Terça às,KIDS 1,agregado,,,
+Professor Ana Paula Quinta às leciona as seguintes turmas: KIDS 1.,professor,Ana Paula Quinta às,KIDS 1,agregado,,,
+Professor Flavia Terça às leciona as seguintes turmas: INT. 1.,professor,Flavia Terça às,INT. 1,agregado,,,
+Professor Flavia Quinta às leciona as seguintes turmas: INT. 1.,professor,Flavia Quinta às,INT. 1,agregado,,,
+Professor Beatriz Terça às leciona as seguintes turmas: INT. 3.,professor,Beatriz Terça às,INT. 3,agregado,,,
+Professor Beatriz Quinta às leciona as seguintes turmas: INT. 3.,professor,Beatriz Quinta às,INT. 3,agregado,,,
+"Professor Maycon Terça às leciona as seguintes turmas: INT. 1, INT. 3.",professor,Maycon Terça às,"INT. 1, INT. 3",agregado,,,
+"Professor Maycon Quinta às leciona as seguintes turmas: INT. 1, INT. 3.",professor,Maycon Quinta às,"INT. 1, INT. 3",agregado,,,
+"Professor Carlos Sábado às leciona as seguintes turmas: FRANCES 2, ITALIANO 6.",professor,Carlos Sábado às,"FRANCES 2, ITALIANO 6",agregado,,,
+Professor Giovanna Sábado às leciona as seguintes turmas: KIDS 1.,professor,Giovanna Sábado às,KIDS 1,agregado,,,
+Professor Natalia Sábado às leciona as seguintes turmas: KIDS 2.,professor,Natalia Sábado às,KIDS 2,agregado,,,
+Professor Giovana Sábado às leciona as seguintes turmas: LK 2 B.,professor,Giovana Sábado às,LK 2 B,agregado,,,
+Professor Ana Paula Sábado às leciona as seguintes turmas: TOTS 2 A.,professor,Ana Paula Sábado às,TOTS 2 A,agregado,,,
+Professor Flavia Sábado às leciona as seguintes turmas: INT. 1.,professor,Flavia Sábado às,INT. 1,agregado,,,
+Professor Maycon Sábado às leciona as seguintes turmas: INT. 1.,professor,Maycon Sábado às,INT. 1,agregado,,,
+Professor Natalia Sexta às leciona as seguintes turmas: INT. 3.,professor,Natalia Sexta às,INT. 3,agregado,,,
+Professor Flavia Sexta às leciona as seguintes turmas: INT. 3.,professor,Flavia Sexta às,INT. 3,agregado,,,
+Professor Carlos Segunda às leciona as seguintes turmas: FRANCES 4.,professor,Carlos Segunda às,FRANCES 4,agregado,,,
+"As turmas da categoria INT são: INT, INT !, INT 01, INT 02, INT 03, INT 1, INT 1 (SOMENTE UMA AULA), INT 1 (aula adiada), INT 1 Calebe Vieira Gomes, INT 2, INT 3, INT. 1, INT. 2, INT. 3, INT01, INT1, INT2, INT3, INt1, INt1 Atestado, INt1 experimental, INt2, INt3, Int 01, Int 1, Int2, int 01, int 1.",turma,,"INT, INT !, INT 01, INT 02, INT 03, INT 1, INT 1 (SOMENTE UMA AULA), INT 1 (aula adiada), INT 1 Calebe Vieira Gomes, INT 2, INT 3, INT. 1, INT. 2, INT. 3, INT01, INT1, INT2, INT3, INt1, INt1 Atestado, INt1 experimental, INt2, INt3, Int 01, Int 1, Int2, int 01, int 1",agregado,INT,,
+"As turmas da categoria KIDS são: KIDS, KIDS 01, KIDS 02, KIDS 1, KIDS 1 11H, KIDS 2, KIDS01, KIDS02, KIDS1, KIDS2, KIDs1, KIds 1, KIds1, Kids 1, kids 01, kids 1.",turma,,"KIDS, KIDS 01, KIDS 02, KIDS 1, KIDS 1 11H, KIDS 2, KIDS01, KIDS02, KIDS1, KIDS2, KIDs1, KIds 1, KIds1, Kids 1, kids 01, kids 1",agregado,KIDS,,
+"No mês 03, ocorreram 105 reposições de aula. As reposições envolvem diferentes alunos e turmas.",resumo_reposicoes,,,agregado,,03,105.0
+"No mês 04, ocorreram 21 reposições de aula. As reposições envolvem diferentes alunos e turmas.",resumo_reposicoes,,,agregado,,04,21.0
+"No mês 07, ocorreram 4 reposições de aula. As reposições envolvem diferentes alunos e turmas.",resumo_reposicoes,,,agregado,,07,4.0
+"No mês 08, ocorreram 79 reposições de aula. As reposições envolvem diferentes alunos e turmas.",resumo_reposicoes,,,agregado,,08,79.0
+"No mês 09, ocorreram 125 reposições de aula. As reposições envolvem diferentes alunos e turmas.",resumo_reposicoes,,,agregado,,09,125.0
+"No mês 10, ocorreram 131 reposições de aula. As reposições envolvem diferentes alunos e turmas.",resumo_reposicoes,,,agregado,,10,131.0
+"No mês 11, ocorreram 126 reposições de aula. As reposições envolvem diferentes alunos e turmas.",resumo_reposicoes,,,agregado,,11,126.0
+"No mês 12, ocorreram 62 reposições de aula. As reposições envolvem diferentes alunos e turmas.",resumo_reposicoes,,,agregado,,12,62.0

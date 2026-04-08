@@ -143,7 +143,7 @@ class Dashboard {
         chatbotItem.className = 'nav-item';
         chatbotItem.innerHTML = '<i class="fas fa-robot"></i>Assistente IA';
         chatbotItem.onclick = () => {
-            window.location.href = 'chatbot.html';
+            window.location.href = 'chatbot_rag.html';
         };
         navItems.appendChild(chatbotItem);
         
