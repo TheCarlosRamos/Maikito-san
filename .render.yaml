@@ -1,0 +1,9 @@
+services:
+  - type: web
+    name: maikito-san
+    env: python
+    buildCommand: pip install -r requirements.txt
+    startCommand: python start_smart.py
+    envVars:
+      - key: GOOGLE_API_KEY
+        value: AIzaSyDLQ4bW0sG0_JGfhVCaTU8nzH2HpcBVY6c
